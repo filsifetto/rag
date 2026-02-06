@@ -1,0 +1,2474 @@
+Review
+Review of the theoretical underpinnings of loyalty programs
+Conor M. Henderson ⁎, Joshua T. Beck, Robert W. Palmatier
+Department of Business Administration, Foster School of Business, University of Washington, Seattle, WA, USA
+Received 1 December 2010; revised 1 February 2011; accepted 16 February 2011
+Available online 21 March 2011
+Abstract
+A review of the extant literature reveals that the theoretical underpinnings of the majority of loyalty program research rest on psychological
+mechanisms from three specific domains—status, habit, and relational. We propose that to understand how loyalty programs actually work, a
+broader, more holistic research perspective is needed to account for the simultaneous effects across these three theoretical domains as well as both
+cross-customer and temporal effects. The contribution of this approach is a fresh research agenda advanced in 15 research propositions.
+© 2011 Society for Consumer Psychology. Published by Elsevier Inc. All rights reserved.
+Keywords: Loyalty programs; Status; Habit; Relationship; Relationship marketing
+Contents
+Loyalty programs: broadening the research perspective . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 257
+Theoretical underpinnings to loyalty programs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 258
+Status as a loyalty-inducing mechanism . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 259
+Conceptualization of status . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 259
+Role of status as a source of consumer loyalty . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 259
+Cross-customer effects of status-based loyalty. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 261
+Temporal effects of status-based loyalty. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 262
+Habits as a loyalty-inducing mechanism. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 262
+Conceptualization of habit. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 262
+Role of habit as a source of consumer loyalty . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 263
+Cross-customer effects of habit-based loyalty . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 265
+Temporal effects of habit-based loyalty . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 265
+Relationships as a loyalty-inducing mechanism . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 266
+Conceptualization of relationships . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 266
+Role of relationships as a source of consumer loyalty. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 267
+Cross-customer effects of relational-based loyalty. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 269
+Temporal effects of relational-based loyalty. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 270
+Simultaneous effects of multiple loyalty-inducing mechanisms . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 270
+Conclusion. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 271
+Appendix A . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 272
+References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 272
+⁎ Corresponding author at: Department of Marketing, Foster School of Business, University of Washington, PACCAR Hall, Box 353226, 4295 E. Stevens Way NE,
+Seattle, WA 98195, USA.
+E-mail addresses: cloydhen@uw.edu (C.M. Henderson), jtbeck@uw.edu (J.T. Beck), palmatrw@uw.edu (R.W. Palmatier).
+273
+1057-7408/$ - see front matter © 2011 Society for Consumer Psychology. Published by Elsevier Inc. All rights reserved.
+doi:10.1016/j.jcps.2011.02.007
+Available online at www.sciencedirect.com
+Journal of Consumer Psychology 21 (2011) 256–276
+Journal of
+CONSUMER
+PSYCHOLOGY
+
+
+Loyalty programs, both in practice and as a focus of
+consumer research, have become popular over the past decade,
+but the financial impact of these efforts rarely meets expecta-
+tions (Dowling & Uncles, 1997; Ferguson & Hlavinka, 2007).
+Marketing literature substantiates the marginal effectiveness of
+some loyalty programs (e.g., Leenheer, van Heerde, Bijmolt, &
+Smidts, 2007), with articles referring to current conceptualiza-
+tions as “shams” (Shugan, 2005, p. 185); nevertheless,
+consumers tend to enroll in droves. In the United States, loyalty
+program participation has topped 1.3 billion, with the average
+household subscribing to 12 separate programs (Ferguson &
+Hlavinka, 2007). Firms spend well over $1 billion rewarding
+these “polygamous” consumers (Dowling & Uncles, 1997, p. 6;
+Wagner, Hennig-Thurau, & Rudolph, 2009), and it is no
+surprise that the abysmal performance of many loyalty
+programs ultimately results in their abolition (Nunes & Dréze,
+2006). Because many loyalty programs fail to perform as
+expected, a new approach may be needed. This article addresses
+this need by reviewing the extant literature on loyalty programs
+with the objective of providing researchers new perspectives for
+understanding the effectiveness of loyalty programs.
+Loyalty programs: broadening the research perspective
+Specifically, we propose that the research lens focused on
+loyalty programs should be broadened to account for three
+important features of these programs. First, most programs
+simultaneously engage multiple psychological mechanisms,
+while research often uses a one-dimensional theoretical lens.
+For example, Dréze and Nunes (2009) investigate the structure
+of loyalty programs using just a status perspective, and
+Rosenbaum, Ostrom, and Kuntze (2005) examine loyalty
+programs from only a relationship perspective. Although
+focusing on a single theoretical mechanism supports experi-
+mental design parsimony and the academic review process, it
+may not capture the “full effects” of most loyalty programs,
+which often concurrently tap multiple psychological processes.
+For example, Leenheer et al. (2007) recommend that managers
+implement delayed reward programs and promote the benefits
+of these programs to nonmember, low-volume customers.
+Without considering the impact on habit-based loyalty, which
+may not be effective in a delayed benefit scheme, or status-
+based loyalty, which may be undermined when benefits are also
+allocated to nonmember, low-volume consumers, Leenheer et
+al. risk delivering harmful advice.
+Loyalty programs often tap into more than one mental or
+social process at any given time. For example, a program might
+confer a special sense of status, enhance customer feelings of
+social belonging, build gratitude, promote reciprocation, or
+deliver a combination of these benefits (De Wulf, Odekerken-
+Schröder, & Iacobucci, 2001; Morales, 2005; O'Brien & Jones,
+1995). Not only can multiple loyalty-inducing mechanisms
+(e.g., status, habit, relational) operate concurrently in an
+additive manner, but different mechanisms may also interact
+in a multiplicative manner. Consider a consumer who now
+habitually orders all his or her books from an online retailer after
+being exposed to a sequence of targeted monthly e-mails. The
+retailer then launches a status-based VIP program in which the
+consumer gains points for every purchase with an accompa-
+nying rewards summary each month. Providing the consumer
+recognition and rewards for purchases should improve loyalty,
+but how does this new program interact with the consumer's
+habit-based purchase behavior? Research has shown that habits
+weaken and become more vulnerable when instrumentality of
+behavior is made salient (Wood & Neal, 2009). By rewarding
+and reporting purchases, the firm increases the “instrumental-
+ity” of the purchase behavior, which in turn can undermine the
+positive linkage between habits and purchases. After the habit is
+disrupted, the consumer now “thinks” about the next book
+purchase and decides to shop around to make sure the online
+retailer provides the best benefits available. Thus, future loyalty
+program research should be broadened to account for the
+simultaneous effects of multiple theoretical mechanisms
+because many programs trigger concurrent psychological
+responses.
+Second, although loyalty programs affect multiple consu-
+mers, they are typically studied solely on the basis of their effect
+on the focal or target consumer without accounting for the
+program's potential cross-customer effects (Darke & Dahl,
+2003; Feinberg, Krishna, & Zhang, 2002). For example, Alaska
+Airlines' flight attendants hand out free-drink coupons to
+“premium” customers flying in coach without accounting for
+how this program might affect surrounding passengers. While
+the impact of this program on premium customers may be
+positive, the benefits could be offset by the potential negative
+effects due to feelings of unfairness or inferior status among
+surrounding passengers who observe the “premium customer”
+receiving a reward. For example, Barone and Roy (2010a)
+investigate consumers' reactions to exclusive promotions
+without considering the impact of these deals on excluded
+customers. Furthermore, research indicates that consumers
+enjoy shopping socially (Arnold & Reynolds, 2003) and that
+shopping with companions influences purchase behaviors, such
+as impulse buying (Luo, 2005); yet these cross-customer
+loyalty-enhancing relational mechanisms are relatively under-
+explored (Rosenbaum et al., 2005). Thus, future loyalty
+program research should be broadened to account for cross-
+customer effects because many programs influence non-targeted
+consumers.
+Third, the effects of loyalty programs develop over multiple
+periods or are in some way time dependent, but programs are
+often evaluated at a single point in time without accounting for
+any temporal effects (Lewis, 2004; Liu, 2007). For example,
+providing consumers discount coupons initially offers the
+functional benefit of a lower price, which may lead to habit-
+based loyalty over time, but it can also generate feelings of
+gratitude and a need to reciprocate and thus lead to relational-
+based loyalty in the long run (Morales, 2005; Palmatier, Jarvis,
+Bechkoff, & Kardes, 2009). However, to determine the overall
+influence of a coupon-based rewards program, each of the three
+temporally dependent effects (i.e., functional, habit, and
+relational) must be considered. A short-term time horizon
+may be weighted toward the impact of the price discount, while
+the benefits of habit-based loyalty may emerge only when the
+257
+C.M. Henderson et al. / Journal of Consumer Psychology 21 (2011) 256–276
+
+
+consumer receives many coupons in a compressed period;
+relational-based loyalty may only be detectable over longer time
+horizons. Because most loyalty program are evaluated at a
+single point in time, the results either fail to account for any
+temporal effects or are biased toward the loyalty-inducing
+mechanism most salient at that time. Likewise, Ashworth,
+Darke, and Schaller (2005) examine the immediate social
+consequences of discount incentives, even though the effects of
+“feeling cheap” may diminish over time as the effect of
+purchase habits increases. In a different context, Howard (1992)
+examines, as an immediate reaction, the mood-lifting effects of
+complimentary services without examining how these services
+may help build long-term relationships. Thus, future loyalty
+program research should be broadened to account for temporal
+effects because the effectiveness of many programs is time
+dependent.
+In summary, we suggest that additional work is needed to
+truly understand loyalty programs. That is, a broader, more
+holistic research perspective is needed to account for (1)
+simultaneous effects of multiple theoretical mechanisms, (2)
+cross-customer effects, and (3) temporal effects.
+Theoretical underpinnings to loyalty programs
+The term “loyalty program” captures a variety of marketing
+initiatives, including reward cards, gifts, tiered service levels,
+dedicated support contacts, and other methods that positively
+influence consumers' attitudes and behaviors toward the brand
+or firm. Some of these programs provide a price discount or
+short-term financial incentive, which enhances the economic
+utility of the offering by compensating consumers for higher
+volume or more frequent purchases. The effect of price
+discounts on purchase volume is well known and even
+represents the core positioning of some firms (e.g., Wal-
+Mart); however, we exclude pure “economic utility” as a
+theoretical underpinning of loyalty programs herein for three
+major reasons. First, from a theoretical standpoint and
+consistent with previous research (Dick & Basu, 1994, p. 101;
+Oliver, 1999), “true” loyalty must move beyond special pricing
+“deals” and require some underlying psychological mechanism
+to increase the consumer's inherent preference for or propensity
+toward a brand or firm. For example, even if a price discount is
+recast as a “customer reward or loyalty program,” which
+generates sales solely due to elasticities in price, it does not
+directly generate many of the enduring benefits attributed to
+“true loyalty” because consumers will readily switch when a
+competitor offers a better deal (Dick & Basu, 1994).
+Second, from a business standpoint, generating sales by
+decreasing price often negatively influences a firm's profit, can
+damage the brand, and can be easily matched by competitors
+(Raghubir, 2004). Firms are more interested in loyalty programs
+that tap consumers' underlying psychological processes leading
+to repeat and more frequent purchases, in addition to increasing
+switching barriers and reducing price sensitivity (Kumar &
+Shah, 2004; Nunes & Dréze, 2006).
+Third, from a pragmatic standpoint, reviewing the large body
+of literature on pricing and promotional programs is beyond the
+scope of this article (Liu & Soman, 2008). Therefore, we do not
+consider the short-term effects of price elasticity as a loyalty-
+inducing mechanism; however, we do include the longer-term
+benefits of habituation or relationship building resulting from
+discount-induced purchase behaviors as a critical component of
+some loyalty programs. For example, in a cell phone context,
+Johnson, Herrmann, and Huber (2006) show that perceived
+value drives consumer purchase intentions early in a relation-
+ship, but as time progresses, relational factors become more
+important. Consistent with this logic, we define a loyalty
+program as any institutionalized incentive system that attempts
+to enhance consumers' consumption behavior over time beyond
+the direct effects of changes to the price or the core offering (see
+the Appendix for a summary of construct definitions relevant to
+loyalty program research).
+Paralleling the logic that decouples the functional utility of
+price discounts from true loyalty, most extant literature ignores
+the impact of loyalty programs on consumer satisfaction.
+Consumer satisfaction, defined as a consumer's post-consump-
+tion belief that the consumed product or service provided a
+pleasurable fulfillment of their preconsumption needs and
+benefits (Oliver 1999), generally focuses on consumers'
+evaluation of the core offering or unique attributes of competing
+offerings (Houston, Sherman, & Baker, 1991; Oliver, 1980).
+Satisfied consumers do not always become loyal consumers,
+partly because loyalty requires more than a great core offering
+or specific product attributes (Oliver, 1999), thus loyalty
+programs often try to build binding ties from sources beyond
+those in the core offering. Thus, satisfaction research typically
+focuses on the influence of the core offering (i.e., price/product)
+on behavior while loyalty program research focuses on
+augmenting the core offering to influence behavior beyond
+the effects of consumer satisfaction. Consistent with this logic
+the few empirical papers that include satisfaction in their
+evaluation of loyalty program's effectiveness model satisfaction
+as an independent driver of loyalty not as a mediator of its effect
+on performance (Mägi, 2003; Verhoef, 2003).
+With our loyalty program definition in mind, a review of the
+extant marketing literature reveals that the theoretical under-
+pinnings of the majority of loyalty program research rest on
+psychological mechanisms from three specific domains: status,
+habit, and relational. Specifically, we argue that loyalty program–
+induced change to consumer behaviors typically results from (1)
+conferring status to consumers, which generates favorable
+comparisons with others; (2) building habits, which causes
+advantageous memory processes; and (3) developing relation-
+ships, which results in more favorable treatment by consumers.
+For each domain (status, habit, relational), we review the
+underlying psychological theories, describe how each loyalty-
+inducing mechanism affects consumer behaviors, and summa-
+rize applicable research findings as they relate to loyalty
+programs. In addition, to advance our understanding of loyalty
+program effectiveness and provide direction for future research,
+we develop specific propositions by applying a broadened
+research perspective to each domain by investigating the role of
+both cross-customer and temporal effects. Finally, we discuss
+how the simultaneous effects of loyalty-inducing mechanisms
+258
+C.M. Henderson et al. / Journal of Consumer Psychology 21 (2011) 256–276
+
+
+from each domain may work together to help or hurt the overall
+effectiveness of loyalty programs.
+Status as a loyalty-inducing mechanism
+Conceptualization of status
+The allure of status is profound. Humans are drawn to status-
+based systems and charmed by opportunities to elevate their
+status within those systems, which makes the success of status-
+based marketing no surprise (Heffetz & Frank, 2011).
+Consumers with high status enjoy “prominence, respect, and
+influence” (Anderson, Srivastava, Beer, Spataro, & Chatman,
+2006, p. 1094); however, their high status may also evoke envy
+and hostility in other lower-status consumers. Research shows
+that some consumers even feel schadenfreude, or feelings of
+delight, when the high status of others is compromised (Sundie,
+Ward, Beal, Chin, & Geiger-Oneto, 2009). Griskevicius, Tybur,
+and Van den Berg (2010) argue that the huge popularity gap
+between public transportation (low status) and the Toyota Prius
+(high status) is due to the role of status in signaling both the
+users' altruism and their purchasing power. Thus, marketers
+often design loyalty programs to tap into consumers' strong
+desire for status (Drèze & Nunes, 2009; Kumar & Shah, 2004).
+Status receives widespread attention across many domains in
+academia; however, three common components emerge across
+all areas: the positional nature of status, the desirability of status,
+and the dependence of status on social context (Heffetz &
+Frank, 2011). First, status is positional in that it ranks
+individuals within a hierarchical structure, reflecting asymme-
+tries in status conferral in which certain people are high and
+others are low in status. Thus, a gain in status for one is often a
+loss in status for another (Anderson, John, Keltner, & Kring,
+2001; Heffetz & Frank, 2011). Within these hierarchies, there is
+an important distinction between local and global status; local
+status refers to an individual's position within a group, and
+global status refers to the group's position within the greater
+social structure. A person may trade local for global status by
+relinquishing a higher-status position in a lower-status group
+and taking a lower-status position in a higher-status group
+(Heffetz & Frank, 2011). For example, a traveler who
+frequently stays at Comfort Suites might have earned
+“Diamond” status in Choice Hotels' loyalty program but
+could decide to give up this “high” local status to gain global
+status by joining the lowest tier of Hyatt's “Gold Passport”
+loyalty program. Following this exchange of local for global
+status, the consumer's loyalty would shift from Comfort Suites
+to Hyatt.
+Second, elevated status is desirable because it provides
+access to personal benefits (Griskevicius et al., 2010). These
+benefits include physical resources, better reputation, higher
+earnings, wider selection of romantic partners, improved
+cooperation, and greater control over others (Anderson et al.,
+2006; Griskevicius et al., 2010; Heffetz & Frank, 2011). Thus,
+status is a “universal human motive” (Anderson et al., 2001, p.
+116). Surprisingly, research shows that people seek status even
+if it serves no instrumental value, which may stem from the
+effects of status on well-being, esteem, affect, and social
+cognition (Anderson et al., 2006; Drèze & Nunes, 2009). In this
+sense, status is both a means to an end and an end in itself,
+which provide marketers a “free” motivator of consumer choice.
+Third, status conferral, though individually desirable, is
+often dependent on the social context that shapes it (Drèze &
+Nunes, 2009; Heffetz & Frank, 2011). Consumers perceive their
+status in accordance with either achievements recognized by
+socially accepted norms or esteem received directly from others
+(Tiedens, 2001; Van Prooijen, Van den Bos, & Wilke, 2002).
+For example, a person who privately succeeds in accomplishing
+a valued task (e.g., passing the bar exam) may feel a sense of
+elevated status without anyone knowing about the accomplish-
+ment. Conversely, a person might respond to his or her alma
+mater's fundraising campaign and receive elevated status
+through the praise and respect from others when the school
+rewards the person with a plaque on the “wall of donors”
+(Harbaugh, 1998). Thus, status attainment depends on the
+combination of consumers' internal and external perceptions
+(Anderson et al., 2001).
+Role of status as a source of consumer loyalty
+Elevated status, conferred to consumers as part of a seller's
+marketing efforts, can motivate consumers to behave loyally.
+Socially relevant stimuli are often stronger tools for motivating
+behavior than purely economic- or ethical-based stimuli (Bateson,
+Nettle, & Roberts, 2006). Table 1 summarizes marketing literature
+that uses “status” as a theoretical rationale for increasing consumer
+loyalty. Desire for status motivates conspicuous consumption, or
+the purchase of particularly luxurious or altruistic goods
+(Griskevicius et al., 2010; Han, Nunes, & Drèze, 2010).
+Advertisers evoke status motives or in-group favoritism in
+targeted advertising to elicit better responses (Grier & Deshpandé,
+2001). When consumers have low power, they are more willing to
+spend for status-related goods (Rucker & Galinsky, 2008). The
+use of coupons may signal low purchasing power and thus can
+hurt status in such a way that consumers are more likely to use
+coupons if they are privately delivered (Ashworth et al., 2005).
+Theories in social psychology help explain the status phenomenon
+with important implications for using status as a loyalty-inducing
+mechanism, such as social comparison theory (Festinger, 1954),
+social identity theory (Tajfel & Turner, 1979), and Schwartz's
+value theory (Schwartz & Bilsky, 1990).
+Social comparison theory indicates that humans naturally
+compare themselves with others (Festinger, 1954; Roccas,
+2003). Relative rankings determined from social comparisons
+require observable actions and characteristics for formation.
+Therefore, labels assigned in loyalty programs can serve as
+observable indicators of status (Drèze & Nunes, 2009).
+According to signaling theory, signals that require resources
+(e.g., time, energy, money) can communicate a person's status.
+Loyalty programs could provide such a signal. Work in
+evolutionary biology has shown that costly signals, which
+confer status, are naturally respected because of an “evolution-
+ary social cognition” and are rewarded with better access to
+259
+C.M. Henderson et al. / Journal of Consumer Psychology 21 (2011) 256–276
+
+
+potential reproduction partners (Griskevicius et al., 2010, p.
+400; Wright, 1997).
+Social comparisons help explain the relative nature of status,
+as people are motivated to perceive themselves “as not merely
+good and worthy” but “as better than other groups” (Festinger,
+1954; Roccas, 2003, p. 726). People make social comparisons
+upward, downward, and laterally to form evaluations, and from
+these comparisons, the perceptions of status ranking can have
+Table 1
+Status-based loyalty research.
+Reference
+Context
+Key constructs
+Major findings
+Ashworth et al., 2005
+Restaurant
+first date
+Discount, social
+attraction,
+self-perception
+Redeeming discounts in a social context creates personal feelings of cheapness and
+decreased ratings of attractiveness by others, with context and attribution playing
+important roles. Thus, participation in loyalty programs can signal status.
+Barone & Roy, 2010a, 2010b
+Retail
+invitations
+Exclusivity,
+self-enhancement,
+identification
+Exclusivity of a deal invitation enhanced desirability, mediated by
+self-enhancement. Need for uniqueness and group membership positively moderated
+this relationship. Some consumers prefer that everyone is treated equally.
+Darke & Dahl, 2003
+Retail
+discounts
+Pricing, fairness,
+equity theory,
+social cues
+Consumers' evaluations of the fairness of prices, and thus satisfaction, will depend
+on equity considerations when discounts are provided to some customers
+(high status regular customers vs. spurious customers) but not to others.
+Drèze & Nunes, 2009
+Retail,
+hospitality
+Status, program
+structure, status
+laden colors
+The number of hierarchical levels in a status program positively influences
+perceptions of status, as well as preference for the program. The majority of
+consumers, even those conferred low status, prefer loyalty programs containing
+multiple status levels.
+Griskevicius et al., 2010
+"Green"
+products
+Status motives,
+product
+preference,
+costly signals
+Status motives increase desirability of conspicuously consumed, expensive,
+"green" products. Green products signal a consumer's ability to incur costs and
+altruism. Altruism signal may protect consumers from envy, as humans reward
+prosocial behavior with status. Expensive green products were preferred over
+luxury products.
+Han et al., 2010
+Luxury
+fashion
+Logo
+prominence,
+reference groups,
+need for status
+Some consumers want to fit in with a high-status group, while others want to stand
+out from the low-status group. "Parvenus" use prominent brand displays to
+dissociate from "poseurs" and "proletarians." "Patricians" use subtle brands to
+signal to each other.
+Kim et. al., 2009
+Retail
+department
+store
+VIP membership,
+purchase history,
+commitment
+Consumers' reaction to a VIP program introduction was mixed. Of consumers given
+VIP status, those who were previously the heaviest buyers reacted negatively
+(decrease in purchase frequency ), but those who were lighter buyers reacted
+positively. Attitudinal commitment moderated these results.
+Kivetz & Simonson, 2003
+Retail
+loyalty
+programs
+Loyalty program
+idiosyncratic fit
+Consumers prefer loyalty programs in which they have a relative advantage in
+obtaining benefits compared with the average consumer. Relative advantage is
+more important than overall value or personal ease.
+Kumar & Shah, 2004
+Loyalty
+programs
+Behavioral and
+attitudinal
+loyalty,
+consumer goals
+Using one rewards plan for all consumers is suboptimal. Instead, loyalty programs
+should provide a baseline level of rewards to all, aimed to help consumers meet
+lower-level, short-term, tangible goals and secretly reward targeted customers with
+benefits that help them achieve higher-level, aspirational goals.
+Lacey, Suh, & Morgan, 2007
+Upscale
+department
+store chain
+Loyalty program,
+status, relational
+outcomes
+Consumers' perceptions of receiving preferential treatment increased with the
+higher status conferred through a retailer's loyalty program. Preferential treatment
+perceptions were positively related to relational outcomes (e.g. commitment, revenue ).
+Sundie et al., 2009
+Luxury car
+failure
+Status, envy,
+schadenfreude,
+negative
+outcomes
+Bystander consumers may react negatively (envious and hostile) to others'
+conspicuous consumption of status laden products. If the product is tainted
+(mechanical failure), bystander consumers may feel schadenfreude
+(joy in others suffering) with costly brand consequences
+(poor attitudes and negative word of mouth ).
+Wagner et al., 2009
+Airline,
+retail firms
+Status, locus of
+control, affect,
+seller apology
+Customer demotion, or loss of benefits, associated with a tiered loyalty program
+results in decreased loyalty, attenuated by meaningful apologies from the firm and
+perceptions of locus of control (fault).
+Note. These loyalty relevant studies examined the impact of status on a number of relevant outcome variables. We emphasize these different dependent variables by
+formatting each outcome with italics.
+260
+C.M. Henderson et al. / Journal of Consumer Psychology 21 (2011) 256–276
+
+
+important consequences (Drèze & Nunes, 2009). Upward social
+comparisons serve to motivate people toward greater achieve-
+ment (Johnson & Stapel, 2007; Romero-Canyas, Downey,
+Reddy, Rodriguez, Cavanaugh, & Pelayo, 2010), lateral
+comparisons allow people to “fit in” with a prestigious group,
+and downward comparisons provide a mechanism for self-
+enhancement by differentiating people from less prestigious
+groups (Han et al., 2010). Loyalty programs that confer status
+on consumers (e.g., elitism, prestige, superiority) often fail to
+consider all the different types of comparisons consumers make,
+which could undermine a program's effectiveness depending on
+consumer characteristics and the specific social context. For
+example, when status-based loyalty programs restructure to add
+additional tiers, consumers' emotional reaction is positive if the
+tier added is of lower status but negative if the tier is of greater
+status, even when their objective benefits remain constant
+(Drèze & Nunes, 2009).
+P1. Loyalty programs will increase status-based loyalty when
+(a) the social context makes status conferrals relevant, (b) the
+multiple types (upward, lateral, downwards) of social compar-
+isons concurrently create feelings of aspiration, belonging, and
+superiority, across consumers, and (c) consumers' perceive that
+the status conferrals are merited.
+Social identity theory suggests that people's need to bolster
+their self-image motivates their desire to belong to or associate
+with a high-status group (increase their global status) (Roccas,
+2003; Tajfel & Turner, 1979). The positive illusion perspective
+allows people to distort status-relevant information as an
+attempt to bolster their self-esteem, but such inflations can
+actually lead to less social acceptance in some cases (Anderson
+et al., 2006; Barkow, 1975). Therefore, loyalty programs that
+help consumers avoid such problems by providing a third-party
+signal of consumer status should benefit (Kim, Lee, Bu, & Lee,
+2009). Drèze and Nunes (2009) show that the number and size
+of tiers in a program's structure influence consumers' percep-
+tions of status and feeling special and, consequently, their
+preference for the program. They find that consumers prefer
+status when it is more exclusive and when there are more tiers
+below them; in addition, status-signaling labels (e.g., “gold”
+tier) help support perceptions of exclusivity and status. The
+greater the number of tiers below their tier, and the smaller the
+high-status tiers, the more consumers can make social
+comparisons with lower tiers that allow them to enhance the
+self and feel special. Some people are so disposed to strive for
+status that they seek out or construct particular social
+environments in which they will enjoy higher status (Anderson
+et al., 2001, p. 118). Such people are likely to be highly
+responsive to particular consumer environments in which they
+will have high local status even if their global status suffers.
+Kivetz and Simonson (2003) show that consumers prefer a
+loyalty program in which they are more likely to achieve
+rewards than other customers.
+Not every consumer prefers elevated status or special
+treatment all the time, and some consumers prefer firms with
+a status-based loyalty system even when it puts them in the
+lowest-status group (Barone & Roy, 2010a, 2010b; Drèze &
+Nunes, 2009). Schwartz's value theory helps provide insight
+into these paradoxical findings by describing a person's desire
+for getting ahead (self-enhancement) versus getting along (self-
+transcendence) (Roccas, 2003; Schwartz & Bilsky, 1990).
+People with an independent construal tend to react positively to
+opportunities that enhance their local status, while those with an
+interdependent construal are more concerned with group
+harmony and advancing the group, and thus they may only be
+sensitive to global status enhancements (Barone & Roy, 2010a).
+A consumer's desire for self-enhancement and status is
+heterogeneous—for example, people with low testosterone
+levels, and people with an interdependent self-construal are less
+likely to seek status and exclusive benefits, may feel
+uncomfortable when given status enhancements, and are likely
+to prefer shared over individual benefits (Josephs, Sellers,
+Newman, & Mehta, 2006; Mosquera, Parrott, & de Mendoza,
+2010). Thus, consumers with an interdependent self-construal
+may actually avoid firms that elevate them through “red carpet
+treatment.”
+P2. Loyalty programs will increase status-based loyalty when
+consumers (a) are offered both local and global status conferrals
+and (b) can easily opt out of local status conferrals.
+Several findings suggest that consumers' reactions to status
+are complex and that the simple notion that consumers'
+preference for elevated status will motivate loyal behavior
+toward the firms that confer them high status is overly
+simplified. In general, consumers prefer to be given high status
+and receive exclusive deals; however, some consumers prefer
+all consumers to be treated similarly (Barone & Roy, 2010a,
+2010b; Lacey et al., 2007). Moreover, the positive benefits from
+a conferral of status to one consumer may be offset by the envy
+and hostility felt by other consumers or temporally as a
+consumer loses status over time (Sundie et al., 2009; Wagner
+et al., 2009). Therefore, it is important to understand status as a
+source of loyalty from a broader perspective that considers both
+cross-customer and temporal effects.
+Cross-customer effects of status-based loyalty
+Status programs build on consumers' natural propensity to
+make social comparisons; however, some programs may
+unfairly, in the minds of consumers, confer a lower status to
+some consumers. The very idea of status triggers concern about
+fairness (Van Prooijen et al., 2002). According to equity theory,
+people compare their ratios of inputs to outcomes with others'
+ratios to make assessments about the distributive justice
+associated with who received what and the procedural justice
+associated with how it was received (Adams, 1965; Van
+Prooijen et al., 2002). These perceptions are important. When
+conferred a lower status than expected, a person may think the
+outcome is unfair (distributive injustice) or think the process
+used to confer status is unfair (procedural injustice) (Feinberg
+et al., 2002). In either case, a negative reaction is likely to hinder
+efforts by firms that use status to enhance performance. In
+business relationships, perceived unfairness can act as
+261
+C.M. Henderson et al. / Journal of Consumer Psychology 21 (2011) 256–276
+
+
+“relationship poison” by motivating customers to try to punish
+the seller and by aggravating the negative effects of existing
+conflict (Samaha, Palmatier, & Dant, 2011).
+In addition, consumers with lower status may feel envious of
+high-status customers. Envy seems to be a relevant, but possibly
+underexplored, concept in consumer emotions because it is
+“evoked by others' status-linked products” (Sundie et al., 2009,
+p. 356). Envy can motivate consumers to want to “level-up”
+and achieve the same status as those they envy or hope other
+consumers “level-down” and lose their high status (Van de Ven,
+Zeelenberg, & Pieters, 2009). If a lower-status consumer aspires
+to level-up, the firm may benefit from the consumer's actions;
+however, other consumers who already have high status could
+feel diminished status because having more consumers in high-
+status tiers reduces local status and the feelings of exclusivity and
+being special (Drèze & Nunes, 2009). If a lower-status consumer
+feels hostility toward high-status consumers and decides to level-
+down by finding a competitor company devoid of a status
+hierarchy, this would also dampen the focal company's sales.
+P3. Loyalty programs will reduce non-targeted consumers'
+status-based loyalty when status conferrals (a) are perceived as
+being unfairly allocated, and (b) result in some perceived cost
+(e.g., status or service degradation) to non-targeted consumers.
+Temporal effects of status-based loyalty
+Status construction theory suggests that humans interacting
+over time have an innate tendency to relate socially visible
+characteristics to abilities and access to resources, thereby
+creating status beliefs tied to these characteristics (Ridgeway,
+2006). Status beliefs are then used as heuristics that guide
+expectations and decisions. Status beliefs and their associated
+linkages to nominal characteristics spread through the popula-
+tion of consumers through a diffusion process, in which one
+person with a status belief shares that belief with another, and so
+on (Mark, Smith‐Lovin, & Ridgeway, 2009).
+A specific consumer's status in loyalty programs is not static
+but can increase or decrease over time because of changes in his
+or her own behavior, changes in how the program status
+hierarchy is structured, and changes caused by the diffusion of
+status beliefs across other consumers. Gaining status can help
+motivate a consumer to increase behavioral loyalty (Kim et al.,
+2009; Lacey et al., 2007). However, consistent with prospect
+theory, research on loss aversion, and the endowment effect,
+which postulate that people are more sensitive to losses than
+gains (Kahneman, Knetsch, & Thaler, 1990; Zhang & Fishbach,
+2005), the decrease in loyalty as status is lost is often larger than
+the loyalty gained as status increases. Research shows that the
+“final loyalty” is lower for consumers that gain and then lose
+status than for those that never obtain elevated status at all
+(Wagner et al., 2009). However, sellers can attenuate the
+damaging effect of demotion within a loyalty program hierarchy
+with an apology or by persuading consumers to attribute their
+self as the locus of control behind the loss in status.
+P4. Loyalty programs' effectiveness in building status-based
+loyalty increase when (a) status beliefs quickly diffuse across
+consumers, and (b) structural or rule changes to programs do not
+withdraw or dilute status.
+Habits as a loyalty-inducing mechanism
+Conceptualization of habit
+Intuitively, a consumer's automated proclivity to repeatedly
+purchase a company's offering is appealing to marketers. A
+strong habit increases a person's propensity to perform the
+supported behavior over competing alternative behaviors
+(Tobias, 2009). Existentially, anyone struggling to kick a
+habit can testify to its strength. However, not all consumer
+habits support loyal behaviors, such as a married couple's habit
+to patronize whichever restaurant the local paper reviews.
+Research shows that loyalty programs can cause consumers to
+engage in recursive purchases, which may lead to the
+development of habitual consumption, further increasing
+consumer purchases (Lewis, 2004; Wood & Neal, 2009).
+What is a consumer habit? Habit captures the phenomenon
+of an actor's memory-based tendency to perform a particular
+behavior given previous experience performing the behavior in
+similar contexts. Theoretical explanations of this phenomenon
+often draw from the dual-mode model of mental processing.
+This model distinguishes a deliberative type of processing that
+is rational, effortful, and analytic from an automatic type of
+processing that is experiential, effortless, and holistic (see
+Novak & Hoffman, 2009; Smith & DeCoster, 2000). As
+behavior repeats over time, people decreasingly employ
+deliberative processing to form intentions and increasingly
+rely on automatic decision making (Ajzen, 2002; Wood & Neal,
+2007). Habits benefit actors by allowing them to perform well-
+learned behaviors efficiently with minimal awareness, facilitat-
+ing the simultaneous execution of additional behaviors. Because
+habit selection is essentially effortless, people find it difficult to
+suppress habitual behaviors or engage in alternative behaviors
+(break a habit) because doing so requires costly deliberative
+processing and the cognitive resources necessary to form or
+recall less familiar competing intentions (Tobias, 2009;
+Verplanken, 2006; Verplanken & Wood, 2006).
+In the habit literature, debate exists about the theoretical role
+of intentions in guiding habitual behaviors. According to the
+habituation perspective, when mature, habits fully replace
+intentions as the guiding force behind behavioral performance,
+with contextual cues directly cuing behavior without mediating
+cognitions (Ji & Wood, 2007; Wood & Neal, 2007, 2009).
+According to the reasoned action perspective, intentions never
+fully dissipate. They may be stored and later become
+spontaneously activated (i.e., not consciously reconceived),
+but they always mediate the relationship between contextual
+cues and behavior (Ajzen, 2002). Another potentially reconcil-
+ing possibility, according to Tobias (2009), who draws on
+prospective memory research, is that all behaviors are at some
+level intended, but habitual behaviors are easier to remember
+and more likely to be performed than competing behavioral
+intentions, even if they are preferred. In summary, the
+competing perspectives differ with regard to how intentions
+262
+C.M. Henderson et al. / Journal of Consumer Psychology 21 (2011) 256–276
+
+
+support habitual behavior, but they agree that habits alleviate an
+actor from the need to deliberately form intentions, and “the
+implications … are quite similar” (Ajzen, 2002, p. 108).
+In addition, habits as context-specific, slow-to-form, resis-
+tant-to-change behavioral memory advantages often work in
+conjunction with other frequency-based cognitive mechanisms
+that increase a person's preference for the recurring behavior
+(Ajzen, 2002; Labroo & Nielsen, 2010; Wood & Neal, 2007).
+For example, when a person is repeatedly exposed to a
+particular stimulus, that stimulus will be preferred to novel
+stimuli because of an affective response—that is, a mere
+familiarity effect (Labroo, Dhar, & Schwarz, 2008). Cognitive
+lock-in is a quick-to-form consequence of learning investments
+that creates cognitive switching costs (Murray & Häubl, 2007).
+In addition, introspection about previous behavior can affect
+preferences for subsequent action (i.e., “I did it before; it must
+be what I like.”). While familiarity effects, cognitive lock-in,
+and introspection all involve experience with a particular
+behavior and could have immediate effects on loyalty, habits are
+slower to form and influence “the behavior selection via
+memory processes” (Tobias, 2009, p. 412), which have longer-
+term effects on consumer behaviors.
+Role of habit as a source of consumer loyalty
+Habit is “a new but booming topic” (Tobias, 2009, p. 415)
+that has been an “undervalued concept in consumer research”
+and “only indirectly incorporated into models of consumer
+behavior” (Verplanken, 2008, p. 125). Yet researchers have
+observed habit's powerful inertia effects on behavior in several
+consumer domains (Ji & Wood, 2007; Wood & Neal, 2009).
+Research in consumer psychology ties habit to behavioral
+outcomes (e.g., loyalty [Labroo & Nielsen, 2010], purchase
+probability [Breivik & Thorbjørnsen, 2008]), indirectly to
+product preference (Murray & Häubl, 2007), and to diminished
+search for alternatives (Verplanken & Wood, 2006). Table 2
+summarizes marketing literature that uses “habit” as the
+theoretical rationale for explaining consumer loyalty.
+Three primary antecedents that are critical to understanding the
+effectiveness of habit-based loyalty programs are necessary for
+habit formation: intention, repetition, and context stability. First, a
+novel behavior has no initial advantage over other competing
+behaviors. Therefore, an actor must create an intention to behave
+before he or she will perform that behavior (Ajzen, 2002; Wood &
+Neal, 2007). When performed, the behavior must be repeated so
+that memory advantages of a habit can develop; thus, the behavior
+must be rewarding enough to sustain the supporting intention.
+Loyalty programs can promote such repetition (Wood & Neal,
+2009), and “promoting ones loyalty program will … activate a
+loyalty construal among current customers” which supports
+consistency in brand choice instead of variety seeking (Fishbach,
+Ratner, & Zhang, 2011, p. 10).
+Second, repetition of behavior is a necessary but not
+sufficient driver of habit formation. While loyalty programs
+encourage repeat purchases using rewards or discounts in a
+similar manner as positive reinforcements are used in operant
+condition (Redish, Jensen, Johnson, & Kurth-Nelson 2007;
+Skinner 1974), the linkage between a program characteristic and
+the underlying mechanism is often difficult to isolate. For
+example, Wood and Neal (2009) propose that a perceived
+instrumental contingency between behavior and reward inhibits
+habit formation. They suggest that loyalty incentives should not
+hinge directly on the behavior, which echoes research showing
+that goal priming interferes with behavioral habituation (Neal,
+Wood, & Pascoe, 2008). Though not directly tested, their
+assertion is tangentially supported by Kivetz, Urminsky, and
+Zheng (2006), who study goal progression. These authors find
+that use of a “frequent purchase-type” loyalty card that uses hole
+punches to signal goal progression (e.g., toward a free drink)
+accelerated purchase frequency when the goal was near,
+suggesting that the goal, and not a well-formed habit, was the
+basis for the repeated purchases. However, the impact of goals
+did not necessarily imply that habit formation was inhibited
+among these consumers but rather that habits did not account
+for the acceleration in purchases, as the program could have
+helped develop habits that drive a baseline level of purchases.
+Acceleration toward the reward positively predicted retention in
+the reward program and a faster reengagement in the program,
+which cannot be explained simply by the goal gradient because
+the distance to the reward was reset.
+Wood and Neal (2009, p. 586) suggest that “if it is true that
+habits are not experienced as contingent on outcomes, then
+habitual consumers will be little affected by an increase in rewards
+for their behaviors.” Assuming that frequency of a buyer's
+purchases is an appropriate indicator of habit strength, as support
+for this claim, Wood and Neal point to Liu's (2007) finding that in
+response to a newly implemented loyalty program, consumers
+with low initial purchase rates increased their purchases, but
+consumers with high initial purchase rates did not significantly
+alter their behavior. However, customers with very high share of
+wallet may be poor targets for evaluating a reward program's
+effectiveness because they may be less able to increase their
+purchases further (Du, Kamakura, & Mela, 2007; Kumar & Shah,
+2004). Nonetheless, it is worth considering how an incentive-
+based loyalty program can encourage repetition without creating
+instrumental contingencies.
+The reinforcement schedules studied in operant conditioning
+may shed light on this issue. Actors learn desired responses
+fastest if a reinforcement is provided after each desired
+performance (continuous schedule); however if reinforcements
+cease (extinction) actors continue performing the desired
+response longer if reinforcements were provided after every
+nth response (fixed-ratio partial reinforcement schedule) or, to
+an even greater extent, after random responses (variable-ratio
+partial reinforcement schedule) (Redish et al., 2007; Skinner
+1974). It is unclear if this greater resistance to extinction is due
+to actors building strong habits that support the response despite
+the utility from the response decreasing; or as scholars studying
+reinforcement based learning suggest, actors may simply adjust
+their expectations for reinforcements at a slower rate when
+reinforcements were provided less frequently and randomly
+(Redish et al., 2007).
+Wood and Neal (2009) suggest the rewards be distributed in
+a way that does not create an idiomatic “carrot and stick” to
+263
+C.M. Henderson et al. / Journal of Consumer Psychology 21 (2011) 256–276
+
+
+drive behavior. They propose that the bottle cap rewards some
+soft drink campaigns use (similar to instant scratch lottery
+ticket) that provide a small but random chance to win a reward is
+a good example of a habit-friendly program. Conversely,
+randomness of incentives could suppress habit formation. The
+memory advantage habits provide is strongest in consistent
+contexts, and thus context-based interruptions provide an
+opportunity for consumers and marketers to break habits or
+establish new ones (Neal et al., 2008; Verplanken & Wood,
+2006). The variability and surprise of “random” rewards
+heighten consumers' cognitive emotional responses (e.g.,
+gratitude) (Palmatier et al., 2009; Valenzuela, Mellers, &
+Strebel, 2010) and may fail to provide the contextual stability
+necessary for automatic processing and habits to take over (Ji &
+Wood, 2007; Tobias, 2009). Overall, further work resolving the
+role of incentives and repetition promotion is needed. For
+example, when repetition generates a habit, what aspects of
+loyalty programs promote habit maintenance, and can programs
+be designed to wean consumers off the reward incentive after
+habituation?
+Third, habit development requires context stability to ingrain
+a behavior in procedural memory (Verplanken, 2008). Habits
+are built by consistently and repeatedly performing a behavior
+in the context of certain stable environmental factors so that a
+strong association in the “slow-learning procedural memory
+system” can link environmental cues with the behavior (Quinn,
+Table 2
+Habit-based loyalty research.
+Reference
+Context
+Key constructs
+Major findings
+Breivik & Thorbjørnsen, 2008 Online brand
+communities
+Consumer-brand
+relationship, habit strength
+Indicators of habit strength predicted repurchase likelihood beyond that of
+commonly used measures of relationship strength or quality. The impact of habits
+increases with frequently bought or consumed categories.
+Fishbach et al., 2011
+Sequential
+product choice
+Consistency vs.
+variety seeking,
+mental construal
+Nonconscious support of behavioral selection consistency increases when
+consumers are primed with concepts of loyalty, but concepts related to satiation
+(boredom) promote variety seeking. Loyalty programs may prime consistent
+behavior and support the development of habitual loyalty.
+Ji & Wood, 2007
+Restaurant,
+media, and commute
+Habit strength, intentions Repeated behaviors predicted subsequent behavior in a fast-food, TV, and
+transportation setting, even in light of opposing intentions. Intentions predicted
+behavior when behavior repetition was low—a proxy for weak habits.
+Kivetz et al., 2006
+Café patrons,
+Internet users
+Goal-gradient
+effect,
+persistence,
+loyalty program
+reengagement
+Consumers accelerate effort, persistence, and behavior frequency when
+approaching a loyalty reward. The acceleration cannot be explained by habit but
+may help build a baseline habit. After receiving a reward, consumer effort
+decreased, but not to the original level, and acceleration positively predicts
+program reengagement and loyalty. The goal-gradient effect does not directly
+account for this effect as the goal distance resets.
+Murray & Häubl, 2007
+Online Web
+search
+Repetition,
+product
+preference, ease
+of use, goal
+activation
+Product preferences are shaped by prior experience with the product. This
+relationship is mediated by ease of use. Goals associated with product use
+moderated the relationship between experience and preference, with consumers
+preferring experienced products only when ease of use was high. Therefore, habits
+can indirectly affect preferences supporting ease of use and brand loyalty.
+Tobias, 2009
+Recycling
+campaign
+Accessibility,
+behavior,
+commitment,
+habit strength
+Habits provide a strong memory advantage over competing behaviors. Intention
+accessibility decays as habits develop but is enhanced by reminders. Reminders'
+positive impact on accessibility is positively moderated by behavior commitment.
+Reminder's potency increases with proximity to behavior context, but its salience
+decreases with exposure.
+Verplanken & Wood, 2006
+Fast food and
+commute
+Habit change,
+environmental
+change
+Habit change is easiest when environmental context is altered or disrupted.
+Informational campaigns to help consumers break habits will be most effective
+when the habit performance context is tumultuous.
+Wood, 2010
+Retail, restaurant
+Life change,
+familiarity, habit
+performance
+Despite actors' predictions about others' behaviors, people in states of high life
+change tended to choose unfamiliar, novel items rather than familiar, traditional
+items, suggesting that life changes inhibit habit performance.
+Wood & Neal, 2009
+Review of
+multiple studies
+Habit, intentions,
+self-control,
+goals, rewards, context
+Habits gradually form with behavior repetition in a stable context. When formed,
+the context-behavior association is the strongest guide of behavior, not intentions.
+Time pressures, distractions, and strained self-control resources promote habit
+use. Context change supports habit change. Habits inform introspective inferences.
+Salience of the behavior instrumentality may disrupt habitual support.
+Note. These loyalty relevant studies examined the impact of habit on a number of relevant outcome variables. We emphasize these different dependent variables by
+formatting each outcome with italics.
+264
+C.M. Henderson et al. / Journal of Consumer Psychology 21 (2011) 256–276
+
+
+Pascoe, Wood, & Neal, 2010, p. 499). Contextual factors
+include physical location, preceding actions, time, mood, and
+social surrounding (Ji & Wood, 2007; Tobias, 2009).
+Environmental consistency is also important for sustaining
+habits (Neal et al., 2008; Wood & Neal, 2009). For example,
+Wood and Neal (2009) report that consumers with a strong habit
+of eating movie theater popcorn consumed as much fresh as
+stale popcorn in the theater setting but ate less stale popcorn in
+an unfamiliar setting; alternatively, consumers with a weak
+habit ate less stale than fresh popcorn in all settings. In
+summary, the linkage between consumer habits and behavior is
+contingent on contextual cues in which conditions that promote
+automatic, effortless processing support the tendency to act on
+habits.
+P5. Loyalty programs will increase consumers' habit-based
+loyalty when (a) both initial purchase intentions and repeated
+purchases are not directly attributable to loyalty program
+incentives, and (b) loyalty program reminders reinforce
+contextual cues and not incentives.
+Other factors, such as time pressure, cognitive load, and a
+recent drain on self-control resources, also promote the use of
+habits (Smith & DeCoster, 2000; Wood & Neal, 2009). For
+example, people facing distractions have a diminished ability to
+recall or form competing intentions and thus rely on habits
+(Quinn et al., 2010; Wood & Neal, 2009). These strains on
+cognitive resources, however, can be overcome. A person with
+a strong commitment to behavioral change may allocate
+cognitive resources toward intention recall and provide the
+perseverance to carry out competing intentions in opposition to
+strong habits (Gollwitzer & Sheeran, 2009; Tobias, 2009).
+Verplanken and Wood (2006, p. 91) provide insight into how
+best to target consumers with habit-based loyalty programs;
+they suggest that informational campaigns designed to change
+consumer intentions “gain power when they are applied during
+naturally occurring periods of change in consumers' lives.”
+Similarly, consumers are more likely to break consumption
+habits when their lives are in a state of flux, insofar as they are
+less likely to choose comfort foods when their lives are in
+transition, contradicting most lay assumptions (Wood, 2010).
+P6. Consumers' likelihood of adopting new or defecting from
+existing loyalty programs will be highest when consumers'
+environment is turbulent (e.g. life transitions).
+Marketers who use habit advantages as a means for com-
+petitive advantage are likely to find that success will vary de-
+pending on both product category and consumer characteristics.
+Wood and Neal (2009) suggest that goals associated with certain
+product categories promote or suppress consumption repetition.
+For example, a consumer may repeatedly visit the same hair salon
+when seeking social companionship and acceptance but consis-
+tently choose different restaurants when seeking variety.
+Cross-customer effects of habit-based loyalty
+Consumers' social context is another factor marketers should
+consider. “Social shopping” refers to consumers' desire for and
+common practice of shopping with others with the primary goal
+of developing and enjoying social relationships (Arnold &
+Reynolds, 2003). Luo (2005) demonstrates that the social group
+accompanying a consumer on shopping experience can increase
+the consumer's likelihood to make impulse purchases based on
+cross-customer influence. If consumers share a repeated
+consumption experience, they will become associated with the
+behavior in which the thought of another person can serve as a
+social memory aid or contextual cue, making the shared
+consumption experience more salient (Tobias, 2009).
+Retailers may want to alter their loyalty programs to entice
+consumers to shop together, thus building a stable social
+context. Similarly, firms using buy-one-get-one-free coupons
+with hopes of motivating consumers to increase purchases
+might benefit from restructuring this promotion to become a
+coconsumer loyalty program that rewards customers for
+consuming together without the coupon. Otherwise, the coupon
+could become an aspect of the habit context, and removing it
+would weaken the habit.
+The role of a stable social context in support of habit
+formation and remembering is well documented, though not in
+the context of loyalty programs; what remains to be understood,
+however, is the social forces associated with potential habit
+diffusion. Work on mirror neurons suggests that behaviors
+unconsciously spread from one person to another (Rizzolatti &
+Craighero, 2004). As habits dictate behaviors, habitual
+tendencies that develop from one person's repeated behaviors
+may spread to others without such intentions.
+P7. Loyalty programs that promote interaction among con-
+sumers will enhance habit-based loyalty for (a) targeted
+consumers by providing social contextual cues that reinforce
+patterns of habitual purchasing, and (b) non-targeted consumers
+by means of habit diffusion, where non-targeted consumer
+mirror the behaviors of targeted consumers.
+Temporal effects of habit-based loyalty
+Implicit in this habit discussion is the important role of time.
+In general, scholars agree that habits' memory advantages
+increase or decay over time depending on the frequency the
+actor performs the behavior. However, actual empirical research
+attempting to pinpoint the necessary pattern for a behavior to
+become habitual is scant, and “information that could be found
+regarding the development of the strength of habits is very
+imprecise” (Tobias, 2009, p. 416). In their review of habit
+formation from a neurological perspective, Yin and Knowlton
+(2006, p. 475) conclude that “we remain ignorant of the detailed
+mechanisms that underlie habit formation at all levels of
+analysis,” and “conditions that promote habit formation have
+yet to be characterized precisely.”
+However, as time progresses since the last performance of a
+habitual behavior, the strength of the habit's memory advantage
+decays, and the required potency of salient context cues as a
+reminder increases. In a study of consumer recycling behavior,
+Tobias (2009) found that a reminder's effectiveness increased the
+more fundamentally ingrained it was in the behavioral context.
+265
+C.M. Henderson et al. / Journal of Consumer Psychology 21 (2011) 256–276
+
+
+The salience of the reminder also diminished over time as
+exposure increased; however, Tobias notes that the simultaneous
+gain in habit strength may have offset the need for a reminder. By
+this logic, in Liu's (2007) study, the reminder to purchase
+provided by the loyalty rewards may have been unnecessary for
+the frequent buyers, which could account for their lack of
+response to the firm's implementation of the program.
+The role of loyalty programs in reminding consumers of
+contextual cues associated with habitual purchases is not
+completely understood. It is plausible that the loyalty program
+itself becomes a cue in the habit formation process. Under what
+circumstances are these cues or reminders important? Firms
+often replace or alter their loyalty program, and this could
+protect the program from decreases in reminder salience due to
+overexposure. However, changing the loyalty program could
+also reduce habit strength by disrupting the context. Recent
+studies have shown that an actor's habitual response can be
+impaired with the priming of goals (Neal et al., 2008), and thus
+marketers should be cautious when using a reminder that might
+make the consumption goal more salient than the context.
+P8. Loyalty programs' effectiveness in building habit-based
+loyalty increases in situations where (a) consumers make
+frequent purchases, and (b) contextual cues reinforcing the habit
+are stable.
+Relationships as a loyalty-inducing mechanism
+Conceptualization of relationships
+Consider the following scenario: when browsing the deli
+section of her local grocery store, a consumer finds a great buy:
+low-priced Italian sausage. With some sauce, she will have dinner
+made. Luckily, a friend is there to remind her that her favorite
+marinara is in aisle four. As the consumer finishes shopping, the
+friend tells her about some delicious sourdough bread to
+accompany dinner. The friend even helps her check out quickly
+so that she can get home. This friend turns out to be Albertsons, a
+national grocery chain, and the chain is using data collected as part
+of a loyalty program to offer reminders, suggestions, and
+efficiencies to “cement relationships” with the consumer
+(Hymowitz, 2004, p. 1). Ferguson and Hlavinka (2007, p. 320)
+suggest that such efforts work to build “relationship equity to
+improve retention and increase customer lifetime value.”
+Consumers build relationships with brands (Thomson,
+MacInnis, & Park, 2005), and a benefit of loyalty programs is
+that they help initiate, grow, and maintain these relationships
+(De Wulf et al., 2001). Social exchange theorists propose that
+three features help inform relationships (Fiske, 1992; Gerbasi,
+2010): (1) the target of the relationship; (2) the relationship's
+governing mechanisms; and (3) the relationship's development,
+maintenance, and dissolution processes.
+First, the target of the relationship can be an individual
+consumer or a group of consumers, and this distinction shapes
+the goals of the loyalty program. Relationship-building efforts
+targeted at one consumer may negatively affect relationships
+with other consumers (Feinberg et al., 2002); these cross-
+customer effects could differ, however, when a relationship-
+building effort is targeted at a group of consumers (Giesler,
+2006). Most extant research examines the impact of “direct”
+relationships between two parties, but there is a trend for
+businesses to use “indirect” relationships by targeting con-
+sumers' social in-group (Henderson & Palmatier, 2010). For
+example, Groupon offers discounts, termed “social coupons,” to
+networked consumers who show interest in a product or service
+offered by another community member and rewards consumers
+who pass along deals to friends (Rosman, 2010). These groups
+then experience the promotion together.
+Second, understanding the governing principles of the
+relationship is important because these “rules” establish how
+relationship partners behave toward each other. The type of
+exchange—reciprocal or negotiated—often determines the
+relevant governing principles (Fiske, 1992). Reciprocal
+exchanges are typically socially infused relationships between
+“friends” in which benefits are traded over extended periods
+without a formalized accounting of benefits and costs.
+Reciprocal exchanges are governed by relational norms (e.g.,
+reciprocity, mutuality, solidarity, flexibility), while negotiated
+exchanges are governed by contracts or formal agreements that
+describe the exchange of benefits and payments (Cannon,
+Achrol, & Gundlach, 2000; Homans, 1958). In negotiated
+relationships, the exchange of benefit and payment usually
+occurs concurrently. Loyalty programs often attempt to
+transition customers from an economic-based negotiated
+relationship to a more socially based reciprocal relationship
+built on trust and relational norms because of the belief that
+stronger relationships lead to greater performance (Palmatier,
+Dant, Grewal, & Evans, 2006a). Evidence shows that firms
+want to enhance personal connection; for example, Nordstrom
+builds strong customer relationships by linking a specific
+salesperson to a customer for personal shopping assistance and
+customized communications to enhance customer loyalty
+(King, 2010).
+Third, researchers offer numerous “life-cycle” theories to
+explain the relationship development, maintenance, and disso-
+lution process (Dwyer, Schurr, & Oh, 1987; McGraw &
+Tetlock, 2005). Transaction utility theory (Thaler, 1985)
+suggests that a person draws utility by simply maintaining a
+relationship with another person, beyond any objective benefits
+provided by the exchange. Because these dyadic exchanges
+occur over time, relational cohesion theory posits that strong,
+structurally embedded relationships will form. These relation-
+ships result from an emotion-cohesion process in which
+repeated interactions between parties facilitate emotional
+connections, which ultimately bond the two actors (Lawler &
+Yoon, 1996). This type of relationship formation can occur
+beyond the dyad, as groups of individuals interact over time.
+Mackie, Devos, and Smith (2000) explain this process and offer
+a theory of intergroup emotions, which suggests that members
+can experience emotions vicariously through their connections
+with others in their group. This becomes important when
+considering concurrently consumed rewards, which suggests
+that rewarding one in-group member has positive carryover
+effects on other group members.
+266
+C.M. Henderson et al. / Journal of Consumer Psychology 21 (2011) 256–276
+
+
+According to social relational theory, a relationship falls into
+one of four sequential categories—communal sharing, equality
+matching, market pricing, or authority ranking—that at one end
+resembles a close, familial tie and at the other resembles a cold,
+economic transaction (Fiske, 1992). A consumer may commu-
+nally share most things with a spouse, alternate paying the bill
+with a lunch partner, and heavily negotiate home maintenance
+services with a contractor. In these examples, the levels of
+commitment, trust, and reciprocity in each relationship are very
+different. Relationships based on authority ranking pertain to
+Emerson's (1962) power-dependence theory, which explains the
+effects of asymmetries in relational dependence. Common to both
+theories is the general notion that one exchange partner has status
+or power that tips the relationship in his or her favor, enabling the
+partner to extract unfair value from the partnership. Perceptions of
+such inequity can damage a relationship (Adams, 1965).
+When these relationships are not market based but rather
+close and communal, the consumer becomes attached to the
+company. Thomson, MacInnis, and Park (2005) extend
+Bowlby's (1979) work on attachment theory and show that
+people vary in their attachment to brands. Individual differences
+become important for understanding how some consumers
+respond after forming a relationship with a company. For
+example, firms should not form strong relationships with some
+consumers, because that relationship might overly sensitize
+them to negative experiences, resulting in extreme emotionally
+based responses to any perceived slight or injustice (Campbell,
+Simpson, Boldry, & Kashy, 2005). Thus, although building a
+relationship with consumers might not always be beneficial,
+research shows that, in general, strong consumer relationships
+are advantageous (Palmatier et al., 2006a).
+Role of relationships as a source of consumer loyalty
+Relationships afford their constituents a variety of benefits.
+These social blessings may stem from a basic human desire to
+secure “lasting, positive, and significant personal relationships”
+that are “temporally stable” (Baumeister & Leary, 1995, p. 497).
+Academics in marketing have recognized this fundamental
+human motivation, and researchers have attempted to under-
+stand “the impact of relationship marketing tactics on
+relationship quality” (De Wulf et al., 2001, p. 33). Relationship
+marketing research has provided important insights, tying
+consumer relationships to things such as increased revenue
+(Palmatier et al., 2006a), improved share of wallet (Palmatier et
+al., 2009), enhanced word of mouth (Ranaweera & Prabhu,
+2003), greater likelihood to help fellow consumers (Muniz &
+O'Guinn, 2001), increased information sharing (White, 2004),
+and forgiveness for service failure (Goodwin, 1996). Table 3
+illustrates these research efforts. Strong relationships are tied to
+an ultimate loyalty that is secured by attitudinal barriers to exit
+(Bansal, Irving, & Taylor, 2004), thus making the cultivation of
+these relationships vital to many firms' long-term success.
+Recognizing this necessity, companies are implementing
+relationship-building loyalty programs to strengthen their
+connections with consumers. Hyatt is a prime example; it
+recently instituted gratitude-inducing rewards that help bond
+consumers to a relationship through reciprocity (Walker, 2009).
+Research has identified many preconditions for transitioning
+consumers from mere economic transactors to relational
+partners (Goodwin, 1996; Palmatier et al., 2006a). Early
+experiences with a brand predicate the type of relationship
+formed, communal or exchange (Aaker, Fournier, & Brasel,
+2004; Aggarwal, 2004). Thus, loyalty programs attempting to
+initiate a relationship must signal communal qualities, such as
+personality congruence, sociability, and information transpar-
+ency, ideally in an interpersonal format (Goodwin, 1996).
+In addition to signaling that a firm is interested in a
+communal relationship, the design of the program should
+generate gratitude leading to cycles of reciprocation and,
+ultimately, strong relational bonds (Palmatier et al., 2009).
+When partner actions are interpreted as helpful, reciprocity
+norms that are tied to an evolutionary need for cooperation
+develop (Schroeder, 2010). These norms compel a person to
+return benefits in kind because of feelings of gratitude that act
+“as a mediator between give-and-take” (Bonnie & de Waal,
+2004, p. 227). Appraisal of loyalty program benefits likely
+precedes emotional response (Lazarus & Folkman, 1984), and
+feelings of gratitude require perceptions that a relationship
+partner is acting somewhat altruistically.
+Thus, reciprocity and gratitude are important drivers of
+relationship formation, and these effects can be enhanced when
+loyalty program benefits appear to be benevolently motivated,
+given with free will, and offered when the consumer needs them
+the most (Palmatier et al., 2009). Morales (2005) finds that the
+extra effort store employees expend enhances consumer
+willingness to pay and store loyalty. Howard (1992) similarly
+demonstrates that product wrapping services elicit positive
+mood, which enhances consumer attitudes and likely carries
+over to post-consumption evaluation (Miniard, Bhatla, &
+Sirdeshmukh, 1992). These findings mirror the type of
+investments loyalty programs provide (e.g., special gifts,
+increased attention from store associates, enhanced services)
+and suggest that the manner in which these investments are
+delivered is important to effective relationship formation.
+Strong relationships form when loyalty programs seem
+interested in more than a one-sided economic transaction.
+However, when consumers perceive the exchange partner as
+opportunistic, efforts to build a relationship will be threatened
+(Adams, 1965). Company behaviors that consumers interpret as
+self-interested, cunning, or unfair will cause consumers to
+categorize the relationship as economic, based on market
+norms; these relationships typically lack trust (Fiske, 1992).
+Impaired trust may cyclically undermine the relationship;
+consumers will more likely interpret behaviors associated
+with the relationship negatively and experience greater
+variability in their overall satisfaction with the relationship
+over time (Campbell, Simpson, Boldry, & Rubin, 2010).
+Consumers may participate in loyalty programs even when
+they consider these programs sales tactics. The loyalty program
+may encourage repeat purchases over time since rewards act as
+operant reinforcements of repeat purchase behavior by
+increasing the overall utility of the exchange (Lewis, 2004;
+267
+C.M. Henderson et al. / Journal of Consumer Psychology 21 (2011) 256–276
+
+
+Liu, 2007), but these repeat purchases may do little to build a
+relationship. Even when consumers perceive the loyalty
+program as fair, firms need to prevent the program from simply
+being part of its value proposition; otherwise, the program loses
+its relational dimension and just becomes a complicated pricing
+discount scheme. For example, compare the response between a
+Table 3
+Relationship-based loyalty research.
+Reference
+Context
+Key constructs
+Major findings
+Bansal et al., 2004
+Auto-repair services
+Normative, affective,
+and continuance
+commitment
+Subjective norms are associated with normative commitment, while trust is tied
+to affective commitment. Continuance commitment results from increased
+switching costs. Normative and continuance commitment are negatively
+associated with switching intentions.
+De Wulf et al., 2001
+Food, apparel retail
+Relationship
+investment, relationship
+quality, loyalty
+Consumers' perceptions of relationship investments enhance relationship
+quality, a composite of trust, commitment, and satisfaction, which is positively
+associated with behavioral loyalty. Interpersonal communication has the
+strongest association with perceived relationship investment.
+Giesler, 2006
+Online peer-to-peer
+Gift system,
+reciprocity norms
+A dyadic analysis of gift exchange fails to capture community development
+function of gift systems, in which gifts exchanged among consumers aid in the
+development of consumer relationships.
+Goodwin, 1996
+Services
+Communality,
+service delivery
+Transitions to communal relationships are a function of service delivery,
+consumer traits, and situational factors. Likelihood of strong relationship
+formation increases with self-disclosure, time, and personality congruence in
+encounters.
+Howard, 1992
+Retail setting
+Attitude strength,
+mood maintenance
+Gift-wrapping cues positive mood because wrapping is frequently paired with
+joyous life events. Positive mood mediates the relationship between
+gift-wrapping and strength of positive attitude and thus can serve as a relationship
+investment.
+Marcoux, 2009
+Moving to
+a new home
+Consumer
+gifts, cooperation,
+subjection
+A variety of emotions are associated with accepting gifts from others, and these
+emotions may spur consumers toward market-based exchanges to forgo negative
+affect and relational obligations associated with accepting a gift.
+McGraw & Tetlock, 2005
+Various
+consumer
+settings
+Opportunism,
+relational exchange styles
+Context of relational exchange influences consumers' exchange style, with
+communal and equality matching conditions associated with egalitarian
+exchange and market-pricing exchange related to opportunism.
+Morales, 2005
+Retail setting
+Gratitude,
+persuasion,
+willingness to pay
+Extra effort expended by the firm enhanced customer willingness to pay, choice of
+store, and overall evaluations. Inferred persuasion motivations diminished this
+relationship.
+Palmatier, Gopalakrishna, &
+Houston, 2006b
+Business-to-business
+relationship
+Social, financial
+structural
+relationship
+investments
+The return on investments in relationships with customer firms is greatest if the
+investment is social in nature (e.g. taking a client to dinner). Financial
+investments (e.g. discounts) fail to deliver a positive return. Structural
+investments (e.g. infrastructure) only pay off if interactions are frequent.
+Palmatier et al., 2009
+Retail and
+business-to-business
+relationship
+Gratitude,
+relationship
+investments
+Gratitude mediates the effect of relationship investment on performance, along
+with trust and commitment. Relationship investments' effect on gratitude is
+positively moderated by customers' perceptions of seller benevolence, free will,
+and investment value.
+Rosenbaum et al., 2005
+Communal
+loyalty programs
+Communal benefits,
+loyalty
+Loyalty programs differ in terms of the extent to which they provide communal
+engagement and communal benefits shared among their customers. Communal
+loyalty programs elicit stronger loyalty than programs relying on financial incentives.
+Thomson et al., 2005
+Self-reported brands
+Emotional
+attachment,
+brand loyalty
+Brand emotional attachment is associated with three factors: brand affection,
+connection, and passion. These factors are ultimately associated with stronger
+brand loyalty and a higher willingness to pay.
+Note. These loyalty relevant studies examined the impact of relationships on a number of relevant outcome variables. We emphasize these different dependent
+variables by formatting each outcome with italics.
+268
+C.M. Henderson et al. / Journal of Consumer Psychology 21 (2011) 256–276
+
+
+consumer who reads the reward program details, collects the
+miles, and then trades them in for a free trip and a consumer who
+receives a free upgrade for being a “friend” of the airline.
+P9. Loyalty programs will enhance relational-based loyalty (a)
+when signaling the seller's desire to form a communal-type
+relationship, (b) when motives are perceived as benevolent, and
+(c) when rewards are discretionary; the positive impact will be
+undermined if the program rules are (d) made salient to
+consumers, and (e) perceived as procedurally unfair.
+Not all loyalty programs are viewed as persuasion schemes
+or rewards for loyal behavior. Research suggests that consumers
+can interpret firms' efforts as direct investments in their
+relationship (De Wulf et al., 2001). These types of investments
+are qualitatively different from gifts or surprises offered in
+typical reward programs in the sense that consumers understand
+that the company or brand is attempting to demonstrate its
+commitment to the relationship's future. This distinction may
+separate the positive effects of surprise gifts or discounts
+(Heilman, Nakamoto, & Rao, 2002) from the emotionally laden
+impact of personalized or customized efforts targeted at a
+specific consumer (Howard, 1992). The former is a reward
+representing a “thank you,” and the latter is an investment
+showing commitment to a future relationship.
+Research also suggests that if consumers have a relationship
+with an individual employee (vs. an overall company), the
+impact of that relationship on consumer loyalty will be greater
+(Palmatier, Scheer, & Steenkamp, 2007). Theories related to
+social judgment (Hamilton & Sherman, 1996) argue that the
+underlying characteristic that distinguishes perceptions of
+individuals from those of companies or large social groups is
+entitativity, or the degree of behavioral consistency associated
+with an entity. Interactions with different individuals in a large
+group—employees at a company—are generally inconsistent,
+making it difficult to form a single impression of the overall
+group. People therefore use recall models that heavily weight
+recent experiences when thinking about a group. In contrast,
+interactions with a single person tend to be stable over time,
+making unified cognitive representations (online models) of
+individuals easier. Slower, weaker, and less confident judg-
+ments associated with recall models can be replaced with the
+faster, stronger, and more confident judgments associated with
+online models when a group's behavior is uniform and
+consistent—when a group resembles a person (Hamilton &
+Sherman, 1996).
+Palmatier et al. (2007) demonstrate this process in a business
+context, showing that loyalty tied to individual salespeople has
+a greater effect on firm performance outcomes than loyalty tied
+to the firm overall. It is easier to form a strong relationship with
+an individual than a large organization. If, however, a firm's
+employees appear and behave uniformly, the relationship
+formed with individuals extends to the company, thereby
+enhancing the bottom line. Thus, relational-based loyalty
+programs that focus on building consumer–employee relation-
+ships (e.g., Nordstrom's personal shopper program) may
+generate better results than programs that focus on building
+consumer–firm relationships, assuming employee turnover is
+not an issue. Moreover, if a firm's employees behave
+consistently as a group, the judgment formation process
+becomes similar to the process used to evaluate individuals
+(Hamilton & Sherman, 1996), therefore enhancing the effect of
+consumer-firm relationships on consumer behavior.
+An additional area of future inquiry involves understanding the
+role of knowledge investments leading to increases in consumer
+switching costs and dependence. Consumers who adopt new
+products or services and expend effort and time to learn how to use
+these innovations are less likely to switch companies (Johnson,
+Bellman, & Lohse, 2003; Zauberman, 2003). When consumers feel
+locked in to a company and its offering, they become dependent on
+the firm and may want a relationship to help manage the risk
+associated with the dependence (Pfeffer & Salancik, 1978).
+However, research on interfirm relationships suggests that the
+effect of dependence on relationship quality is contingent on the
+balance of power.Ifbothparties are interdependent,therelationship
+is enhanced, but if the dependence structure is asymmetric, the
+relationship is damaged (Kumar, Scheer, & Steenkamp, 1995).
+How these findings generalize to a consumer loyalty program
+context is unknown.
+P10. The positive impact of loyalty programs on relational-
+based consumer loyalty will be enhanced as (a) perceived
+entitativity increases, (b) feelings of interdependence increases,
+and (c) feelings of asymmetric dependence decreases.
+Cross-customer effects of relational-based loyalty
+Imagine a passenger missing a flight connection and immedi-
+ately walking up to a premier ticketing counter to rebook the flight.
+The friendly agent finds a seat and upgrades the ticket to first class,
+free of charge. Surrounding the premier passenger are others who
+paid the same ticket price but are waiting in a long line and thus do
+not experience this same treatment. How does the overall
+effectiveness of this loyalty program change when considering
+effects on both premier and nonpremier passengers?
+Though limited, research suggests that betrayal, jealousy,
+and unfairness that stem from targeted promotions can have
+mixed effects on overall firm profitability (Feinberg et al.,
+2002). For the flier being rewarded, recent work suggests that
+feeling envied is associated with enhanced self-confidence and
+increased fear of ill-will, suggesting that exclusive rewards can
+have both positive and negative effects, even for the person
+benefiting from this exclusivity (Mosquera et al., 2010). Similar
+to the cross-customer effects for status-based loyalty programs,
+both distributive and procedural justice perceptions can
+negatively influence the non-targeted customers (Bechwati &
+Morrin, 2003; Feinberg et al., 2002). For example, some
+consumers may believe that if two customers pay the same price
+for the service (e.g., ticket), they should be treated the same.
+Beyond dyadic interactions that may affect relationships
+with on-looking consumers, it is also important to consider
+relationships with groups of consumers. Giesler (2006) studies
+gift giving in an online peer-to-peer music sharing environment
+and finds that gifts help build a relationship among groups of
+consumers. How rewards consumed by a group influence that
+269
+C.M. Henderson et al. / Journal of Consumer Psychology 21 (2011) 256–276
+
+
+group's relationship with a company remains an unanswered
+question. However, intergroup emotions theory posits that
+positive experiences of one group member are shared
+vicariously by others in the group (Mackie et al., 2000).
+P11. For individuals in groups, the positive impact of loyalty
+programs on relational-based loyalty will (a) strengthen when
+in-group members are rewarded, even if the focal consumer
+does not directly receive any benefits, and (b) decline when out-
+group members are rewarded, especially if rewards are
+perceived as unfair or unearned.
+Temporal effects of relational-based loyalty
+Time is a critical ingredient of strong, committed relationships
+(Gundlach & Murphy, 1993); therefore, for relationships to grow,
+loyalty programs need to promote interactions over time. Over time
+and multiple interactions, consumer relationships evolve through
+an exploratory, build-up, maturity, and decline stage of the
+relationship lifecycle with each unique stage requiring customized
+strategies (Jap & Ganesan, 2000). For instance, the appropriateness
+or fit of a relationship investment or loyalty reward may vary across
+different relationship stages. If a gift does not fit the norms
+regarding “value” and “personal content” of a relationships stage, it
+will fail to properly reinforce that relational stage and may derail the
+natural life-cycle evolution. In early stages, rewards that are too
+valuable or too personal in nature may make consumers question
+the giver's motivation, the legitimacy of the transaction, and their
+potential future obligations (Campbell, 1995; Marcoux, 2009). For
+example, receiving a free family vacation after simply evaluating a
+product would be questioned suspiciously, this might explain why
+people react with caution toward time-share real estate sales tactics
+(Budowski, 2010).
+Alternatively, “cheap” or thoughtless gifts from a long-term
+communal relationship partner may be perceived as uncaring,
+signaling relationship dissolution, or a failure to reciprocate,
+which may result in the partner being labeled as a welcher,
+ingrate, or mooch (Palmatier et al., 2009). The penchant of the
+grocery industry to give long-tenured consumers discounts may
+be doing little to build relationships with these patrons, a notion
+echoed in popular press (e.g., Butler, 2010).
+Consumers first establishing their relationship with a seller may
+be especially sensitive to the type of loyalty programs the seller uses
+as a signal of their intentions. If a firm “rewards” new customers
+with a financial-based incentive, suitable for transactional relation-
+ships but taboo in communal relationships, it could actually
+undermine any future relationship-building efforts (McGraw &
+Tetlock, 2005). Relationship marketing research in the business-to-
+business context (Palmatier et al., 2006b, p. 489) shows that
+financially based loyalty programs have a negative return on
+investments and suggests that “financial incentives may resemble a
+pricing policy more than a relationship marketing program.” Firms
+focusing mostly on giving consumers financial rewards may be
+forgoing the opportunity to build long-lasting communal relation-
+ship, and this focus may also help explain the poor returns on
+loyalty program investments some firms report (Nunes & Dréze,
+2006; Rosenbaum et al., 2005). This distinction is nowhere more
+pronounced than in the consumer credit industry, in which
+companies such as Citi Retail Partner Cards are shifting to unique,
+personalized rewards to rise above the “sea of sameness” associated
+with financial or commodity-based rewards that do nothing to
+enhance consumer relationships (Fogarty, 2010).
+P12. Loyalty programs will enhance relational-based loyalty
+when the (a) objective value and (b) subjective content of the
+rewards are congruent with the norms associated with a
+consumer's relationship stage.
+P13. Loyalty programs will undermine relational-based con-
+sumer loyalty when financial incentives are offered during early
+relationship stages.
+Simultaneous effects of multiple loyalty-inducing mechanisms
+Loyalty programs' overall effect on consumer behavior is
+complex, partly because the effects of status, habits, and
+relationships on consumers' behavior occur simultaneously and
+over time. Consider Kim et al., (2009) results in which a
+department store launched a new loyalty program that rewarded
+top VIP customers with discounts, gifts, and invitations to
+events. In that study, the retailer went from having no program
+to having a two-tiered program that added customers to the VIP
+program on the basis of past purchase history. The authors
+compared consumer purchase behavior for 120 day before
+entering the program with purchase behavior for 120 days after
+entering the program and found no significant change in
+purchase frequency and only a small impact on purchase
+amounts. However, when Kim et al. (2009) classified VIP
+members into three subgroups based on preprogram purchase
+history (i.e., heavy, medium, and light), they found diverging
+results, which were masked in the aggregate analysis.
+Specifically, consumers who purchased the least before the
+VIP program introduction significantly increased their frequen-
+cy and purchase amount, but consumers who were the heaviest
+buyers actually decreased their purchase frequency and
+amounts. How can these counterintuitive results be explained?
+Perhaps there was a simultaneous effect of habit, status and
+relational loyalty-inducing mechanisms.
+First, consider the impact of this VIP program on habitual
+behavior. The heaviest buyers were most likely to shop
+habitually; they made almost three times as many purchases
+per month as light buyers. If the VIP program's introduction
+significantly altered the environmental context which supported
+their habit and/or shifted their attention to the goal of obtaining
+rewards, research on habit change indicates that both the
+environmental shock and the increase in focus on the linkage
+between behavior and reward could undermine consumer habits
+(Wood & Neal, 2009). Thus, launch of this program could have
+been an impetus for some habitual frequent shoppers to
+reevaluate competitive retailers.
+Second, how did this VIP program influence the relative
+status among customers? The VIP program might have been
+poorly constructed in only having a single high-status level; that
+is, it might have provided poor “idiosyncratic fit” for the heavy
+buyers were treated the same as light buyers (Kivetz &
+270
+C.M. Henderson et al. / Journal of Consumer Psychology 21 (2011) 256–276
+
+
+Simonson, 2003). The negative impact of poor fit for heavy
+buyers may have been exasperated by the program's clear status
+element, because the “salience of the general concept of status
+lead people to be more attentive to procedural fairness” (Van
+Prooijen et al., 2002, p. 1353). Implicit in this argument is an
+interaction effect between status and relationship mechanisms
+in which programs that change relative status levels make the
+influence of fairness perceptions on consumer relationships
+stronger. Alternatively, status-based mechanisms may have had
+a positive impact on the light and medium buyers added to the
+program because they felt uplifted relative to the consumers not
+added to the program, which could be a contributor to this
+group's increase in purchase frequency and amounts.
+Third, how would this VIP program be viewed from a
+relationship perspective? Consumers who believed they had a
+communal-type relationship might have felt “betrayed” when their
+relationship was commercialized and made available to others
+(Feinberg et al., 2002). Consumers prefer relationships that are
+personalized and customized (Kumar & Shah, 2004), and
+providing the same benefits to many customers may make some
+heavy users believe that their relationship is no longer communal or
+special, especially when they attend large “special events” provided
+to all VIP members. Low-volume buyers receiving these rewards
+may feel gratitude, resulting in reciprocal purchases, in which the
+act of reciprocation generates feelings of pleasure (Palmatier et al.,
+2009). This give-and-take process has been identified as a catalyst
+to relationship formation in which this VIP program might have
+strengthened the relationship with some of the low-volume
+consumers, with long-term positive effects reaching beyond the
+120-day evaluation window.
+By using supplementary analyses with a behavioral proxy of
+attitude, Kim et al. (2009) show that consumers who had the
+strongest attitudinal connection with the store responded positively
+to the VIP program, regardless of their preprogram purchase
+amounts. These results suggest that consumers with a strong
+relationship (attitudes) with the firm are impervious to negative
+attributions regarding firm motives and perceive the program
+rewards as just another step in the cycle of reciprocation, further
+cementing the relationship.
+Overall, this example shows some of the complexities inherent
+in understanding the net effect of loyalty programs on firm
+performance. However, additional empirical analysis is needed to
+rule out other alternative explanations, which cannot be accom-
+plished in post hoc analysis. This example highlights the need for
+research that includes multiple loyalty-inducing mechanisms that
+may amplify or attenuate each other, depending on the consumer
+and the order in which each mechanism is introduced into the
+consumer relationship. This VIP study also shows the difficulty in
+teasing apart the effects of these different mechanisms using only
+behavioral data. In the future, researchers should consider the
+additive effects of multiple loyalty-inducing mechanisms and the
+interactions between these mechanisms while recognizing that
+these effects will vary over time and across different consumers.
+P14. Loyalty programs' effect on consumer loyalty is mediated
+by the combined effects (both additive and multiplicative) of (a)
+habit-based, (b) status-based, and (c) relational-based loyalty
+inducing mechanisms, such that an increase in one can
+undermine or enhance another's existing effect.
+P15. The effect of an increase of habit-based, status-based, and
+relational-based loyalty-inducing mechanisms on consumer
+loyalty will be differentially moderated by the stage of the
+consumer relationship, such that:
+(a) Effectively managing the habit-based mechanisms is
+important in the mature stage to insulate against rela-
+tionship decline,
+(b) Effectively managing the status-based mechanisms are
+important in the growth stage to motivate consumers to
+achieve enhanced status and in the mature stage to
+motivate consumers to protect their enhanced status, and
+(c) Effectively managing the relational-based mechanisms
+efforts are important in the initiation and growth stage to
+initiate the path towards a communal social relationship in
+later stages.
+Conclusion
+Viewing a road from only the windshield may provide a
+consistent image and a clear path, but it likely leaves much of
+the landscape unappreciated. Similarly, trying to understand the
+overall impact of a loyalty program on performance through the
+use of a single theoretical lens may provide experimental design
+and explanatory parsimony but prevents the researcher from
+capturing the multitude of ways a program could influence
+consumers' behaviors and, ultimately, its effect on firm
+performance. Consider Starbucks's recent decision to discon-
+tinue a poorly performing premium rewards program that
+required a registration fee and offered special discounts to
+members (Allison, 2010). This loyalty program might have
+conferred a sense of status to customers, reinforced habitual
+purchasing, led to customers' relationships with the company,
+and allowed customers to signal their special affiliation to
+bystanders—all consonant with what researchers identify as
+successful loyalty program characteristics. Assessed individu-
+ally, each characteristic or mechanism appears supportive to a
+successful program. Assessed jointly, however, these interact-
+ing mechanisms were ultimately deemed dysfunctional.
+Status for some consumers may create feelings of inequity
+for others, degrading many relationships for the celebration of a
+few. Thus, in this article, we propose that to understand how
+loyalty programs actually work, a broader, more holistic
+research perspective is needed to account for the simultaneous
+effects of multiple theoretical mechanisms, cross-customer
+effects, and temporal effects. The frequency of loyalty program
+cancellations in the marketplace indicates that practitioners may
+not fully understand how loyalty programs operate, which
+reinforces the need for a new approach (Nunes & Dréze, 2006).
+This article addresses this need by reviewing the extant
+literature on loyalty programs and providing researchers a new
+perspective for understanding the effectiveness of loyalty
+programs. Charting a new course requires a roadmap. Our review
+271
+C.M. Henderson et al. / Journal of Consumer Psychology 21 (2011) 256–276
+
+
+of the literature reveals that the theoretical underpinnings of the
+majority of loyalty program research rest on psychological
+mechanisms from three specific domains: status, habit, and
+relational. In summary, loyalty program–induced change to
+consumer behaviors typically results from (1) conferring status to
+consumers, which generates favorable comparisons with others;
+(2) building habits, which causes advantageous memory
+processes; and (3) developing relationships, which results in
+more favorable treatment by consumers.
+When researchers take a multitheoretical perspective, the
+results are compelling. For example, Wagner et al. (2009) find
+that withdrawing status impairs customer loyalty and that
+company apologies attenuate the negative emotions associated
+with status withdrawal. Folding prospect theory, theories of
+status, theories of emotion, and relationship marketing into one
+research design, Wagner et al. (2009) use many perspectives to
+illustrate the nuances of loyalty program effects.
+Overall, a broadened perspective creates many new research
+questions; as suggestions, we offer 15 propositions to help
+guide future loyalty program research. The complexities
+involved in understanding the effectiveness of loyalty programs
+suggest that many opportunities exist for researchers to help
+solve the many mysteries surrounding loyalty programs.
+Appendix A
+Summary of construct definitions relevant to loyalty
+program research.
+Constructs
+Conceptualizations
+Representative Papers
+Consumer loyalty programs
+Loyalty
+program
+Any institutionalized
+incentive system that
+attempts to enhance
+consumers' consumption
+behavior over time beyond
+the direct effects of
+changes to the price or the
+core offering.
+De Wulf, et al., 2001;
+Palmatier, Gopalakrishna,
+& Houston, 2006
+Consumer
+loyalty
+Repeat seller specific
+consumption that may result
+from desires to self-enhance
+(status-based), learned memory
+advantages (habit-based), or
+forward-looking desires to
+maintain a strong, committed
+social relationship based on trust
+and reciprocity with an
+organization (relational-based).
+Dick & Basu, 1994;
+Oliver, 1999
+Aggregate
+consumer
+loyalty
+Total loyalty of all of a seller's
+consumers, accounting
+for temporal,
+simultaneous, and
+cross-customer effects
+of loyalty-inducing
+mechanisms.
+Ferguson &
+Hlavinka, 2007
+Key constructs relevant to status-based loyalty
+Status
+Context-specific
+and generally
+desirable elevated
+Anderson, et al., 2001;
+Heffetz & Frank, 2011
+Appendix A (continued)
+Constructs
+Conceptualizations
+Representative Papers
+ranking within a social
+hierarchy based on
+attributed characteristics.
+Status
+conferrals
+“Actions [of another or others]
+that provide status or
+legitimacy to a target.”
+Tiedens, 2001, p. 86
+Status-
+enhancement
+Tendencies to use
+“achievement, enjoyment,
+or power” to “satisfy the
+imperative for self-esteem.”
+Anderson, et al., 2006,
+p. 1095; Schwartz
+& Bilsky, 1990, p. 887
+Status beliefs
+Learned social distinctions
+that place someone in “one
+category of social difference
+[that is] more socially
+respected” and
+“socially valued.”
+Mark, Smith-Lovin,
+& Ridgeway, 2009;
+Ridgeway, 2006, p. 848
+Costly signals
+Signals associated with
+status that “demonstrate
+both one's willingness
+and one's ability to
+incur” the costs associated
+with such signals.
+Griskevicius, et al., 2010,
+p. 394; Han, Nunes,
+& Drèze, 2010
+Conspicuous
+consumption
+Public consumption of
+status-related goods meant to
+signal an individual's
+elevated status.
+Han, Nunes,
+& Drèze, 2010
+Social
+comparisons
+Upward, lateral, or
+downward comparisons based
+on status characteristics that
+allow an individual to
+aspire, fit in, or differentiate
+from other status groups.
+Drèze & Nunes, 2009;
+Festinger, 1954; Johnson
+& Stapel, 2007
+Exclusivity
+Selective access to benefits
+that “influences the
+response of deal recipients.”
+Barone & Roy, 2010a,
+p. 121; Drèze & Nunes,
+2009
+Power
+“Psychological state”
+associated with feelings of
+efficacy and control.
+Rucker & Galinsky,
+2008,
+p. 257
+Key constructs relevant to habit-based loyalty
+Habit
+“Slowly developing
+associations between
+situational cues and repeatedly
+performed behavior options.”
+Tobias, 2009, p. 409
+Habit strength
+Robustness of a habit, not
+“directly proportional to
+frequency of past behavior,”
+over alternative behaviors.
+Ajzen, 2002, p. 110;
+Wood & Neal, 2009
+Context
+stability
+Degree of fluctuation
+associated with cues tied
+to the habitual behavior,
+which include physical
+location, preceding actions,
+time, mood, and social
+surrounding.
+Ji & Wood, 2007;
+Tobias, 2009;
+Wood & Neal, 2009
+Reminders
+Situational, behavioral, or
+event-based
+(e.g., social interactions)
+cues that “lead to the frequent
+performance of [a]
+new behavior.”
+Neal et al., 2008; Tobias,
+2009, p. 409
+Instrumentality Experienced “contingency
+between a behavior and its
+rewarding outcomes.”
+Wood & Neal, 2009,
+p. 586
+272
+C.M. Henderson et al. / Journal of Consumer Psychology 21 (2011) 256–276
+
+
+Appendix A (continued)
+Constructs
+Conceptualizations
+Representative Papers
+Intentions
+Deliberate action whose
+likelihood increases the
+“more favorable the attitude
+and subjective norm and the
+greater the perceived control.”
+Ajzen, 2002, p. 107;
+Ji & Wood, 2007;
+Tobias, 2009
+Decay
+Decrease in intention
+accessibility or habit
+strength over time.
+Tobias, 2009
+Key constructs relevant to relationship-based loyalty
+Relational
+inputs
+Personal costs incurred in
+exchange, including time,
+effort, flexibility, and sacrifice.
+Adams, 1965; Palmatier
+et al., 2006a
+Relational
+outcomes
+Personal benefits extracted
+from exchange, including
+physical and psychological
+resources.
+Adams, 1965; Palmatier
+et al., 2006a
+Fairness
+Acceptable comparison of
+input-outcome ratios made
+between or across exchange
+partners.
+Adams, 1965;
+Samaha, Palmatier,
+& Dant, 2011
+Dependence
+An actor's “need to maintain a
+relationship with the partner to
+achieve its goals.”
+Emerson, 1962;
+Kumar, Scheer,
+& Steenkamp, 1995
+p. 349
+Cohesion
+“Degree to which actors
+perceive their relation to be a
+distinct, unifying social
+object.”
+Lawler & Yoon, 1996,
+p. 94
+Commitment
+Strong, ongoing cognitive and
+affective desire to maintain an
+exchange relationship.
+Campbell, et al.,
+2010; Verhoef, 2003
+Trust
+Confidence in the reliability
+and honesty of an exchange
+partner.
+Campbell, et al., 2010;
+Entitativity
+“Perceptions of unity” associated
+with groups, which influence the
+“processes [that] are engaged as
+one develops conceptions of
+groups.” High unity reinforces
+“on-line [vs.] memory-based
+judgments,” sensitive to primacy
+(vs. recency) recall biases.
+Hamilton & Sherman, 1996,
+pp. 341-344; Palmatier,
+Scheer, & Steenkamp, 2007
+Gratitude
+“The emotional appreciation
+for benefits received”; it is the
+“emotional foundation for
+reciprocal behaviors.”
+Morales, 2005; Palmatier
+et al., 2009, p. 1, 2
+Note. This table lists key constructs considered in this article. Representative
+papers relate to constructs defined.
+References
+Aaker, J., Fournier, S., & Brasel, S. A. (2004). When good brands do bad.
+Journal of Consumer Research, 31(1), 1−16.
+Adams, J. S. (1965). Inequity in social exchange. In B. Leonard (Ed.), Advances
+in experimental social psychology, Vol. 2. (pp. 267−299). New York:
+Academic Press.
+Aggarwal, P. (2004). The effects of brand relationship norms on consumer
+attitudes and behavior. Journal of Consumer Research, 31(1), 87−101.
+Ajzen, I. (2002). Residual effects of past on later behavior: Habituation and reasoned
+action perspectives. Personality and Social Psychology Review, 6(2), 107−122.
+Allison, M. (2010). Starbucks discontinues Duetto visa card, another blow for some
+loyalists. The Seattle Times, (February 11). http://seattletimes.nwsource.com/
+html/coffeecity/2011050289_starbucks_discontinues_duetto.html.
+Anderson, C., John, O., Keltner, D., & Kring, A. (2001). Who attains social
+status? Effects of personality and physical attractiveness in social groups.
+Journal of Personality and Social Psychology, 81(1), 116−132.
+Anderson, C., Srivastava, S., Beer, J., Spataro, S., & Chatman, J. (2006).
+Knowing your place: Self-perceptions of status in face-to-face groups.
+Journal of Personality and Social Psychology, 91(6), 1094.
+Arnold, M. J., & Reynolds, K. E. (2003). Hedonic shopping motivations.
+Journal of Retailing, 79(2), 77−95.
+Ashworth, L., Darke, P., & Schaller, M. (2005). No one wants to look cheap: Trade-
+offs between social disincentives and the economic and psychological incentives
+to redeem coupons. Journal of Consumer Psychology, 15(4), 295−306.
+Bansal, H. S., Irving, G. P., & Taylor, S. F. (2004). A three-component model of
+customer commitment to service providers. Journal of the Academy
+Marketing Science, 32(3), 234−250.
+Barkow, J. H. (1975). Prestige and culture: A biosocial interpretation. Current
+Anthropology, 16(4), 553−562.
+Barone, M. J., & Roy, T. (2010a). Does exclusivity always pay off? Exclusive
+price promotions and consumer response. Journal of Marketing, 74(2),
+121−132.
+Barone, M. J., & Roy, T. (2010b). The effect of deal exclusivity on consumer
+response to targeted price promotions: A social identification perspective.
+Journal of Consumer Psychology, 20(1), 78−89.
+Bateson, M., Nettle, D., & Roberts, G. (2006). Cues of being watched enhance
+cooperation in a real-world setting. Biology Letters, 2(3), 412−414.
+Baumeister, R. F., & Leary, M. R. (1995). The need to belong: Desire for
+interpersonal attachments as a fundamental human motivation. Psycholog-
+ical Bulletin, 117(3), 497−529.
+Bechwati, N. N., & Morrin, M. (2003). Outraged consumers: Getting even at the
+expense of getting a good deal. Journal of Consumer Psychology, 13(4),
+440−453.
+Bonnie, K. E., & de Waal, F. B. M. (2004). Primate social reciprocity and the
+origin of gratitude. In R. A. Emmons, & M. E. McCullough (Eds.), The
+psychology of gratitude (pp. 213−229). New York: Oxford University Press.
+Bowlby, J. (1979). The making and breaking of affectional bonds. London:
+Tavistock Publications.
+Breivik, E., & Thorbjørnsen, H. (2008). Consumer brand relationships: An
+investigation of two alternative models. Journal of the Academy of
+Marketing Science, 36(4), 443−472.
+Budowski, S. (2010). Red flags about timeshares. PR Newswire, (November 1). http:
+//www.prnewswire.com/news-releases/red-flags-about-timeshares-106435048.
+html.
+Butler, S. L. (2010). Clipping coupons: Valuable savings or a waste of time? CBS
+MoneyWatch.com, (June 16). http://moneywatch.bnet.com/saving-money/blog/
+family-finance/clipping-coupons-valuable-savings-or-a-waste-of-time/2446/.
+Campbell, L., Simpson, J. A., Boldry, J., & Kashy, D. A. (2005). Perceptions of
+conflict and support in romantic relationships: The role of attachment
+anxiety. Journal of Personality and Social Psychology, 88(3), 510−531.
+Campbell, L., Simpson, J. A., Boldry, J. G., & Rubin, H. (2010). Trust,
+variability in relationship evaluations, and relationship processes. Journal of
+Personality and Social Psychology, 99(1), 14−31.
+Campbell, M. C. (1995). When attention-getting advertising tactics elicit consumer
+inferences of manipulative intent: The importance of balancing benefits and
+investments. Journal of Consumer Psychology, 4(3), 225−254.
+Cannon, J. P., Achrol, R. S., & Gundlach, G. T. (2000). Contracts, norms, and plural
+form governance. Journal of the Academy Marketing Science, 28(2), 180−194.
+Darke, P. R., & Dahl, D. W. (2003). Fairness and discounts: The subjective
+value of a bargain. Journal of Consumer Psychology, 13(3), 328−338.
+De Wulf, K., Odekerken-Schröder, G., & Iacobucci, D. (2001). Investments in
+consumer relationships: A cross-country and cross-industry exploration.
+Journal of Marketing, 65(4), 33−50.
+Dick, A. S., & Basu, K. (1994). Customer loyalty: Toward an integrated
+conceptual framework. Journal of the Academy of Marketing Science, 22(2),
+99−113.
+Dowling, G. R., & Uncles, M. (1997). Do customer loyalty programs really
+work? Sloan Management Review, 38(4), 71−82.
+Drèze, X., & Nunes, J. C. (2009). Feeling superior: The impact of loyalty
+program structure on consumers' perceptions of status. Journal of Consumer
+Research, 35(6), 890−905.
+273
+C.M. Henderson et al. / Journal of Consumer Psychology 21 (2011) 256–276
+
+
+Du, R. Y., Kamakura, W. A., & Mela, C. F. (2007). Size and share of customer
+wallet. Journal of Marketing, 71(2), 94−113.
+Dwyer, R. F., Schurr, P. H., & Oh, S. (1987). Developing buyer–seller
+relationships. Journal of Marketing, 51(2), 11−27.
+Emerson, R. M. (1962). Power-dependence relations. American Sociological
+Review, 27(1), 31−41.
+Feinberg, F. M., Krishna, A., & Zhang, Z. J. (2002). Do we care what others get?
+A behaviorist approach to targeted promotions. Journal of Marketing
+Research, 39(3), 277−291.
+Ferguson, R., & Hlavinka, K. (2007). The colloquy loyalty marketing census:
+Sizing up the us loyalty marketing industry. Journal of Consumer
+Marketing, 24, 313−321.
+Festinger, L. (1954). A theory of social comparison processes. Human
+Relations, 7(2), 117−140.
+Fishbach, A., Ratner, R. K., & Zhang, Y. (2011). Inherently loyal or easily
+bored?: Nonconscious activation of consistency versus variety-seeking
+behavior. Journal of Consumer Psychology, 21(1), 38−48.
+Fiske, A. P. (1992). The four elementary forms of sociality: Framework for a
+unified theory of social relations. Psychological Review, 99(4), 689−723.
+Fogarty, L. (2010). Citi retail partner cards to provide differentiating
+loyalty solutions with r-dialogue. Business Wire, (November 15). http://
+www.marketwatch.com/story/citi-retail-partner-cards-to-provide-differentiating-
+loyalty-solutions-with-rdialogue-2010-11-15.
+Gerbasi, A. (2010). Social exchange in networks and groups. In J. Levine, & M.
+Hogg (Eds.), Encyclopedia of group processes and intergroup relations,
+Vol. 2. (pp. 787−790). Thousand Oaks, CA: Sage Publications.
+Giesler, M. (2006). Consumer gift systems. Journal of Consumer Research, 33
+(2), 283−290.
+Gollwitzer, P. M., & Sheeran, P. (2009). Self-regulation of consumer decision
+making and behavior: The role of implementation intentions. Journal of
+Consumer Psychology, 19(4), 593−607.
+Goodwin, C. (1996). Communality as a dimension of service relationships.
+Journal of Consumer Psychology, 5(4), 387−415.
+Grier, S. A., & Deshpandé, R. (2001). Social dimensions of consumer
+distinctiveness: The influence of social status on group identity and
+advertising persuasion. Journal of Marketing Research, 38(2), 216−224.
+Griskevicius, V., Tybur, J., & Van den Bergh, B. (2010). Going green to be
+seen: Status, reputation, and conspicuous conservation. Journal of
+Personality and Social Psychology, 98(3), 392.
+Gundlach, G. T., & Murphy, P. E. (1993). Ethical and legal foundations of
+relational marketing exchanges. Journal of Marketing, 57(4), 35−46.
+Hamilton, D. L., & Sherman, S. J. (1996). Perceiving persons and groups.
+Psychological Review, 103(2), 336−355.
+Han, Y. J., Nunes, J. C., & Drèze, X. (2010). Signaling status with luxury goods:
+The role of brand prominence.Journal of Marketing, 74, 15−30 (July).
+Harbaugh, W. T. (1998). What do donations buy?: A model of philanthropy based
+on prestige and warm glow. Journal of Public Economics, 67(2), 269−284.
+Heffetz, O., & Frank, R. H. (2011). Preferences for status: Evidence and economic
+implications. In J. Benhabib, A. Bisin, & M. O. Jackson (Eds.), Handbook of
+social economics, Vol. 1A (pp. 69–91). San Diego, CA: Elsevier.
+Heilman, C. M., Nakamoto, K., & Rao, A. G. (2002). Pleasant surprises:
+Consumer response to unexpected in-store coupons. Journal of Marketing
+Research, 39(2), 242−252.
+Henderson, C. M., & Palmatier, R. W. (2010). Understanding the relational
+ecosystem in a connected world. In S. Wuyts, M. G. Dekimpe, E. Gijsbrechts, &
+R. Pieters (Eds.), The connected customer: The changing nature of consumer and
+business markets (pp. 37−76). New York: Routledge.
+Homans, G. C. (1958). Social behavior as exchange. The American Journal of
+Sociology, 63(6), 597−606.
+Houston, D. A., Sherman, S. J., & Baker, S. M. (1991). Feature matching,
+unique features, and the dynamics of the choice process: Predecision conflict
+and postdecision satisfaction. Journal of Experimental Social Psychology,
+27(5), 411−430.
+Howard, D. J. (1992). Gift-wrapping effects on product attitudes: A mood-
+biasing explanation. Journal of Consumer Psychology, 1(3), 197−223.
+Hymowitz, C. (2004). CEOs use technology to gather information, build
+customer loyalty. The Wall Street Journal, (October 26). http://online.wsj.
+com/article/NA_WSJ_PUB:SB109874197651555143.html.
+Jap, S. D., & Ganesan, S. (2000). Control mechanisms and the relationship life
+cycle: Implications for safeguarding specific investments and developing
+commitment. Journal of Marketing Research, 37, 227−245.
+Ji, M. F., & Wood, W. (2007). Purchase and consumption habits: Not necessarily
+what you intend. Journal of Consumer Psychology, 17(4), 261−276.
+Johnson, C. S., & Stapel, D. A. (2007). No pain, no gain: The conditions under
+which upward comparisons lead to better performance. Journal of
+Personality and Social Psychology, 92(6), 1051−1067.
+Johnson, E. J., Bellman, S., & Lohse, G. L. (2003). Cognitive lock-in and the
+power law of practice. Journal of Marketing, 67(2), 62−75.
+Johnson, M. D., Herrmann, A., & Huber, F. (2006). The evolution of loyalty
+intentions. Journal of Marketing, 70(2), 122−132.
+Josephs, R., Sellers, J., Newman, M., & Mehta, P. (2006). The mismatch effect:
+When testosterone and status are at odds. Journal of Personality and Social
+Psychology, 90(6), 999−1013.
+Kahneman, D., Knetsch, J. L., & Thaler, R. H. (1990). Experimental tests of the
+endowment effect and the coase theorem. The Journal of Political Economy,
+98(6), 1325−1348.
+Kim, D., Lee, S. -y., Bu, K., & Lee, S. (2009). Do vip programs always work well?
+The mderating role of loyalty. Psychology and Marketing, 26(7), 590−609.
+King, P. (2010). Personal shoppers find clothes to make the man.
+The Wall Street Journal, (August 12). http://online.wsj.com/article/
+SB10001424052748704164904575421373622725304.html.
+Kivetz, R., & Simonson, I. (2003). The idiosyncratic fit heuristic: Effort
+advantage as a determinant of consumer response to loyalty programs.
+Journal of Marketing Research, 40(4), 454−467.
+Kivetz, R., Urminsky, O., & Zheng, Y. (2006). The goal-gradient hypothesis
+resurrected: Purchase acceleration, illusionary goal progress, and customer
+retention. Journal of Marketing Research, 43(1), 39−58.
+Kumar, N., Scheer, L. K., & Steenkamp, J. -B. E. M. (1995). The effects of
+perceived interdependence on dealer attitudes. Journal of Marketing
+Research, 32(3), 348−356.
+Kumar, V., & Shah, D. (2004). Building and sustaining profitable customer
+loyalty for the 21st century. Journal of Retailing, 80(4), 317−330.
+Labroo, A. A., Dhar, R., & Schwarz, N. (2008). Of frog wines and frowning
+watches: Semantic priming, perceptual fluency, and brand evaluation.
+Journal of Consumer Research, 34(6), 819−831.
+Labroo, A. A., & Nielsen, J. H. (2010). Half the thrill is in the chase: Twisted
+inferences from embodied cognitions and brand evaluation. Journal of
+Consumer Research, 37(1), 143−158.
+Lacey, R., Suh, J., & Morgan, R. M. (2007). Differential effects of preferential
+treatment levels on relational outcomes. Journal of Service Research, 9(3),
+241−256.
+Lawler, E. J., & Yoon, J. (1996). Commitment in exchange relations: Test of a theory
+of relational cohesion. American Sociological Review, 61(1), 89−108.
+Lazarus, R. S., & Folkman, S. (1984). Stress, appraisal, and coping. New York:
+Springer Publishing Co..
+Leenheer, J., van Heerde, H. J., Bijmolt, T. H. A., & Smidts, A. (2007). Do
+loyalty programs really enhance behavioral loyalty? An empirical analysis
+accounting for self-selecting members. International Journal of Research in
+Marketing, 24(1), 31−47.
+Lewis, M. (2004). The influence of loyalty programs and short-term promotions
+on customer retention. Journal of Marketing Research, 41(3), 281−292.
+Liu, M. W., & Soman, D. (2008). Behavioral pricing. In C. P. Haugtvedt, P. M.
+Herr, & F. R. Kardes (Eds.), Handbook of consumer psychology
+(pp. 659−681). New York: Psychology Press.
+Liu, Y. (2007). The long-term impact of loyalty programs on consumer purchase
+behavior and loyalty. Journal of Marketing, 71(4), 19−35.
+Luo, X. (2005). How does shopping with others influence impulsive
+purchasing? Journal of Consumer Psychology, 15(4), 288−294.
+Mackie, D. M., Devos, T., & Smith, E. R. (2000). Intergroup emotions:
+Explaining offensive action tendencies in an intergroup context. Journal of
+Personality and Social Psychology, 79(4), 602−616.
+Mägi, A. W. (2003). Share of wallet in retailing: The effects of customer
+satisfaction, loyalty cards and shopper characteristics. Journal of Retailing,
+79(2), 97−106.
+Marcoux, J. -S. (2009). Escaping the gift economy. Journal of Consumer
+Research, 36(4), 671−685.
+274
+C.M. Henderson et al. / Journal of Consumer Psychology 21 (2011) 256–276
+
+
+Mark, N. P., Smith-Lovin, L., & Ridgeway, C. L. (2009). Why do nominal
+characteristics acquire status value? A minimal explanation for status
+construction. American Journal of Sociology, 115(3), 832−862.
+McGraw, A. P., & Tetlock, P. E. (2005). Taboo trade-offs, relational framing,
+and the acceptability of exchanges. Journal of Consumer Psychology, 15(1),
+2−15.
+Miniard, P. W., Bhatla, S., & Sirdeshmukh, D. (1992). Mood as a determinant of
+postconsumption product evaluations: Mood effects and their dependency
+on the affective intensity of the consumption experience. Journal of
+Consumer Psychology, 1(2), 173−195.
+Morales, A. C. (2005). Giving firms an “E” For effort: Consumer responses to
+high-effort firms. Journal of Consumer Research, 31(4), 806−812.
+Mosquera, P. M. R., Parrott, W. G., & de Mendoza, A. H. (2010). I fear your envy, I
+rejoice in your coveting: On the ambivalent experience of being envied by others.
+Journal of Personality and Social Psychology, 99(5), 842−854.
+Muniz, A. M., Jr., & O'Guinn, T. C. (2001). Brand community. Journal of
+Consumer Research, 27(4), 412−432.
+Murray, Kyle B., & Häubl, G. (2007). Explaining cognitive lock-in: The role of
+skill-based habits of use in consumer choice. Journal of Consumer
+Research, 34(1), 77−88.
+Neal, D., Wood, W., & Pascoe, A. M. (2008). Triggers of real-world habits:
+Implications for consumer behavior. Duluth, MN: Paper presented at the
+Advances in Consumer Research Conference.
+Novak, T. P., & Hoffman, D. L. (2009). The fit of thinking style and situation:
+New measures of situation-specific experiential and rational cognition.
+Journal of Consumer Research, 36(1), 56−72.
+Nunes, J. C., & Dréze, X. (2006). Your loyalty program is betraying you.
+Harvard Business Review, 84(4), 124−131.
+O'Brien, L., & Jones, C. (1995). Do rewards really create loyalty? Harvard
+Business Review, 73(3), 75−82.
+Oliver, R. L. (1999). Whence consumer loyalty? Journal of Marketing, 63
+(Special Issue), 33−44.
+Oliver, R. L. (1980). A cognitive model of the antecedents and consequences of
+satisfaction decisions. Journal of Marketing Research, 17(4), 460−469.
+Palmatier, R. W., Dant, R. P., Grewal, D., & Evans, K. R. (2006). Factors
+influencing the effectiveness of relationship marketing: A meta-analysis.
+Journal of Marketing, 70(3), 136−153.
+Palmatier, R. W., Gopalakrishna, S., & Houston, M. B. (2006). Returns on
+business-to-business relationship marketing investments: Strategies for
+leveraging profits. Marketing Science, 25(5), 477−493.
+Palmatier, R. W., Jarvis, C. B., Bechkoff, J. R., & Kardes, F. R. (2009). The role of
+customer gratitude in relationship marketing. Journal of Marketing, 73(5), 1−18.
+Palmatier, R. W., Scheer, L. K., & Steenkamp, J. B. (2007). Customer loyalty to
+whom? Managing the benefits and risks of salesperson-owned loyalty.
+Journal of Marketing Research, 44(2), 185−199.
+Pfeffer, J., & Salancik, G. R. (1978). The external control of organizations: A
+resource dependence approach. New York: Harper and Row Publishers.
+Quinn, J. M., Pascoe, A., Wood, W., & Neal, D. T. (2010). Can't control
+yourself? Monitor those bad habits. Personality and Social Psychology
+Bulletin, 36(4), 499−511.
+Raghubir, P. (2004). Free gift with purchase: Promoting or discounting the
+brand? Journal of Consumer Psychology, 14(1–2), 181−186.
+Ranaweera, C., & Prabhu, J. (2003). On the relative importance of customer
+satisfaction and trust as determinants of customer retention and positive
+word of mouth. Journal of Targeting, Measurement and Analysis for
+Marketing, 12(1), 80−90.
+Redish, A. D., Jensen, S., Johnson, A., & Kurth-Nelson, Z. (2007). Reconciling
+reinforcement learning models with behavioral extinction and renewal:
+Implications for addiction, relapse, and problem gambling. Psychological
+Review, 114(3), 784−805.
+Ridgeway, C. L. (2006). Status construction theory. In P. J. Burke (Ed.),
+Contemporary social psychological theories (pp. 301−323). Stanford, CA:
+Stanford University Press.
+Rizzolatti, G., & Craighero, L. (2004). The mirror-neuron system. Annual
+Review of Neuroscience, 27, 169−192.
+Roccas, S. (2003). Identification and status revisited: The moderating role of
+self-enhancement and self-transcendence values. Personality and Social
+Psychology Bulletin, 29(6), 726.
+Romero-Canyas, R., Downey, G., Reddy, K. S., Rodriguez, S., Cavanaugh, T.
+J., & Pelayo, R. (2010). Paying to belong: When does rejection trigger
+ingratiation? Journal of Personality and Social Psychology, 99(5), 802−823.
+Rosenbaum, M. S., Ostrom, A. L., & Kuntze, R. (2005). Loyalty programs and a
+sense of community. Journal of Services Marketing, 19(4), 222−233.
+Rosman, K. (2010). A world in which you can be mayor: People vie for
+title, glory, and discounts on foursquare.Com; marketers play ball.
+The Wall Street Journal, (November 2). http://online.wsj.com/article/
+SB10001424052748704462704575590260880867750.html.
+Rucker, Derek D., & Galinsky, Adam D. (2008). Desire to acquire:
+Powerlessness and compensatory consumption. Journal of Consumer
+Research, 35(2), 257−267.
+Samaha, S., Palmatier, R. W., & Dant, R. P. (2011). Poisoning Relationships:
+PerceiveUnfairness in Channels of Distribution. Journal of Marketing, 75(3),
+99−117.
+Schroeder, D. A. (2010). Norms. In J. M. Levine, & M. A. Hogg (Eds.),
+Encyclopedia of group processes and intergroup relations, Vol. 2. (pp.
+608−612). Thousand Oaks, CA: Sage Publications.
+Schwartz, S. H., & Bilsky, W. (1990). Toward a theory of the universal content
+and structure of values: Extensions and cross-cultural replications. Journal
+of Personality and Social Psychology, 58(5), 878−891.
+Shugan, S. M. (2005). Brand loyalty programs: Are they shams? Marketing
+Science, 24(2), 185−193.
+Skinner, B. F. (1974). About behaviorism. New York: Knopf.
+Smith, E. R., & DeCoster, J. (2000). Dual-process models in social and cognitive
+psychology: Conceptual integration and links to underlying memory systems.
+Personality and Social Psychology Review, 4(2), 108−131.
+Sundie, J. M., Ward, J. C., Beal, D. J., Chin, W. W., & Geiger-Oneto, S. (2009).
+Schadenfreude as a consumption-related emotion: Feeling happiness about
+the downfall of another's product. Journal of Consumer Psychology, 19(3),
+356−373.
+Tajfel, H., & Turner, J. (1979). An integrative theory of intergroup conflict. In
+W. G. Austin, & S. Worchel (Eds.), The social psychology of intergroup
+relations (pp. 138−182). Monterey, CA: Wadsworth.
+Thaler, R. (1985). Mental accounting and consumer choice. Marketing Science,
+4(3), 199−214.
+Thomson, M., MacInnis, D. J., & Park, C. W. (2005). The ties that bind:
+Measuring the strength of consumers' emotional attachments to brands.
+Journal of Consumer Psychology, 15(1), 77−91.
+Tiedens, L. Z. (2001). Anger and advancement versus sadness and subjugation:
+The effect of negative emotion expressions on social status conferral.
+Journal of Personality & Social Psychology, 80(1), 86−94.
+Tobias, R. (2009). Changing behavior by memory aids: A social psychological
+model of prospective memory and habit development tested with dynamic
+field data. Psychological Review, 116(2), 408−438.
+Valenzuela, A., Mellers, B., & Strebel, J. (2010). Pleasurable surprises: A cross-
+cultural study of consumer responses to unexpected incentives. Journal of
+Consumer Research, 36(5), 792−805.
+Van de Ven, N., Zeelenberg, M., & Pieters, R. (2009). Leveling up and down:
+The experiences of benign and malicious envy. Emotion, 9(3), 419−429.
+Van Prooijen, J., Van den Bos, K., & Wilke, H. (2002). Procedural justice and
+status: Status salience as antecedent of procedural fairness effects. Journal of
+Personality and Social Psychology, 83(6), 1353−1361.
+Verhoef, P. C. (2003). Understanding the effect of customer relationship
+management efforts on customer retention and customer share development.
+Journal of Marketing, 67(4), 30−45.
+Verplanken, B. (2006). Beyond frequency: Habit as mental construct. British
+Journal of Social Psychology, 45(3), 639−656.
+Verplanken, B. (2008). Habit and consumer behavior: Implications for
+interventions and behavior change. Duluth, MN: Paper presented at the
+Advances in Consumer Research Conference.
+Verplanken, B., & Wood, W. (2006). Interventions to break and create
+consumer habits. Journal of Public Policy and Marketing, 25(1), 90−103.
+Wagner, T., Hennig-Thurau, T., & Rudolph, T. (2009). Does customer demotion
+jeopardize loyalty? Journal of Marketing, 73(3), 69−85.
+Walker, R. (2009). Hyatt's random acts of generosity. The New York
+Times, (June 17). http://www.nytimes.com/2009/06/21/magazine/21
+FOB-Consumed-t.html.
+275
+C.M. Henderson et al. / Journal of Consumer Psychology 21 (2011) 256–276
+
+
+White, T. B. (2004). Consumer disclosure and disclosure avoidance: A
+motivational framework. Journal of Consumer Psychology, 14(1–2),
+41−51.
+Wood, S. (2010). The comfort food fallacy: Avoiding old favorites in times of
+change. Journal of Consumer Research, 36(6), 950−963.
+Wood, W., & Neal, D. T. (2007). A new look at habits and the habit-goal
+interface. Psychological Review, 114(4), 843−863.
+Wood, W., & Neal, D. T. (2009). The habitual consumer. Journal of Consumer
+Psychology, 19(4), 579−592.
+Wright, J. (1997). Helping-at-the-nest in arabian babblers: Signalling social
+status or sensible investment in chicks? Animal Behaviour, 54(6),
+1439−1448.
+Yin, H. H., & Knowlton, B. J. (2006). The role of the basal ganglia in habit
+formation. Nature Reviews Neuroscience, 7(6), 464−476.
+Zauberman, G. (2003). The intertemporal dynamics of consumer lock-in.
+Journal of Consumer Research, 30(3), 405−419.
+Zhang, Y., & Fishbach, A. (2005). The role of anticipated emotions in the
+endowment effect. Journal of Consumer Psychology, 15(4), 316−324.
+276
+C.M. Henderson et al. / Journal of Consumer Psychology 21 (2011) 256–276

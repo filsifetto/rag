@@ -1,0 +1,1260 @@
+ JOURNAL OF MANAGERIAL ISSUES
+ Vol. XVII Number 1 Spring 2005: 11-25
+ Customer Lifetime Value, Customer Profitability, and
+ the Treatment of Acquisition Spending
+ Phillip E. Pfeifer
+ Alumni Research Professor of Business Administration
+ Darden Graduate School of Business
+ Mark E. Haskins
+ Professor of Business Administration
+ Darden Graduate School of Business
+ Robert M. Conroy
+ Paul M. Hammaker Research Professor of Business Administration
+ Director, International, Tayloe Murphy Center
+ Darden Graduate School of Business
+ Schultz addressed the importance
+ of good definitions in an editorial
+ calling on marketing academics and
+ practitioners to define direct market-
+ ing.
+ If we don't [establish precise definitions] , I
+ fear we will find that what you are talking
+ about when you say direct marketingmay have
+ absolutely no relationship to what / con-
+ sider direct marketing. And, for an academic
+ discipline, that is the worst of all possible
+ worlds (1995: 9).
+ Whereas the confusion in 1995 was
+ over the meaning of direct marketing,
+ we believe there is an unhealthy
+ amount of confusion today over the
+ meanings of two of the most impor-
+ tant terms in interactive marketing:
+ customer lifetime value and customer prof-
+ itability.
+ The terms customer lifetime value and
+ customer profitability are important to
+ interactive marketing because they
+ are both used to talk about and mea-
+ sure customer differences. As Pep-
+ pers and Rogers stated, "some cus-
+ tomers are more equal than others,"
+ and firms can prosper by learning
+ how to "identify and capitalize on
+ customer differences" (1997: 30).
+ Given the importance to interactive
+ marketing of recognizing customer
+ differences, it is critical to use precise
+ language to talk about those differ-
+ ences and thereby avoid Schultz's
+ "worst of all possible worlds."
+ Instead of using precise language
+ when discussing customer differ-
+ ences, however, it appears some re-
+ searchers are doing just the opposite.
+ JOURNAL OF MANAGERIAL ISSUES Vol. XVII Number 1 Spring 2005
+ (11)
+This content downloaded from 
+             188.113.93.84 on Mon, 13 Dec 2021 23:10:07 UTC              
+All use subject to https://about.jstor.org/terms
+
+
+ 12 Pfeifer, Haskins and Conroy
+ In a recent article surveying customer
+ profitability measurement and re-
+ search, Mulhern (1999) lists seven
+ terms the literature uses to refer to
+ customer profitability. Customer lifetime
+ value is included in the list. Mulhern
+ goes on to use the two terms inter-
+ changeably. His "general formula-
+ tion for customer lifetime value" is an
+ equation with a left-hand-side varia-
+ ble defined as "the profit of customer
+ i to the firm" (1999: 30). So clearly,
+ Mulhern sees no difference in the
+ meanings of customer lifetime value and
+ customer profitability.
+ The purpose of this article is to im-
+ prove the precision of our language
+ in this area by focusing on the differ-
+ ence between customer lifetime value
+ and customer profitability. If you agree
+ with Mulhern (1999) that there is no
+ difference in the meaning of these
+ two terms, then our purpose is to cre-
+ ate 2L difference. If you are uncertain
+ of the difference between the mean-
+ ings of these two terms, then our pur-
+ pose is to attempt to clarify the differ-
+ ence for you. Finally, if you have a
+ clear understanding of the differ-
+ ences in meanings, our purpose is to
+ verify that we share the same under-
+ standing.
+ As an example of how imprecise
+ language has led to confusion in this
+ area, consider how Heskett, Sasser,
+ and Schlesinger describe the results
+ of an important study conducted by
+ Reichheld and Sasser (1990):
+ ... a 5 percentage point increase in av-
+ erage customer retention of credit card cus-
+ tomers . . . would increase a credit card
+ service company's profits by 75 percent
+ (1997:61).
+ This statement suggests that the 75%
+ increase reported by Reichheld and
+ Sasser applies to company profits.
+ However, a careful reading of Rei-
+ chheld and Sasser (1990) shows that
+ the reported increase refers instead
+ to "customer value," described by
+ Reichheld and Sasser as "the net
+ present value of the profit streams fo
+ the average customer life" (1990:
+ 110). Contributing to the confusion
+ is the title of the main chart in the
+ Reichheld and Sasser article: "reduc-
+ ing defections 5% boosts profits 25%
+ to 85%" (1990:10). "Customer
+ value," "net present value of profit
+ streams," and "profit" were all used
+ to label the same metric, leading oth-
+ ers to misinterpret the metric as re-
+ ferring to company profits.
+ As another example of confusion,
+ we point to the discussion in Jain and
+ Singh (2002) of whether acquisition
+ costs should be included in measures
+ of customer lifetime value. Jain and
+ Singh argue that acquisition costs
+ should be included in customer lifetime
+ value and suggest that Berger and
+ Nasr (1998) are incorrect to leave
+ them out "in order to get their inter-
+ pretation" of customer lifetime value as
+ "the maximum profitable acquisition
+ cost" (2002: 16). "In short," say Jain
+ and Singh, "CLV is a concept that is
+ forward looking, and the right defi-
+ nition . . . should consider the es-
+ sence of the concept as against rigid
+ definitions" (2002: 16). Jain and
+ Singh appear to be saying that any
+ rigid definition of customer lifetime
+ value that allows acquisition costs to
+ be excluded goes against their under-
+ standing of the essence of the con-
+ cept of customer lifetime value. Since
+ Berger and Nasr are content to leave
+ out acquisition costs when modeling
+ customer lifetime value, Jain and
+ Singh (2002) say they do not share
+ Berger and Naser's (1998) under-
+ standing of the meaning of customer
+ lifetime value.
+ These examples illustrate the con-
+ fusion that exists surrounding the
+ JOURNAL OF MANAGERIAL ISSUES Vol. XVII Number 1 Spring 2005
+This content downloaded from 
+             188.113.93.84 on Mon, 13 Dec 2021 23:10:07 UTC              
+All use subject to https://about.jstor.org/terms
+
+
+ Customer Lifetime Value, Customer Profitability 13
+ terms customer lifetime value and cus-
+ tomer profitability. On one hand, many
+ people use these terms interchange-
+ ably and loosely. "Customer value"
+ becomes "profit," which becomes
+ "company's profit." On the other
+ hand, authors of a recent survey arti-
+ cle on customer lifetime value take ex-
+ ception to how others have inter-
+ preted the term. And if you will allow
+ us one more hand, we find Rud
+ (2002) suggesting that "the defini-
+ tion of lifetime value is industry spe-
+ cific" (2002:64).
+ We will attempt to eliminate this
+ confusion by offering "good" defi-
+ nitions of the two terms. By "good"
+ we mean concise, acceptable, inclu-
+ sive, and consistent. The definitions
+ will be short and to the point and will
+ match, as best as possible, the current
+ understanding of interactive market-
+ ing practitioners and academics.
+ Thus, for example, the definitions
+ will capitalize on an area of agree-
+ ment articulated by Knie-Andersen
+ (2001) who suggested that everyone
+ agrees that customer lifetime value is
+ a discounted measure of future dollar
+ amounts but with differences in how
+ to define those future amounts.
+ By "inclusive," we mean the defi-
+ nitions will attempt to capture the
+ general essence of the concepts with
+ the expectation that users can add
+ more specificity when appropriate. As
+ an example, our definition will refer
+ to "the customer relationship" with
+ the idea that it will apply to an indi-
+ vidual customer. If users want to talk
+ about groups of customers, they can
+ talk about the "average customer life-
+ time value for the group."
+ Finally, we want the definitions to
+ be "consistent" with generally-ac-
+ cepted definitions of the component
+ words: value and profitability. We seek
+ this consistency both with dictionary
+ definitions and, more importantly,
+ with academic definitions from the
+ host disciplines from which they
+ come - finance and accounting.
+ DEFINITIONS AND
+ DIFFERENTIATION
+ Fortunately, two academic disci
+ plines contribute to our understand
+ ing of customer lifetime value (CLV
+ and customer profitability (CP). As arti
+ ulated by Knie-Andersen (2001),
+ most (but not all) authors agree that
+ CLV takes into account the time value
+ of money using discounting and tra-
+ ditional present value techniques. We
+ argue that the use of the word value
+ in CLV should match the use of the
+ word value in finance, as in the valu-
+ ation of an asset by determining its
+ net present value.
+ The conceptual "common charac-
+ teristic of all assets" is "future eco-
+ nomic benefit . . . [which] eventu-
+ ally results in net cash inflows to the
+ enterprise" (FASB, 1985: para. 28).
+ From finance, the proper valuation of
+ an asset that provides future eco-
+ nomic benefits is the asset's present
+ value of all future period's net cash
+ inflows. Under the assumption that a
+ customer relationship meets the con-
+ ceptual notion of an asset, it should
+ be valued at its present value where
+ cash flows over the projected life of
+ the relationship are discounted at the
+ appropriate discount rate. Note that
+ value is the discounted value of each
+ cash flow and not profit. So if the
+ value in CLV is to match the value in
+ present value, and if the definition of
+ CLV is to be consistent with the fun-
+ damental principles of finance, then
+ CLV should be the present value of
+ the cash inflows and outflows (not
+ profits) accruing to the firm over the
+ lifetime of the customer relationship.
+ JOURNAL OF MANAGERIAL ISSUES Vol. XVII Number 1 Spring 2005
+This content downloaded from 
+             188.113.93.84 on Mon, 13 Dec 2021 23:10:07 UTC              
+All use subject to https://about.jstor.org/terms
+
+
+ 14 Pfeifer, Haskins and Conroy
+ The word profitability in CP should
+ match the meaning of the word prof-
+ itability in the discipline of account-
+ ing. Thus, we turn to the discipline of
+ accounting for assistance in under-
+ standing the concept of profit as it ap-
+ plies to an individual customer rela-
+ tionship. The accounting construct of
+ profit is: (1) the arithmetic difference
+ between earned revenues and associ-
+ ated costs - where revenues and costs
+ are measured on an accrual basis, not
+ a cash basis; and (2) the profit mea-
+ sure applies to a discrete time period
+ such as a quarter or a year. Customer
+ profitability will be defined in such a
+ way that it will be the concept of ac-
+ counting profit applied to an individ-
+ ual customer relationship.
+ Consequently, the distinction be-
+ tween CLV and CP will be a distinc-
+ tion between value and profit in the
+ financial sense. Roughly speaking,
+ value is what something is worth (the
+ cash-equivalent price today that a
+ buyer would be willing to pay to own
+ the future cash-flow benefits
+ springing from that asset) and profit
+ is the difference between accrual-
+ based revenues and accrual-based
+ costs incurred in generating those
+ revenues for a given period, such as a
+ quarter or a year. It is sometimes the
+ case that unprofitable firms carry
+ high valuations (under the expecta-
+ tion the company will generate a fu-
+ ture stream of positive cash flows). (It
+ can also be the case that a profitable
+ firm has negative cash flow, but that
+ is another story.) And, for similar rea-
+ sons, it may also be the case that a
+ customer who is currently unprofita-
+ ble can have a positive CLV.
+ Let us also point out that the
+ meaning of the word value as the fi-
+ nancial worth of an asset is consis-
+ tent with the use of the terms total
+ customer value and perceived value by
+ Kotier (2002) and others to refer to
+ a customer's maximum willingness
+ to pay for a given product or service.
+ A customer's perceived value for a
+ product is how much (in monetary
+ units) the product is worth to the
+ customer. This is the same notion of
+ value inherent in CLV - how much
+ the customer relationship is worth
+ in the judgment of the firm (see Ber-
+ ger et al, 2002). Thus, we disagree
+ with the opinion expressed by Mul-
+ hern (1999) that the use of the word
+ value in CLV is inconsistent with the
+ use of the word value in perceived
+ value.
+ DEFINING CUSTOMER
+ PROFITABILITY
+ Our definition of customer profitabil
+ ity is as follows:
+ Customer Profitability (CP) is the differ
+ ence between the revenues earned from
+ and the costs associated with the customer
+ relationship during a specified period.
+ This definition grounds CP in the
+ generally-accepted accounting profit
+ notion applied to the individual cus-
+ tomer relationship. As articulated by
+ Foster, Gupta and Sjoblom, the basic
+ reason to care about customer prof-
+ itability is a recognition that "each
+ dollar of revenue does not contribute
+ equally to net income" (1996: 5).
+ Some dollars (and thus, some cus-
+ tomers) contribute more than others
+ to the net income of the firm. It is
+ important to distinguish high-profit
+ relationships from low- or negative-
+ profit relationships in order for the
+ firm to react appropriately and im-
+ prove overall firm profitability. This is
+ entirely consistent with the Peppers
+ and Rogers' (1997) idea that some
+ customers are more equal than oth-
+ ers.
+ JOURNAL OF MANAGERIAL ISSUES Vol. XVII Number 1 Spring 2005
+This content downloaded from 
+             188.113.93.84 on Mon, 13 Dec 2021 23:10:07 UTC              
+All use subject to https://about.jstor.org/terms
+
+
+ Customer Lifetime Value, Customer Profitability 15
+ Table 1. Revenues and Profits for the Firm's Eight Large Custo
+ Customer Revenues CP Cumulative CP
+ Β $64,531 $37,616 $37,616
+ D $39,521 $23,407 $61,023
+ A $71,632 $21,662 $82,685
+ C $44,153 $15,707 $98,392
+ F $25,627 $13,654 $112,046
+ H $14,104 $5,699 $117,745
+ Ε $30,915 -$4,209 $113,536
+ G $18,279 -$10,874 $102,662
+ It is by design that our definition is
+ not specific with respect to what cat-
+ egories of costs should be included in
+ CP. Neither does the definition offer
+ guidance as to how to assign costs in
+ a specific category to customer rela-
+ tionships. No matter what categories
+ of costs are chosen for inclusion and
+ no matter how the included costs are
+ assigned to relationships, the result-
+ ing difference between revenues and
+ costs for a customer relationship will
+ qualify as CP. Thus, there will be
+ many different ' 'implementations"
+ of CP depending on what the user de-
+ cides to include and how the user as-
+ signs the included costs to customer
+ relationships.
+ At one extreme will be CP imple-
+ mentations that include all revenues
+ and costs accounted for in the firm's
+ publicly-reported operating profit for
+ a specified period. To illustrate, we
+ use a numerical example from Foster,
+ Gupta, and Sjoblom (1996) of a firm
+ with eight large customers. Table 1
+ shows the revenue and CPs from
+ each, sorted by CP. The CP numbers
+ in this example were constructed in
+ such a way that the sum of the CPs
+ over all customers equaled the firm's
+ reported operating profit. Thus,
+ $102,662 is the firm's operating profit
+ from the large customers. When
+ added to the operating profit from
+ medium and small customers, the to-
+ tal will equal the operating profit re-
+ ported by the firm to its shareholders
+ for the period in question.
+ The results of such an analysis are
+ often summarized in something
+ called a "whale curve" (see, for ex-
+ ample, Kaplan and Narayanan,
+ 2001). The whale curve is a graph of
+ cumulative CP (either in dollars or as
+ percentage of total customer profit)
+ JOURNAL OF MANAGERIAL ISSUES Vol. XVII Number 1 Spring 2005
+This content downloaded from 
+             188.113.93.84 on Mon, 13 Dec 2021 23:10:07 UTC              
+All use subject to https://about.jstor.org/terms
+
+
+ 16 Pfeifer, Haskins and Conroy
+ Figure I. The Whale Curve: Cumulative Profit versus Num
+ $1 20, 000 r
+ $100,000 S I ^ i S' /
+ fron nnn «i Í"
+ Φου,υυυ fron nnn «i ξ
+ $60,000 N S Η~Ί3 S S ΒΊ
+ N s s s s ^ ^ ^
+ $40,000 SSSSSS§rnCP
+ $20,000- SrirS fc S S S S H Cumulatif CP
+ e..llilI,J,iJULI- SrirS fc S S S S H
+ ■$20,000 1-8
+ Customer
+ versus the cumulative number (or
+ percentage) of customers, where it is
+ understood that the customers are
+ sorted in decreasing order of CP. Fig-
+ ure I charts the whale curve for the
+ data in Table 1 .
+ For the more comprehensive CP
+ implementations that include all rev-
+ enues and costs accounted for in the
+ firm's publicly-reported operating
+ profit, customer profits will be as
+ comparable across firms as is operat-
+ ing profit. For less comprehensive CP
+ implementations where no attempt is
+ made to match the sum of individual
+ customer CPs to a particular line item
+ in a company's published income
+ statement, across-firm CP compari-
+ sons will be problematic, and CP will
+ be used mostly to compare customers
+ within a firm.
+ The example in Figure I illustrates
+ the idea that each dollar of earned
+ revenue does not contribute equally
+ to the firm's reported operating
+ profit. Although customer A is the
+ largest in terms of revenue, customer
+ Β is the largest in terms of CP. Un-
+ derstanding these differences in cus-
+ tomer profitability can help the firm
+ figure out what to do to improve its
+ profitability. Foster et al. (1996) list
+ nine options the example firm has to
+ improve profitability.
+ At the other extreme of CP imple-
+ mentations is one in which cost of
+ goods sold is the only category of
+ costs included. Because the differ-
+ ence between revenue and cost of
+ goods sold is also known as gross mar-
+ gin, the results of such an implemen-
+ tation of CP could also be referred to
+ as customer gross margin. Thus, we view
+ customer gross margin as a special
+ case of the more general concept of
+ CP.
+ Foster, Gupta, and Sjoblom (1996)
+ provide a hypothetical example of a
+ customer-cost hierarchy:
+ Revenues
+ Customer-specific costs
+ Customer-specific contribution
+ JOURNAL OF MANAGERIAL ISSUES Vol. XVII Number 1 Spring 2005
+This content downloaded from 
+             188.113.93.84 on Mon, 13 Dec 2021 23:10:07 UTC              
+All use subject to https://about.jstor.org/terms
+
+
+ Customer Lifetime Value, Customer Profitability 17
+ Customer-line costs
+ Customer-line contribution
+ Company enterprise cost
+ Operating Profit
+ Using this hierarchy, users must de-
+ cide how many levels of costs to in-
+ clude in CP for the particular pur-
+ poses at hand.
+ For cost management purposes, customer-
+ line costs and company enterprise costs
+ need not be assigned to individual custom-
+ ers. Consequently, the company's total op-
+ erating income will be less than the sum of
+ total customer specific contributions (Fos-
+ ter et al, 1996: 14).
+ In summary, all the costs accounted
+ for in the firm's operating profit (in-
+ come) may or may not be included in
+ a particular implementation of CP.
+ But no matter what categories of costs
+ are included, the results will satisfy
+ our definition of CP as long as the
+ focus is on earned revenues and as-
+ sociated costs, regardless of whether
+ or not they involve cash flows in the
+ focal period.
+ As mentioned above, our defini-
+ tion is also silent with respect to how
+ to assign the included costs to cus-
+ tomer relationships. This will be chal-
+ lenging when, in fact,
+ many costs of interest are common costs -
+ i.e., not specific to individual customers. For
+ example, costs such as advertising are not
+ customer-specific. These costs must be al-
+ located rather than traced to individual cus-
+ tomers (Foster et al, 1996: 11).
+ Although many readers will take ex-
+ ception to the notion that advertising
+ costs are not customer-specific, we
+ can agree that there are many costs
+ that must be allocated rather than
+ traced to individual customers if they
+ are to be included in CP. Again, by
+ design, our definition is silent with re-
+ spect to how to assign costs to cus-
+ tomer relationships.1
+ DEFINING CUSTOMER LIFETIME
+ VALUE
+ Our definition of customer lifetime
+ value is as follows:
+ Customer Lifetime Value (CLV) is the pres-
+ ent value of the future cash flows attributed
+ to the customer relationship.
+ For the reasons stated above, the def-
+ inition connects the value in CLV to
+ the finance concept of present value.
+ In so doing, we are consistent with
+ other definitions of customer lifetime
+ value that mention "discounted,"
+ "present value" or "taking into ac-
+ count the time value of money."
+ In keeping with the principles of fi-
+ nance, the term "cash flows" is used
+ to refer to what gets discounted. Most
+ other descriptions of CLV do not use
+ the term "cash flow." (Pfeifer and
+ Carraway (2000) and Berger and
+ Nasr (1998) are notable exceptions.)
+ Instead, they tend to spell out com-
+ ponents of cash inflows and outflows
+ that are attributed to a typical cus-
+ tomer relationship. We use cash flow
+ as the most useful term here and
+ leave it to the user to add the neces-
+ sary specificity (i.e., to decide what
+ are the specific cash inflows and out-
+ flows attributed to the relationship in
+ question).
+ 1 The accounting literature describes three methods firms use to allocate common costs to customers:
+ (1) equally under the assumption there is no discernable differential benefit provided by the com-
+ mon resources, (2) in proportion to a customer's ability to bear a portion of the common costs
+ (e.g., higher sales levels, regardless of profitability, can shoulder a higher share of common costs),
+ and (3) in proportion to some objectively determined benefit received from use of the common
+ resource (e.g., activity-based costing methods). Conceptually, we subscribe to the latter approach.
+ JOURNAL OF MANAGERIAL ISSUES Vol. XVII Number 1 Spring 2005
+This content downloaded from 
+             188.113.93.84 on Mon, 13 Dec 2021 23:10:07 UTC              
+All use subject to https://about.jstor.org/terms
+
+
+ 18 Pfeifer, Haskins and Conroy
+ Examples of descriptions of CLV
+ that would not be totally consistent
+ with our definition include those put
+ forth by Jain and Singh (2002), Niraj,
+ Gupta, and Narahimhan (2001), and
+ Hughes (1997) that all use "net
+ profit." We say this because net profit
+ can account for costs that are not
+ cash flows (e.g., depreciation on a
+ fleet of delivery trucks) . There are nu-
+ merous other examples where a cost
+ is not a current or future cash flow
+ (see Brealey et al, 1995). So even
+ though customer cash flows and cus-
+ tomer profits will often be close, we
+ prefer to allow for the cases where
+ they are not. In addition, both the fi-
+ nance and accounting disciplines as-
+ sert that only cash flows (and not ar-
+ ithmetic profit numbers) have a time
+ value ascribable to them.
+ Indeed, the idea that cash flows can
+ sometimes be different from cus-
+ tomer profits was recognized by Rei-
+ chheld: ' 'First, to find the value of
+ new customers, you have to know the
+ annual profit pattern (or cash-flow
+ pattern, if cash flow differs signifi-
+ cantly from profits) that customers
+ typically generate through the years"
+ (1996: 50). We agree with Reichheld
+ that it is always correct to discount
+ cash flows and that cash flows from
+ customers may not differ significantly
+ from customer profits. To reiterate,
+ we choose to use ''cash flow" in our
+ definition so that it will always be cor-
+ rect and to highlight an important
+ distinction between CLV and CP.
+ Where we disagree with Reichheld
+ (1996) is in what to call the present
+ value of cash flows from the customer
+ relationship. Reichheld prefers the
+ term net present value (NPV) to the
+ term customer lifetime value: "Ad-
+ mittedly, customer NPV doesn't roll off
+ the tongue as easily as the more com-
+ mon term, lifetime customer value, but
+ that term has been used most often
+ to mean lifetime revenue stream, as
+ opposed to the discounted stream of
+ profit net of acquisition investment"
+ (1996: 224). As argued earlier, if the
+ word value in CLV is to match the
+ meaning of the word value in present
+ value and financial valuation, then
+ CLV is the perfect term for the pres-
+ ent value of future cash flows attrib-
+ uted to the customer relationship.
+ Conversely, CLV should not be used
+ to refer to the undiscounted sum of
+ future revenues. (Nor should CLV be
+ used to refer to the undiscounted
+ sum of customer profitability as ad-
+ vocated by Ness et al, 2001.) We
+ would like to think this article will
+ help eliminate the use of the term
+ CLV when referring to undiscounted
+ sums.
+ We want to be clear that it is not
+ always easy to decide what to include
+ in the "cash flows attributed to the
+ customer relationship." For exam-
+ ple, consider general overhead. Over-
+ head is usually a cash flow (supervi-
+ sors get paid in cash, for example)
+ that is mostly fixed in the short run
+ and variable in the long run. So what
+ portion of general overhead does one
+ attribute to customer relationships?
+ For another example, consider net-
+ work effects. With network effects,
+ the cash flows expected from one cus-
+ tomer depend on how many other
+ customer relationships the firm has.
+ Network effects create dependencies
+ among the firm's customer relation-
+ ships that will make it difficult to at-
+ tribute the firm's cash flows to indi-
+ vidual customer relationships. The
+ point here is to recognize that attrib-
+ uting cash flows to the customer re-
+ lationship can be a difficult task. By
+ design, our definition leaves the attri-
+ bution task to the user.
+ JOURNAL OF MANAGERIAL ISSUES Vol. XVII Number 1 Spring 2005
+This content downloaded from 
+             188.113.93.84 on Mon, 13 Dec 2021 23:10:07 UTC              
+All use subject to https://about.jstor.org/terms
+
+
+ Customer Lifetime Value, Customer Profitability 19
+ In addition to referring to "cash
+ flows," our definition refers to "the"
+ customer relationship. As such, the
+ definition applies to an individual
+ customer relationship. To extend the
+ CLV concept to a group of customers,
+ the user can talk about the average
+ CLV for the group.
+ In this same vein, because our def-
+ inition uses "future cash flows," CLV
+ will be uncertain whenever those fu-
+ ture cash flows are uncertain. Thus, it
+ makes sense for CLV to be a random
+ variable in some contexts (see, for ex-
+ ample, Pfeifer and Carraway, 2002)
+ and to talk about the expected value
+ of CLV (or the expected CLV) in oth-
+ ers. (By "expected CLV" we mean
+ the present value of the probability-
+ weighted average of the set of poten-
+ tial cash flow outcomes.) Because the
+ present value (using an appropriate
+ risk-adjusted discount factor) of ex-
+ pected future cash flows is the finan-
+ cial value of any risky asset, expected
+ CLV will be the financial value of the
+ customer relationship. In instances
+ where the uncertainty in CLV can be
+ ignored, "expected CLV" might be
+ referred to as simply "CLV" with the
+ understanding that the user is talking
+ about the present value of expected
+ cash flows.
+ Let us also highlight the implica-
+ tions of CLV being the present value of
+ future cash flows. To make sense, the
+ user must specify when "now" is. Not
+ only does "now" determine how
+ many periods to discount each cash
+ flow, but "now" also determines
+ which cash flows are in the future
+ (and to be included) and which are
+ in the past (to be excluded). This be-
+ comes particularly important with re-
+ spect to acquisition spending. A small
+ change in the specification of "now"
+ can push acquisition spending from
+ the future to the past (from included
+ in the present value to excluded from
+ it) . We will have more to say about the
+ treatment of acquisition spending in
+ the next section.
+ Finally, let us explain our choice of
+ the term "present value" as opposed
+ to "net present value." According to
+ Brealey et al. (1995), the net present
+ value of a project is the present value
+ of project cash flows minus the initial
+ investment. The word "net" is a sig-
+ nal that an initial investment (at time
+ zero) has been subtracted from the
+ present value of the future cash flows.
+ When applying CLV to an ongoing
+ customer relationship, there may be
+ no initial investment to net against
+ the present value of future cash
+ flow - in which case it makes little
+ sense to talk about net present value.
+ In contrast, if there is an initial cash
+ outflow in the immediate future,
+ treating it as a negative cash flow at
+ time zero in a present value calcula-
+ tion is equivalent to netting it out.
+ THE TREATMENT OF
+ ACQUISITION SPENDING
+ As mentioned in the introduction,
+ Jain and Singh (2002) address the
+ treatment of acquisition spending in
+ a recent review article on CLV. They
+ argue that if a firm "spends a million
+ dollars to attract customers [who]
+ may never make a purchase after
+ their first purchase" of a few dollars,
+ then "clearly the lifetime value of
+ such customers can not be positive"
+ (2002: 16). Jain and Singh conclude
+ that acquisition costs must be in-
+ cluded in CLV. They go on to say that
+ because Berger and Nasr (1998) did
+ not include acquisition costs in CLV,
+ Berger and Nasr "have an alternate
+ interpretation of CLV as the maxi-
+ mum profitable acquisition cost"
+ (2002: 16). In short, Jain and Singh
+ JOURNAL OF MANAGERIAL ISSUES Vol. XVII Number 1 Spring 2005
+This content downloaded from 
+             188.113.93.84 on Mon, 13 Dec 2021 23:10:07 UTC              
+All use subject to https://about.jstor.org/terms
+
+
+ 20 Pfeifer, Haskins and Conroy
+ suggest that because Berger and Nasr
+ do not include acquisition costs, Ber-
+ ger and Nasr have a different (and
+ less correct) meaning for CLV.
+ Although the implementation of
+ CLV requires some judgment, we be-
+ lieve the meaning of CLV should not.
+ Instead, we argue that the precise def-
+ inition of CLV offered here captures
+ the essence of this important con-
+ cept. The broad adoption of a com-
+ mon definition should help resolve
+ the apparent disagreement Jain and
+ Singh have with the Berger and Nasr
+ construction of CLV.
+ To illustrate how our CLV defini-
+ tion answers the question of whether
+ acquisition spending should be in-
+ cluded in CLV, consider a situation
+ described in Blattberg and Deighton
+ (1996). A firm plans to spend A dol-
+ lars on a prospect in an attempt to
+ acquire her as a new customer. The
+ firm will be successful with probabil-
+ ity a. If successful, the firm will im-
+ mediately receive a cash inflow of M
+ dollars from the new customer and
+ will spend R dollars one period later
+ to attempt to retain the customer.
+ The firm will be successful with prob-
+ ability r in its retention attempt. If
+ successful, the firm again receives M
+ dollars (one period from the initial
+ outlay of the A dollars) and will spend
+ another R dollars one period later
+ (two periods from the initial outlay of
+ the A dollars). The process will con-
+ tinue until the event the customer is
+ not retained. Let β be the discount
+ factor (the inverse of one plus the dis-
+ count rate) the firm will use to eval-
+ uate this investment.
+ All the elements needed to calcu-
+ late the present value of expected fu-
+ ture cash flows are in place, except
+ for a specification of "now." We can
+ think of at least four interesting spec-
+ ifications of "now":
+ (i) Right before the firm spends A on the
+ prospect.
+ (ii) Right after the firm spends A on the
+ prospect and right before the firm receives
+ M from the about-to-be-acquired customer,
+ (iii) Right after the firm receives M from
+ the newly acquired customer,
+ (iv) Right after the firm spends R to retain
+ the newly acquired customer and right be-
+ fore the firm receives M from the success-
+ fully retained customer.
+ Notice that (i), (ii), and (iii) all hap-
+ pen in a very short period of time. For
+ the purposes of our analysis, assume
+ (i), (ii), and (iii) all occur in quick
+ succession at time t = 0. Thus for (i),
+ (ii), and (iii), we will discount future
+ cash flows an identical number of
+ periods. The differences among the
+ CLVs associated with (i), (ii), and
+ (iii) will be in what is included in the
+ first cash flow. In contrast, (iv) occurs
+ one period later, at ί = 1. Conse-
+ quently, the present values associated
+ with (i), (ii), and (iii) all refer to a
+ common time point, whereas the
+ CLV associated with (iv) refers to a
+ present value at a time point one pe-
+ riod later.
+ Blattberg and Deighton (1996)
+ provide the equation for the ex-
+ pected lifetime value for (i). It is a
+ simple matter to derive the equations
+ for the expected lifetime values for
+ (ii), (iii), and (iv). These equations
+ are given in Table 2 along with an ap-
+ propriate label for what these ex-
+ pected lifetime values represent. The
+ point here is that all four equations
+ are present values of expected cash
+ flows attributed to a customer/pros-
+ pect relationship. Thus, they all con-
+ form to our definition of expected
+ CLV but differ with respect to when
+ is "now." Of course the nature (and
+ value) of the relationship also
+ changes with the specification of
+ "now."
+ JOURNAL OF MANAGERIAL ISSUES Vol. XVII Number 1 Spring 2005
+This content downloaded from 
+             188.113.93.84 on Mon, 13 Dec 2021 23:10:07 UTC              
+All use subject to https://about.jstor.org/terms
+
+
+ Customer Lifetime Value, Customer Profitability 21
+ Table 2. Expected Lifetime Values for Four Possible Specification
+ Description of Now Expected Lifetime Value Appropriate Label
+ Right B before Λ , Γ ßr 1 Expected Lifetime Value
+ (i) Right B -A + aM+a(M-R/r) , -^- ßr [1]
+ (t - 0) 'y~ Pr' of a Prospect
+ (ii) After A and before M ^ I (^ RlA ßr 1 [2] E
+ (t = 0) L ! ~ ßr J of a New Customer
+ Expected Lifetime Value
+ Γ ßr 1
+ (iii) After M (/ = 0) {M -RI r)' -Ζ- [3] of a Just- Acquired
+ Customer
+ Ί Expected Lifetime Value
+ {/?r -JL- [4]
+ 1 - pr J of a Retained Customer
+ Expected lifetime value [1] applies
+ to the prospect. That is why we prefer
+ to call this the expected Prospect
+ Lifetime Value (PLV) to distinguish
+ it from CLV. So if "now" is before the
+ firm spends A, then A should be in-
+ cluded and the resulting expected
+ value refers to the prospect, not the
+ customer. The firm should spend A
+ on the prospect if [1] is greater than
+ zero.
+ Expected value [2] applies to a new
+ customer because "now" is specified
+ as right before the receipt of M from
+ the new customer. The firm should
+ spend A on the prospect if a times the
+ expected value of the new customer
+ given by [2] is greater than A. (Equiv-
+ alently, the firm should spend A if the
+ expected value of CLV given by [2]
+ exceeds A/a.) This decision rule is
+ consistent with the earlier rule based
+ on whether [1] was greater than zero.
+ To summarize, acquisition spend-
+ ing needs to be considered to make
+ informed prospecting decisions.
+ There are at least two ways to do this.
+ Either do not include acquisition
+ spending in the specification of CLV
+ (and compare the expected value of
+ CLV to A/a) or include acquisition
+ spending in the specification of CLV,
+ correctly label it as PLV, and compare
+ the expected value of PLV to zero.
+ Thus, for the Jain and Singh (2002)
+ example of a firm spending a million
+ dollars to attract a few customers who
+ each spend a few dollars initially and
+ none thereafter, our first approach
+ would identify those prospects as hav-
+ ing a negative expected PLV. Our sec-
+ ond approach would acknowledge a
+ small positive expected CLV, but not
+ positive enough to offset the large A/
+ a. (Spending a total of $1 million dol-
+ lars to attract, say, ten customers im-
+ plies an A/a value of approximately
+ $100,000.) So we agree with Jain and
+ Singh (2002) that the million dollars
+ should not be spent. We might disa-
+ gree, however, on whether the ex-
+ pected CLV is positive. We would say
+ expected CLV is positive if "now" is
+ specified as right before the customer
+ makes her first purchase. If "now" is
+ specified as right before the firm
+ JOURNAL OF MANAGERIAL ISSUES Vol. XVII Number 1 Spring 2005
+This content downloaded from 
+             188.113.93.84 on Mon, 13 Dec 2021 23:10:07 UTC              
+All use subject to https://about.jstor.org/terms
+
+
+ 22 Pfeifer, Haskins and Conroy
+ spends the million dollars, then the
+ million-dollar spending applies to
+ prospects, and the expected PLV will
+ be negative.
+ Expected value [3] applies to a just-
+ acquired or current customer - some-
+ one from whom the firm has just re-
+ ceived M Notice that [3] equals [2]
+ minus M The firm could also use [3]
+ to make the prospecting decision with
+ the rule to prospect if [3] is greater
+ than A/a - M One might think of this
+ rule as comparing the expected ' 'fu-
+ ture" lifetime value of the new cus-
+ tomer to the average "net" cost per
+ acquisition.2 So this gives us a third way
+ to make informed prospecting deci-
+ sions based on specifying "now" to be
+ after the receipt of the initial M from
+ the new customer.
+ The point of specification (iv) is to
+ show that the constant margins, re-
+ tention spending, and retention
+ probabilities inherent in the Blatt-
+ berg and Deighton (1996) model
+ mean that the expected value of a re-
+ tained customer is equal to the ex-
+ pected value of a new customer. A
+ new customer and a retained cus-
+ tomer are identical in the Blattberg
+ and Deighton (1996) model.
+ Let us now turn to the treatment of
+ acquisition spending with respect to
+ CP. Consider again the million-dollar
+ spending by the firm in the Jain and
+ Singh (2002) example, and assume
+ for convenience it results in ten new
+ customers who each spend $5. The
+ construction of CP for each of the ten
+ customers for the initial period would
+ start with the $5 revenue amount and
+ then subtract a series of costs. The
+ variable costs associated with the
+ good/service itself and those in-
+ curred in providing the good/servic
+ would all be cash flows and appropr
+ ately included in both CLV and CP.
+ Fixed costs for the period (those tha
+ did not vary with respect to the num-
+ ber of customers) may or may not b
+ cash flows to the firm, but would not
+ be included in CLV in either case.
+ These fixed costs, however, might be
+ allocated to customers in the con-
+ struction of CP. For example, costs
+ such as depreciation of delivery vehi-
+ cles and amortization of product pat-
+ ents are not future cash flows and
+ would never be included in CLV, but
+ might be assigned to customers in the
+ construction of a CP figure.
+ Almost certainly the $1 million ac-
+ quisition spending will be allocated to
+ the ten customers in the period they
+ were acquired. The $100,000 allo-
+ cated acquisition cost per acquired
+ customer would mean the CP for
+ these ten customers in the initial pe-
+ riod would be a large, negative num-
+ ber. The ten customers would be
+ deemed highly unprofitable in the in-
+ itial period.
+ This represents an important dif-
+ ference between CLV and CP. For
+ CP, the initial-period profitability
+ number is likely to account for total
+ acquisition spending allocated to the
+ customers acquired. The acquired
+ customers are burdened with acqui-
+ sition spending "wasted" on the '-a
+ fraction of the prospects who did not
+ respond. Just as the profitability of
+ productive oil wells are burdened
+ with the costs incurred from drilling
+ dry holes (under the "full-costing
+ method" of generally accepted ac-
+ 2 Although one might think of A/a as the expected cost per acquisition, it is not entire
+ do so. In return for spending A, the firm acquires 1 customer with probability a an
+ with probability '-a. Consequently, the cost per acquisition is A with probability a and 
+ ability 1-0. Thus, the expected cost per acquisition does not exist.
+ JOURNAL OF MANAGERIAL ISSUES Vol. XVII Number 1 Spring 2005
+This content downloaded from 
+             188.113.93.84 on Mon, 13 Dec 2021 23:10:07 UTC              
+All use subject to https://about.jstor.org/terms
+
+
+ Customer Lifetime Value, Customer Profitability 23
+ counting standards), so too are ac-
+ quired customers burdened with
+ spending directed at non-responding
+ prospects in a measurement of prof-
+ itability.
+ As illustrated in Table 2, however,
+ A/a (loosely interpreted as the aver-
+ age cost per acquired customer) is
+ not included in any of the four ex-
+ pected lifetime value formulas. This
+ is because A is a cash flow attributable
+ to a prospect. It is included in [ 1 ] , the
+ expected PLV. But A/a is not a cash
+ flow attributable to an acquired cus-
+ tomer. Although A/a is certainly rel-
+ evant to the prospecting decision (we
+ should prospect only if expected CLV
+ according to [2] exceeds A/a), it is
+ never included as a component of ex-
+ pected CLV.
+ SUMMARY
+ The major purpose of this article is
+ to make a clarifying distinction be-
+ tween two of the most important
+ terms in interactive marketing: cus-
+ tomer lifetime value and customer profit-
+ ability. Both of these terms are used to
+ talk about one of the major advan-
+ tages of interactive marketing: the
+ ability to identify and capitalize on
+ customer differences. Unfortunately,
+ in the enthusiasm for identifying cus-
+ tomer differences, interactive mar-
+ keters have neglected to create a clear
+ distinction in the meanings of these
+ two terms.
+ We offer concise definitions of the
+ two terms with the intention of cre-
+ ating and clarifying the distinction
+ between the two. Our définition of
+ CLV connects the word value in cus-
+ tomer lifetime value to the word value
+ in present value and valuation as used
+ in finance theory. Our definition of
+ CP connects the word profitability in
+ customer profitability to the concept of
+ accounting profitability. The differ-
+ ences between present value and ac-
+ counting profit are well understood
+ in both finance and accounting. We
+ propose the same distinctions be ap-
+ plied to CLV and CP.
+ Customer lifetime value is the pres-
+ ent value of future cash flows,
+ whereas customer profitability refers
+ to an arithmetic calculation of reve-
+ nues minus costs for a specified pe-
+ riod of time. Thus, CP is usually an
+ accounting summary of events from
+ the present and past, whereas CLV is
+ forward looking. Moreover, CLV re-
+ lies on cash flows whereas CP relies
+ on revenues and costs - neither of
+ which may involve a cash flow in the
+ period for which CP is measured.
+ Cash flows must be attributed to
+ the customer relationship in order to
+ estimate CLV, whereas revenues and
+ costs must be associated with the cus-
+ tomer relationship in the construc-
+ tion of CP. The former requires judg-
+ ment as to what cash flows are
+ relevant for the decision at hand,
+ whereas the later requires judgment
+ as to which costs to include and how
+ to assign the included costs among
+ the firm's customer relationships so
+ as to give the most accurate break-
+ down of total profit.
+ A frequent goal in the construc-
+ tion of CP is to assign revenues and
+ costs to customers in such a way that
+ the sum of the CPs of the firm's cus-
+ tomers equals one of the firm's re-
+ ported profit figures (e.g., operating
+ profit, earnings from continuing op-
+ erations) for the period in question.
+ In contrast, the sum of the expected
+ CLVs of the firm's current custom-
+ ers is called the "value of the extant
+ customer assets" by Hogan, Lemon,
+ and Rust (2002). When this amount
+ is added to the "value of potential
+ customer assets" (the expected
+ JOURNAL OF MANAGERIAL ISSUES Vol. XVII Number 1 Spring 2005
+This content downloaded from 
+             188.113.93.84 on Mon, 13 Dec 2021 23:10:07 UTC              
+All use subject to https://about.jstor.org/terms
+
+
+ 24 Pfeifer, Haskins and Conroy
+ value of the firm's current and fu-
+ ture prospects), Hogan, Lemon, and
+ Rust (2002) call the resulting sum
+ "customer equity." If customer re-
+ lationships are the only source of the
+ firm's cash flows, then customer eq-
+ uity so defined will equal the present
+ value of the firm's expected future
+ cash flows - that is, the value of the
+ firm.
+ Finally, the article discusses the
+ treatment of acquisition spending. In
+ particular, we address the issue raised
+ by Jain and Singh (2002) of whether
+ acquisition costs should or should not
+ be included in CLV. Using our defi-
+ nitions, acquisition spending will al-
+ most certainly be included in CP but
+ will not be included in expected CLV.
+ This does not mean that acquisition
+ spending should be ignored when
+ making prospecting decisions. The
+ firm should prospect only if the acqui-
+ sition probability times the expected
+ CLV exceeds the acquisition spending
+ directed to the prospect, a decision
+ rule equivalent to prospecting only if
+ the expected PLV is positive.
+ References
+ Berger, P. D., R. N. Bolton, D. Bowman, E. Briggs, V. Eleten, V. Kumar, A. Pa
+ suraman and C. Terry. 2002. "Marketing Actions and the Value of Custome
+ Assets: A Framework for Customer Asset Management." Journal of Service Re-
+ search 5 (1): 39-54.
+ Applications. ' ' Journal of Interactive Marketin
+ Blattberg, R. andj. Deighton. 1996. "Manage M
+ Test." Harvard Business Review (Tulv-Auerust) : 136-144.
+ Brealey, R. Α., S. C. Myers and A. J. Marcus. 1995. Fundamentals of Corporate Fi-
+ nance. New York, NY: McGraw-Hill, Inc.
+ FASB. 1985. Statement of Financial Accounting Concepts No. 6, Elements of Financial
+ Statements. Stanford, CT: Financial Accounting Standards Board.
+ Foster, G., M. Gupta and L. Sjoblom. 1996. "Customer Profitability Analysis:
+ Challenges and New Directions." Journal of Cost Management 10: 5-17.
+ Heskett,J. L., W. E. Sasser,Jr. and L. A. Schlesinger. 1997. The Service Profit Chain:
+ How Leading Companies Link Profit and Growth to Loyalty, Satisfaction, and Value.
+ New York, NY: The Free Press, pp. 61.
+ Hogan, J. E., K. N. Lemon and R. T. Rust. 2002. "Customer Equity Management:
+ Charting New Directions for the Future of Marketing." Journal of Service Re-
+ search 5(1): 4-12.
+ Hughes, A. M. 1997. "Customer Retention: Integrating Lifetime Value into Mar-
+ keting: Strategies." Journal of Database Marketing 5 (2): 171-178.
+ Jain, D. and S. S. Singh. 2002. "Customer Lifetime Value Research in Marketing:
+ A Review and Further Directions." Journal of Interactive Marketing 16 (2): 34-
+ 46.
+ Kaplan, R. S. and V. G. Narayanan. 2001. "Measuring and Managing Customer
+ Profitability. " Journal of Cost Management (September/October): 5-15.
+ Knie-Andersen, M. 2001. The Relationship Between Customer Satisfaction, Cus-
+ tomer Loyalty and Customer Profitability." Denmark: University of Aarhus.
+ JOURNAL OF MANAGERIAL ISSUES Vol. XVII Number 1 Spring 2005
+This content downloaded from 
+             188.113.93.84 on Mon, 13 Dec 2021 23:10:07 UTC              
+All use subject to https://about.jstor.org/terms
+
+
+ Customer Lifetime Value, Customer Profitability 25
+ Kotier, P. 2002. Marketing Management, 11th Edition. Englewood Cliffs, N
+ tice Hall, Inc.
+ Mulhern, F. J. 1999. ''Customer Profitability Analysis: Measurement, 
+ tion, and Research Directions." Tournai of Interactive Marketing 13(
+ Ness, J. Α., Μ. J. Schroeck, R. A. Letendre and W. J. Douglas. 2001.
+ of ABM in Measuring Customer Value." Strategic Finance (April): 44-
+ Niraj, R., M. Gupta and C. Narahimhan. 2001. "Customer Profitability
+ ply Chain." Journal of Marketing 65: 1-16.
+ Peppers, D. and M. Rogers. 1997. Enterpnse One to One: Tools for Competin
+ Interactive Acre. New York, NY: Currency Doubleday.
+ Pfeifer, P. E. and R. L. Carraway. 2000. "Modeling Customer Relations
+ Markov Chains." Journal of Interactive Marketing 14(2): 43-55.
+ Reichheld, F. F. 1996. "The Loyalty Effect: The Hidden Force Behind Growth
+ and Lasting Value." Boston, MA: Harvard Business School Press.
+ Harvard Business Review (September-October
+ Rud, O. P. 2002. "CRM Special Report: Model C
+ 64-66.
+ Schultz, D. E. 1995. "From the Editor: What is Direct Marketing?" Journal of
+ Direct Marketing 9(2): 5-9.
+ JOURNAL OF MANAGERIAL ISSUES Vol. XVII Number 1 Spring 2005
+This content downloaded from 
+             188.113.93.84 on Mon, 13 Dec 2021 23:10:07 UTC              
+All use subject to https://about.jstor.org/terms

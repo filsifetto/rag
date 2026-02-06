@@ -8,7 +8,7 @@ optimized configurations for production workloads.
 from qdrant_client import QdrantClient
 from qdrant_client.models import (
     Distance, VectorParams, PointStruct, Filter, FieldCondition, 
-    Range, MatchValue, OptimizersConfig, HnswConfig, CollectionInfo
+    Range, MatchValue, OptimizersConfigDiff, HnswConfigDiff, CollectionInfo
 )
 from typing import List, Dict, Any, Optional, Union
 import logging
@@ -62,7 +62,7 @@ class QdrantManager:
                     distance=Distance.COSINE,
                     on_disk=True  # Enable disk storage for large datasets
                 ),
-                optimizers_config=OptimizersConfig(
+                optimizers_config=OptimizersConfigDiff(
                     deleted_threshold=0.2,
                     vacuum_min_vector_number=1000,
                     default_segment_number=2,
@@ -72,7 +72,7 @@ class QdrantManager:
                     flush_interval_sec=5,
                     max_optimization_threads=2
                 ),
-                hnsw_config=HnswConfig(
+                hnsw_config=HnswConfigDiff(
                     m=16,
                     ef_construct=100,
                     full_scan_threshold=10000,

@@ -1,0 +1,847 @@
+124
+© 2009 PALGRAVE MACMILLAN 1746-0166 VOL.11 NO.2 PP 124–139.  Journal of Direct, Data and Digital Marketing Practice
+www.palgrave-journals.com/dddmp/
+ What happened to strategic 
+segmentation ? 
+ Angus  Jenkinson 
+ Date Received: 13th July, 2009 
+ Abstract 
+ Segmentation that combines insight with descriptive, predictive 
+and operational capability represents the most complete and 
+powerful capability for marketers, when achievable, and therefore 
+a gold standard. However, the author notes a trend towards 
+simpler, limited modes. These tend to isolate capabilities, such as 
+descriptive market segmentation, or predictive analytics for 
+targeting tactical campaigns, or real-time  ‘ black-box ’ behavioural 
+algorithms, such as collaborative ﬁ ltering and next best action. 
+The author suggests this is brought about by failures in technique, 
+process or imagination, giving typical causes, and posits a simple 
+ ‘ test of effectiveness ’ self-audit for organisation decision-making. 
+ Journal of Direct, Data and Digital Marketing Practice (2009)  11, 124 – 139.  
+doi: 10.1057/dddmp.2009.27 
+ 
+ Introduction 
+ This discussion paper suggests that parallel to the rise of advanced 
+statistical predictive techniques (as used for example on online social 
+networking sites), consultancies and clients have grown wary of 
+attempting to implement full-scale segmentation, and have settled for 
+lesser (although useful) models. The sections that follow therefore 
+discuss: 
+ 1.  the nature of the problem; 
+ 2.  a model that elaborates six limited forms of segmentation 
+( ‘ segmentation lite ’ ); 
+ 3.  the nature and potential of a full-scale strategic segmentation 
+approach ( ‘ gold standard ’ ); 
+ 4.  reasons for failure; 
+ 5.  a  ‘ test of current effectiveness ’ audit checklist to guide executive 
+action. 
+ The problem 
+ Over 20 years ago, database marketers started formulating new 
+segmentation objectives to reﬂ ect a meaningful and actionable blend of 
+behavioural data and imputed, fused or collated attitudinal 
+information. 1 – 3 The goal was to organise knowledge and marketing 
+strategy, as well as communication and service behaviours, by applying 
+ Keywords:  segmentation , 
+ collaborative ﬁ ltering ,  analytics , 
+ strategy ,  audit ,  data mining 
+ Keywords:  segmentation , 
+ collaborative ﬁ ltering ,  analytics , 
+ strategy ,  audit ,  data mining 
+ Angus Jenkinson 
+ Stepping Stones Consultancy Ltd. 
+Grange Farm Barn, Upper Dean 
+Huntingdon PE28 OLT, UK 
+ Angus Jenkinson 
+ is Chief Consulting Ofﬁ cer 
+and Founder of consulting 
+agency Stepping Stones, and 
+Chair / Director of the Centre 
+for Integrated Marketing at 
+the University of Bedfordshire 
+Business School. 
+
+
+ What happened to strategic segmentation? 
+125
+© 2009 PALGRAVE MACMILLAN 1746-0166 VOL.11 NO.2 PP 124–139.  Journal of Direct, Data and Digital Marketing Practice
+a combination of descriptive, predictive and operational targeting and 
+execution capabilities. Marketers aimed to understand the brand ’ s 
+customers in terms of segments that were: 
+ 1.  collectively related to the brand according to universal properties 
+of the brand (in the absence of which it would make sense to create 
+a new brand); 
+ 2.  he terogeneous with respect to other segments with the differences 
+rooted in brand choice, not merely in broadly held values, 
+geodemographic or lifestyle characteristics; 4 
+ 3.  relatively stable over time; 
+ 4.  relatively homogeneous within themselves, so that they might also 
+be targeted as a meaningful community (or tribe) with predictable 
+results; 
+ 5.  although liable to member individuation, typically because of 
+instability over and in time, for example with respect to timing of 
+an offer or selection (eg changing lifestage status or from prospect 
+to customer  — since the goal is to ﬁ nd prospects like your best 
+customers), enabling targeting and execution of appropriate actions 
+at the right time; 
+ 6.  insightful, descriptive and predictive, so that marketers and the 
+organisation can understand the different segments (or communities) 
+and develop appropriate strategies, innovations and communications 
+messages; 
+ 7.  employing systems and organisational capability that enable 
+strategic, tactical and operational interventions at market, segment 
+and individual customer level; 
+ 8.  as well as having tracking and evaluation research capability. 
+ The model relationships can be expressed graphically in several forms, 
+including the two versions in  Figure 1 . 
+ This three-dimensional model differs from both the competing 
+models: one-solution-for-all, which communicates to everyone in the 
+same way, and mass customisation, which assumes a mass of 
+ Segment gold standard 
+ Segment gold standard 
+Brand universals
+Community
+Characteristics
+Individuals
+Community
+Characteristics
+Individuals
+Brand universals
+ Figure 1 :  Two modes of expressing the brand / segment / individual relationship 
+
+
+ Jenkinson 
+126
+© 2009 PALGRAVE MACMILLAN 1746-0166 VOL.11 NO.2 PP 124–139.  Journal of Direct, Data and Digital Marketing Practice
+individuals receiving individualised communication from the brand, 
+sometimes described as  ‘ segment-of-one ’ . Its purpose was to ensure 
+understanding, insight and focus across the organisation and drive 
+business and marketing strategy through differentiated value 
+propositions and individualised tactical / operational execution. This 
+became a de facto gold standard among experienced database 
+marketers, and was implemented using a variety of techniques 
+including clustering, factor analysis, regression and data mining, 
+collating and fusing data from across the organisation, third parties, 
+and research. This was successfully implemented on many occasions. 
+For example, working with Ogilvy from 1992 to 2001 involved dozens 
+of projects and a documented global methodology for Ogilvy 
+practitioners in over 50 countries. It also remains a stated goal among 
+many leading marketing thinkers. 5 
+ In 2007,  I suddenly realised that the gold standard was progressively 
+being abandoned as a result of a combination of project failures and 
+spectacular advances in statistical, data mining and rule-based customer 
+management techniques, particularly in the online and call centre 
+spaces. Woodcock, Stone and Foss, the CMAT development team, 
+were in fact already reporting the trend by 2002 in their CMAT global 
+survey: for example, they showed that only 19 per cent of companies 
+had carried out basic decile analysis, 54 per cent did not recognise 
+customer behaviours in planning, and there was a broadly negative 
+trend in analytical and planning capability since their previous study 
+3 years earlier (the only exception being customer retention). 6 The 
+occasion for my discovery was a meeting of the senior consultants 
+and associates of a consulting division of one of the big consumer 
+proﬁ ling houses in the UK. There was a 2-day meeting to discuss 
+case studies, leading-edge practices, tools and methods. Everyone was 
+experienced, smart and involved in signiﬁ cant projects in major 
+client organisations. There was considerable discussion on customer 
+journeys, uplift models, call centre performance improvement, 
+next best action (or best next-action), collaborative ﬁ ltering, campaign 
+management tool kits, and analytical and process software and its 
+application. 
+ However, not one project involved gold standard segmentation. 
+Yet, if rule-based action works so well in the absence of a strategic 
+understanding of customer types, think how much better it would work 
+in the presence of one. 
+ A conversation with the chief consulting ofﬁ cer yielded this 
+admission:  ‘ Isn ’ t that all debunked now? We can ’ t get it to work and 
+we haven ’ t found any clients who want it. Do you have any evidence 
+of success? ’ 
+ Recent  personal experiences support this analysis, while market 
+research consultancy ﬁ rm Incite also report in their Spring 2009 
+newsletter 7 that segmentations form a key part of company or brand 
+strategy in fewer than 40 per cent of companies, a fall of 16 per cent 
+since their similar survey in 2004. They also report a 31 per cent 
+increase in the perception that segmentation studies are complex and 
+ Abandoning the gold 
+standard 
+ Abandoning the gold 
+standard 
+ Corporate failure 
+ Corporate failure 
+
+
+ What happened to strategic segmentation? 
+127
+© 2009 PALGRAVE MACMILLAN 1746-0166 VOL.11 NO.2 PP 124–139.  Journal of Direct, Data and Digital Marketing Practice
+require experience to do well. It is true that ultimately segmentation 
+requires expertise to do well. However, the rapid  increase in perception 
+of difﬁ culty suggests a rising concern among marketers, consistent with 
+the fall in strategic commitment. 
+ What is segmentation? 
+ Segmentation means different things to different people. They use 
+a variety of different approaches, dimensions and evidence types, 
+as indicated in  Figure 2 . 
+ Woodcock  et al. orient their discussion around a blend of three 
+approaches: customer proﬁ tability, customer buying values 
+(needs and desires that form the basis for purchase decisions) and 
+behavioural variation, perhaps including lifestyle and attitudes. 6 
+Marketing textbooks 8,9 typically describe  ‘ market segmentation ’ 
+and  ‘ customer segmentation ’ .  Market segmentation provides a 
+straightforward descriptive account of the customer base and typically 
+supports business and channel strategy and customer portfolio 
+management. Examples include business and consumer segments, 
+and ﬁ rst-class and economy customers.  Customer segmentation is 
+typically a predictive and targeting technique for campaign 
+planning using data mining and modelling techniques. Both of 
+these approaches are reﬂ ected in the model described below (see also 
+ Figure 3 ). 
+Attitudinal
+Lifestyle
+Need set
+Geodemographics
+Psychographics
+Share
+of affection
+(Bonding -SOA)
+Ethnographics
+Share of wallet
+(SOW)
+Recency 
+Frequency
+Response
+Financial
+Customer &
+Category £Value
+Media
+Behavioural
+Touchpoints
+Targeting
+ Figure 2 :  Segmentation approaches and dimensions 
+
+
+ Jenkinson 
+128
+© 2009 PALGRAVE MACMILLAN 1746-0166 VOL.11 NO.2 PP 124–139.  Journal of Direct, Data and Digital Marketing Practice
+ A behavioural / market model of segmentation 
+ These two approaches provide a two-dimensional classiﬁ cation model 
+that reveals interactions among six widespread and useful approaches, 
+each of which nevertheless falls short of the power of  ‘ gold standard ’ 
+segmentation. The model is structured on two axes: behavioural 
+analytics, which are typically designed for predictive capability, and 
+market description (see Figure 3). 
+ 1.  Campaign analytics :  typically means selecting the best people for a 
+particular direct marketing or sales initiative based on past 
+behaviours. Analysts use data mining techniques 10 that build on 
+traditional recency-frequency-monetary techniques. Although useful, 
+listing groups by value provides limited communication insight. 
+Targeting customers who have bought mortgages but not bank 
+accounts makes sense, but it works better when informed by deeper 
+insight. The nature of campaign analytics means that an analytical 
+or direct marketing team can report ﬁ nancial gains and even win 
+marketing awards without the organisation achieving signiﬁ cant 
+customer insight. 
+ 2.  Community collaborative ﬁ ltering and behavioural afﬁ nities : an 
+advanced approach in the online space practised by brands such as 
+Amazon. By ﬁ nding statistical similarities in customer behaviour, 
+automatic algorithms make recommendations (eg  ‘ people like you 
+do things like this ’ ) or brand behaviour (eg  ‘ we would like to 
+promote you ’ ). Some practitioners argue that this is superior to 
+traditional segmentation because it responds to differences in 
+customer behaviour at different times. However, this is somewhat 
+analogous to front-line service staff developing expertise about 
+customers that does not ﬁ lter up to top management. 
+ 3.  Next best action ( NBA ): like afﬁ nity modelling, it aims to choose 
+the next appropriate action for each customer based on past 
+behaviour in the current situation. For example, customers who 
+ Predictive analytics 
+ Predictive analytics 
+Insights
+Descriptive
+Obvious
+Simple
+Analytics
+Advanced
+Statistics
+Predictive
+ Figure 3 :  Descriptive and predictive dimensions 
+
+
+ What happened to strategic segmentation? 
+129
+© 2009 PALGRAVE MACMILLAN 1746-0166 VOL.11 NO.2 PP 124–139.  Journal of Direct, Data and Digital Marketing Practice
+responded to one of the last three catalogues might be sent a new 
+one, or customers whose savings policy approaches redemption 
+might be recipients of a promotion generated by ﬁ nancial 
+governance and marketing initiative ( ‘ your money is now available 
+to you / would you like to reinvest it? ’ ). Heuristics and / or rules may 
+derive from executive ideas, statistical modelling or collaborative 
+ﬁ ltering. Again, this is a useful technique that works even better in 
+the context of a segmentation framework. 
+ 
+ These  methods may be combined. Amazon use analytics and 
+promotional planning to send e-mails with the content modiﬁ ed by 
+product promotions and collaborative ﬁ ltering. Executed well, they 
+make a signiﬁ cant difference and organisations rightly commit 
+signiﬁ cant resources to this. Some marketers, particularly online, 
+promote automated algorithms as the primary strategy. However, 
+all such techniques can work even better when guided by a master 
+layer of segmentation.  
+ The  next three classes 11 are also important tools for business 
+success. Each is widely practised, indeed probably more than the 
+previous three, not least because they seem easier. All may use 
+research; indeed satisfaction and service research is extensive, and 
+brand research may help. 
+ 4.  Customer-led  market differentiation : consumers and businesses, 
+prospects, loyal customers and defectors, trade / channel customers 
+and end-users, enterprises and small businesses, children and 
+pensioners, men and women, and companies in different industries 
+are candidates for different treatment. Unfortunately, they are 
+usually obvious and do not provide competitive advantage. To 
+achieve traction against the competition requires deeper insight. 
+Often this means segmentation of these generic markets. In other 
+cases, a more powerful variation can be found that cuts across 
+markets, which can be particularly useful for international 
+marketing. 12 In a research project for a software company targeting 
+industry-speciﬁ c software plug-ins, it was found that industry 
+variation was much less important than end-user attitude and 
+behaviour. Differences between bankers, lawyers and other 
+professionals were less important than differentiation cutting across 
+all professional groups. 
+ 5.  Product-led customer differentiation : this often dovetails with 
+customer-led segments (for example, men ’ s razors typically produce 
+male customers and males want men ’ s razors). There may be 
+signiﬁ cant non-ﬁ nancial differences between customers buying 
+low-end three-series BMWs and those buying top-end seven-series 
+models, but given the similarity in build quality and design ethos 
+across the range, it is not surprising to ﬁ nd that there are also 
+segment proﬁ les that cut across the range. Another problem 
+with product line segmentation is that when organisations 
+are structured to enhance product expertise (retail banking, 
+ Combining predictive 
+analytics 
+ Combining predictive 
+analytics 
+ Attitude and usage 
+(U  & A) 
+ Attitude and usage 
+(U  & A) 
+ Descriptive analytics 
+ Descriptive analytics 
+
+
+ Jenkinson 
+130
+© 2009 PALGRAVE MACMILLAN 1746-0166 VOL.11 NO.2 PP 124–139.  Journal of Direct, Data and Digital Marketing Practice
+insurance, credit card, mortgage), this often reduces overall 
+customer insight.
+  
+ The problem with most market segmentation is that it is 
+conventional, probably used by competitors, and therefore lacking 
+competitive insight and differentiation. The ﬁ nal approach, needs-
+based segmentation, can provide this edge, but often fails to be 
+operationalised. 
+ 6.  Needs ( or  attitudes ) -based communication insights : the same Incite 
+study found that eight out of 10 respondents claimed to segment 
+customers using consumer-based research (a ﬁ gure that has 
+remained stable for 5 years). However, this is typically used for 
+advertising planning. Agency planners and brand managers use 
+insights to position the brand and advertise more effectively in 
+different media or channels. Consider boiled sweets: they mask 
+hunger, replace smoking, cleanse or refresh mouths, distract or are 
+playful, relieve stress, and provide comfort, fun, friendship or 
+innocent romance. Although most confectionery consumers do not 
+justify or want customer relationship marketing (CRM) investment, 
+this approach can be and is used successfully in direct programmes: 
+van Hattum and Hoijtink recently reported how a European 
+mail-order garden products company used data fusion to create four 
+different creative treatments for the cover and introduction to their 
+catalogue (the rest of the catalogue remaining the same) to make 
+them more appealing. 13 Yet, most advertisers and advertising agencies 
+like a single positioning and brand proposition with a single creative 
+treatment, because it is simple and achieves economies of scale. 14 
+ Examples of segmentation and  ‘ gold standard ’ 
+segmentation opportunity 
+ All these techniques have their place in contributing to the full 
+potential of segmentation, as illustrated by the following three 
+examples. 
+ Learner drivers 
+ Learner drivers choosing a driving school and progressing through 
+their training programme are of different types and behaviours. Some 
+tend to be more nervous, others more cocky. Some are still at school 
+and being assisted by parents, who are ﬁ nancially and emotionally 
+involved. Others are at work, or are perhaps university students; they 
+are older and paying for themselves. They are male and female, rural 
+or urban, practice with their parents or without, persistent and 
+dedicated or dilettante, worried or relaxed about the cost (a full course 
+can cost over  £ 1,000), interested or concerned or  ‘ not bothered ’ about 
+their social relationship with the instructor, and their value can vary 
+from the price of a single lesson, to the cost of an initial discounted 
+package of four lessons, to 15 or more times that amount. Indeed, they 
+ Boiled sweets example 
+ Boiled sweets example 
+
+
+ What happened to strategic segmentation? 
+131
+© 2009 PALGRAVE MACMILLAN 1746-0166 VOL.11 NO.2 PP 124–139.  Journal of Direct, Data and Digital Marketing Practice
+are a very good example of the non-Gaussian (ie not a standard 
+bell-curve population) customer base. Their needs, attitudes and 
+behaviours are different. As a company, you can leave all this to 
+the instructors to sort out, in which case all of your expertise is 
+embedded in your instructor base (who are probably planning to leave 
+and set up their own independent service to these very customers), or 
+you  can try to navigate a more intelligent strategic approach that 
+integrates behaviours across the organisation. It is in fact relatively 
+easy to identify a typology and also to embed it into a database based 
+on a few key indicators. Appropriate actions can be implemented 
+online, where the learner has their own space, in local centres, 
+through the choice of instructors and their actions, by applying 
+automated service and recognition programmes using text, e-mail 
+and physical mail channels and where appropriate communications 
+to parents. 
+ The National Trust 
+ The National Trust, with millions of members, is one of the largest 
+membership organisations in the UK. Some people are members just 
+because they value the idea of heritage but others because they see it 
+as an opportunity to support quality family time together and to 
+contribute to the development of their children. For some, it is 
+important that it is a pleasurable social and entertainment experience, 
+and the quality of tea, scones and clotted cream is vital to that 
+experience. Others are amateur historians or primarily love the wild 
+spaces. The National Trust provides relaxation, relief or renewal 
+after the stresses of a week ’ s work, or a place to engage and to turn 
+on the brain for the ﬁ rst time in the week. Some members never visit 
+properties and thousands are active volunteers of their time. Their 
+needs, attitudes and behaviours are different, and this provides a 
+relatively straightforward basis for segmentation, which can be 
+implemented through direct communications, events, speciﬁ c 
+promotions and activities at National Trust properties. Segmentation 
+needs to take account of needs orientation, behavioural history and 
+level of ﬁ nancial contribution. 
+ Harley-Davidson 
+ Another elegant and comprehensive description of this practice was 
+published more than 10 years ago and describes Harley-Davidson ’ s 
+segmentation approach, 15 which I recently validated. 16 Swinyard 
+describes a strategic ethnographic research project for Harley-Davidson 
+that identiﬁ ed characteristic societal and philosophical beliefs, lifestyle 
+and behaviours (including media consumption), attitudes to bikes and 
+biking, and product consumption patterns. Examples of questions are 
+shown in  Table 1 . 
+ Swinyard demonstrates how Harley-Davidson ’ s product and 
+marketing strategy maps onto the insights provided by these precisely 
+differentiated, and extremely interesting, real customer groups. 
+ Knowledge equity and 
+a strategic approach 
+ Knowledge equity and 
+a strategic approach 
+
+
+ Jenkinson 
+132
+© 2009 PALGRAVE MACMILLAN 1746-0166 VOL.11 NO.2 PP 124–139.  Journal of Direct, Data and Digital Marketing Practice
+Consider the difference between say  Dream Riders , the largest and 
+most valuable group, who are  ‘ unremarkable motorcyclists that seem to 
+like the idea of motorcycling better than motorcycling itself ’ and are 
+the most likely to have bought a new bike, and those belonging to 
+ Harley Owners Group ( HOG) Heaven , who feel a sense of  ‘ at-one-
+ness ’ from just owning a Harley-Davidson, with the act of ownership 
+representing self-actualisation. Harley-Davidson use their HOG 
+relationship marketing programme in their database to recognise 
+individual customers and apply the insights to the design of product 
+development, communications and event programmes. 
+ General principles and implementation 
+ The  goal of segmentation is to identify ethnographically differentiated 
+groups of people (the segment typology) who each have a practical 
+level of shared meaning, attitudes, emotional resonance, behaviours, 
+and actual or potential (for prospects) relationship with the brand or 
+organisation. Following my own 1994 example, 17 I shall describe the 
+segments in the typology as customer communities, 18 since each is 
+relatively homogenous in their relationship with the brand / organisation. 
+A community is generally considered to be a group of people who 
+share something signiﬁ cant in common. Whereas it is hard to develop 
+organisational strategy for a customer segment-of-one, it is realistic to 
+plan and operationalise differentiated value propositions for 
+communities. Understanding these communities typically requires the 
+intersection of needs / attitudinal differences and behavioural / ﬁ nancial 
+differences. The typology is then translated into business strategies and 
+marketing behaviours. Operationalisation can include the use of 
+automated rule-based and statistical algorithms at execution time. 
+ Figure 4  shows a conceptual and systems-oriented architecture for 
+developing and using such segmentation with layers for strategy 
+management, typology management, action planning and operational /
+ execution capability management. The development of strategy and 
+customer segmentation typology must be an iterative process. These 
+two then provide parameters that control or inﬂ uence the more personal 
+ Customer communities 
+ Customer communities 
+ Segmentation 
+architecture 
+ Segmentation 
+architecture 
+ Table 1 :  Biking and lifestyle questions 
+ Riding, to me, is often a magical experience. 
+ My motorcycle often seems like it’s alive. 
+ I like tattoos. 
+ I like to ride long distances  … to me 500 miles is a short trip. 
+ I like to ride fast. 
+ My bike is made more for comfort and speed. 
+ I feel like I am in a rut much of the time. 
+ I agree that,  ‘ Eat, drink and be merry for tomorrow we die ’ . 
+ I like to keep things perfectly neat and orderly. 
+ I would like to be important in politics. 
+ My life is as full and interesting as anyone’s. 
+ I don ’ t mind doing housework. 
+ I like to watch sports events on television. 
+ Source : Swinyard (1996). 13 
+
+
+ What happened to strategic segmentation? 
+133
+© 2009 PALGRAVE MACMILLAN 1746-0166 VOL.11 NO.2 PP 124–139.  Journal of Direct, Data and Digital Marketing Practice
+and / or automated statistical and rule-based algorithms that support 
+marketing and service activity at the  ‘ right action ’ layer. It is easy to 
+operationalise particular campaigns or service transactions based on the 
+ﬁ nancial worth of customers while using higher-order insights for 
+strategic organisation. For example, you could organise three different 
+call centre operations teams that use a variety of techniques to 
+prioritise how fast or extensively individual callers to each of these 
+teams are serviced. The operational layer provides data and systems 
+infrastructure. 
+ Tesco and Amazon 
+ Community  segmentation is possible with strategic commitment, as 
+demonstrated by Tesco. Senior executives have said 19 that board 
+members can describe in detail  ‘ during an elevator ride ’ each of their 
+main customer segments and how store design, merchandise 
+assortment, shelf stocking, marketing communications and so on 
+reﬂ ect their interlacing ﬁ nancial value, lives, needs and shopping 
+habits. This strategic knowledge derives from commitment to practical 
+action and innovation. The very richness and abundance of potential 
+data represents an inhibitor for most retailers. Tesco turned it to their 
+advantage. Using a research technique known as Charles Osgood ’ s 
+Semantic Differential Procedures, they can impute information about 
+customers from the products that they buy:  ‘ This was the new insight 
+that drove the next stage in Clubcard segmentation: that each product 
+we buy says something about us and, by scoring in this way, you can 
+build a picture of what attitudes and beliefs drive our behaviour; at 
+least, what drives it while we are in the supermarket ’ . 20 
+ Tesco approached the challenge of applying 45,000 Osgood proﬁ les 
+(each item in the product range) with 20 different Likert scales for 
+each, generating a total of 1.2 million potential rating decisions, using 
+a  ‘ rolling ball ’ technique based on afﬁ nity modelling, analysing in this 
+case not customers but products, and looking at what customers were 
+buying together and applying these proﬁ les to the products, in a project 
+that took a team 3 months of hard work. Once all the products are 
+proﬁ led, the result is Tesco ’ s possibly unique grocery segmentation 
+capability. As customers buy products, their proﬁ les are automatically 
+developed by the proﬁ les of the products they buy. If they succeed in 
+ Tesco ’ s innovative 
+approach 
+ Tesco ’ s innovative 
+approach 
+Strategy Layer 
+Typology Layer 
+Right Action Layer 
+Operational Layer 
+ Figure 4 :  Conceptual and systems architecture 
+
+
+ Jenkinson 
+134
+© 2009 PALGRAVE MACMILLAN 1746-0166 VOL.11 NO.2 PP 124–139.  Journal of Direct, Data and Digital Marketing Practice
+the tough US market it may be down to the segmentation capability 
+they have developed. 
+ Amazon ’ s  analytics are pioneering and brilliantly successful. Their 
+policy of stocking every book, and similarly wide ranges in other 
+categories, makes it much easier for them to operate on autopilot. Even 
+if Amazon runs on black box algorithms, it would still make many 
+reasonable recommendations to customers; it would just have little idea 
+what kinds of customers it had. However,  if Amazon did implement the 
+layered segmentation architecture with its community insights sitting 
+over afﬁ nity-based and NBA algorithms (doing so would be a closely 
+guarded secret), it would gain extraordinarily detailed knowledge of its 
+customers. Which would you rather run: a customer black box or a 
+customer base you understand? 
+ Differences in approach 
+ Community-based segmentation is therefore amenable to all of the 
+analytical and behavioural algorithms, but adds two beneﬁ ts: 
+ 1.  More  knowledge about customers : The business does not rely on 
+either the abstraction of a data point or the simplicity of an obvious 
+segment. Instead, more sophisticated stakeholder research (most 
+customers and frontline staff) is used to understand and categorise 
+the needs, attitudes, requirements and emotional value that underpin 
+different customer communities, that is, getting to know customers 
+as people with a relationship to us. 
+ 2.  A more customer-focused organisation : broad practical insights 
+inform value solutions and treatments for communities, which are 
+executed for individual customers with the help of real-time 
+modelling techniques. As a result, the business can be managed as 
+an integrated set of capabilities sharing a common platform but 
+geared towards differentiated customer value. 
+ My  experience suggests that this leads to a number of advantages, 
+apart from improved ﬁ nancial results: 
+ 1.  There is a better feel for the business, which means that you can 
+manage it more intelligently. This leads to better performance 
+management and more productivity in marketing, and less conﬂ ict, 
+argument and time wasting. 
+ 2.  There is potential for more relevant value propositions and 
+creative. This makes for more interesting work and better learning 
+and makes the company more customer-focused. 
+ 3.  An enriched understanding of the brand itself: the brand ’ s universal 
+principles mean different things to different customers and so 
+segmentation develops a richer more layered understanding of the 
+meaning and essential value of the brand. 
+ 4.  Marketing costs reduce as a result of better targeting and more 
+relevance; this applies to both paid-for media advertising and direct 
+communications. 
+ Amazon 
+ Amazon 
+ Beneﬁ ts 
+ Beneﬁ ts 
+ Advantages 
+ Advantages 
+
+
+ What happened to strategic segmentation? 
+135
+© 2009 PALGRAVE MACMILLAN 1746-0166 VOL.11 NO.2 PP 124–139.  Journal of Direct, Data and Digital Marketing Practice
+ 5.  Employee satisfaction increases as they deal better with real people 
+with more granular solutions. 
+ 6.  Customer experience is enhanced and therefore brand and 
+customer equity is increased: solutions become more relevant 
+and appropriate. 
+ So why doesn ’ t everyone do this? 20 barriers 
+ Companies across ﬁ nancial services, FMCG and packaged goods, 
+consumer services, business services, the auto industry, technology and 
+telephony complain that although they may be successful with the 
+lesser techniques they have not been able to implement an enriched 
+segmentation model successfully. A key problem is that they cannot 
+map attitude-based segmentation based on research back onto a 
+database. My experience is that this is usually because the methodology 
+and approach are wrong or misguided. Reasons for this derive from 
+lack of experience, lack of expertise and inappropriate ideas: 
+ 1.  Being  too busy; 
+ 2.  Trying it, spending a lot of money, getting it wrong, vowing never 
+to do it again; 
+ 3.  Managing the brand using a single message; 
+ 4.  Managing advertising and CRM independently in different spaces, 
+that is, without having an integrated planning process; this 
+typically leads to a breakdown in consumer insight and certainly 
+action; 
+ 5.  Organising the business around products; 
+ 6.  Making segmentation too complicated, or too simplistic; 
+ 7.  Being satisﬁ ed with impressive but partial gains from data mining, 
+next best action, market segmentation, etc; 
+ 8.  Decision chain gaps between strategy / board level (who may have 
+much more exciting things like mergers, acquisitions and share 
+prices to think about) and operational senior managers (who learn 
+the political art of avoiding obvious failure); a not untypical 
+customer-focused project might begin with the following brief: 
+ ‘ we can only spend  $ X, it has to be delivered by month Y, we are 
+not allowed to do Z, and the mission is to achieve a 10 per cent 
+productivity improvement in customer targeting ’ ; a more useful 
+brief takes the following form:  ‘ Provide an actionable resource that 
+provides competitive advantage at low risk with a return on 
+investment of more than X per cent to meet our strategic goals 
+of A, B, C ’ ; 
+ 9.  Divisional segmentation: for example, when the printer division 
+and the computer division each have their own marketing 
+database; 
+ 10.  Not designing the project as an integrated multi-disciplinary 
+process. Success requires integration of knowledge and insights 
+from a variety of sources and use of different methodologies, 
+including internal interviews, qualitative and quantitative research 
+ Barriers and better 
+alternatives 
+ Barriers and better 
+alternatives 
+
+
+ Jenkinson 
+136
+© 2009 PALGRAVE MACMILLAN 1746-0166 VOL.11 NO.2 PP 124–139.  Journal of Direct, Data and Digital Marketing Practice
+and data analytics. However, proper planning reduces the 
+complexity of this  — for Green Homes Concierge (an LDA / Mayor 
+of London project to help Londoners make their homes green), 
+meeting with services, marketing and operations management, 
+focus group work and interviews with frontline staff, in-depth 
+interviews of sufﬁ cient customers, acquisition of publicly available 
+studies of green consumers, fusion with Mosaic and the database, 
+management and team brieﬁ ng cost less than 20 per cent of 
+commonly quoted segmentation studies; 
+ 11.  Attachment to market, demographic or ﬁ nancial factors, such as 
+age, lifestyle or value (escaping boredom with the playful, tasty 
+pleasure of sweets is not age-related). It will also sometimes be 
+more useful to orient on a needs / attitudes insight and stratify 
+ﬁ nancial value when implementing campaigns and service; 
+ 12.  Alternatively, aiming for  ‘ pure statistical, data-led segmentation ’ 
+without any assumptions or hypotheses to guide data collection 
+and analytics typically ensures a hodgepodge of models; prior 
+knowledge needs to be shaped, for example by workshops and 
+qualitative research; 
+ 13.  Excessive reliance on complex (and potentially arcane) statistical 
+method; 
+ 14.  Assuming Gaussian (bell-shaped curve) populations when this is 
+not the case (thus eliminating assumed  ‘ outliers ’ that are actually 
+signiﬁ cant population members); 
+ 15.  Gaps in skills and experience: signiﬁ cant projects usually 
+require the participation of analysts, researchers, marketers 
+and agency planners, as well as front-line people, together 
+providing expertise in statistics and modelling, qualitative and 
+quantitative research, customers, and marketing and service 
+applications; 
+ 16.  Having executive project leadership that does not understand 
+the realities of modelling and is not interested in getting 
+involved; 
+ 17.  Insufﬁ cient involvement of top management from across the 
+business functions; 
+ 18.  Not ﬁ nding simple and effective ways of tagging customers to 
+segments; this typically leads to insights without the capability 
+to act on them; Moskowitz  et al. indicate one of many approaches 
+to overcome this problem, 12 while Tesco and Harley-Davidson 
+indicate other approaches. 
+ 19.  Not ﬁ nding ways to alert individual staff of the type of person 
+they are dealing with; an example might be an icon or a colour 
+code; 
+ 20.  Not communicating the model to staff and senior management 
+so that they  ‘ get it ’ and commit; this often stems from using 
+PowerPoint to present knowledge-rich descriptive proﬁ les rather 
+than converting the community segments into real living people, 
+for example by using day-in-the-life archetype descriptions (such 
+as CustomerPrints, which were developed for OgilvyOne in the 
+
+
+ What happened to strategic segmentation? 
+137
+© 2009 PALGRAVE MACMILLAN 1746-0166 VOL.11 NO.2 PP 124–139.  Journal of Direct, Data and Digital Marketing Practice
+late 1990s, 21 Personas, developed for online user proﬁ ling, and 
+Nuanced Portraits 22 ) and perhaps videos or theatre. 
+ Assessing your experience and practice: 
+A segmentation audit 
+ This paper invites discussion about the art of the possible and 
+the effect on business success of segmentation methods. The 
+following self-audit checklist of capability is intended to summarise 
+segmentation objectives and guide consideration of next steps. The 
+points can be scored (eg on a scale of 0 – 7) or used to promote 
+discussion. 
+ 1.  Does  your segmentation model provide competitive advantage 
+through insight (ie capability not shared by other key players in 
+your category)?  
+ Points to consider : 
+ 1.1  Does  it provide management with revealing insights about the 
+value of customers? 
+ 1.2  Does it provide management with revealing insights about 
+attitudes and non-ﬁ nancial behaviours of your customers? 
+ 1.3  Is it understood and used by board members for strategic 
+decision-making? 
+ 1.4  Has your understanding of customer segments enriched your 
+understanding of the brand? 
+ 1.5  Does it show why your best customers belong to you and not 
+other brands? 
+ 1.6  Are the insights real in action? 
+ 2.  Does your segmentation model provide competitive advantage 
+through operational and structural capability (ie capability not 
+shared by other key players in your category)?  
+ Points you may wish to consider : 
+ 2.1  Is  the business or organisation organised according to these 
+segments? 
+ 2.2  Does every person in your company who has anything to do 
+with customers or customer value development understand 
+enough to adjust their actions where appropriate? 
+ 2.3  Are business systems and processes operationally geared to it? 
+ 2.4  Are business systems and processes operationally effective at 
+applying it at all appropriate points? 
+ 2.5  Can you apply rules and / or statistical algorithms that work for 
+the customer and business wherever useful? 
+ 2.6  Is it used strategically to reﬁ ne segment-level differentiated 
+value propositions? 
+ 2.7  Is it used tactically to reﬁ ne timing and content of 
+customer-speciﬁ c value offers? 
+ Audit questions 
+ Audit questions 
+ Insights 
+ Insights 
+ Operations 
+ Operations 
+
+
+ Jenkinson 
+138
+© 2009 PALGRAVE MACMILLAN 1746-0166 VOL.11 NO.2 PP 124–139.  Journal of Direct, Data and Digital Marketing Practice
+ 2.8  Has it reduced marketing costs (paid-for media advertising and 
+direct communications) as a result of better targeting and more 
+relevance? 
+ 2.9  Has it reduced service costs (on a like-for-like service basis)? 
+ 3.  Does your segmentation enhance all stakeholder experience? 
+ Points you may wish to consider : 
+ 3.1  Has  customer experience measurably improved as solutions 
+become more relevant, appropriate and better delivered? 
+ 3.2  Has it increased employee satisfaction as they deal better with 
+people? 
+ 3.3  Has it improved brand / corporate reputation through being seen 
+to deal with people better? 
+ 3.4  Has customer segmentation increased the equity value of the 
+organisation? 
+ 3.5  Is management easier and more personally rewarding? 
+ 3.6  Have stress levels reduced? 
+ 4.  Overall,  does your segmentation provide a cushion and response 
+mechanism against the activities of your competitors? 
+ References and Notes 
+ 1 .  For example, Ron Courtheoux, a former VP of Epsilon, did a UK tour in 1986 and The 
+Computing Group shortly began offering such techniques in the UK. The IDM offered a 
+database marketing course between 1991 and 2001 (led by the author and Chris Last) 
+promoting these techniques. See also books such as Shepard  et al. (1990) 2 and Hughes 
+(1991/1996) 3 . 
+ 2 .  Shepard ,  D . ,  Batra ,  R . ,  Deutch ,  A . ,  Orme ,  G . and  Ratner ,  B . ( 1990 )  The New Direct 
+Marketing: How to Implement a Proﬁ t Driven Database Marketing Strategy ,  Business One 
+Irwin, Homewood, Illinois . 
+ 3 .  Hughes ,  A .  M . ( 1991/1996 )  The Complete Database Marketer ,  Irwin Professional Publishing, 
+London . 
+ 4 .  Anderson ,  P . ( 2008 )  ‘ Segmentation what makes consumers tick?  Admap, Volume 43, Number 
+6, Issue 495, pp. 24 – 27: World Advertising Research Centre, Henley-on-Thames, UK . 
+ 5 .  See for example:  White ,  R . ( 2008 )  ‘ Segmentation: Crutch or booster?  Admap, Volume 43, 
+Number 6, Issue 495, pp. 22 – 23: World Advertising Research Centre, Henley-on-Thames, UK . 
+ 6 .  Woodcock ,  N . ,  Stone ,  M . and  Foss ,  B . ( 2003 )  The Customer Management Scorecard: 
+Managing CRM for Proﬁ t ,  Kogan Page, London/Sterling VA . 
+ 7 .  Incite .  [no author stated] ( 2009 )  ‘ Anything but business as usual.  Available at  http://www.
+incite.ws/incites-articles.cfm ,  accessed on 30 June 2009 . 
+ 8 .  Buttle ,  F . ( 2009 )  Customer Relationship Management: Concepts and Technologies ,  2nd 
+edition,  Butterworth-Heinemann, Burlington, MA . 
+ 9 .  Payne ,  A . ( 2008 )  Handbook of CRM: Achieving Excellence in Customer Management , 
+ Butterworth-Heinemann, Burlington, MA . 
+ 10 .  Hansotia ,  B . ( 2009 )  ‘ Marketing by objectives: Using segmentation based on purchase timing 
+to enhance customer equity ’ ,  Journal of Direct, Data and Digital Marketing Practice ,  
+Vol.  10 ,  No.  04 ,  pp.  336 – 355 .  
+ 11 .  Product- and customer-level are simply different perspectives on the same principle . 
+ 12 .  Moskowitz ,  H .  R . ,  Beckley ,  J .  H . ,  Luckow ,  T . and  Paulus ,  K .  O . ( 2008 )  ‘ Cross-national 
+segments for a food product: Deﬁ ning them and a strategy for ﬁ nding them in the absence of 
+ Customer experience 
+ Customer experience 
+ Competitive advantage 
+ Competitive advantage 
+
+
+ What happened to strategic segmentation? 
+139
+© 2009 PALGRAVE MACMILLAN 1746-0166 VOL.11 NO.2 PP 124–139.  Journal of Direct, Data and Digital Marketing Practice
+ ‘ mineable ’ databases ’ ,  Journal of Database Marketing and Customer Strategy Management , 
+ Vol.  15 ,  No.  3 ,  pp.  191 – 206 .  
+ 13 .  Van Hattum ,  P . and  Hoijtink ,  H . ( 2009 )  ‘ Improving your sales with data fusion ’ ,  Journal of 
+Database Marketing and Customer Strategy Management ,  Vol.  16 ,  No.  1 ,  pp.  7 – 14 .  
+ 14 .  Outside scope is the way ﬁ rms apply a market segmentation strategy by creating a portfolio 
+of brands, each positioned on a different insight . 
+ 15 .  Swinyard ,  W .  R . ( 1996 )  ‘ The hard core and Zen riders of Harley Davidson: A market-driven 
+segmentation analysis ’ ,  Journal of Targeting, Measurement and Analysis for Marketing ,  Vol. 
+ 4 ,  No.  4 ,  pp.  337 – 362 .  
+ 16 .  While differences have occurred in the segmentation over the last 10 years, the basic 
+principles remain sound, source unpublished research by the Centre for Integrated Marketing . 
+ 17 .  Jenkinson ,  A . ( 1994 )  ‘ Beyond segmentation ’ ,  Journal of Targeting, Measurement and 
+Analysis for Marketing ,  Vol.  3 ,  No.  1 ,  pp.  60 – 72 . 
+ 18 .  An alternative name favoured by some marketers is  ‘ tribe ’ . 
+ 19 .  Mason ,  T . ( 1998 )  ‘ The best shopping trip? How Tesco keeps the customer satisﬁ ed ’ ,  Journal 
+of the Market Research Society ,  Vol.  40 ,  No.  1 ,  pp.  5 – 12 .  January 1998, paper based on a 
+talk given to the Marketing Society in 1996 . 
+ 20 .  Humby ,  C . ,  Hunt ,  T . and  Phillips ,  T . ( 2007 )  Scoring Points: How Tesco Continues to Win 
+Customer Loyalty ,  Kogan Page, London . 
+ 21 .  Detailed methodology loaded at secure site  trufﬂ es.ogilvy.com . 
+ 22 .  Ring ,  A . and  Benvenuto ,  A . ( 2008 )  ‘ The power of nuance  Admap, Volume 43, Number 6, 
+Issue 495, pp. 28 – 30: World Advertising Research Centre, Henley-on-Thames, UK . 
+   

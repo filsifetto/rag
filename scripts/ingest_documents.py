@@ -21,7 +21,7 @@ from datetime import datetime
 project_root = Path(__file__).parent.parent
 sys.path.insert(0, str(project_root))
 
-from core.config import Settings
+from core.config import Settings, apply_subject
 from core.database.qdrant_client import QdrantManager
 from core.database.document_store import DocumentStore
 from core.services.embedding_service import EmbeddingService
@@ -372,6 +372,13 @@ async def main():
         help="Category for the ingested document (used with --file)"
     )
     parser.add_argument(
+        "--subject", "-s",
+        type=str,
+        default=None,
+        help="Subject name (e.g. 'software-engineering'). "
+             "Ingests into a dedicated Qdrant collection for this subject."
+    )
+    parser.add_argument(
         "--create-sample",
         action="store_true",
         help="Create sample documents for testing"
@@ -408,6 +415,10 @@ async def main():
         # Load settings
         console.print("📋 Loading configuration...")
         settings = Settings()
+        if args.subject:
+            settings = apply_subject(settings, args.subject)
+            console.print(f"📂 Subject: [bold]{args.subject}[/bold]  |  "
+                          f"Collection: [cyan]{settings.qdrant_collection_name}[/cyan]")
         
         # Initialize services
         console.print("🔌 Initializing services...")

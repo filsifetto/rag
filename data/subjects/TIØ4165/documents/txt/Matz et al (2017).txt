@@ -1,0 +1,778 @@
+Psychological targeting as an effective approach to
+digital mass persuasion
+S. C. Matza,1, M. Kosinskib,2, G. Navec, and D. J. Stillwelld,2
+aColumbia Business School, Columbia University, New York City, NY 10027; bGraduate School of Business, Stanford University, Stanford, CA 94305;
+cWharton School of Business, University of Pennsylvania, Philadelphia, PA 19104; and dCambridge Judge Business School, University of Cambridge,
+Cambridge, CB2 3EB, United Kingdom
+Edited by Susan T. Fiske, Princeton University, Princeton, NJ, and approved October 17, 2017 (received for review June 17, 2017)
+People are exposed to persuasive communication across many
+different contexts: Governments, companies, and political parties
+use persuasive appeals to encourage people to eat healthier,
+purchase a particular product, or vote for a specific candidate.
+Laboratory studies show that such persuasive appeals are more
+effective in influencing behavior when they are tailored to individ-
+uals’ unique psychological characteristics. However, the investiga-
+tion of large-scale psychological persuasion in the real world has
+been hindered by the questionnaire-based nature of psychological
+assessment. Recent research, however, shows that people’s psycho-
+logical characteristics can be accurately predicted from their digital
+footprints, such as their Facebook Likes or Tweets. Capitalizing on
+this form of psychological assessment from digital footprints, we
+test the effects of psychological persuasion on people’s actual be-
+havior in an ecologically valid setting. In three field experiments
+that reached over 3.5 million individuals with psychologically tai-
+lored advertising, we find that matching the content of persuasive
+appeals to individuals’ psychological characteristics significantly al-
+tered their behavior as measured by clicks and purchases. Persuasive
+appeals that were matched to people’s extraversion or openness-to-
+experience level resulted in up to 40% more clicks and up to 50%
+more purchases than their mismatching or unpersonalized counter-
+parts. Our findings suggest that the application of psychological
+targeting makes it possible to influence the behavior of large
+groups of people by tailoring persuasive appeals to the psycholog-
+ical needs of the target audiences. We discuss both the potential
+benefits of this method for helping individuals make better deci-
+sions and the potential pitfalls related to manipulation and privacy.
+persuasion | digital mass communication | psychological targeting |
+personality | targeted marketing
+P
+ersuasive mass communication is aimed at encouraging large
+groups of people to believe and act on the communicator’s
+viewpoint. It is used by governments to encourage healthy be-
+haviors, by marketers to acquire and retain consumers, and by
+political parties to mobilize the voting population. Research
+suggests that persuasive communication is particularly effective
+when tailored to people’s unique psychological characteristics
+and motivations (1–5), an approach that we refer to as psycho-
+logical persuasion. The proposition of this research is simple yet
+powerful: What convinces one person to behave in a desired way
+might not do so for another. For example, matching computer-
+generated advice to participants’ dominance level elicited higher
+ratings of source credibility and increased the likelihood of
+participants changing their initial opinions in response to the
+advice (2). Similarly, participants’ positive attitudes and purchase
+intentions were stronger when the marketing message for a
+mobile phone was tailored to their personality profile (4). While
+these studies provide promising evidence for the effectiveness of
+psychological persuasion, their validity is limited by the fact that
+they were mainly conducted in small-scale, controlled laboratory
+settings using self-report questionnaires. Self-reports are known
+to be affected by a whole range of response biases (6), and there
+are numerous reasons why people’s natural behavior might differ
+from that displayed in the laboratory (7). Consequently, it is
+questionable whether—and to what extent—these findings can be
+generalized to the application of psychological persuasion in real-
+world mass persuasion (see ref. 8 for initial evidence).
+A likely explanation for the lack of ecologically valid research
+in the context of psychological persuasion is the questionnaire-
+based nature of psychological assessment. Whereas researchers
+can ask participants to complete a psychological questionnaire in
+the laboratory, it is unrealistic to expect millions of people to do
+so before sending them persuasive messages online. Recent re-
+search in the field of computational social sciences (9), however,
+suggests that people’s psychological profiles can be accurately pre-
+dicted from the digital footprints they leave with every step they
+take online (10). For example, people’s personality profiles have
+been predicted from personal websites (11), blogs (12), Twitter
+messages (13), Facebook profiles (10, 14–16), and Instagram pic-
+tures (17). This form of psychological assessment from digital foot-
+prints makes it paramount to establish the extent to which behaviors
+of large groups of people can be influenced through the application
+of psychological mass persuasion—both in their own interest (e.g.,
+by persuading them to eat healthier) and against their best interest
+(e.g., by persuading them to gamble). We begin this endeavor in a
+domain that is relatively uncontroversial from an ethical point of
+view: consumer products.
+Significance
+Building on recent advancements in the assessment of psycho-
+logical traits from digital footprints, this paper demonstrates the
+effectiveness of psychological mass persuasion—that is, the ad-
+aptation of persuasive appeals to the psychological characteris-
+tics of large groups of individuals with the goal of influencing
+their behavior. On the one hand, this form of psychological mass
+persuasion could be used to help people make better decisions
+and lead healthier and happier lives. On the other hand, it could
+be used to covertly exploit weaknesses in their character and
+persuade them to take action against their own best interest,
+highlighting the potential need for policy interventions.
+Author contributions: S.C.M. and M.K. designed research; S.C.M., M.K., and D.J.S. per-
+formed research; S.C.M. analyzed data; and S.C.M., M.K., G.N., and D.J.S. wrote the paper.
+Conflict of interest statement: D.J.S. received revenue as the owner of the myPersonality
+Facebook application until it was discontinued in 2012. Revenue was received from dis-
+playing ads within the application and charging for a premium personality test. The
+revenue received by D.J.S. was unrelated to the studies presented in this paper, and there
+will be no future revenue generated from the application. None of the authors received
+any compensation for working on the marketing campaigns used to collect data for the
+studies presented in this manuscript.
+This article is a PNAS Direct Submission.
+This open access article is distributed under Creative Commons Attribution-NonCommercial-
+NoDerivatives License 4.0 (CC BY-NC-ND).
+Data deposition: The data reported in this paper have been deposited in the Open Science
+Framework (OSF), https://osf.io/srjv7/?view_only=90316b0c2e06420bbc3a1cc857a9e3c7.
+1To whom correspondence should be addressed. Email: sm4409@gsb.columbia.edu.
+2M.K. and D.J.S. contributed equally to this work.
+This article contains supporting information online at www.pnas.org/lookup/suppl/doi:10.
+1073/pnas.1710966114/-/DCSupplemental.
+12714–12719
+|
+PNAS
+|
+November 28, 2017
+|
+vol. 114
+|
+no. 48
+www.pnas.org/cgi/doi/10.1073/pnas.1710966114
+Downloaded by guest on December 13, 2021 
+
+
+Capitalizing on the assessment of psychological traits from dig-
+ital footprints, we conducted three real-world experiments that
+reached more than 3.7 million people. Our experiments demon-
+strate that targeting people with persuasive appeals tailored to
+their psychological profiles can be used to influence their behavior
+as measured by clicks and conversions. [Click-through rates
+(CTRs) are a commonly used digital marketing metric that quan-
+tifies the number of clicks relative to number of times the ad was
+shown. Conversion rate is a marketing metric that reflects number
+of conversions, such as app downloads or online store purchases,
+relative to the number of times the ad was shown.] The experi-
+ments were run using Facebook advertising, a typical behavioral
+targeting platform. As of now, Facebook advertising does not allow
+marketers to directly target users based on their psychological
+traits. However, it does so indirectly by offering the possibility to
+target users based on their Facebook Likes. (Facebook users can
+like content such as Facebook pages, posts, or photos to express
+their interest in a wide range of subjects, such as celebrities, poli-
+ticians, books, products, brands, etc. Likes are therefore similar to
+a wide range of other digital footprints—such as web-browsing
+logs, purchase records, playlists, and many others. Hence, the
+findings based on Facebook Likes are likely to generalize to digital
+footprints employed by other advertising platforms.) For example,
+if liking “socializing” on Facebook correlates with the personality
+trait of extraversion and liking “stargate” goes hand in hand with
+introversion, then targeting users associated with each of these
+Likes allows one to target extraverted and introverted user seg-
+ments (see SI Appendix for a validation of this method).
+Studies 1 and 2 target individuals based on their psychological
+traits of extraversion and openness-to-experience (18, 19). We
+chose these two because they show strong associations with
+Facebook Likes (14) and have been frequently investigated in the
+context of consumer preferences and persuasive communication
+(e.g., ref. 2). We extracted lists of Likes indicative of high and low
+levels of each of these traits from the myPersonality.org database
+(20). MyPersonality contains the Facebook Likes of millions of
+users alongside their scores on the 100-item International Per-
+sonality Item Pool (IPIP) questionnaire, a widely validated and
+used measure of personality (19). We computed the average
+personality trait levels for each Like and selected 10 Likes char-
+acterized by the highest and lowest aggregate extraversion and
+openness scores (i.e., target Likes). For example, the list of intro-
+verted target Likes included Stargate and “Computers,” while the
+list of extraverted target Likes contained “Making People Laugh”
+or “Slightly Stoopid.” The list of target Likes for low openness
+included “Farm Town” and “Uncle Kracker,” while the list for
+high openness contained “Walking Life” and “Philosophy” (for
+the full lists of target Likes, see SI Appendix, Tables S1 and S7).
+Study 3 builds on the findings of studies 1–2 and shows how
+psychological persuasion can be used in the context of predefined
+behavioral audiences.
+Results
+Study 1 demonstrates the effects of psychological persuasion on
+people’s purchasing behavior. We tailored the persuasive ad-
+vertising messages for a UK-based beauty retailer to recipients’
+extraversion, a personality trait reflecting the extent to which
+people seek and enjoy company, excitement, and stimulation
+(18). People scoring high on extraversion are described as en-
+ergetic, active, talkative, sociable, outgoing, and enthusiastic;
+people scoring low on extraversion are characterized as shy, re-
+served, quiet, or withdrawn. Given the specific nature of the
+product, we only targeted women. Fig. 1A displays 2 (out of 10)
+ads aimed to appeal to women characterized by high versus low
+extraversion (we refer to the personality of the audience an ad is
+aimed at as ad personality). Using a 2 (Ad Personality: Introverted
+vs. Extraverted) × 2 (Audience Personality: Extraverted vs. Intro-
+verted) between-subjects, full-factorial design, we ran the Facebook
+advertising campaign over the course of 7 d—that is, we placed
+the ads on viewers’ Facebook pages as they browsed freely.
+Together, the campaign reached 3,129,993 users, attracted
+10,346 clicks, and resulted in 390 purchases on the beauty re-
+tailer’s website. Table 1 (study 1) provides a detailed overview of
+the descriptive campaign statistics across ad sets (see SI Appendix
+for more detailed breakdowns). We conducted hierarchical lo-
+gistic regression analyses for clicks (click = 1, no click = 0) and
+conversions (conversion = 1, no conversion = 0), using the au-
+dience personality, the ad personality, and their two-way in-
+teraction as predictors. [All of the results reported in this paper
+hold when using linear probability models or when testing for
+main treatment effects for congruent vs. incongruent conditions
+using Chi-square tests, demonstrating the effects’ robustness to
+model specification (19, 21).] Users were more likely to purchase
+after viewing an ad that matched their personality [Fig. 2;
+Audience Personality × Ad Personality interaction; B = 0.90,
+SE(B) = 0.21, z = 4.30, P < 0.001]. These effects were robust
+after controlling for age and its interactions with ad person-
+ality. Averaged across the campaigns, users in the congruent
+conditions were 1.54 times more likely to purchase from the online
+store than users in the incongruent conditions, χ2(1) = 17.72, odds
+ratio (OR) = 1.54 [1.25–1.90], P < 0.001. There was no significant
+interaction effect on clicks, χ2(1) < 0.001, OR = 1.0 [0.96–1.04],
+P = 0.98.
+Study 2 replicates and extends the findings of study 1 by tai-
+loring the persuasive advertising messages for a crossword app to
+recipients’ level of openness, a personality trait reflecting the
+extent to which people prefer novelty over convention (18).
+People scoring high on openness are described as intellectually
+curious, sensitive to beauty, individualistic, imaginative, and
+unconventional. People scoring low on openness are traditional
+and conservative and are likely to prefer the familiar over the
+unusual. Using the same targeting approach and experimental
+design as study 1, we created tailored advertising messages for
+both high and low openness (Fig. 1B). The campaign was run on
+Facebook, Instagram, and Audience Networks for 12 d.
+The campaign reached 84,176 users, attracted 1,130 clicks, and
+resulted in 500 app installs. Table 1 (study 2) provides a detailed
+Beauty doesn’t have to shout
+Aristoteles? The Seychelles? Unleash your
+creativity and challenge your imagination with
+an ulimited number of crossword puzzles!
+Settle in with an all-time favorite! The
+crossword puzzle that has challenged players 
+for generations.
+High Extraversion
+Low Extraversion
+High Openness
+Low Openness
+A
+B
+Dance like no one's watching 
+(but they totally are)
+Fig. 1.
+Examples of ads aimed at audiences characterized by high and low
+extraversion (A) as well as high and low openness (B). Fig. 1A, Left courtesy
+of Caiaimage/Paul Bradbury/OJO+/Getty Images; Fig. 1A, Right courtesy of
+Hybrid Images/Cultura/Getty Images.
+Matz et al.
+PNAS
+|
+November 28, 2017
+|
+vol. 114
+|
+no. 48
+|
+12715
+SOCIAL SCIENCES
+Downloaded by guest on December 13, 2021 
+
+
+overview of the descriptive campaign statistics across ad sets (see
+SI Appendix for more detailed breakdowns). Using the same hi-
+erarchical logistic regression analyses as in study 1, we found
+significant interaction effects of audience personality and ad
+personality on both clicks [B = 0.58, SE(B) = 0.14, z = 4.31, P <
+0.001] and conversions [Fig. 2; B = 0.72, SE(B) = 0.22, z = 3.35,
+P < 0.001]. These effects were robust after controlling for age,
+gender, and their interactions with ad personality. Averaged across
+the campaigns, users in the congruent conditions were 1.38 times
+more likely to click, χ2(1) = 26.68, OR = 1.38 [1.22–1.56], P < 0.001,
+and 1.31 times more likely to install the app, χ2(1) = 8.34, OR =
+1.31 [1.09–1.58], P = 0.004, than users in the incongruent condi-
+tions. As Fig. 2 illustrates, the significant interaction effect on
+installs was mainly driven by the target audiences characterized as
+low openness. While people scoring low on openness installed the
+app significantly more often when presented with the matching
+marketing message, χ2(1) = 22.72, OR = 0.43 [0.29–0.62], P <
+0.001, there was no significant difference in install rates to
+matching versus mismatching messages among people scoring
+high on openness, χ2(1) = 0.97, OR = 0.89 [0.70–1.13],
+P = 0.325.
+Study 3 builds on the findings of studies 1 and 2 and shows how
+psychological persuasion can be used in the context of predefined
+audiences (e.g., when marketers have already established a behav-
+ioral target group or when health promotions are targeted at a
+specific subpopulation at risk). Promoting a bubble shooter game, we
+Table 1.
+Descriptive statistics of studies 1–3 across ad sets
+Condition
+Reach
+Clicks
+CTR
+Conv
+CR
+CPConv
+ROI
+Study 1
+Introverted ads
+congruent
+762,197
+2,637
+0.35%
+121
+0.016%
+£7.80
+409%
+Introverted ads
+incongruent
+791,270
+2,426
+0.31%
+90
+0.011%
+£10.41
+300%
+Extroverted ads
+congruent
+814,308
+2,573
+0.32%
+117
+0.014%
+£8.32
+410%
+Extroverted ads
+incongruent
+762,218
+2,710
+0.36%
+62
+0.008%
+£15.93
+219%
+Total
+3,129,993
+10,346
+0.33%
+390
+0.012%
+£9.85
+334%
+Study 2
+High-openness ad
+congruent
+29,277
+427
+1.45%
+140
+0.48%
+$2.29
+—
+High-openness ad
+incongruent
+8,926
+112
+1.25%
+37
+0.41%
+$2.71
+—
+Low-openness ad
+congruent
+18,210
+296
+1.62%
+174
+0.96%
+$1.38
+—
+Low-openness ad
+incongruent
+27,763
+295
+1.06%
+149
+0.53%
+$1.76
+—
+Total
+84,176
+1,130
+1.34%
+500
+0.59%
+$1.85
+—
+Study 3
+Standard copy
+324,770
+1,830
+0.56%
+1,053
+0.32%
+$3.21
+—
+Personality-tailored
+copy
+209,480
+1,537
+0.73%
+784
+0.37%
+$2.91
+—
+Total
+534,250
+3,367
+0.63%
+1,837
+0.34%
+$3.10
+—
+CPConv = cost per conversion, CR = conversion rate (installs/reach × 100), CTR = click-through rate (clicks/reach ×
+100), ROI = return on Investment (profits/spending × 100).
+Fig. 2.
+Interaction effects of audience and ad personality on conversion rates in study 1 (Left) and study 2 (Right).
+12716
+|
+www.pnas.org/cgi/doi/10.1073/pnas.1710966114
+Matz et al.
+Downloaded by guest on December 13, 2021 
+
+
+followed the company’s preexisting behavioral targeting approach
+and targeted the game at Facebook users who were connected with a
+selected list of similar games (e.g., Farmville or Bubble Popp).
+Mapping these behavioral target Likes onto those available within
+the myPersonality database allowed us to identify the psychological
+profile of this audience. Building on the finding that the target
+audience was highly introverted (Ez = −0.25), we promoted the app
+comparing the company’s standard persuasive advertising message
+(“Ready? FIRE! Grab the latest puzzle shooter now! Intense ac-
+tion and brain-bending puzzles!”) to a psychologically tailored one
+(“Phew! Hard day? How about a puzzle to wind down with?”).
+Both campaigns were run over the course of 7 d on Facebook.
+Together, the campaign reached 534,250 users, attracted
+3,173 clicks, and resulted in 1,837 app installs. Table 1 (study 3)
+provides a detailed overview of the descriptive campaign statistics
+across ad sets. Corresponding to our hypothesis, two χ2 tests
+showed that the psychologically tailored ad set attracted signifi-
+cantly more clicks, χ2(1) = 58.66, OR = 1.30 [1.22–1.40], P < 0.001,
+and installs, χ2(1) = 9.16, OR = 1.15 [1.05–1.27], P = 0.002, than
+the standard ad set. CTRs and conversion rates were 1.3 and
+1.2 times higher when the persuasive advertising message was
+tailored to the psychological profile of the preexisting behavioral
+audience (see SI Appendix for evidence that this effect is not ex-
+clusively due to the fact that the tailored advertising message was
+generally more appealing).
+Discussion
+The results of the three studies provide converging evidence for
+the effectiveness of psychological targeting in the context of real-
+life digital mass persuasion; tailoring persuasive appeals to the
+psychological profiles of large groups of people allowed us to
+influence their actual behaviors and choices. Given that we ap-
+proximated people’s psychological profiles using a single Like
+per person—instead of predicting individual profiles using peo-
+ple’s full history of digital footprints (e.g., refs. 10 and 14)—our
+findings represent a conservative estimate of the potential ef-
+fectiveness of psychological mass persuasion in the field.
+The effectiveness of large-scale psychological persuasion in
+the digital environment heavily depends on the accuracy of
+predicting psychological profiles from people’s digital footprints
+(whether in the form of machine learning predictions from a
+user’s behavioral history or single target Likes), and therefore,
+this approach is not without limitations. First, the psychological
+meaning of certain digital footprints might change over time,
+making it necessary to continuously calibrate and update the
+algorithm to sustain high accuracy. For example, liking the fan-
+tasy TV show “Game of Thrones” might have been highly pre-
+dictive of introversion when the series was first launched in 2011,
+but its growing popularity might have made it less predictive over
+time as its audience became more mainstream. As a rule of
+thumb, one can say that the higher the face validity of the rela-
+tionships between individual digital footprints and specific psy-
+chological traits, the less likely it is that they will change (e.g., it is
+unlikely that “socializing” will become any less predictive of ex-
+traversion over time). Second, while the psychological assess-
+ment from digital footprints makes it possible to profile large
+groups of people without requiring them to complete a ques-
+tionnaire, most algorithms are developed with questionnaires as the
+gold standard and therefore retain some of the problems associated
+with self-report measures (e.g., social desirability bias; ref. 22).
+Additionally, our study has limitations that provide promising
+avenues for future research. First, we focused on the two per-
+sonality
+traits
+of
+extraversion
+and
+openness-to-experience.
+Building on existing laboratory studies, future research should
+empirically investigate whether and in which contexts other
+psychological traits might prove to be more effective [e.g., need
+for cognition (2) or regulatory focus (23)]. Second, we conducted
+extreme group comparisons where we targeted people scoring
+high or low on a given personality trait using a relatively narrow
+and extreme set of Likes. While the additional analyses reported
+in SI Appendix suggest that less extreme Likes still enable ac-
+curate personality targeting, future research should establish
+whether matching effects are linear throughout the scale and, if
+not, where the boundaries of effective targeting lie.
+The capacity to implement psychological mass persuasion in
+the real world carries both opportunities and ethical challenges.
+On the one hand, psychological persuasion could be used to help
+individuals make better decisions and alleviate many of today’s
+societal ills. For example, psychologically tailored health com-
+munication is effective in changing behaviors among patients and
+groups that are at risk (24, 25). Hence, targeting highly neurotic
+individuals who display early signs of depression with materials
+that offer them professional advice or guide them to self-help
+literature might have a positive preventive impact on the well-
+being of vulnerable members of society. On the other hand,
+psychological persuasion might be used to exploit “weaknesses”
+in a person’s character. It could, for instance, be applied to target
+online casino advertisements at individuals who have psycho-
+logical traits associated with pathological gambling (26). In fact,
+recent media reports suggest that one of the 2016 US presi-
+dential campaigns used psychological profiles of millions of US
+citizens to suppress their votes and keep them away from the
+ballots on election day (27). The veracity of this news story is
+uncertain (28). However, it illustrates clearly how psychological
+mass persuasion could be abused to manipulate people to behave
+in ways that are neither in their best interest nor in the best in-
+terest of society.
+Similarly, the psychological targeting procedure described in
+this manuscript challenges the extent to which existing and
+proposed legislation can protect individual privacy in the digital
+age. While previous research shows that having direct access to
+an individual’s digital footprint makes it possible to accurately
+predict intimate traits (10), the current study demonstrates that
+such inferences can be made even without having direct access to
+individuals’ data. Although we used indirect group-level target-
+ing in a way that was anonymous at the individual level and thus
+preserved—rather than invaded—participants’ privacy, the same
+approach could also be used to reveal individuals’ intimate traits
+without their awareness. For example, a company could advertise
+a link to a product or a questionnaire on Facebook, targeting
+people who follow a Facebook Like that is highly predictive of
+introversion. Simply following such a link reveals the trait to the
+advertiser, without the individuals being aware that they have
+exposed this information. To date, legislative approaches in the
+US and Europe have focused on increasing the transparency of
+how information is gathered and ensuring that consumers have a
+mechanism to “opt out” of tracking (29). Crucially, none of the
+measures currently in place or in discussion address the tech-
+niques described in this paper: Our empirical experiments were
+performed without collecting any individual-level information
+whatsoever on our subjects yet revealed personal information
+that many would consider deeply private. Consequently, current
+approaches are ill equipped to address the potential abuse of
+online information in the context of psychological targeting.
+As more behavioral data are collected in real time, it will
+become possible to put people’s stable psychological traits in a
+situational context. For example, people’s mood and emotions
+have been successfully assessed from spoken and written lan-
+guage (30), video (31), or wearable devices and smartphone
+sensor data (32). Given that people who are in a positive mood
+use more heuristic—rather than systematic—information pro-
+cessing and report more positive evaluations of people and
+products (33), mood could indicate a critical time period for
+psychological persuasion. Hence, extrapolating from what one
+Matz et al.
+PNAS
+|
+November 28, 2017
+|
+vol. 114
+|
+no. 48
+|
+12717
+SOCIAL SCIENCES
+Downloaded by guest on December 13, 2021 
+
+
+does to who one is is likely just the first step in a continuous
+development of psychological mass persuasion.
+Methods
+Ethical approval was granted by the Department of Psychology Ethics
+Committee at the University of Cambridge. Given that the group-level tar-
+geting approach applied in studies 1–3 is 100% anonymous on the individual
+level (all insights provided by Facebook are summary statistics at the level of
+target groups), it is impossible to identify, interact with, and obtain consent
+from individual participants.
+Study 1.
+Selection of target likes. The myPersonality dataset was collected via the
+myPersonality Facebook app between 2007 and 2012 (20). Mostly free of charge,
+the app allowed its users to take real psychometric tests. Among other validated
+tests, users could choose between several versions of the IPIP questionnaire, an
+established open-source measure of the five factor model of personality (19).
+The five factor model has been shown to have excellent psychometric proper-
+ties, including high reliability, convergent and discriminant validity, as well as
+robust criterion validity when predicting real-life outcomes (18, 19). Users re-
+ceived immediate feedback on their responses and were encouraged to grant
+the application access to their personal profile and social network data.
+Study 1 used a myPersonality subsample that contained 65,536 unique
+Facebook Likes alongside the average personality profile of US-based users
+connected to those Likes. The extraversion score of the Facebook Like “Lady
+Gaga”, for example, was determined by averaging the z-standardized extra-
+version scores of all users in the sample who had liked “Lady Gaga”. To max-
+imize the reliability of personality profiles and limit the biases introduced by
+differences in traits other than extraversion, we further restricted the dataset
+described above to Likes followed by at least 400 users and only considered
+Likes that were neutral with respect to the remaining four traits (jzj < 0.20σ).
+We finally selected those Likes with the highest (ðzE = 0.54σ, n = 8Þ and lowest
+aggregate extraversion scores (ðzE = −0.20σ, n = 8Þ that were available in the
+Facebook Interest section at the time. SI Appendix, Table S1 displays the Likes
+used to target extraverted and introverted audiences alongside their person-
+ality scores and sample sizes.
+Advert design. Professional graphic designers created five ads aimed at in-
+troverts and five ads aimed at extraverts by manipulating the language and
+images used in the advert design. The five extraverted adverts were based on
+trait descriptions such as “active, assertive, energetic, enthusiastic, outgoing
+and talkative,” whereas the introverted adverts reflected trait descriptions
+such as “quiet, reserved, shy, silent, and withdrawn” (18). All ads are dis-
+played in SI Appendix, Fig. S2. We validated the manipulation of advert
+designs by surveying 38 female judges (16 postgraduate students at the
+University of Cambridge Psychology Department and 22 students with no
+formal training in psychology). Independent t tests confirmed that both
+psychologists and laymen perceived extraverted ads to be more extraverted
+than the introverted ads—psychologists: t(196) = 24.77, P < 0.001, d = 3.51
+[3.07,3.96]; laymen: t(220) = 15.30, P < 0.001, d = 2.05 [1.73,2.38].
+Targeting procedure. We created “introverted” and “extraverted” market
+segments by entering the selected target Likes displayed in SI Appendix
+Table S1 into the “Interest” section of the Facebook advertising platform.
+This procedure allowed us to limit the advert recipients to users who were
+associated with at least one of our target Likes. At the time the study was
+conducted, the Facebook advertising platform only allowed marketers to
+enter multiple Likes with OR rather than AND statements. For example, an
+extraverted target audience could be created with users who like Making
+People Laugh OR “Meeting New People” but not with users who like both.
+Therefore, the targeting approach pursued in this paper was based on the
+minimum amount of information possible: one single Facebook Like per
+person. In addition to the target Likes outlined above, the ad sets were
+restricted to female UK residents ages 18–40.
+Study 2.
+Targeting procedure. Similar to study 1, we selected those Likes with the highest
+ðzO = 0.59σ, n = 10Þ and lowest aggregate openness scores ðzO = −0.50σ, n = 10Þ
+that were available in the Facebook Interest section at the time. In addition to
+the targeting specifications outlined in the main manuscript, we restricted our
+ad sets to US residents who were connected to a wireless network at the time
+of seeing the ads to facilitate app installs. SI Appendix, Table S6 displays the
+Likes used to target audiences low and high in openness alongside their per-
+sonality scores and sample sizes.
+Ad design. Professional graphic designers and copy editors created two adverts
+tailored to high and low openness characteristics by manipulating the lan-
+guage and images used in the advert design. While the low-openness advert
+was based on trait descriptions such as “down to earth, traditional and
+conservative,” the high-openness advert reflected trait descriptions such as
+“intellectually curious, creative, imaginative, and unconventional” (17). We
+validated the manipulation of advert designs by surveying 22 students at the
+University of Cambridge (average age = 23.5 y, 50% female). An in-
+dependent t test confirmed that participants perceived the high-openness
+ad to be more open-minded than the low-openness ad, t(42) = –4.28, P <
+0.001, d = 1.29 [0.62, 1.96].
+Study 3.
+Targeting procedure. Following the company’s standard behavioral targeting
+approach, ad sets were aimed at women aged 35 and above, living in the US,
+who were connected to at least one of the mobile games on the company’s
+behavioral target list. We further restricted our ad sets to US residents who
+were connected to a wireless network at the time of seeing the ads, to fa-
+cilitate app installs.
+Ad design. Professional copy writers produced an introverted (personality-
+tailored) ad text that we subsequently compared with the standard ad text
+(the image that was used to advertise the app was kept constant). The two ad
+versions are displayed in SI Appendix, Table S9. We validated the manipula-
+tion of ad designs by surveying 22 students at the University of Cambridge
+(average age = 23.5 y, 50% female). An independent t test confirmed that
+participants perceived the personality-tailored ad to be more introverted than
+the standard ad, t(41) = –2.77, P = 0.008, d = 0.84 [0.20, 1.48].
+ACKNOWLEDGMENTS. We thank Vess Popov, Jochen Menges, Jon Jachimowicz,
+Gabriella Harari, Sandrine Mueller, Youyou Wu, Maarten Bos, Michael Norton,
+Nader Tavassoli, Joseph Sirgy, Moran Cerf, Pinar Yildirim, and Winter Mason for
+their critical reading of earlier versions of the manuscript.
+1. Cesario J, Higgins ET, Scholer AA (2008) Regulatory fit and persuasion: Basic principles
+and remaining questions. Soc Personal Psychol Compass 2:444–463.
+2. Wheeler SC, Petty RE, Bizer GY (2005) Self-schema matching and attitude change: Situ-
+ational and dispositional determinants of message elaboration. J Consum Res 31:787–797.
+3. Moon Y (2002) Personalization and personality: Some effects of customizing message
+style based on consumer personality. J Consum Psychol 12:313–326.
+4. Hirsh JB, Kang SK, Bodenhausen GV (2012) Personalized persuasion: Tailoring per-
+suasive appeals to recipients’ personality traits. Psychol Sci 23:578–581.
+5. Dubois D, Rucker DD, Galinsky AD (2016) Dynamics of communicator and audience
+power: The persuasiveness of competence versus warmth. J Consum Res 43:68–85.
+6. Podsakoff PM, Organ DW (1986) Self-reports in organizational research: Problems
+and prospects. J Manage 12:531–544.
+7. Levitt S, List J (2007) What do laboratory experiments tell us about the real world. J Econ
+Perspect 21:153–174.
+8. Liberali G, Hauser JR, Urban GL, Braun M (2009) Website morphing. Mark Sci 28:202–223.
+9. Lazer D, et al. (2009) Life in the network: The coming age of computational social
+science. Science 323:721–723.
+10. Kosinski M, Stillwell D, Graepel T (2013) Private traits and attributes are predictable
+from digital records of human behavior. Proc Natl Acad Sci USA 110:5802–5805.
+11. Marcus B, Machilek F, Schütz A (2006) Personality in cyberspace: Personal web sites as
+media for personality expressions and impressions. J Pers Soc Psychol 90:1014–1031.
+12. Yarkoni T (2010) Personality in 100,000 words: A large-scale analysis of personality
+and word use among bloggers. J Res Pers 44:363–373.
+13. Golbeck J, Robles C, Edmondson M, Turner K (2011) Predicting personality from
+twitter. 2011 IEEE International Conference on Privacy, Security, Risk, and Trust and
+IEEE International Conference on Social Computing (IEEE Computer Society, Wash-
+ington, DC), pp 149–156.
+14. Youyou W, Kosinski M, Stillwell D (2015) Computer-based personality judgments are
+more accurate than those made by humans. Proc Natl Acad Sci USA 112:1036–1040.
+15. Park G, et al. (2015) Automatic personality assessment through social media lan-
+guage. J Pers Soc Psychol 108:934–952.
+16. Schwartz HA, et al. (2013) Personality, gender, and age in the language of social
+media: The open-vocabulary approach. PLoS One 8:e73791.
+17. Segalin C, Perina A, Cristani M, Vinciarelli A (2017) The pictures we like are our image:
+Continuous mapping of favorite pictures into self-assessed and attributed personality
+traits. IEEE Trans Affect Comput 8:268–285.
+18. McCrae RR, John OP (1992) An introduction to the five-factor model and its appli-
+cations. J Pers 60:175–215.
+19. Goldberg LR, et al. (2006) The international personality item pool and the future of
+public-domain personality measures. J Res Pers 40:84–96.
+20. Kosinski M, Matz SC, Gosling SD, Popov V, Stillwell D (2015) Facebook as a research
+tool for the social sciences: Opportunities, challenges, ethical considerations, and
+practical guidelines. Am Psychol 70:543–556.
+21. Ai C, Norton EC (2003) Interaction terms in logit and probit models. Econ Lett 80:123–129.
+22. Paulhus DL, Reid DB (1991) Enhancement and denial in socially desirable responding.
+J Pers Soc Psychol 60:307–317.
+12718
+|
+www.pnas.org/cgi/doi/10.1073/pnas.1710966114
+Matz et al.
+Downloaded by guest on December 13, 2021 
+
+
+23. Cesario J, Grant H, Higgins ET (2004) Regulatory fit and persuasion: Transfer from
+“Feeling Right.” J Pers Soc Psychol 86:388–404.
+24. Noar SM, Benac CN, Harris MS (2007) Does tailoring matter? Meta-analytic review of
+tailored print health behavior change interventions. Psychol Bull 133:673–693.
+25. Mann T, Sherman D, Updegraff J (2004) Dispositional motivations and message framing:
+A test of the congruency hypothesis in college students. Health Psychol 23:330–334.
+26. Bagby RM, et al. (2007) Pathological gambling and the five-factor model of person-
+ality. Pers Individ Differ 43:873–880.
+27. Grassegger H, Krogerus M (2017) The data that turned the world upside down.
+Available at https://motherboard.vice.com/en_us/article/how-our-likes-helped-trump-win.
+Accessed March 4, 2017.
+28. Doward J, Gibbs A (2017) Did Cambridge Analytica influence the Brexit vote and the
+US election? Guard. Available at https://www.theguardian.com/politics/2017/mar/04/
+nigel-oakes-cambridge-analytica-what-role-brexit-trump. Accessed May 10, 2017.
+29. EDPS (2015) Meeting the Challenges of Big Data: A Call for Transparency, User
+Control, Data Protection by Design and Accountability (European Data Protection
+Supervisor). Available at https://edps.europa.eu/sites/edp/files/publication/15-11-
+19_big_data_en.pdf. Accessed May 14, 2017.
+30. Cowie R, et al. (2000) “FEELTRACE”: An instrument for recording perceived emotion in real
+time. ISCA Tutorial and Research Workshop (ITRW) on Speech and Emotion (International
+Speech Communication Association Archive, Newcastle, Northern Ireland). Available at
+https://pdfs.semanticscholar.org/7ef4/c7d2bcb658ba279ef784357fc5d4ee970f88.pdf.
+Accessed May 14, 2017.
+31. Teixeira T, Wedel M, Pieters R (2012) Emotion-induced engagement in internet video
+advertisements. J Mark Res 49:144–159.
+32. LiKamWa R, Liu Y, Lane ND, Zhong L (2013) Moodscope: Building a mood sensor
+from smartphone usage patterns. Proceeding of the 11th Annual International
+Conference on Mobile Systems, Applications, and Services (ACM, New York), pp
+389–402.
+33. Bagozzi RP, Gopinath M, Nyer PU (1999) The role of emotions in marketing. J Acad
+Mark Sci 27:184–206.
+Matz et al.
+PNAS
+|
+November 28, 2017
+|
+vol. 114
+|
+no. 48
+|
+12719
+SOCIAL SCIENCES
+Downloaded by guest on December 13, 2021 

@@ -31,7 +31,7 @@ sys.path.insert(0, str(project_root))
 
 import fitz  # PyMuPDF
 
-from core.config import Settings
+from core.config import Settings, apply_subject, subject_documents_dir
 from core.database.qdrant_client import QdrantManager
 from core.database.document_store import DocumentStore
 from core.services.embedding_service import EmbeddingService
@@ -351,16 +351,35 @@ async def ingest_all(raw_docs: List[Dict[str, Any]], settings: Settings) -> Dict
 # ---------------------------------------------------------------------------
 
 async def main():
+    import argparse
+    parser = argparse.ArgumentParser(description="QdrantRAG-Pro — Full Document Ingestion")
+    parser.add_argument(
+        "--subject", "-s",
+        type=str,
+        default=None,
+        help="Subject name (e.g. 'software-engineering'). "
+             "Uses data/subjects/<subject>/documents/ and a dedicated Qdrant collection."
+    )
+    args = parser.parse_args()
+
     logging.basicConfig(level=logging.WARNING, format="%(levelname)s - %(message)s")
 
-    documents_dir = project_root / "data" / "documents"
+    # Determine documents directory
+    if args.subject:
+        documents_dir = subject_documents_dir(args.subject)
+    else:
+        documents_dir = project_root / "data" / "documents"
+
     if not documents_dir.exists():
         console.print(f"[red]❌ Documents directory not found: {documents_dir}[/red]")
+        if args.subject:
+            console.print(f"[yellow]Create it with: mkdir -p {documents_dir}[/yellow]")
         return 1
 
+    subject_label = f"  |  Subject: [bold]{args.subject}[/bold]" if args.subject else ""
     console.print(Panel.fit(
         "[bold blue]QdrantRAG-Pro — Full Document Ingestion[/bold blue]\n"
-        f"Source: {documents_dir}",
+        f"Source: {documents_dir}{subject_label}",
         border_style="blue"
     ))
 
@@ -387,6 +406,9 @@ async def main():
         # Step 3: Ingest into Qdrant
         console.print("[bold]Step 3: Embedding & ingesting into Qdrant[/bold]")
         settings = Settings()
+        if args.subject:
+            settings = apply_subject(settings, args.subject)
+            console.print(f"📂 Collection: [cyan]{settings.qdrant_collection_name}[/cyan]")
         results = await ingest_all(raw_docs, settings)
 
         # Summary

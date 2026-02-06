@@ -16,7 +16,7 @@ from pathlib import Path
 project_root = Path(__file__).parent.parent
 sys.path.insert(0, str(project_root))
 
-from core.config import Settings
+from core.config import Settings, apply_subject
 from core.database.qdrant_client import QdrantManager
 from rich.console import Console
 from rich.progress import Progress, SpinnerColumn, TextColumn
@@ -55,6 +55,13 @@ def main():
         action="store_true",
         help="Only check database status without making changes"
     )
+    parser.add_argument(
+        "--subject", "-s",
+        type=str,
+        default=None,
+        help="Subject name (e.g. 'software-engineering'). "
+             "Sets up a dedicated Qdrant collection for this subject."
+    )
     
     args = parser.parse_args()
     
@@ -75,6 +82,9 @@ def main():
         # Load settings
         console.print("📋 Loading configuration...")
         settings = Settings()
+        if args.subject:
+            settings = apply_subject(settings, args.subject)
+            console.print(f"📂 Subject: [bold]{args.subject}[/bold]")
         
         # Display configuration
         config_table = Table(title="Database Configuration")

@@ -5,9 +5,14 @@ Centralised settings management using pydantic-settings.
 All values can be overridden with environment variables or a .env file.
 """
 
+import re
+from pathlib import Path
 from typing import Optional
 from pydantic import Field, field_validator
 from pydantic_settings import BaseSettings
+
+# Project root directory (repo root)
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
 
 class Settings(BaseSettings):
@@ -136,3 +141,32 @@ def reload_settings() -> Settings:
     global settings
     settings = Settings()
     return settings
+
+
+# ---------------------------------------------------------------------------
+# Multi-subject helpers
+# ---------------------------------------------------------------------------
+
+def subject_collection_name(subject: str, base_name: str = "qdrant_rag") -> str:
+    """Derive a Qdrant collection name from a subject slug.
+
+    Example: ``subject_collection_name("software-engineering")``
+    → ``"qdrant_rag_software_engineering"``
+    """
+    slug = re.sub(r"[^a-z0-9]+", "_", subject.lower()).strip("_")
+    return f"{base_name}_{slug}"
+
+
+def subject_documents_dir(subject: str) -> Path:
+    """Return the documents directory for a given subject.
+
+    Layout: ``data/subjects/<subject>/documents/``
+    """
+    return PROJECT_ROOT / "data" / "subjects" / subject / "documents"
+
+
+def apply_subject(settings: Settings, subject: str) -> Settings:
+    """Return a *copy* of settings with the collection name set for *subject*."""
+    new = settings.model_copy()
+    new.qdrant_collection_name = subject_collection_name(subject)
+    return new

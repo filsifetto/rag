@@ -1,0 +1,424 @@
+Dette materialet er vernet etter åndsverkloven og er helt eller 
+delvis fremstilt etter avtale med Kopinor. Materialet kan benyttes 
+av studenter som deltar i det aktuelle emnet, for egne studier, i et­
+hvert format og på enhver plattform. Uten uttrykkelig samtykke er 
+annen eksemplarfremstilling og tilgjengeliggjøring bare tillatt når 
+det er hjemlet i lov (kopiering til privat bruk, sitat o.l.) eller avtale 
+med Kopinor (www.kopinor.no).
+Digitalt framstilt av:
+NTNU Universitetsbiblioteket
+This material is protected by copyright law and is wholly or partly 
+produced by agreement with Kopinor. The material can be used 
+by students who participate in the relevant course, for their own 
+studies, in any format and on any platform. Without expressed 
+consent, other copying and making available is only permitted 
+when authorized by law (copying for private use, quotation, etc.) 
+or agreement with Kopinor (www.kopinor.no).
+Sommerville, I., (2015), i; Software Engineering (ISBN 9781292096131)
+Chapter 6.1-6.2 : Architectural Design
+
+
+6
+Architectural design
+Objectives
+The objective of this chapter is to introduce the concepts of software
+architecture and architectural design. When you have read the chapter,
+you will:
+■understand why the architectural design of software is important;
+■understand the decisions that have to be made about the system
+architecture during the architectural design process;
+■have been introduced to the idea of architectural patterns, well-tried
+ways of organizing system architectures, which can be reused in
+system designs;
+■know the architectural patterns that are often used in different types
+of application system, including transaction processing systems and
+language processing systems.
+Contents
+6.1 Architectural design decisions
+6.2 Architectural views
+6.3 Architectural patterns
+6.4 Application architectures
+
+
+148
+Chapter 6 ■Architectural design
+Architectural design is concerned with understanding how a system should be
+organized and designing the overall structure of that system. In the model of the soft-
+ware development process, as shown in Chapter 2, architectural design is the first
+stage in the software design process. It is the critical link between design and
+requirements engineering, as it identifies the main structural components in a system
+and the relationships between them. The output of the architectural design process is
+an architectural model that describes how the system is organized as a set of commu-
+nicating components.
+In agile processes, it is generally accepted that an early stage of the development
+process should be concerned with establishing an overall system architecture.
+Incremental development of architectures is not usually successful. While refactor-
+ing components in response to changes is usually relatively easy, refactoring a sys-
+tem architecture is likely to be expensive.
+To help you understand what I mean by system architecture, consider Figure 6.1.
+This shows an abstract model of the architecture for a packing robot system that
+shows the components that have to be developed. This robotic system can pack dif-
+ferent kinds of object. It uses a vision component to pick out objects on a conveyor,
+identify the type of object, and select the right kind of packaging. The system then
+moves objects from the delivery conveyor to be packaged. It places packaged objects
+on another conveyor. The architectural model shows these components and the links
+between them.
+In practice, there is a significant overlap between the processes of requirements
+engineering and architectural design. Ideally, a system specification should not
+include any design information. This is unrealistic except for very small systems.
+Architectural decomposition is usually necessary to structure and organize the spec-
+ification. Therefore, as part of the requirements engineering process, you might pro-
+pose an abstract system architecture where you associate groups of system functions
+or features with large-scale components or sub-systems. You can then use this
+decomposition to discuss the requirements and features of the system with stake-
+holders.
+You can design software architectures at two levels of abstraction, which I call
+architecture in the small and architecture in the large:
+1.
+Architecture in the small is concerned with the architecture of individual pro-
+grams. At this level, we are concerned with the way that an individual program
+is decomposed into components. This chapter is mostly concerned with pro-
+gram architectures.
+2.
+Architecture in the large is concerned with the architecture of complex enter-
+prise systems that include other systems, programs, and program compo-
+nents. These enterprise systems are distributed over different computers,
+which may be owned and managed by different companies. I cover architec-
+ture in the large in Chapters 18 and 19, where I discuss distributed systems
+architectures.
+
+
+Chapter 6 ■Architectural design
+149
+Vision
+System
+Object
+Identification
+System
+Arm
+Controller
+Gripper
+Controller
+Packaging
+Selection
+System
+Packing
+System
+Conveyor
+Controller
+Figure 6.1 The
+architecture of a packing
+robot control system
+Software architecture is important because it affects the performance, robustness,
+distributability, and maintainability of a system (Bosch, 2000). As Bosch discusses,
+individual components implement the functional system requirements. The non-
+functional requirements depend on the system architecture—the way in which these
+components are organized and communicate. In many systems, non-functional
+requirements are also influenced by individual components, but there is no doubt
+that the architecture of the system is the dominant influence.
+Bass et al. (2003) discuss three advantages of explicitly designing and document-
+ing software architecture:
+1.
+Stakeholder communication The architecture is a high-level presentation of the sys-
+tem that may be used as a focus for discussion by a range of different stakeholders.
+2.
+System analysis Making the system architecture explicit at an early stage in the
+system development requires some analysis. Architectural design decisions
+have a profound effect on whether or not the system can meet critical require-
+ments such as performance, reliability, and maintainability.
+3.
+Large-scale reuse A model of a system architecture is a compact, manageable
+description of how a system is organized and how the components interoperate.
+The system architecture is often the same for systems with similar requirements
+and so can support large-scale software reuse. As I explain in Chapter 16, it may
+be possible to develop product-line architectures where the same architecture is
+reused across a range of related systems.
+
+
+150
+Chapter 6 ■Architectural design
+Hofmeister et al. (2000) propose that a software architecture can serve firstly as a
+design plan for the negotiation of system requirements, and secondly as a means of
+structuring discussions with clients, developers, and managers. They also suggest
+that it is an essential tool for complexity management. It hides details and allows the
+designers to focus on the key system abstractions.
+System architectures are often modeled using simple block diagrams, as in Figure 6.1.
+Each box in the diagram represents a component. Boxes within boxes indicate that the
+component has been decomposed to sub-components. Arrows mean that data and or con-
+trol signals are passed from component to component in the direction of the arrows. You
+can see many examples of this type of architectural model in Booch’s software architec-
+ture catalog (Booch, 2009).
+Block diagrams present a high-level picture of the system structure, which people
+from different disciplines, who are involved in the system development process, can
+readily understand. However, in spite of their widespread use, Bass et al. (2003) dis-
+like informal block diagrams for describing an architecture. They claim that these
+informal diagrams are poor architectural representations, as they show neither the
+type of the relationships among system components nor the components’ externally
+visible properties.
+The apparent contradictions between practice and architectural theory arise
+because there are two ways in which an architectural model of a program is used:
+1.
+As a way of facilitating discussion about the system design A high-level
+architectural view of a system is useful for communication with system stake-
+holders and project planning because it is not cluttered with detail. Stake-
+holders can relate to it and understand an abstract view of the system. They
+can then discuss the system as a whole without being confused by detail. The
+architectural model identifies the key components that are to be developed
+so managers can start assigning people to plan the development of these
+systems.
+2.
+As a way of documenting an architecture that has been designed The aim here 
+is to produce a complete system model that shows the different components in
+a system, their interfaces, and their connections. The argument for this is that
+such a detailed architectural description makes it easier to understand and evolve
+the system.
+Block diagrams are an appropriate way of describing the system architecture dur-
+ing the design process, as they are a good way of supporting communications
+between the people involved in the process. In many projects, these are often the
+only architectural documentation that exists. However, if the architecture of a system
+is to be thoroughly documented then it is better to use a notation with well-defined
+semantics for architectural description. However, as I discuss in Section 6.2, some
+people think that detailed documentation is neither useful, nor really worth the cost
+of its development.
+
+
+6.1 ■Architectural design decisions
+151
+6.1 Architectural design decisions
+Architectural design is a creative process where you design a system organization
+that will satisfy the functional and non-functional requirements of a system. Because
+it is a creative process, the activities within the process depend on the type of system
+being developed, the background and experience of the system architect, and the
+specific requirements for the system. It is therefore useful to think of architectural
+design as a series of decisions to be made rather than a sequence of activities.
+During the architectural design process, system architects have to make a number
+of structural decisions that profoundly affect the system and its development
+process. Based on their knowledge and experience, they have to consider the follow-
+ing fundamental questions about the system:
+1.
+Is there a generic application architecture that can act as a template for the sys-
+tem that is being designed?
+2.
+How will the system be distributed across a number of cores or processors?
+3.
+What architectural patterns or styles might be used?
+4.
+What will be the fundamental approach used to structure the system?
+5.
+How will the structural components in the system be decomposed into sub-
+components?
+6.
+What strategy will be used to control the operation of the components in the system?
+7.
+What architectural organization is best for delivering the non-functional require-
+ments of the system?
+8.
+How will the architectural design be evaluated?
+9.
+How should the architecture of the system be documented?
+Although each software system is unique, systems in the same application
+domain often have similar architectures that reflect the fundamental concepts of the
+domain. For example, application product lines are applications that are built around
+a core architecture with variants that satisfy specific customer requirements. When
+designing a system architecture, you have to decide what your system and broader
+application classes have in common, and decide how much knowledge from these
+application architectures you can reuse. I discuss generic application architectures in
+Section 6.4 and application product lines in Chapter 16.
+For embedded systems and systems designed for personal computers, there is
+usually only a single processor and you will not have to design a distributed architec-
+ture for the system. However, most large systems are now distributed systems in
+which the system software is distributed across many different computers. The
+choice of distribution architecture is a key decision that affects the performance and
+
+
+152
+Chapter 6 ■Architectural design
+reliability of the system. This is a major topic in its own right and I cover it sepa-
+rately in Chapter 18.
+The architecture of a software system may be based on a particular architectural
+pattern or style. An architectural pattern is a description of a system organization
+(Garlan and Shaw, 1993), such as a client–server organization or a layered architecture.
+Architectural patterns capture the essence of an architecture that has been used in dif-
+ferent software systems. You should be aware of common patterns, where they can be
+used, and their strengths and weaknesses when making decisions about the architec-
+ture of a system. I discuss a number of frequently used patterns in Section 6.3.
+Garlan and Shaw’s notion of an architectural style (style and pattern have come to
+mean the same thing) covers questions 4 to 6 in the previous list. You have to choose
+the most appropriate structure, such as client–server or layered structuring, that will
+enable you to meet the system requirements. To decompose structural system units,
+you decide on the strategy for decomposing components into sub-components. The
+approaches that you can use allow different types of architecture to be implemented.
+Finally, in the control modeling process, you make decisions about how the execu-
+tion of components is controlled. You develop a general model of the control rela-
+tionships between the various parts of the system.
+Because of the close relationship between non-functional requirements and soft-
+ware architecture, the particular architectural style and structure that you choose for
+a system should depend on the non-functional system requirements:
+1.
+Performance If performance is a critical requirement, the architecture should
+be designed to localize critical operations within a small number of com-
+ponents, with these components all deployed on the same computer rather than
+distributed across the network. This may mean using a few relatively large com-
+ponents rather than small, fine-grain components, which reduces the number of
+component communications. You may also consider run-time system organiza-
+tions that allow the system to be replicated and executed on different processors.
+2.
+Security If security is a critical requirement, a layered structure for the architec-
+ture should be used, with the most critical assets protected in the innermost lay-
+ers, with a high level of security validation applied to these layers.
+3.
+Safety If safety is a critical requirement, the architecture should be designed so
+that safety-related operations are all located in either a single component or in a
+small number of components. This reduces the costs and problems of safety val-
+idation and makes it possible to provide related protection systems that can
+safely shut down the system in the event of failure.
+4.
+Availability If availability is a critical requirement, the architecture should be
+designed to include redundant components so that it is possible to replace and
+update components without stopping the system. I describe two fault-tolerant
+system architectures for high-availability systems in Chapter 13.
+5.
+Maintainability If maintainability is a critical requirement, the system architec-
+ture should be designed using fine-grain, self-contained components that may
+
+
+6.2 ■Architectural views
+153
+readily be changed. Producers of data should be separated from consumers and
+shared data structures should be avoided.
+Obviously there is potential conflict between some of these architectures. For
+example, using large components improves performance and using small, fine-grain
+components improves maintainability. If both performance and maintainability are
+important system requirements, then some compromise must be found. This can
+sometimes be achieved by using different architectural patterns or styles for different
+parts of the system.
+Evaluating an architectural design is difficult because the true test of an architec-
+ture is how well the system meets its functional and non-functional requirements
+when it is in use. However, you can do some evaluation by comparing your design
+against reference architectures or generic architectural patterns. Bosch’s (2000)
+description of the non-functional characteristics of architectural patterns can also be
+used to help with architectural evaluation.
+6.2 Architectural views
+I explained in the introduction to this chapter that architectural models of a software
+system can be used to focus discussion about the software requirements or design.
+Alternatively, they may be used to document a design so that it can be used as a basis
+for more detailed design and implementation, and for the future evolution of the sys-
+tem. In this section, I discuss two issues that are relevant to both of these:
+1.
+What views or perspectives are useful when designing and documenting a sys-
+tem’s architecture?
+2.
+What notations should be used for describing architectural models?
+It is impossible to represent all relevant information about a system’s architecture in
+a single architectural model, as each model only shows one view or perspective of the
+system. It might show how a system is decomposed into modules, how the run-time
+processes interact, or the different ways in which system components are distributed
+across a network. All of these are useful at different times so, for both design and doc-
+umentation, you usually need to present multiple views of the software architecture.
+There are different opinions as to what views are required. Krutchen (1995), in
+his well-known 4+1 view model of software architecture, suggests that there should
+be four fundamental architectural views, which are related using use cases or scenar-
+ios. The views that he suggests are:
+1.
+A logical view, which shows the key abstractions in the system as objects or
+object classes. It should be possible to relate the system requirements to entities
+in this logical view.
+
+
+154
+Chapter 6 ■Architectural design
+2.
+A process view, which shows how, at run-time, the system is composed of inter-
+acting processes. This view is useful for making judgments about non-
+functional system characteristics such as performance and availability.
+3.
+A development view, which shows how the software is decomposed for devel-
+opment, that is, it shows the breakdown of the software into components that are
+implemented by a single developer or development team. This view is useful for
+software managers and programmers.
+4.
+A physical view, which shows the system hardware and how software compo-
+nents are distributed across the processors in the system. This view is useful for
+systems engineers planning a system deployment.
+Hofmeister et al. (2000) suggest the use of similar views but add to this the notion
+of a conceptual view. This view is an abstract view of the system that can be the basis
+for decomposing high-level requirements into more detailed specifications, help
+engineers make decisions about components that can be reused, and represent
+a product line (discussed in Chapter 16) rather than a single system. Figure 6.1,
+which describes the architecture of a packing robot, is an example of a conceptual
+system view.
+In practice, conceptual views are almost always developed during the design
+process and are used to support architectural decision making. They are a way of
+communicating the essence of a system to different stakeholders. During the design
+process, some of the other views may also be developed when different aspects of
+the system are discussed, but there is no need for a complete description from all per-
+spectives. It may also be possible to associate architectural patterns, discussed in the
+next section, with the different views of a system.
+There are differing views about whether or not software architects should use
+the UML for architectural description (Clements, et al., 2002). A survey in 2006
+(Lange et al., 2006) showed that, when the UML was used, it was mostly applied in
+a loose and informal way. The authors of that paper argued that this was a bad thing.
+I disagree with this view. The UML was designed for describing object-oriented
+systems and, at the architectural design stage, you often want to describe systems at
+a higher level of abstraction. Object classes are too close to the implementation to be
+useful for architectural description.
+I don’t find the UML to be useful during the design process itself and prefer infor-
+mal notations that are quicker to write and which can be easily drawn on a white-
+board. The UML is of most value when you are documenting an architecture in
+detail or using model-driven development, as discussed in Chapter 5.
+A number of researchers have proposed the use of more specialized architectural
+description languages (ADLs) (Bass et al., 2003) to describe system architectures.
+The basic elements of ADLs are components and connectors, and they include rules
+and guidelines for well-formed architectures. However, because of their specialized
+nature, domain and application specialists find it hard to understand and use ADLs.
+This makes it difficult to assess their usefulness for practical software engineering.
+ADLs designed for a particular domain (e.g., automobile systems) may be used as a
+
+
+6.3 ■Architectural patterns
+155
+basis for model-driven development. However, I believe that informal models and
+notations, such as the UML, will remain the most commonly used ways of docu-
+menting system architectures.
+Users of agile methods claim that detailed design documentation is mostly
+unused. It is, therefore, a waste of time and money to develop it. I largely agree with
+this view and I think that, for most systems, it is not worth developing a detailed
+architectural description from these four perspectives. You should develop the views
+that are useful for communication and not worry about whether or not your architec-
+tural documentation is complete. However, an exception to this is when you are
+developing critical systems, when you need to make a detailed dependability analy-
+sis of the system. You may need to convince external regulators that your system
+conforms to their regulations and so complete architectural documentation may be
+required.
+6.3 Architectural patterns
+The idea of patterns as a way of presenting, sharing, and reusing knowledge about
+software systems is now widely used. The trigger for this was the publication of a
+book on object-oriented design patterns (Gamma et al., 1995), which prompted the
+development of other types of pattern, such as patterns for organizational design
+(Coplien and Harrison, 2004), usability patterns (Usability Group, 1998), interaction
+(Martin and Sommerville, 2004), configuration management (Berczuk and
+Name
+MVC (Model-View-Controller)
+Description
+Separates presentation and interaction from the system data. The system is structured into
+three logical components that interact with each other. The Model component manages
+the system data and associated operations on that data. The View component defines and
+manages how the data is presented to the user. The Controller component manages user
+interaction (e.g., key presses, mouse clicks, etc.) and passes these interactions to the View
+and the Model. See Figure 6.3.
+Example
+Figure 6.4 shows the architecture of a web-based application system organized using the
+MVC pattern.
+When used
+Used when there are multiple ways to view and interact with data. Also used when the
+future requirements for interaction and presentation of data are unknown.
+Advantages
+Allows the data to change independently of its representation and vice versa. Supports
+presentation of the same data in different ways with changes made in one representation
+shown in all of them.
+Disadvantages
+Can involve additional code and code complexity when the data model and interactions
+are simple.
+Figure 6.2 The model-
+view-controller (MVC)
+pattern

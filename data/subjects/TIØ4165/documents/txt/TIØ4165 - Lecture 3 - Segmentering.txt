@@ -1,0 +1,314 @@
+Forelesning 3: Segmentering
+Professor Arild Aspelund
+TIØ4165 - Markedsføringsledelse for teknologibedrifter
+
+
+Short Recoup - Kundeverdi
+• Til venstre - levert kundeverdi som summen av total 
+kundeverdi og kostnader
+• Konsumentmarkedsføring …
+• handler om opplevd verdi!
+• betydelig del av den opplevde kundeverdien
+kan komme fra personlig verdi og image verdi
+
+
+Kvalitet, kundetilfredshet og lojalitet
+• Kvalitet er subjektivt! 
+• For å skape kundetilfredshet må produkter tilfredstille (eller overgå) 
+kunders forventninger
+• Den negative effekten av å ikke tilfredstille kunders forventninger er 
+disproporsjonalt større enn den positive effekten av å overgå forventninger
+• Høy tilfredshet skaper lojalitet!
+asdf
+
+
+Kundelojalitet
+• Det er kostbart for bedrifter å tiltrekke seg nye kunder
+• Customer Acquisition Cost (CAC eller CoCA) er kostnaden bedrifter pådrar 
+seg for å få én ny kunde til å kjøpe et produkt eller en tjeneste
+• Kan (forenklet) regnes ut med følgende formel:
+CAC =
+Kostnad for markedsføring i tidsperiode
+Antall nye kunder i tidsperiode
+1/2
+Les: Pfeifer et al (2005)
+
+
+Lønnsomhetsanalyse
+• Hver kunde har en forventet verdi for en bedrift i fremtiden
+• Customer Lifetime Value (LTV) er den antatte fremtidige fortjenesten et 
+selskap kan gjøre fra kjøpene til én kunde
+• Ikke alle kunder er lønnsomme!
+• Man ønsker: kunder med lav CAC og stor LTV 
+• Man ønsker ikke: kunder med høy CAC og liten LTV
+• Lønnsomhetsanalyser bidrar til å identifisere hvilke kunder som er lønnsomme
+• Ofte gjelder 80/20 regelen
+Les: Pfeifer et al (2005)
+
+
+Agenda - Segmentering
+• Introduksjon
+• Hva er segmentering?
+• Segmenteringsvariabler
+• Hvorfor gjøre segmentering?
+• Hva er god segmentering?
+• Eksempler på segmentering
+• Hvordan gjøre markedsundersøkelser for segmentering
+• Gruppeoppgave
+
+
+Lesestoff
+• Jenkinson, A. 2009. What happened to strategic segmentation? Journal of 
+Direct, Data and Digital Marketing Practice 11(2), pp. 124-129.
+
+
+Hva er segmentering?
+Segmentering er prosessen om å identifisere og kategorisere ulike grupper kunder i ihht deres egenskaper og/eller 
+kjøpsadferd
+Akademisk definisjon: «groups of existing or potential customers that shares the same needs and wants»
+
+
+Segmentering i forbrukermarkedet
+• Vanlige variabler å segmentere etter er:
+• Demografisk: Alder, kjønn, inntekt mm
+• Geografisk: Land/fylke/kommune, urban/landsbygd, Norge/Europa mm
+• Psykografisk: Livsstil/livssyn, interesser, meninger, personlighetstrekk mm
+• Adferdsmessig: Kjøper, bruker, påvirker, leverandør, beslutningstaker mm
+• Alle forbrukere tilhører flere segmenter. 
+• Segmenteringen har konsekvenser for formuleringen av verdiforslaget som 
+presenteres til kunder gjennom markedsføring
+Les: Jenkinson (2009)
+
+
+Demografisk
+Hvem er 
+forbrukerne?
+Geografisk
+Hvor er 
+forbrukerene?
+Psykografisk
+Hvordan er 
+forbrukerne?
+Adferdsmessig
+Hva gjør 
+forbrukerne?
+Les: Jenkinson (2009)
+
+
+Demografisk dimensjon
+Psykografisk
+dimensjon
+Adferdsmessig
+dimensjon
+Geografisk dimensjon
+En gitt forbruker
+
+
+Demografisk segmentering
+• Alder og ‘sted i livet’
+• Menneskers behov og preferanser endrer seg med alder og livsstadier
+• Personer fra samme generasjon har lignende referanser, verdier, normer, 
+interesser, behov
+• Kjønn
+• Inntekt og formue
+• Sosiale forhold
+• Demografisk segmentering hjelper med å definere hvem forbrukerne er
+
+
+Demografisk segmentering - Alder
+25 - 45 år
+20 - 40 år
+60 år+
+
+
+Demografisk segmentering - Kjønn
+Kvinner
+Gutter/Menn
+Menn
+
+
+Demografisk segmentering - Inntekt
+Høy inntekt
+Lav-Middels inntekt
+Middels-Høy inntekt
+
+
+Demografisk segmentering - Sosiale forhold
+Foreldre
+Klesstørrelse
+Enslige
+
+
+Geografisk segmentering
+• Hvor er forbrukeren?
+• Kan være spesifikk: Land, fylke, kommune, tettsted
+• Kan være generell: Urban/landsbygd, Fastland/øy 
+• Hvorfor er forbrukeren der?
+• Forhold: Fast bosatt, gjennomreisende, hyppig besøkende
+• Formål: Hjemsted, arbeidsplass, fritidsaktivitet
+• Geografisk segmentering hjelper med å definere hvor forbrukerne er
+
+
+Geografisk segmentering
+Landsbygd
+Tettsteder
+Universiteter
+
+
+Psykografisk segmentering
+• Livsstil: livssyn, diett, aktiviteter mm
+• Interesser: hobbier, tilhørighet i organisasjoner, 
+• Meninger: politiske, religiøse, kulturelle mm
+• Personlighetstrekk: åpen, energisk, impulsiv, intellektuell, konkurranselysten
+• Psykografisk segmentering hjelper med å definere hvordan forbrukerne er
+
+
+Psykografisk segmentering
+Livsstil
+Livsstil
+Interesser
+
+
+Adferdsmessig segmentering
+• Beslutningsroller: Initiativtaker, påvirker, beslutter, kjøper, bruker
+• Atferdsmessige variabler
+• Hvilke anledninger? Bryllup, dåp, konfirmasjon, halloween
+• Hva søkes? Sikkerhet, status, helse, bekvemmelighet
+• Brukerstatus: Ikke-bruker, eks-bruker, potensiell bruker, førstegangsbruker, vanlig bruker
+• Bruksrate: Medlem, sølv, gull, diamant, ‘pandion’
+• Lojalitetsstatus: Hard-core lojal, delvis lojal, skiftende lojalitet
+• Holdning: Entusiast, positive, likegyldig, negative, fiendtlig
+• Adferdsmessig segmentering hjelper med å definere hva forbrukerne gjør
+
+
+Adferdsmessig segmentering
+Bruksrate
+Anledning
+
+
+Teknologimarkedsføring
+-Spesielle egenskaper for markedsføring av teknologi (Moore, 2003)
+
+
+Verktøy/ressurser
+• Demografisk segmentering:
+• Statistisk Sentralbyrå (SSB), interesseorganisasjoner
+• Geografisk segmentering:
+• SSB, fylke/kommunale databaser
+• Psykografisk segmentering:
+• The “Big Five” personlighetstest, VALS verktøyet
+• Adferdsbasert segmentering:
+• Interesser i sosiale medier, korrelasjoner med lokasjon/demografi
+
+
+Hvorfor gjøre segmentering?
+Segmentering er prosessen om å identifisere og kategorisere ulike grupper kunder i 
+ihht deres egenskaper og/eller kjøpsadferd
+
+
+Hva er målet med segmentering?
+Målet er å identifisere hvor, hvordan og med hvilket budskap man mest effektivt 
+kan kommunisere kundeverdi til mulige kjøpere
+
+
+Hva er god segmentering?
+
+
+Hvordan evaluere segmentering?
+• God segmentering begrenser utvalg av forbrukere til grupper hvor det er liten 
+variasjon innad i gruppa men så stor variasjon som mulig mellom 
+gruppene
+• Hvert segment tilsvarer en håndterbar mengde for bedriften
+• Gjør det mulig å utvikle passende, ikke-overlappende 
+markedsføringsstrategier for hvert segment
+• Graden av kompleksitet i segmenteringen avhenger av størrelsen og 
+heterogeniteten i markedet
+• Hvilket detaljnivå behøves for optimere CAC?
+
+
+Balanse i segmentering
+• Store segment
+• Mister vi hensikten med å segmentere?
+• Blir det vanskelig å kommunisere 
+kundeverdi?
+• Mindre segment
+• Klarer vi å følge opp hvert segment?
+• Cost / Benefit — Det krever tid og ressurser å 
+håndtere mange segment samtidig
+
+
+Krav til segmentering
+• Segmentet må være differensierbart
+• Segmentet må være målbart
+• Segmentet må være tilgjengelig (for markedsføringstiltak)
+• Segmentet må være lønnsomt (tenk CAC/LTV)
+• Segmentets dimensjon må være proporsjonalt til bedriftens ressurser
+
+
+• Det er mange mulige 
+segmenteringsvariabler
+• Hvordan vet man hvilken man 
+skal velge?
+• Ikke en eksakt vitenskap
+• Det kan være (og er som regel) 
+flere riktige svar
+• Også mange feil svar
+• Hvem er kundene?
+• Demografisk? Geografisk? 
+Psykografisk? Adferdsmessig?
+• Hva slags valg gjør kundene?
+• Basert på: Bruk? Lojalitet? Kanal?
+• Hvorfor gjør kundene valgene de gjør?
+• Behov? Preferanse? 
+Kundekarakteristikker?
+Hvordan segmentere?
+
+
+Eksempler på segmenteringer
+Storytel, Nabobil, Lego og Nivea
+
+
+Eksempel A: Storytel (aldersbasert)
+
+
+Eksempel B: Nabobil (blandet)
+
+
+Eksempel C: Lego (adferdsbasert, hele befolkningen)
+
+
+Hvordan gjøre markedsundersøkelser for segmentering?
+• Kvalitative metoder
+• Begynn med utforskende 
+dybdeintervjuer
+• Avdekk interesser, lidenskaper, 
+bruksmønstre mm
+• Avtal fokusgrupper / workshops
+• Mål om “høy oppløselig” 
+informasjon (ikke “rikelig”)
+• Kvantitative metoder
+• Bruk eksisterende data
+• Bedriftens egne, offentlige
+• Spørreundersøkelse
+• Avdekke segmenter ved statistisk 
+analyse
+• Digitale markedsføringsverktøy
+• Kjør test-kampanjer for å avdekke 
+variasjoner i CPC
+
+
+Mer om markedsundersøkelser i Forelesning 
+7 om Metodikk
+
+
+Gruppeoppgave
+Hvilke segmenteringsvariabler tenker dere at kan 
+være relevante for følgende produkter?
+
+
+Alarmsystem
+Elbil
+Actionkamera
+Digital helsetjeneste
+Matkasse
+Ryggsekk

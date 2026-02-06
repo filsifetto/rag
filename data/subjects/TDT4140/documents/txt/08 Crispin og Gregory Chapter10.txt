@@ -1,0 +1,1222 @@
+Dette materialet er vernet etter åndsverkloven og er helt eller 
+delvis fremstilt etter avtale med Kopinor. Materialet kan benyttes 
+av studenter som deltar i det aktuelle emnet, for egne studier, i et­
+hvert format og på enhver plattform. Uten uttrykkelig samtykke er 
+annen eksemplarfremstilling og tilgjengeliggjøring bare tillatt når 
+det er hjemlet i lov (kopiering til privat bruk, sitat o.l.) eller avtale 
+med Kopinor (www.kopinor.no).
+Digitalt framstilt av:
+NTNU Universitetsbiblioteket
+This material is protected by copyright law and is wholly or partly 
+produced by agreement with Kopinor. The material can be used 
+by students who participate in the relevant course, for their own 
+studies, in any format and on any platform. Without expressed 
+consent, other copying and making available is only permitted 
+when authorized by law (copying for private use, quotation, etc.) 
+or agreement with Kopinor (www.kopinor.no).
+Crispin, L. & Gregory, J. (2008), i; Agile Testing. 1.utgave (ISBN 
+9780321534460) Chapter 10: Business-Facing Tests That Critique The 
+Product
+
+
+189
+Chapter 10
+BUSINESS-FACING TESTS
+THAT CRITIQUE THE PRODUCT
+This chapter covers the third quadrant of the testing matrix. In Chapter 8, 
+“Business-Facing Tests that Support the Team,” we talked about the second 
+quadrant and how to use business-facing tests to support programming. In 
+this chapter, we show you how to critique the product with different types 
+of business-facing tests. We’ll also talk about tools that might help with 
+these activities. 
+Business-Facing/
+Critique Product
+Behind the GUI
+Using Automated Functional Test Tools for ET
+Test Setup
+Monitoring Tools
+Test Data Generation
+Simulators
+Emulators
+API
+Web Services
+Toolkit
+Introduction
+Demonstrations
+Usability
+Scenario
+Testing
+Workflow Testing
+Domain Knowledge
+Documentation
+End-to-End Scenarios
+Soap Opera Testing
+Learning by Testing
+Session-Based Testing
+Exploratory
+Testing
+User Needs and Persona Testing
+Automate
+Navigation
+An Exploratory Tester
+Check Out the Competition
+User Documentation
+Reports
+
+
+190
+CHAPTER 10
+
+BUSINESS-FACING TESTS THAT CRITIQUE THE PRODUCT
+INTRODUCTION TO QUADRANT 3
+Remember that business-facing tests are those you could describe in terms
+that would (or should) be of interest to a business expert. When we mention
+testing in traditional phased approaches, it pretty much always means cri-
+tiquing the product after it is built. By now, you might think that in agile de-
+velopment this part of testing should be easy. After all, we just spent all that
+time making sure it works as expected. The requirements have all been tested
+as they were built, including security and other nonfunctional requirements,
+right? All that’s left is to possibly ﬁnd some obscure or interesting bugs.
+As testers, we know that people make mistakes. No matter how hard we try to
+get it right the ﬁrst time, we sometimes get it wrong. Maybe we used an ex-
+ample that didn’t test what we thought it did. Or maybe we recorded a wrong
+expected result so the test passed, but it was a false positive. The business ex-
+pert might have forgotten some things that real users needed. The best cus-
+tomer may not know what she wants (or doesn’t want) until she sees it.
+Critiquing or evaluating the product is what testers or business users do when
+they assess and make judgments about the product. These evaluators form
+perceptions based on whether they like the way it behaves, the look and feel,
+or the workﬂow of new screens. It is easier to see, feel, and touch a product
+and respond than to imagine what it will look like when it is described to you.
+It’s difﬁcult to automate business-facing tests that critique the product, because
+such testing relies on human intellect, experience, and instinct. However, auto-
+mated tools can assist with aspects of Quadrant 3 tests (see Figure 10-1), such
+as test data setup. The last section of this chapter contains examples of the
+types of tools that help teams focus on the important aspects of evaluating
+the product’s value. 
+While much of the testing we discuss in this chapter is manual, don’t make
+the mistake of thinking that this manual testing will be enough to produce
+high-quality software and that you can get away with not automating your
+regression tests. You won’t have time to do any Quadrant 3 tests if you
+haven’t automated the tests in Quadrants 1 and 2. 
+Evaluating or critiquing the product is about manipulating the system under
+test and trying to recreate actual experiences of the end users. Understanding
+different business scenarios and workﬂows helps to make the experience
+more realistic. 
+
+
+DEMONSTRATIONS
+191
+DEMONSTRATIONS
+We recommend showing customers what you’re developing early and often.
+As soon as a rudimentary UI or report is available during story development,
+show it to the product owner or other domain expert on the team. However,
+not everyone on the business side will get a chance to see the iteration’s deliv-
+erables until the iteration demo. End-of-iteration demonstrations are an op-
+portunity for the business users and domain experts to see what has been
+delivered in the iteration and revise their priorities. It gives them a chance to
+say, “That’s what I said, but it’s not what I meant.” This is a form of critiquing
+the product. 
+Functional Tests
+Examples
+Story Tests
+Prototypes
+Simulations
+Agile Testing Quadrants
+Automated
+Business-Facing
+& Manual
+Supporting the Team
+Critique Product
+Unit Tests
+Performance & Load Testing
+Component Tests
+Security Testing
+“ility” Testing
+Technology-Facing
+Automated
+Q2
+Q1
+Q4
+Tools
+Exploratory Testing
+Scenarios
+Usability Testing
+UAT (User Acceptance Testing)
+Alpha/Beta
+Manual
+Q3
+Figure 10-1
+Quadrant 3 tests
+
+
+192
+CHAPTER 10
+
+BUSINESS-FACING TESTS THAT CRITIQUE THE PRODUCT
+I worked on a project that had ﬁve separate teams of eight to ten members, all 
+developing the same system. Even though they were on the same ﬂoor, communi-
+cation was an issue. There were many dependencies and overlaps, so the pro-
+grammers depended on team-lead meetings to share information. However, the 
+business users and testers needed to see what was being developed by other 
+teams. They relied on end-of-iteration demonstrations given by each team to learn 
+what the other teams were doing.
+—Janet
+Demonstrations to the executives or upper management can instill conﬁ-
+dence in your project as well. One of the downfalls of a phased project is
+there is nothing to see until the very end, and management has to place all of
+its trust in the development team’s reports. The incremental and iterative na-
+ture of agile development gives you a chance to demonstrate business value
+as you produce it, even before you release it. A live demonstration can be a
+very powerful tool if the participants are actively asking questions about the
+new features.
+Rather than waiting until the end of the iteration, you can use any opportu-
+nity to demonstrate your changes. A recent project Janet worked on used reg-
+ularly scheduled meetings with the business users to demonstrate new
+features in order to get immediate feedback. Any desired changes were fed
+into the next iteration.
+Choose a frequency for your demonstrations that works for your team so
+that the feedback loop is quick enough for you to incorporate changes into
+the release.
+Informal demos can be even more productive. Sit down with a business ex-
+pert and show her the story your team is currently coding. Do some explor-
+atory testing together. We’ve heard of teams that get their stakeholders to do
+some exploratory testing after each iteration demo in order to help them
+think of reﬁnements and future stories to change or build on the functional-
+ity just delivered.
+SCENARIO TESTING
+Business users can help deﬁne plausible scenarios and workﬂows that can
+mimic end user behavior. Real-life domain knowledge is critical to creating
+accurate scenarios. We want to test the system from end to end but not neces-
+sarily as a black box. 
+Janet’s Story
+Chapter 19, “Wrap 
+Up the Iteration,”
+talks about end-
+of-iteration dem-
+onstrations and 
+reviews.
+
+
+SCENARIO TESTING
+193
+One good technique for helping the team understand the business and user
+needs is “soap opera testing,” a term coined by Hans Buwalda [2003]. The
+idea here is to take a scenario that is based on real life, exaggerate it in a man-
+ner similar to the way TV soap operas exaggerate behavior and emotions,
+and compress it into a quick sequence of events. Think about questions like,
+“What’s the worst thing that can happen, and how did it happen?”
+As a tester, we often “make up” test data, but it is usually simple so we can
+easily check our results. When testing different scenarios, both the data and
+the ﬂow need to be realistic. Find out if the data comes from another system
+or if it’s input manually. Get a sample if you can by asking the customers to
+provide data for testing. Real data will ﬂow through the system and can be
+checked along the way. In large systems, it will behave differently depending
+on what decisions are made.
+Soap Opera Test Example
+Lisa worked on an Internet retail site, where she found soap opera tests to 
+be effective. Here’s an example of a soap opera scenario to test inventory, 
+preorder, and backorder processes of an Internet retailer’s warehouse.
+The most popular toy at our online toy store this holiday season is the 
+Super Tester Action Figure. We have 20 preorders awaiting receipt of the 
+items in our warehouse. Finally, Jane, a warehouse supervisor, receives 
+100 Super Tester Action ﬁgures. She updates the inventory system to 
+show it is available inventory against the purchase order and no longer a 
+preorder. Our website now shows Super Tester Action Figures available 
+for delivery in time for the holidays. The system releases the preorders, 
+which are sent to the warehouse. Meanwhile, Joe, the forklift driver, is 
+distracted by his cell phone, and accidentally crashes into the shelf con-
+taining the Super Tester Action Figures. All appear to be smashed up 
+beyond recognition. Jane, horriﬁed, removes the 100 items from avail-
+able inventory. Meanwhile, more orders for this popular toy have piled 
+up in the system item. Sorting through the debris, Jane and Joe ﬁnd that 
+14 of the action ﬁgures have actually survived intact. Jane adds them 
+back into the available inventory.
+This scenario tests several processes in the system, including preorder, 
+purchase order receipt, backorder, warehouse cancels, and preorder 
+release. How many Super Tester toys will show as available on the shop-
+ping website at the end of all that? While executing the scenario, we’ll
+probably ﬁnd other areas we want to investigate; maybe the purchase 
+order application is difﬁcult to use or the warehouse inventory updates 
+aren’t reﬂected properly in the website. Thinking up and executing these 
+types of tests will teach us more about what our users and other external 
+customers need than running predeﬁned functional tests on narrower 
+areas of the application. As a bonus, it’s fun!
+Chapter 14, “An
+Agile Test Automa-
+tion Strategy,” ex-
+amines different 
+approaches to ob-
+taining test data.
+
+
+194
+CHAPTER 10
+
+BUSINESS-FACING TESTS THAT CRITIQUE THE PRODUCT
+Tools to help deﬁne the scenarios and workﬂows can be simple. Data ﬂow or
+process ﬂow diagrams will help identify some of the common scenarios.
+These scenarios can help you think through a complex problem if you take
+the time. Consider the users and their motivation.
+Our team planned to rewrite the core functionality of the application that pro-
+cesses the daily buys and sells of mutual funds. These trades are the result of re-
+tirement plan participants making contributions, exchanging balances from one 
+fund to another, or withdrawing money from their accounts. Lisa’s coworker, Mike 
+Thomas, studied the existing trade processing ﬂow and diagrammed it so that the 
+team could understand it well before trying to rewrite the code. Figure 10-2 
+shows a portion of the ﬂow diagram. WT stands for the custodian who does the 
+actual trading. Three different ﬁle types are downloaded and translated into read-
+able format: CFM, PRI, and POS. Each of these ﬁles feeds into a different part of the 
+application to perform processing and produce various outputs: settled trades, a 
+ticker exception report, and a fund position report.
+—Lisa
+When testing end-to-end, make spot checks to make sure the data, status
+ﬂags, calculations, and so on are behaving as expected. Use ﬂow diagrams
+and other visual aids to help you understand the functionality. Many organi-
+Lisa’s Story
+Figure 10-2
+Sample portion of a process ﬂow diagram
+Trade Processing
+PRI File
+CFM File
+POS File
+Settled
+Txns
+Ticker
+Exception Rpt
+Omnibus Fund
+Position Rpt
+TP3
+Upload/Verify
+Positions
+TP1
+Settle Trades
+TP2
+Update Prices
+WT
+ranslate
+Download/T
+Download/Translate
+Download/Translate
+
+
+EXPLORATORY TESTING
+195
+zations depend on reports to make decisions, and those reports seem to be
+the last thing we verify. If your scenarios have been identiﬁed correctly, you
+might be able to use your application reports to provide a ﬁnal check.
+EXPLORATORY TESTING
+Exploratory testing (ET) is an important approach to testing in the agile
+world. As an investigative tool, it’s a critical supplement to the story tests and
+our automated regression suite. It is a sophisticated, thoughtful approach to
+testing without a script, and it enables you to go beyond the obvious varia-
+tions that have already been tested. Exploratory testing combines learning,
+test design, and test execution into one test approach. We apply heuristics
+and techniques in a disciplined way so that the “doing” reveals more implica-
+tions that just thinking about a problem. As you test, you learn more about
+the system under test and can use that information to help design new tests. 
+Exploratory testing is not a means of evaluating the software through ex-
+haustive testing. It is meant to add another dimension to your testing. You do
+just enough to see if the “done” stories are really done to your satisfaction. 
+A valuable side effect of exploratory testing is the learning that comes out of
+it. It reveals areas of the product that could use more automated tests and
+brings up ideas for new or modiﬁed features that lead to new stories. 
+Exploratory Testing Explained
+Michael Bolton is a trainer and consultant in rapid and exploratory testing 
+approaches. He teaches a course called Rapid Software Testing, which he co-
+writes with senior author James Bach. Here’s Michael’s deﬁnition of explor-
+atory testing.
+Cem Kaner didn’t invent exploratory testing, but he identiﬁed and 
+named it in 1983, in the ﬁrst edition of Testing Computer Software, as an 
+approach all testers use when their brains are engaged in their work. He 
+and James Bach, the other leading advocate of the approach, have long 
+deﬁned exploratory testing as “simultaneous test design, test execution, 
+and learning.” Kaner also deﬁnes exploratory testing more explicitly as “a
+style of testing that emphasizes the freedom and responsibility of the in-
+dividual tester to continually optimize the value of her work by treating 
+learning, test design, test execution, and test result interpretation as ac-
+tivities that continue in parallel throughout the project.” That’s quite a 
+mouthful. What does it mean?
+The bibliography 
+lists more resources 
+you should investi-
+gate to learn more 
+about exploratory 
+testing.
+See the bibliogra-
+phy for some links 
+to more about 
+Rapid Software 
+Testing. 
+
+
+196
+CHAPTER 10
+
+BUSINESS-FACING TESTS THAT CRITIQUE THE PRODUCT
+The most important thing to remember about exploratory testing is that 
+it’s not a test technique on its own. Instead, it’s an approach or a mind-
+set that can be applied to any test technique. The second thing to 
+remember is that exploratory testing is not merely about test execution; 
+testers can also take an exploratory approach when they’re designing 
+new tests at the beginning of the iteration or analyzing the results of 
+tests that have already been performed. A third important note is that 
+exploratory testing isn’t sloppy or slapdash or unprepared testing. An 
+exploratory approach might require very extensive and elaborate prepa-
+ration for certain tests—and an exploratory tester’s knowledge and skill 
+set, developed over years, is an often invisible yet important form of 
+preparation. An exploratory test might be performed manually, or might 
+employ extensive use of test automation—that is, any use of tools to 
+support testing. So if exploratory testing isn’t a technique, nor test exe-
+cution, nor spontaneous, nor manual, what is it that makes a test activity 
+exploratory? The answer lies in the cognitive engagement of the tester—
+how the tester responds to a situation that is continuously changing.
+Suppose that a tester is given the mission to test a conﬁguration dialog 
+for a text editor. A tester using an exploratory approach would use spec-
+iﬁcations and conversations about the desired behavior to inform test 
+ideas, but would tend to record these ideas in less detail than a tester 
+using a scripted approach. A skilled tester doesn’t generally need much 
+explicit instruction unless the test ideas require some speciﬁc actions or 
+data. If so, they might be written down or supplied to a program that 
+could exercise them quickly. Upon seeing the dialog, the exploratory 
+tester would interact with it, usually performing tests in accordance with 
+the original test ideas—but she might also turn her attention to other 
+ideas based on new problems or risks in the dialog as it appeared in 
+front of her. Can two settings conﬂict in a way not covered by existing 
+tests? The exploratory tester immediately investigates by performing a 
+test on the spot. Does the dialog have a usability issue that could inter-
+fere with a user’s work ﬂow? The exploratory tester quickly considers a 
+variety of users and scenarios and evaluates the signiﬁcance of the prob-
+lem. Is there a delay upon pressing the OK button? The exploratory 
+tester performs a few more tests to seek a general pattern. Is there a 
+possibility that some conﬁguration options might not be possible on 
+another platform? The exploratory tester notes the need for additional 
+testing and moves on. Upon receiving new builds, the exploratory tester 
+would tend to deemphasize repetition and emphasize variation in order 
+to discover problems missed by older tests that are no longer revealing 
+interesting information. This approach, which has always been fruitful, is 
+even more powerful in environments where the need for repeated test-
+ing is handled by the developers’ low-level, automated regression tests.
+Exploratory testing is characterized by the degree to which the tester is 
+under her own control, making informed choices about what he or she
+
+
+EXPLORATORY TESTING
+197
+is going to do next, and where the last outcome of the last activity con-
+sciously informs the next choice. Exploratory and scripted approaches are 
+at the opposite poles of a continuum. At the extreme end of the scripted 
+mind-set, the decision as to what to do next comes exclusively from 
+someone else, at some point in the past. In the exploratory mind-set, the 
+decision to continue on the same line of inquiry or to choose a new path 
+comes entirely from the individual tester, in the moment in which the 
+activity occurs, The result of the last test strongly informs the tester’s
+choices for the next test. Other inﬂuences include the stakeholders for 
+whom test information might be important, the quality criteria that are 
+important to stakeholders, the test coverage that stakeholders seek, spe-
+ciﬁc risks associated with the item being tested, the needs of the end 
+user of the product, the skills of the tester, the skills of the developers, 
+the state of the item under test, the schedule for the project, the equip-
+ment and tools that are available to the tester, and the extent to which 
+she can use them effectively—and that’s only a partial list.
+No test activity performed by a thinking human is entirely scripted. 
+Humans have an extraordinary capacity to recognize things even when 
+people are telling them not to, and as a result we can be distracted and 
+diverted—but we can learn and adapt astonishingly quickly to new infor-
+mation and investigate its causes and effects. Machines only recognize 
+what they’ve been programmed to recognize. When they’re confronted 
+with a surprising test result, at best they ignore it; at worst, they crash or 
+destroy data.
+Yet no test activity performed on behalf of a client is entirely exploratory, 
+either. The exploratory tester is initially driven by the testing mission, 
+which is typically set out by the client early in the project. Exploratory 
+work can also be guided by checklists, strategy models, coverage out-
+lines, risk lists—ideas that might come from other people at other times. 
+The more that the tester is controlled by these ideas rather than guided 
+by them, the more testing takes on a scripted approach. 
+Good exploration requires continuous investigation of the product by 
+engaged human testers, in collaboration with the rest of the project 
+community, rather than following a procedurally structured approach, 
+performed exclusively by automation. Exploration emphasizes individuals 
+and interactions over processes and tools. In an agile environment, 
+where code is produced test-ﬁrst and is covered with automated regres-
+sion tests, testers can have not only the conﬁdence but also the man-
+date to develop new tests and seek out new problems in the moment. 
+Exploration emphasizes responding to change versus following a plan.
+Exploratory approaches use variation to drive an active search for prob-
+lems instead of scripted manual or automated test cases that merely 
+conﬁrm what we already knew. Exploration emphasizes working soft-
+ware over comprehensive documentation. And to be effective, good
+
+
+198
+CHAPTER 10
+
+BUSINESS-FACING TESTS THAT CRITIQUE THE PRODUCT
+People unfamiliar with exploratory testing often confuse it with ad hoc test-
+ing. Exploratory testing isn’t sitting down at a keyboard and typing away.
+Unskilled “black box” testers may not know how to do exploratory testing. 
+Exploratory testing starts with a charter of what aspects of the functionality
+will be explored. It requires critical thinking, interpreting the results, and
+comparing them to expectations or similar systems. Following “smells” when
+testing is an important component. Testers take notes during their explor-
+atory testing sessions so that they can reproduce any issues they see and do
+more investigation as needed.
+exploration requires frequent feedback between testers, developers, 
+customers, and the rest of the project community, not merely repetition 
+of tests that were prepared at the beginning of the iteration, before we 
+had learned important things about the project. Exploration empha-
+sizes customer collaboration over negotiated contracts. Exploratory 
+approaches are fundamentally agile. 
+Exploratory testing embraces the same values as agile development. It’s an im-
+portant part of the “agile testing mind-set” and critical to any team’s success.
+Technique: Exploratory Testing and Information Evaluation
+Jon Hagar, an experienced exploratory tester, learner, and trainer, shares some 
+activities, characteristics, and skills that are vital to effective exploratory testing.
+Exploratory testing uses the tester’s understanding of the system, along 
+with critical thinking, to deﬁne focused, experimental “tests” which can be 
+run in short time frames and then fed back into the test planning process. 
+An agile team has many opportunities to do exploratory testing, since 
+each development cycle creates production-ready, working software. 
+Starting early in each development cycle, consider exploratory tests 
+based on:
+• Risk (analysis): The critical things you and the customer/user think can 
+go wrong or be potential problems that will make people unhappy. 
+• Models (mental or otherwise) of how software should behave: You 
+and/or the customer have a great expectation about what the newly 
+produced function should do or look like, so you test that.
+• Past experience: Think about how similar systems have failed (or suc-
+ceeded) in predictable patterns that can be reﬁned into a test, and 
+explore it.
+
+
+EXPLORATORY TESTING
+199
+• What your development team is telling you: Talk to your developers 
+and ﬁnd out what “is important to us.”
+• Most importantly: What you learn (see and observe) as you test. As a 
+tester on an agile team, a big part of your job is to constantly learn 
+about your product, your team, and your customer. As you learn, 
+you should quickly see tests based on such things as customer 
+needs, common mistakes the team seems to be making, or good/
+bad characteristics of the product.
+Some tests might be good candidates for automated regression suites. 
+Some might just answer your exploratory charter and be “done.” The 
+agile team must critically think about what they are learning and “evolve”
+tests accordingly. The most important aspect here is to be “brain on”
+while testing, where you are looking for the “funny,” unexpected, or 
+new, which automated tests would miss. Use automation for what it is 
+good at (repetitive tasks) and use agile humans for what we are good at 
+(seeing, thinking, and dealing with the unexpected). 
+Several components are typically needed for useful exploratory testing:
+• Test Design: An exploratory tester as a good test designer under-
+stands the many test methods. You should be able to call different 
+methods into play on the ﬂy during the exploration. This agility is a 
+big advantage of exploratory testing over automated (scripted) pro-
+cedures, where things must be thought out in advance.
+• Careful Observation: Exploratory testers are good observers. They 
+watch for the unusual and unexpected and are careful about as-
+sumptions of correctness. They might observe subtle software 
+characteristics or patterns that drive them to change the test in 
+real time.
+• Critical Thinking: The ability to think openly and with agility is a key 
+reason to have thinking humans doing nonautomated exploratory 
+testing. Exploratory testers are able to review and redirect a test into 
+unexpected directions on the ﬂy. They should also be able to ex-
+plain their logic of looking for defects and to provide clear status on 
+testing. Critical thinking is a learned human skill. 
+• Diverse Ideas: Experienced testers and subject matter experts can 
+produce more and better ideas. Exploratory testers can build on this 
+diversity during testing. One of the key reasons for exploratory tests 
+is to use critical thinking to drive the tests in unexpected directions 
+and ﬁnd errors. 
+• Rich Resources: Exploratory testers should develop a large set of 
+tools, techniques, test data, friends, and information sources upon 
+which they can draw. The agile test team members should grow their 
+exploratory resources throughout a project and throughout their 
+careers.
+
+
+200
+CHAPTER 10
+
+BUSINESS-FACING TESTS THAT CRITIQUE THE PRODUCT
+The term exploratory testing was popularized by the “context-driven school” of
+testing. It’s a highly disciplined activity, and it can be learned. Session-based
+test management is one method of testing that’s designed to make explor-
+atory testing auditable and measurable [Bach, 2003].
+Session-Based Testing
+Session-based testing combines accountability and exploratory testing. It
+gives a framework to a tester’s exploratory testing experience so that they can
+report results in a consistent way. 
+James Bach [2003] compares exploratory testing to putting together a jigsaw puz-
+zle. When I ﬁrst read his article with the jigsaw puzzle analogy, exploratory testing 
+made perfect sense to me. 
+I start a jigsaw puzzle by dumping out all of the pieces of the puzzle and then 
+sorting them into the different colors and edge pieces. Next, I put the edge pieces 
+together, which gives me a framework in which to start. The edge of the jigsaw is 
+analogous both to the mission statement, which helps me focus, and to the time-
+boxing of a session, which keeps me within certain limits. 
+To help you understand a day in the life of an agile exploratory tester, here is 
+a short tester’s story: 
+I arrived at 8:00 a.m. and reviewed what had happened the night before 
+during automated testing. The previous night’s automated tests found 
+some minor but interesting errors. A password ﬁeld on a login form had 
+accepted a special character, which should have been rejected by the 
+validation. I created an outline as a starting point for my “attack” (a top-
+level plan and/or risk list). 
+As I thought about my “plan of attack,” I sketched a small state model of 
+the problem on a ﬂip chart and showed this to a developer and my 
+team’s customer rep. I designed a test incorporating their suggestions, 
+using some data stress inputs that I expected the validation to reject (a 
+1 MG ﬁle of special characters). I executed my test with my stress input, 
+and, sure enough, the system rejected them as expected. I tried a differ-
+ent data set and the system failed with a buffer overﬂow in the database. 
+I was learning, and we were on the trail of a potentially serious security 
+bug. As the day went on, I explored different inputs to the password 
+ﬁeld and worked with the team to get the bug ﬁxed.
+You can learn from automated test results as well as from exploratory testing. 
+Each type of testing feeds into the other. Develop a broad range of skills so 
+you’ll be able to identify important issues and write tests to prevent them 
+from reoccurring.
+Janet’s Story
+
+
+EXPLORATORY TESTING
+201
+Session-based testing is a form of exploratory testing, but it is time-boxed and a 
+bit more structured. I learned about session-based testing from Jonathan Bach 
+and found it gave me the structure I needed to do exploratory testing well. I use 
+the same skills as I do for a jigsaw puzzle: I look for patterns in color or shapes or 
+perhaps something that just doesn’t look right, an anomaly. My thought process 
+can take those patterns and make sense of them, using heuristics I have devel-
+oped to help me solve a puzzle.
+—Janet
+Like solving the jigsaw puzzle by putting together the outside pieces ﬁrst, we
+can use session-based testing to give us the framework in which we work. In
+session-based testing, we create a mission or a charter and then time-box our
+session so we can focus on what’s important. Too often as testers, we can go
+off track and end up chasing a bug that might or might not be important to
+what we are currently testing.
+Sessions are divided into three kinds of tasks: test design and execution, bug
+investigation and reporting, and session setup. We measure the time we
+spend on setup versus actual test execution so that we know where we spend
+the most time. We can capture results in a consistent manner so that we can
+report back to the team. 
+Automation and Exploratory Testing
+We can combine exploratory testing with test automation as well. Jonathan
+Kohl, in his article “Man and Machine” [2007], talks about interactive test
+automation to assist exploratory testing. Use automation to do test set up,
+data generation, repetitive tasks, or to progress along a workﬂow to the place
+you want to start. Then you start using your testing skills and experience to
+ﬁnd the really “good” bugs, the insidious ones that otherwise escape atten-
+tion. You can also use an automated test suite to explore. Just modify it a bit,
+watch the results as it runs, modify it again, and watch what happens.
+An Exploratory Tester
+With exploratory testing, each tester has a different approach to a problem,
+and has a unique style of working. However, there are certain attributes that
+make for a good exploratory tester. A good tester: 
+ Is systematic, but pursues “smells” (anomalies, pieces that aren’t 
+consistent)
+ Learns to recognize problems through the use of Oracles (principle or 
+mechanism by which we recognize a problem)
+For more informa-
+tion on session-
+based testing, 
+check the bibliog-
+raphy for work by 
+Jonathan Bach.
+
+
+202
+CHAPTER 10
+
+BUSINESS-FACING TESTS THAT CRITIQUE THE PRODUCT
+ Chooses a theme or role or mission statement to focus testing
+ Time-boxes sessions and side trips
+ Thinks about what the expert or novice user would do
+ Explores together with domain experts
+ Checks out similar or competitive applications
+Exploratory testing helps us learn about the behavior of an application.
+Testers generally know a lot about the application they’re testing. How do they
+judge whether the application is usable by users who are less technical or not
+familiar with it? Usability testing is vital for many software systems. We’ll talk
+about that in the next section.
+USABILITY TESTING
+There are two types of usability testing. The ﬁrst type is the kind that is done
+up front by the user experience folks, using tools such as wire frames to help
+drive programming. Those types of tests belong in Quadrant 2. In this sec-
+tion, we’re talking about the kind of usability testing that critiques the prod-
+uct. We use tools such as personas and our intuition to help us look at the
+product with the end user in mind.
+User Needs and Persona Testing
+Let’s look at an online shopping example. We think about who will use the
+site. Will it be people who have shopped online before, or will it be brand
+new users who have no idea how to proceed? We’re guessing it will be a mix-
+ture of both, as well as others. Take the time to ask your marketing group to
+get the demographics of the end users. The numbers might help you plan
+your testing. 
+One approach to using personas is for your team to invent several different
+users of your application representing different experience levels and needs.
+For our Internet retail application, we might have the following personas:
+ Nancy Newbie, a senior citizen who is new to Internet shopping and 
+nervous about identity theft
+ Hudson Hacker, who looks for ways to cheat the checkout page
+ Enrico Executive, who does all his shopping online and ships gifts to 
+all his clients worldwide
+ Betty Bargain, who’s looking for great deals
+ Debbie Ditherer, who has a hard time deciding what items she really 
+wants to order
+
+
+USABILITY TESTING
+203
+We might hang photos representing these different personas and their biog-
+raphies in our work area so that we always keep them in mind. We can test
+the same scenario as each persona in turn and see what different experiences
+they might encounter.
+Another way to approach persona testing, which we learned from Brian Mar-
+ick and Elisabeth Hendrickson, is to pick a ﬁctional character or famous ce-
+lebrity and imagine how they would use our application. Would the Queen
+of England be able to navigate our checkout process? How might Homer
+Simpson search for the item he wants? 
+You can also just assume the roles of novice, intermediate, and expert users
+as you explore the application. Can users ﬁgure out what they are supposed
+to do without instructions? If you have a lot of ﬁrst-time users, you might
+need to make the interface very simple.
+When I ﬁrst started testing a new production accounting system, I found it very difﬁ-
+cult to understand the ﬂow, but the production accountants on the team loved it. 
+After I worked with it for a while, I understood the complexity behind the applica-
+tion and knew why it didn’t have to be intuitive for a ﬁrst-time user. This was a good 
+lesson for me, because I always assumed applications had to be user-friendly.
+—Janet
+If your application is custom-built for speciﬁc types of users, it might need to
+be “smart” rather than intuitive. Training sessions might be sufﬁcient to get
+Real World Projects: Personas
+The OneNote team at Microsoft uses personas as part of their testing process. 
+Mike Tholfsen [2008], the Test Manager for OneNote, says they use seven per-
+sonas that might use OneNote, speciﬁc customer types such as Attorneys, 
+Students, Real Estate Agents, and Salespersons. The personas they create 
+contain information such as:
+•
+General job description
+•
+“A Day in the Life”
+•
+Primary uses for OneNote
+•
+List of features the persona might use
+•
+Potential notebook structures
+•
+Other applications used
+•
+Conﬁguration and hardware environment 
+Janet’s Story
+
+
+204
+CHAPTER 10
+
+BUSINESS-FACING TESTS THAT CRITIQUE THE PRODUCT
+over the initial lack of usability so that the interface can be designed for max-
+imum efﬁciency and utility.
+Navigation 
+Navigation is another aspect of usability testing. It’s incredibly important to
+test links and make sure the tabbing order makes sense. If a user has a choice
+of applications or websites, and has a bad ﬁrst experience, they likely won’t
+use your application again. Some of this testing is automatable, but it’s im-
+portant to test the actual user experience.
+If you have access to the end users, get them involved in testing the naviga-
+tion. Pair with a real user, or watch one actually use the application and take
+notes. When you’re designing a new user interface, consider using focus
+groups to evaluate different interfaces. You can start with mock-ups and
+ﬂows drawn on paper, get opinions, and try HTML mock-ups next, to get
+early feedback. 
+Check Out the Competition
+When evaluating your application for usability, think about other applica-
+tions that are similar. How do they accomplish tasks? Do you consider them
+user-friendly or intuitive? If you can get access to competing software, take
+some time to research how those applications work and compare them with
+your product. For example, you’re testing a user interface that takes a date
+range, and it has a pop-up calendar feature to select the date. Take a look at
+how a similar calendar function works on an airline reservation website. 
+Usability testing is a fairly specialized ﬁeld. If you’re producing an internal
+application to be used by a few users who will be trained in its use, you prob-
+ably don’t need to invest much in usability testing. If you’re writing the on-
+line directory assistance for a phone company, usability might be your main
+focus, so you need to learn as much as you can about it, or bring in a usabil-
+ity expert.
+BEHIND THE GUI
+In a presentation titled “Man and Machine” [2007], Jonathan Kohl talked
+about alternatives for testing interfaces. Instead of always thinking about test-
+ing through the user interface, consider attacking the problem in other ways.
+Think about testing the whole system from every angle that you can ap-
+proach. Consider using tools like simulators or emulators.
+See Chapter 8, 
+“Business-Facing
+Tests that Support 
+the Team,” for an 
+example of Wiz-
+ard of Oz testing, 
+which is one ap-
+proach to design-
+ing for usability.
+See the bibliogra-
+phy for links to 
+articles by Jeff 
+Patton, Gerard 
+Meszaros, and 
+others on usability 
+testing.
+Chapter 9, “Tool-
+kit for Business-
+Facing Tests that 
+Support the 
+Team,” provides 
+more detail about 
+tools that facili-
+tate these tests.
+
+
+BEHIND THE GUI
+205
+API Testing
+In Chapter 8 and Chapter 9, we talked about testing behind the GUI to drive
+development. In this section, we show that you can extend your tests for the
+API in order to try different permutations and combinations.
+An API (application programming interface) is a collection of functions that
+can be executed by other software applications or components. The end user
+is usually never aware that an API exists; she simply interacts with the inter-
+face on top.
+Each API call has a speciﬁc function with a number of parameters that accept
+different inputs. Each variation will return a different result. The easy tests
+are simple inputs. The more complicated testing patterns occur when the pa-
+rameters work together to give many possible variations. Sometimes param-
+eters are optional, so it’s important that you understand the possibilities.
+Boundary conditions should be considered as well, for both the inputs and
+expected results. For example, use both valid and invalid strings for parame-
+ters, vary the content, and vary the length of the strings’ input.
+Another way to test is to vary the order of the API calls. Changing the se-
+quence might produce unexpected results and reveal bugs that would never
+be found through UI testing. You can control the tests much more easily than
+when using the UI. 
+My team was working on a set of stories to enable retirement plan sponsors to 
+upload payroll contribution ﬁles. We wrote FitNesse test cases to illustrate the 
+ﬁle parsing rules, and the programmer wrote unit tests for those as well. When 
+the coding for the parser was complete, we wanted to throw a lot more combi-
+nations of data at the parser, including some really bizarre ones, and see what 
+happened. We could use the same ﬁxture as we used for our tests to drive de-
+velopment, enter all of the crazy combinations we could think of, and see the 
+results. We tested about 100 variations of both valid and invalid data. Figure 10-3 
+shows an example of just a few of the tests we tried. We found several errors in 
+the code this way. 
+We didn’t keep all of these tests in the regression suite because they were just a 
+means of quickly trying every combination we could think of. We could have done 
+these tests in a semi-automated, ad hoc manner too, not bothering to type the 
+expected results into the result checking table, and just eyeballing the outputs to 
+make sure they looked correct.
+—Lisa
+Lisa’s Story
+
+
+206
+CHAPTER 10
+
+BUSINESS-FACING TESTS THAT CRITIQUE THE PRODUCT
+I recently worked with a web application that interfaces to a legacy system 
+through a well-deﬁned API. Due to the design of the legacy system and the fact 
+that the data is hard to replicate, the team hasn’t yet found a way to automate this 
+testing. However, we could look in the log ﬁles to verify the correct inputs were 
+passed and the expected result was returned. Valuable exploratory testing of APIs 
+is possible with or without beneﬁt of automation. 
+—Janet
+API calls can be developed early in an application life cycle, which means
+testing can occur early as well. Testing through an API can give conﬁdence in
+the system before a UI is ever developed. Because this type of testing can be
+automated, you will need to work with your programmers to understand all
+of the parameters and the purpose of each function. If your programmers or
+automation team develop a test harness that is easy to use, you should be able
+to methodically create a suite of test cases that exercises the functionality. 
+Janet’s Story
+Figure 10-3
+Sample of parsing rules test
+
+
+TESTING DOCUMENTS AND DOCUMENTATION
+207
+Web Services
+Web services are a services-based architecture that provides an external inter-
+face so that others can access the system. There might be multiple stakeholders,
+and you may not even know who will be using your product. Your testing
+will need to conﬁrm the quality of service that the external customers expect. 
+Consider levels of service that have been promised to clients when you are
+creating your test plans. Make time for exploratory testing to simulate the
+different ways users might access the web services.
+The use of web services standards also offers other implications for current
+testing tools. As with API calls, web services-based integration highlights the
+importance of validating interface points. However, we also need to consider
+message formats and processing, queuing times, and message response times.
+Using testing tools that utilize GUI-driven automation is simply inadequate
+for a web services project. A domain-speciﬁc language that encapsulates im-
+plementation details “behind the scenes” works well for testing web services.
+TESTING DOCUMENTS AND DOCUMENTATION
+One of the components of the system that is often overlooked during testing is
+documentation. As agile developers, we may value working software over doc-
+umentation, but we still value documentation! User manuals and online help
+need validation just as much as software. Your team may employ specialists
+such as technical writers who create and verify documentation. As with all
+other components of the product, your whole team is responsible for the qual-
+ity of the documentation, and that includes both hard copy and electronic.
+User Documentation
+Your team might do Quadrant 2 tests to support the team as they produce
+documentation; in fact we encourage it. Lisa’s team writes code that pro-
+duces documents whose contents are speciﬁed by government regulations,
+and programmers can write much of the code test-ﬁrst. However, it’s difﬁcult
+for automated tests to judge whether a document is formatted correctly or
+uses a readable font. They also can’t evaluate whether the contents of docu-
+ments such as user manuals are accurate or useful. Because documentation
+has many subjective components, validating it is more of a critiquing activity.
+Web services 
+generally require 
+plenty of security, 
+stress, and reliabil-
+ity testing. See 
+Chapter 12, “Cri-
+tiquing the Product 
+using Technology-
+Facing Tests,” for 
+more on these 
+types of tests.
+Chapter 12, “Sum-
+mary of Testing 
+Quadrants,” has an 
+example of testing 
+web services.
+
+
+208
+CHAPTER 10
+
+BUSINESS-FACING TESTS THAT CRITIQUE THE PRODUCT
+Technical writers and testers can work very closely together. Stephanie, a techni-
+cal writer I worked with on one project, talked with the programmers to under-
+stand how the application worked. She would also work through the application 
+to make sure she wrote it down correctly. This seemed to be a duplication of the 
+testing effort, so Stephanie and I sat down and ﬁgured out a better approach. 
+We decided to work together on the stories as they were developed. For some 
+stories Stephanie was lead “tester,” and sometimes I took that role. If I was lead, 
+I’d create my test conditions and examples and Stephanie would use those as her 
+basis for the documentation. When Stephanie was lead, she would write her doc-
+umentation, and then I would use that to determine the test cases. 
+Doing it this way enabled the documentation to be tested and the tests to be 
+challenged before they were ever executed. Working hand in hand like this 
+proved to be a very successful experiment. The resulting documentation matched 
+the software’s behavior and was much more useful to the end users.
+—Janet
+Don’t forget to check the help text too. Are the links to help text easily identi-
+ﬁable? Are they consistent throughout the user interface? Is the help text pre-
+sented clearly? If it opens in a pop-up, and users block pop-ups in their
+browsers, what’s the impact? Does the help cover all of the topics needed? On
+Lisa’s projects, help text tends to be a low priority, so it often doesn’t get done
+at all. That’s a business decision, but if you feel an area of the application
+needs extra help text or documentation, raise the issue to your team and your
+customers. 
+Reports
+Another system component that’s often overlooked from a testing perspec-
+tive is reports. Reports are critical to many users for decision-making pur-
+poses but are often left until the very end, and either don’t get done or are
+poorly executed. Reports might be tailored to meet speciﬁc customer needs,
+but there are many third-party tools available for generating reports. Reports
+may be part of the application itself or be generated through a separate re-
+porting system for end users. 
+We discuss testing reports along with the other Quadrant 3 test activities in
+order to critique the product, but we recommend that you also write Quad-
+rant 2 report tests that will guide the coding and help the team understand
+the customer’s needs as it produces reports. They can certainly be written
+test-ﬁrst. Like documents, though, you need to look at a report to know if it’s
+easy enough to read and presents information in an understandable way.
+Janet’s Story
+
+
+TESTING DOCUMENTS AND DOCUMENTATION
+209
+One of the biggest challenges when testing reports is not the formatting but
+getting the right data. When you try to create test data for reports, it can be dif-
+ﬁcult to get a good cross section of realistic data. It also is usually the edge cases
+that make the reports fail, so incorporating that extra data is not feasible. In
+most cases, it’s best to use production data (or data copied from the produc-
+tion system into a test environment) to test the different reporting variations. 
+Our application includes a number of reports, many of which help companies 
+meet governmental compliance requirements. While we have automated smoke 
+tests for each report, any change to a report, or even an upgrade in the tool we 
+use to generate reports, requires extensive manual and visual testing. We have to 
+watch like hawks: Has a number been truncated by one character? Did a piece of 
+text run over to the next page? Is the right data included? Wrong or missing data 
+can mean trouble with the regulatory agency. 
+Another challenge is verifying the data contained in the report. If I were to use the 
+same query that the report uses, it doesn’t prove anything. I sometimes struggle to 
+come up with my own SQL queries to compare the actual data with what shows 
+up on a report. We budget extra time to test reports, even the simple-looking 
+ones.
+Because reports are so subjective, we ﬁnd that different stakeholders have differ-
+ent preferences for how the data is presented. The plan administrator who has to 
+explain a report to a user on the phone has a different idea of what’s easy to 
+understand than the company lawyer who decides what data needs to be on the 
+report. Our product owner helps us get consensus from all areas of the business. 
+The contents and formatting of a report are important, of course, but for online 
+reports, the speed at which they come up is critical too. Our plan administrators 
+wanted complete freedom to specify any date range for some transaction history 
+reports. Our DBA, who coded the reports, warned that for a large company’s
+retirement plan, data for more than a few months worth of transactions could 
+take several minutes to render. Over time, companies grew, they had more and 
+more transactions, and eventually the user interface started timing out before it 
+could deliver the report. When testing, try out worst-case scenarios, which could 
+eventually become the most common scenario.
+—Lisa
+If you’re tackling a project that involves lots of reports, don’t give in to the
+temptation to leave them to the end. Include some reports in each iteration if
+you can. One report could be a single story or maybe even broken up into a
+couple of stories. Use mock-ups to help the customers decide on report con-
+tents and formatting. Find the “thin slice” or “critical path” in the report, code
+that ﬁrst, and show it to your customer before you add the next slice. Incre-
+mental development works as well with reports as it does with other software.
+Lisa’s Story
+See Chapter 8, 
+“Business-Facing
+Tests that Support 
+the Team,” for in-
+formation about 
+using thin slices.
+
+
+210
+CHAPTER 10
+
+BUSINESS-FACING TESTS THAT CRITIQUE THE PRODUCT
+Sometimes your customers themselves aren’t sure how a report should look
+or how to approach it incrementally. And sometimes nobody on the team
+anticipates how hard the testing effort will prove to be. 
+Like other ﬁnancial accounts, retirement plans need to provide periodic state-
+ments to account holders that detail all of the money going into and out of the ac-
+count. These statements show the change in value between the beginning and 
+ending balances and other pertinent information, such as the names of account 
+beneﬁciaries. Our company wanted to improve the account statements, both as a 
+marketing tool and to reduce the number of calls from account holders who 
+didn’t understand their statements. 
+We didn’t have access to our direct competitors’ account statements, so the 
+product owner asked for volunteers to bring in account statements from banks 
+and other ﬁnancial institutions in order to get ideas. Months of discussions and 
+experimentation with mock-ups produced a new statement format, which 
+included data that wasn’t on the report previously, such as performance results 
+for each mutual fund.
+Stories for developing the new account statement were distributed throughout 
+two quarters worth of iterations. During the ﬁrst quarter, stories to collect new 
+data were done. Testing proved much harder than we thought. We used FitNesse 
+tests to verify capturing the different data elements, which lulled us into a false 
+sense of security. It was hard to cover all of the variations, and we missed some 
+with the automated tests. We also didn’t anticipate that the changes to collect 
+new data could have an adverse effect on the data that already displayed on the 
+existing statements. 
+As a result, we didn’t do adequate manual testing of the account statements. Sub-
+tle errors slipped past us. When the job to produce quarterly statements ran, calls 
+started coming in from customers. We had a mad scramble to diagnose and ﬁx the 
+errors in both code and data. The whole project was delayed by a quarter while 
+we ﬁgured out better ways to test and added internal checks and better logging 
+to the code.
+—Lisa
+Short iterations mean that it can be hard to make time for adequate explor-
+atory testing and other Quadrant 3 activities. Let’s look at tools that might
+help speed up this testing and make time for vital manual and visual tests.
+TOOLS TO ASSIST WITH EXPLORATORY TESTING
+Exploratory testing is manual testing. Some of the best testing happens be-
+cause a person is paying attention to details that often get missed if we are fol-
+Lisa’s Story
+
+
+TOOLS TO ASSIST WITH EXPLORATORY TESTING
+211
+lowing a script. Intuition is something that we cannot make a machine learn.
+However, there are many tools that can assist us in our quest for excellence. 
+Tools shouldn’t replace human interaction; they should enhance the experi-
+ence. Tools can provide testers with more power to ﬁnd the hard-to-repro-
+duce bugs that often get ﬁled away because no one can get a handle on them.
+Exploratory testing is unconventional, so why shouldn’t the tools be as well?
+Think about low-effort, high-value ways that tools can be incorporated into
+your testing. 
+Computers are good at doing repetitive tasks and performing calculations.
+These are two areas where they are much better than humans, so let’s use
+them for those tasks. Because testing needs to keep pace with coding, any
+time advantage we can gain is a bonus. 
+In the next few sections, we’ll look at some areas where automation can le-
+verage exploratory testing. The ones we cover are test setup, test data genera-
+tion, monitoring, simulators, and emulators.
+Test Setup
+Let’s think about what we do when we test. We’ve just found a bug, but not
+one that is easily reproducible. We’re pretty sure it happens as a result of in-
+teractions between components. We go back to the beginning and try one
+scenario after another. Soon we’ve spent the whole day just trying to repro-
+duce this one bug. 
+Ask yourself how you can make this easier. We’ve found that one of the most
+time-consuming tasks is the test setup and getting to the right starting point
+for your actual test. If you use session-based testing, then you already know
+how much time you spend setting up the test, because you have been track-
+ing that particular time waster. This is an excellent opportunity for some
+automation. 
+The tools used for business-facing tests that support the team described in
+Chapter 9 are also valuable for manual exploratory testing. Automated
+functional test scripts can be run to set up data and scenarios to launch ex-
+ploratory testing sessions. Tests conﬁgured to accept runtime parameters
+are particularly powerful for setting up a starting point for evaluating the
+product. 
+See the bibliogra-
+phy for references 
+to Jonathan Kohl’s
+writings on using 
+human and auto-
+mation power to-
+gether for optimal 
+testing.
+
+
+212
+CHAPTER 10
+
+BUSINESS-FACING TESTS THAT CRITIQUE THE PRODUCT
+Our Watir test scripts all accept a number of runtime parameters. When I need a 
+retirement plan with a speciﬁc set of options, and speciﬁc types of participants, I 
+can kick off a Watir script or two with some variables set on the command line. 
+When the scripts stop, I have a browser session with all of the data I need for test-
+ing already set up. This is so fast that I can test permutations I’d never get to using 
+all-manual keystrokes.
+—Lisa
+The test scripts you use for functional regression testing and for guiding de-
+velopment aren’t the only tools that help take the tedium out of manual ex-
+ploratory testing. There are other tools to help set up test data as well as to
+help you evaluate the outputs of your testing sessions.
+Whatever tool you are using, think about how it can be adapted to run the
+scenario over and over with different inputs plugged in. Janet has also suc-
+cessfully used Ruby with Watir to set up tests to run multiple times to help
+identify bugs. Tools that drive the browser or UI in much the same way that
+an end user would makes your testing more reliable because you can play it
+back on your monitor and watch for anything that might not look as it
+should during the setup. When you get to the place where the test actually
+starts, you can then use your excellent testing abilities to track down the
+source of the bug. 
+Test Data Generation
+PerlClip is an example of a tool that you can use to test a text ﬁeld with differ-
+ent kinds of inputs. James Bach provides it free of charge on his website,
+www.satisﬁce.com, and it can be very helpful in validating ﬁelds. For exam-
+ple, if you have a ﬁeld that will accept a maximum input of 200 characters,
+testing this ﬁeld and its boundaries manually would be very tedious. Use Per-
+lClip to create a string, put it in your automation library, and have your auto-
+mation tool call the string to test the value.
+Monitoring Tools
+Tools like the Unix/Linux command tail -f, or James Bach’s LogWatch, can
+help monitor log ﬁles for error conditions. IDEs also provide log analysis
+tools. Many error messages are never displayed on the screen, so if you’re
+testing via the GUI, you never see them. Get familiar with tools like these, be-
+cause they can make your testing more effective and efﬁcient. If you are not
+Lisa’s Story
+
+
+TOOLS TO ASSIST WITH EXPLORATORY TESTING
+213
+sure where your system logs warnings and errors, ask your developers. They
+probably have lots of ideas about how you can monitor the system.
+Simulators
+Simulators are tools used to create data that represent key characteristics and
+behavior of real data for the system under test. If you do not have access to
+real data for your system, simulated data will sometimes work almost as well.
+The other advantage of using a simulator is for pumping data into a system
+over time. It can be used to help generate error conditions that are difﬁcult to
+create under normal circumstances and can reduce time in boundary testing.
+Setting up data and test scenarios is half of the picture. You also need to have
+a way to watch the outcomes of your testing. Let’s consider some tools for
+that purpose.
+Emulators
+An emulator duplicates the functionality of a system so that it behaves like
+the system under test. There are many reasons to use an emulator. When you
+need to test code that interfaces with other systems or devices, emulators are
+invaluable.
+Two Examples of Emulators
+WestJet, a Canadian airline company, provides the capability for guests to use 
+their mobile devices to check in at airports that support the feature. When 
+testing this application, it is better for both the programmers and the testers 
+to test various devices as early as possible. To make this feasible, they use 
+downloadable emulators to test the Web Check-in application quickly and 
+often during an iteration. Real devices, which are expensive to use, can then 
+be used sparingly to verify already tested functionality.
+The team also created another type of emulator to help test against the leg-
+acy system being interfaced with. The programmers on the legacy system 
+have different priorities and delivery schedules, and a backlog of requests. To 
+prevent this from holding up new development, the programmers on the 
+web application have created a type of emulator for the API into the legacy 
+system that returns predetermined values for speciﬁc API calls. They develop 
+against this emulator, and when the real changes are available, they test and 
+make any modiﬁcations then. This change in process has enabled them to 
+move ahead much more quickly than was previously possible. It has proved 
+to be a simple but very powerful tool.
+See the ”System
+Test” example in 
+Chapter 12, “Sum-
+mary of Testing 
+Quadrants,” to see 
+how a simulator 
+was critical to the 
+testing the whole 
+system.
+
+
+214
+CHAPTER 10
+
+BUSINESS-FACING TESTS THAT CRITIQUE THE PRODUCT
+Emulators are one tool that helps to keep testing and coding moving together
+hand-in-hand. Using them is one way for testing to keep up with develop-
+ment in short iterations. As you plan your releases and iterations, think about
+the types of tools that might help with creating production-like test scenarios.
+See if you can use the tools you’re already using for automating tests to drive
+development as aids to exploratory testing.
+Driving development with tests is critical to any project’s success. However,
+we humans won’t always get all of the requirements for desired system be-
+havior entirely correct. Our business experts themselves can miss important
+aspects of functionality or interaction with other parts of the system when
+they provide examples of how a feature should work. We have to use tech-
+niques to help both the customer and developer teams learn more about the
+system so they can keep improving the product.
+SUMMARY
+A large part of the testing effort is spent critiquing the product from a busi-
+ness perspective. This chapter gave you some ideas about the types of tests
+you can do to make your testing efforts more effective. 
+ Demonstrate software to stakeholders in order to get early feedback 
+that will help direct building the right stuff.
+ Use scenarios and workﬂows to test the whole system from end to 
+end.
+ Use exploratory testing to supplement automation and to take advan-
+tage of human intellect and perceptions.
+ Without usability in mind when testing and coding, applications 
+can become shelfware. Always be aware of how the system is being 
+used.
+ Testing behind the GUI is the most effective way of getting at the 
+application functionality. Do some research to see how you can 
+approach your application.
+ Incorporate all kinds of tests to make a good regression suite. 
+ Don’t forget about testing documentation and reports.
+ Automation tools can perform tedious and repetitive tasks, such as 
+data and test scenario setup, and free up more time for important 
+manual exploratory testing.
+ Tools you’re already using to automate functional tests might also be 
+useful to leverage exploratory tests.
+
+
+SUMMARY
+215
+ Monitoring, resource usage, and log analysis tools built into operat-
+ing systems and IDEs help testers appraise the application’s behavior.
+ Simulators and emulators enable exploratory testing even when you 
+can’t duplicate the exact production environment.
+ Even when tests are used to drive development, requirements for de-
+sired behavior or interaction with other systems can be missed or 
+misunderstood. Quadrant 3 activities help teams keep adding value to 
+the product.

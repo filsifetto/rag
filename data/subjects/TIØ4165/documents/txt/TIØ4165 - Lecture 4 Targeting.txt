@@ -1,0 +1,320 @@
+Forelesning 5: Targeting
+Professor Arild Aspelund
+TIØ4165 - Markedsføringsledelse for teknologibedrifter
+
+
+Demografisk
+Hvem er 
+forbrukerne?
+Geografisk
+Hvor er 
+forbrukerene?
+Psykografisk
+Hvordan er 
+forbrukerne?
+Adferdsmessig
+Hva gjør 
+forbrukerne?
+Les: Jenkinson (2009)
+Recoup - Segmentering
+
+
+Demografisk dimensjon
+Psykografisk
+dimensjon
+Adferdsmessig
+dimensjon
+Geografisk dimensjon
+En gitt forbruker
+
+
+Krav til segmentering
+• Segmentet må være differensierbart
+• Segmentet må være målbart
+• Segmentet må være tilgjengelig (for markedsføringstiltak)
+• Segmentet må være lønnsomt (tenk CAC/LTV)
+• Segmentets dimensjon må være proporsjonalt til bedriftens ressurser
+
+
+Agenda - Targeting
+• Introduksjon
+• Hva er targeting / målretting?
+• Udifferensiert targeting
+• Differensiert targeting
+• Hvordan gjøre targeting / målretting?
+• Markedsføringskanaler
+• Massemedier
+• Digital markedsføring
+• Targeting i digital markedsføring
+• Intensjonsdrevet markedsføring
+• Publikumbasert markedsføring 
+• Hvordan gjøre targeting?
+• Facebook Ads
+• Google Ads
+• Forskjeller i targeting mellom verktøy
+
+
+Lesestoff
+• Gallagher, K. & Parsons, J. 1997. A Framework for Targeting Banner 
+Advertising On the Internet. In Proceedings of the Thirtieth Hawaii 
+International Conference on System Sciences 4, pp. 265-274
+• Matz, S.C., Kosinski, M., Nave, G. & Stillwell, J. 2017. Psychological 
+targeting as an effective approach to digital mass persuasion. Proceedings of 
+the National Academy of Sciences, 114(48), pp. 12714-12719.
+• Oster, S. 1999. Chapter 3 – Industry Analysis 
+
+
+Hva er targeting / målretting?
+Det er metoden for å få oppmerksomhet og effektivt kommunisere et budskap til 
+kunder i et valgt segment 
+
+
+Targeting / Målretting
+• Kan være differensiert eller udifferensiert:
+• Udifferensiert markedsføring har samme tilnærming og tiltak for alle, 
+uavhengig av segment
+• Differensiert markedsføring har ulike tilnærminger og tiltak for ulike 
+segmenter
+• Forskjellig plassering, innhold og verdiforslag for å kommunisere til 
+forskjellige segmenter
+• Fokus på de mest attraktive segmentene
+
+
+Markedsføring som kommuniserer til alle segmenter samtidig
+Udifferensiert målretting / targeting
+
+
+Udifferensiert målretting / targeting
+• Markedsføring som kommuniserer til alle segmenter samtidig
+• Kostnads- og volumfokusert
+• Ofte målsetting om å etablere “brand awareness”
+• Eksempler: Coca-Cola, Red Bull, McDonalds, Snickers mm
+• Typiske kanaler: TV, fotballkamper, OL, navn på idrettsarenaer og ligaer, mm
+• “Brand awareness” er en nødvendighet for udifferensierte produkter/tjenester
+• Mer om dette i forelesning 5 om posisjonering
+• Effekt måles ofte gjennom spørreundersøkelser
+• Hvilken merkevare er “top-of-mind” blant befolkningen?
+
+
+Psykografisk segmentering
+
+
+Udifferensiert målretting / targeting
+Fordeler
+• Mange inntrykk / “impressions”
+• Skaper en underbevisst bekjentskap 
+til merkevaren
+• Skaper positive assosiasjoner
+• Kan bidra til “top-of-mind”
+• Kostnadseffektivt for hva det er
+Ulemper
+• Skaper inntrykk også hos forbrukere 
+som aldri vil kjøpe 
+• Dette må medregnes i CAC for 
+forbrukere som velger å kjøpe
+• Feks “Det må 1,000 inntrykk til for å 
+generere én ny kjøper”
+• Vanskelig å måle nøyaktig effekt
+
+
+Differensiert målretting / targeting
+• Markedsføring som kommuniserer ulikt til ulike segmenter
+• Mål om å oppnå målbare resultater
+• For eksempel generere klikk, konverteringer, visninger, kjøp, “engagement”
+• Optimering rundt kostnad per resultat: Hva koster det å få en gitt bruker i et gitt 
+segment til å gjøre handlingen?
+• Effekt måles ved å se på statistikk (feks om salg)
+• For å oppnå god differensiert targeting må både segmentene være veldefinerte og 
+kanalvalget være riktig:
+• Det nytter ikke å gjøre god segmentering hvis kanalen ikke tillater targeting basert på 
+valgte segmenteringsvariabler
+
+
+Feks: Gjennomfør en «Porter’s Five Forces» analyse
+Hvordan evaluere attraktiviteten til et segment
+
+
+
+
+Markedsføringskanaler
+• Forskjellige markedsføringskanaler tillater forskjellig targeting / målretting
+• Massemedier har ofte bred, lite spesifikke muligheter for targeting / målretting
+• Feks TV, radio, kino, reklameplakater, aviser mm
+• Brukes derfor ofte som kanaler for udifferensiert målretting / targeting
+• Typisk skjer targeting gjennom formulering av hypoteser rundt publikum/bruk:
+• Reklame for mote, kosmetikk og diettprodukter under “Paradise Hotell”
+• Reklame for M&M og Coca Cola før kinofilmer
+• Reklame for aksjesparing og pensjon i finansaviser
+
+
+I reklame gjennom massemedia er det 
+innholdet som gjør mye av målrettingen
+Mer upresis targeting → Høyere markedsføringskostnad (CAC)
+
+
+Psykografisk segmentering
+
+
+Eksempel: TV-reklame for Barbie av Mattel
+• Hvordan gjøre riktig targeting for en TV-reklame om Barbie?
+• Velg TV-kanaler som er populære blant potensielle kunder (foreldre)
+• Velg sendetidspunkt som er populært blant barn (som er bruker og påvirker)
+• Sørg for at reklamens innhold og verdiforslag kommuniserer noe som fanger 
+barns oppmerksomhet, interesser og ønsker
+• Forbudt med direkte kjøpsoppfordringer til barn ala “Løp og kjøp”
+• Vil også treffe personer som er utenfor ønsket segment
+• Feks, ca 50% gutter (siden TV-kanalen ikke har mulighet til å målrette basert 
+på kjønn) 
+
+
+Eksempel: TV-reklame for Carl’s Jr
+• Hvordan gjøre riktig targeting for en TV-reklame om Carl’s Jr Fast Food?
+• Velg et TV-program som er populært blant potensielle kunder (menn)
+• Feks “Superbowl”
+• Sørg for at reklamens innhold og verdiforslag kommuniserer noe som fanger 
+menns oppmerksomhet, interesser og ønsker
+• Spiller ofte på primitive ønsker/behov
+• Tenk Maslow’s behovspyramide
+• Vil også treffe personer som er utenfor segmentet (men også ser på Superbowl)
+
+
+Psykografisk segmentering
+
+
+Psykografisk segmentering
+
+
+
+
+Targeting i digital markedsføring
+• Digitale markedsføringsverktøy lar selskaper målrette basert på forskjellige
+demografiske, geografiske, psykografiske og adferdsmessige variabler
+• Det er vanlig å skille mellom (minst) to typer digital markedsføring:
+• Intensjonsdrevet markedsføring, som søkemotorer
+• Her skjer targeting basert på intensjon
+• Publikumsbasert markedsføring, som sosiale medier
+• Her skjer targeting basert på segmentering
+
+
+Intensjonsdrevet markedsføring
+• Følgende kategorisering av intensjon baseres på hva forbrukeren er på
+jakt etter:
+• Informasjon: Forbrukeren har som intensjon å lære noe
+• Navigasjon: Forbrukeren har som intensjon å ende opp et gitt sted
+• Transaksjon: Forbrukeren har en intensjon om å kjøpe noe
+• Kommersiell: Forbrukeren har en intensjon om å lære mer, før en
+transaksjon kan skje
+• Vanligste markedsføringskanal for intensjonsdrevet markedsføring er 
+søkemotorer som Google, Finn, YouTube osv
+
+
+Dette er en magisk 
+boks for å forstå 
+intensjoner
+
+
+Publikumbasert markedsføring
+• Publikumsbasert markedsføring muliggjør targeting basert på 
+segmenteringsvariabler:
+• Mål om å kunne kommunisere til segmentet man vil nå uten å “kaste bort” 
+penger på å vise annonser til personer utenfor segmentet
+• Ofte utfordrende å få 1:1 match mellom segmenter og target audience
+• Avhenger av informasjonen markedsføringskanalen har om brukerne sine
+• “Vi kan gi deg kjønn med 80% sannsynlighet, alder med 75% 
+sannsynlighet” osv er vanlig å høre ved kjøp av annonser i Schibsted 
+sitt nettverk
+
+
+Hvordan gjøre targeting?
+Digitale fremgangsmåter
+
+
+Facebook Ads - Variabler
+• Facebook tilbyr markedsføring via sosiale medier med segmentering basert på:
+• Demografiske variabler, som alder, kjønn, språk, sivilstand, høyeste grad, 
+spesialisering, skole, inntektsnivå, arbeidsforhold, tittel mm.
+• Geografiske variabler, som byer (m/omkrets), land, kommuner etc, i tillegg 
+til hvor man bor, hvor man ofte er, hvor man er på reise, hvor man nylig var
+• Psykografiske variabler, som Facebook-sider man har likt/følger/interagert 
+med
+• Adferdsbaserte variabler, som om man er gift, har barn, nylig har flyttet, 
+nylig har skiftet sivilstand, nylig har skiftet jobb mm
+
+
+Facebook Ads - Estimater
+• Antall: Basert på valg av segmenteringsvariabler 
+får man et estimat på antall personer som er i 
+segmentet
+• Inntrykk: Basert på antall personer i segmentet 
+og deres oppførsel på Facebook, får man et 
+estimat på antall personer man kan nå og antall 
+klikk man kan generere
+→ Avhenger selvsagt av budsjett
+
+
+Demografisk dimensjon
+Psykografisk
+dimensjon
+Adferdsmessig
+dimensjon
+Geografisk dimensjon
+Segmentet som 
+vil se annonsen
+
+
+Google Ads - Variabler
+• Google tilbyr intensjondrevet segmentering basert på:
+• Demografiske variabel for språk, basert innstillingen til nettleseren
+• Geografiske variabel for hvor brukeren er, basert på IP-adresse
+• Adferdsbaserte variabler for intensjon, basert på søkeord
+• Unik segmentering basert på interessen til brukeren i det øyeblikket (ikke 
+basert på historikk eller gjetting)
+• Akkumulert søkehistorikk til personen og befolkningen gir grunnlag for 
+prediktive modeller om intensjonsmønstre → bedre anbefalinger
+
+
+Google Ads - Estimater
+• Klikk: Basert på valg av søkeord og 
+segmenteringsvariabler får man et estimat på
+antall personer som er i segmentet
+• Gjennomsnittlig kostnad per klikk (CPC): 
+Basert på forventet pris for å vise annonser, 
+fastsatt gjennom auksjon mot andre som ønsker
+å vise annonser på samme søkeord
+• → Avhenger selvsagt av budsjett
+
+
+Demografisk dimensjon
+- Språk
+Adferdsmessig
+dimensjon
+- Søkeord
+Geografisk dimensjon
+- Lokasjon
+Segmentet som 
+vil se annonsen
+
+
+Forskjeller i targeting mellom verktøy
+• Annonsering i sosiale medier (som Facebook) gir svært god kontroll over 
+hvem som ser annonsene
+• Segmentering basert på et rikt utvalg av demografiske, geografiske, 
+psykografiske og (delvis) adferdsbaserte variabler
+• Dårlige muligheter til å segmentere basert på intensjon (eksplisitt)
+• Annonsering i søkemotorer (som Google) gir svært god kontroll over hva
+personen som ser annonsen tenker på
+• Segmentering basert på søkeord + språk og lokasjon
+• Dårlige muligheter til å segmentere basert på hvem personen er (eksplisitt)
+
+
+Gruppeoppgave
+Hva slags targeting / målretting i hvilke markedsføringskanaler 
+være relevante for følgende merkevarer/produkter?
+
+
+Matlevering om morgenen
+Jobbannonse som trafikklærer
+Folkefinansiering
+Svensk møbelgigant
+Organisk barnesalve
+MBA utdanning ved NTNU

@@ -1,0 +1,448 @@
+Forelesning 2: Kundeverdi
+Professor Arild Aspelund
+TIØ4165 - Markedsføringsledelse for teknologibedrifter
+
+
+Short recoup
+Markedsføring
+• “Funksjonen med å forstå, skape og levere verdi” (AMA)
+• Kundeverdi 
+• Segmentering 
+• Målretting
+• Posisjonering 
+• Kjøpsatferd 
+Dette er hovedingrediensene i dette kurset
+og grunnsteinene i en markedsføringsstrategi
+
+
+Agenda - Kundeverdi
+• Kundeverdi
+• Hva er kundeverdi i 
+forbrukermarkedet?
+• Hva er kundeverdi i 
+bedriftsmarkedet?
+• Kundetilfredshet og lojalitet
+• Hvorfor bygge kundelojalitet?
+• Relasjonsmarkedsføring
+• Hvorfor gjøre 
+relasjonsmarkedsføring?
+• Offensiv vs defensiv strategi
+• Relasjonsbyggende insentiver
+
+
+Lesestoff
+• Christensen, C.M., Hall, T., Dillon, K. and Duncan, D.S. 2016 Know your
+customers’ «Jobs to be Done», Harvard Business Review, September 2016
+• Henderson, C.M., Beck, J.T. & Palmatier, R.W. 2011. Review of the 
+theoretical underpinnings of loyalty programs. Journal of Consumer 
+Psychology 21, pp. 256-276.
+• Pfeifer, P.E., Haskins, M.E. & Conroy, R.M. 2005. Customer Lifetime Value, 
+Customer Profitability, and the Treatment of Acquisition Spending. Journal of 
+Managerial Issues 17(1), pp. 11-25.
+
+
+Hva er et verdiforslag?
+Et verdiforslag er en setning som oppsummerer hva slags verdi bedriften påstår å 
+tilby til kunder
+Eksempel: «Nike - Providing high-performance athletic gear for all levels»
+
+
+Hva er kundeverdi?
+
+
+Kundeverdi
+Forbrukermarkedet
+Bedriftsmarkedet
+“B2C”
+“B2B”
+
+
+Kundeverdi i forbrukermarkedet
+• Vi sier at kundeverdi blant forbrukere handler om opplevd verdi
+• Den opplevde verdien til en forbruker kan beskrives som:
+• Opplevd verdi = Total opplevd nytte - Total opplevd kostnad
+• Man kan dermed øke forbrukeres opplevde verdi på to måter:
+• Maksimere total opplevd nytte
+• Minimere total opplevd kostnad
+• Forbrukere estimerer opplevd verdi før kjøp, men faktisk opplevd verdi 
+inntreffer ikke før etter kjøpet er gjort → Kundetilfredshet
+
+
+Kundeverdi i forbrukermarkedet
+• Til venstre - levert kundeverdi som summen av total 
+kundeverdi og kostnader
+• Konsumentmarkedsføring handler om opplevd verdi!
+• Husk vannflaska!
+• En betydelig del av den opplevde kundeverdien kan
+komme fra personlig verdi og image verdi
+• Hva om det er et teknologiprodukt eller tjeneste?
+
+
+La oss vurdere noen eksempler
+Hva kan påvirke kundeverdien for følgende produkter og tjenester?
+
+
+Forbrukerprodukter
+
+
+Forbrukertjenester
+
+
+Kvantitativ analyse av kundeverdi
+i forbrukermarkedet – logit/probit modell av verdikomponenter
+Buy = 1
+Not Buy = 0
+Error ~ 30 %
+Image value ~ 10 %
+Personal value ~ 20 %
+Service value ~ 30 %
+Product value ~ 10 %
+
+
+En alternative måte å se det på
+JTBD – Jobs to be Done
+•
+Clayton Christensen mener grunnen til at innovasjoner ofte feiler er fordi at de er konseptualisert feil
+•
+“Markedsførere fokuserer på korrelasjoner, mens kunder fokuserer på å få gjort en jobb”
+•
+Altså, vi må fokusere mer på løse deres jobben de vil ha utført!
+•
+‘Jobs to be Done’ stammer fra forståelsen av at produkter er noe folk leier for å løse en jobb
+•
+Og slik kan det hjelpe oss a forstå hva den virkelige verdien faktisk er!
+
+
+Bærekraft og kundeverdi
+The double externality problem (Rennings, 2000)
+Value
+Market Value
+Social Value
+Environmental 
+Value
+Costs of 
+Sustainability 
+Innovation
+Doesn’t look 
+like a good 
+idea…
+
+
+Kjøpsprosess
+i forbrukermarkedet
+Problem-
+erkjennelse
+Søkeprosess
+Vurdering av 
+alternativer
+Evaluering
+Beslutning
+“Hadde jeg kjøpt igjen?”
+
+
+Kundeverdi i bedriftsmarkedet
+• Kundeverdi blant bedrifter handler om mer rasjonelle, økonomiske vurderinger
+• Kundeverdien til et produkt i bedriftsmarkedet handler dermed om ting som:
+• Tekniske spesifikasjoner
+• Besparelser
+• Innkjøpsprosessen
+• Leverandørtype
+• Livsløp
+• Produktporteføljen
+1/2
+
+
+Kundeverdi i bedriftsmarkedet
+• Bedrifter er dermed ofte mer varsomme kjøpere, da de vurderer ting som:
+• Omstilling/endringskostnader
+• Risiko ved å ta i bruk nye produkter før de har bevist sine fordeler
+• Risiko ved dårlig kundestøtte, opplæringsbehov, konkursrisiko, leveringstid, 
+delleveranser mm.
+• Og fremfor alt, kundeverdi i bedriftsmarkeder er best uttrykt i monetær form
+2/2
+
+
+Produkter/tjenester til bedrift
+
+
+Kjøpsprosess
+i bedriftsmarkedet
+“Bør vi kjøpe igjen?”
+
+
+Kjøpsprosessen i bedriftsmarkedet
+1.
+Problem / behov 
+1.
+Internt/eksternt
+2.
+Kriterier / kvanta
+1.
+Omfatning (system/komponenter?)
+3.
+Spesifikasjoner 
+1.
+Tekniske egenskaper
+2.
+Eksisterende leverandør?
+4.
+Søking blant leverandører 
+1.
+Flere/fåtall, relasjoner, databaser
+5.
+Vurdering av leverandører
+1.
+Innhenting av tilbud
+2.
+Høyt informasjonsbehov
+6.
+Valg av leverandører 
+1.
+Ranking av egenskaper
+2.
+Forhandling
+7.
+Ordreplassering 
+1.
+Tekniske egenskaper, kvantiteter, 
+leveringstid, support mm
+8.
+Oppfølging
+1.
+Evaluering, gjenkjøp, forandring, terminering
+
+
+Forbrukermarkedet
+Bedriftsmarkedet
+Markedsstruktur
+Lav geografisk konsentrasjon
+Massemarked
+Mer konkurranse
+Høy geografisk konsentrasjon
+Relativt få kjøpere
+Oligopoler er vanlig
+Kjøpsadferd
+Familie involvert i beslutninger
+Sosiale og følelsesmessige motiver dominerer
+Kjøper-selger relasjoner mindre viktig
+Typisk ikke eksperter
+Funksjonsmessig involvering
+Rasjonelle motiver dominerende
+Stabile relasjoner
+Profesjonalitet, ekspertise
+Vanskeligere å definere kundebehov
+Beslutningstaking
+Uklare faser
+Typisk individuelle kjøpsbeslutninger
+Tydelige, observerbare faser
+Ofte gruppebaserte avgjørelser
+Produkter
+Det meste er standardisert
+Service, levering, pålitelighet noe mindre viktig
+Mye skreddersøm
+Service, levering, pålitelighet er meget viktig 
+Selger mer enn bare fysiske produkter
+Avledet etterspørsel
+Kanaler
+Lengre, mer indirekte. Mange ledd.
+Korte, mer direkte. Få ledd.
+Promosjon
+Fokus på annonsering, reklame
+Fokus på personlig salg
+Pris
+Listepriser, rabatter
+Liten forhandlingsmulighet
+Veiledende pris viktigst
+Åpne anbud
+Komplekse, tidkrevende forhandlinger
+Totalkostnad viktigst
+
+
+Kvalitet, kundetilfredshet og lojalitet
+• For å skape kundetilfredshet må produkter tilfredstille (eller overgå) kunders 
+forventninger
+• Altså, opplevd kundeverdi må tilfredstille/overgå antatt kundeverdi
+• Den negative effekten av å ikke tilfredstille kunders forventninger er 
+disproporsjonalt større enn den positive effekten av å overgå forventninger
+• Hva skaper forventningene?
+• Interne faktorer: kunders tidligere erfaring, kunnskapsnivå
+• Eksterne faktorer: løfter selskapet har kommunisert, andre kunders erfaringer
+• Høy tilfredshet skaper lojalitet!
+asdf
+
+
+Hva er kvalitet?
+Å tilfredstille eller overgå kunders forventninger og behov?
+
+
+• Før salget: 
+• Identifisere og forstå kundebehov 
+• Kommunisere kundebehov til 
+produktutviklere 
+• I salgsprosessen: 
+• Forsikre om at kundens bestillinger er 
+riktige og levert som avtalt
+• Sikre at kunder har fått hensiktsmessig 
+instruksjon, opplæring og støtte
+• Etter salget: 
+• Holde kontakt etter salget og forsikre 
+om at kunden er og forblir tilfreds
+• Være åpen for ideer til forbedringer
+Kvalitet i salgsprosessen
+
+
+“Det er markedsførerens 
+ansvar å bidra til kvalitet”
+Kotler & Keller (2016)
+
+
+Hvorfor bygge kundelojalitet?
+
+
+Kundelojalitet
+• Det er kostbart for bedrifter å tiltrekke seg nye kunder
+• Customer Acquisition Cost (CAC eller CoCA) er kostnaden bedrifter pådrar 
+seg for å få én ny kunde til å kjøpe et produkt eller en tjeneste
+• Kan (forenklet) regnes ut med følgende formel:
+CAC =
+Kostnad for markedsføring i tidsperiode
+Antall nye kunder i tidsperiode
+1/2
+Les: Pfeifer et al (2005)
+
+
+Kundelojalitet
+• Ved å bygge kundelojalitet slipper selskaper å pådra seg nye 
+markedsføringskostnader for å opprettholde samme driftsinntekter 
+• Salg til eksisterende kunder er billigere enn salg til nye kunder
+• Lojale kunder anbefaler ofte produktet/tjenesten til andre
+• Over tid, driver dette CAC ned ettersom det skal mindre til for å overbevise 
+nye kunder om at produktet/tjenesten har høy kundeverdi
+2/2
+Les: Pfeifer et al (2005)
+
+
+Lønnsomhetsanalyse
+• Hver kunde har en forventet verdi for en bedrift i fremtiden
+• Customer Lifetime Value (LTV) er den antatte fremtidige fortjenesten et 
+selskap kan gjøre fra kjøpene til én kunde
+• Ikke alle kunder er lønnsomme!
+• Man ønsker: kunder med lav CAC og stor LTV 
+• Man ønsker ikke: kunder med høy CAC og liten LTV
+• Lønnsomhetsanalyser bidrar til å identifisere hvilke kunder som er lønnsomme
+• Ofte gjelder 80/20 regelen
+Les: Pfeifer et al (2005)
+
+
+Hva er relasjonsmarkedsføring?
+
+
+Hva er relasjonsmarkedsføring?
+• Relasjonsmarkedsføring fokuserer på å beholde de kundene man allerede har
+• Flytter dermed fokuset fra massemarkedsføring til bruk av individuelle tiltak 
+rettet mot hver enkelt brukers behov
+• Hensikt:
+• Å øke kunders tilfredshet
+• ..og som konsekvens forhåpentligvis også øke kundelojaliteten
+1/2
+
+
+Transaksjonsfokus
+Relasjonsfokus
+Orientering
+Orientering mot enkeltsalg
+Orientering mot kundevarighet
+Kontakt
+Usammenhengende kundekontakt
+Kontinuerlig kundekontakt
+Fokus
+Fokus på produktfordeler
+Fokus på kundeverdi
+Tidshorisont
+Kort tidshorisont
+Lang tidshorisont
+Kundestøtte
+Lite fokus på kundestøtte
+Mye fokus på kundestøtte
+Forpliktelse
+Liten forpliktelse om å møte kundens forventning
+Stor forpliktelse om å møte kundens forventning
+Kvalitet
+Fokus på kvalitet er viktig for produksjonsavdelingen
+Fokus på kvalitet er viktig for hele organisasjonen
+Hva er relasjonsmarkedsføring?
+2/2
+
+
+Hvorfor gjøre relasjonsmarkedsføring?
+
+
+Hvorfor gjøre relasjonsmarkedsføring?
+• Relasjonsmarkedsføring kan bidra til økt salg over tid 
+• Fra eksisterende kunder gjennom: gjenkjøp, større volumkjøp, økt hyppighet 
+i kjøp mm
+• Kan også bidra til kryss-salg (mersalg) av andre produkter til samme kunde
+• Relasjonsmarkedsføring drar ofte nytte av goodwill (sosial kapital) for å 
+stimulere etterspørsel for nye kjøp
+• Lavere kostnader til markedsføring og distribusjon
+• Eksisterende kunder kan også ha lavere prissensitivitet, som fører til høyere 
+margin
+1/2
+
+
+Relasjonsfremmende insentiver
+• Fordelsprogram: Kunder får belønninger for sin lojalitet
+• Eksempler: SAS Eurobonus, Æ, Shell Drivstoffskort, Hotels.com Rewards… 
+• Gjenkjennelsesprogram: Kunder får tilpasset behandling for sin lojalitet
+• Eksempler: Anbefalinger på Netflix/Spotify, Amazon…
+• Samfunnsbygging: Kunder får følelsen av å være med på noe større 
+• Eksempler: COOP “Litt ditt”, Æ…
+• Kunnskapsbyggende program: Kunder får følelsen av at de bidrar til noe viktig
+• Eksempler: Firmablogger, Newsletters…
+1/2
+Les: Henderson et al (2011)
+
+
+• Tette kundeforhold kan også være en kilde til nye varer og tjenester!
+• Brukerstyrt innovasjon / “Åpen” innovasjon
+2/2
+Open innovation
+– En kilde til å finne nye kundeverdier
+
+
+Offensiv vs Defensiv Strategi
+1/2
+Offensiv 
+(nye kunder)
+Defensiv 
+(eksisterende kunder)
+Vokse markedet
+Ta markedsandeler
+Bygge barrierer
+Øke kundetilfredshet
+Markedsførings-
+strategi
+
+
+Drivere for å skape langsiktige relasjoner
+1/2
+Verdien av 
+produktet/tjenesten
+Verdien av 
+relasjonsfremmende 
+insentiver
+Langsiktig 
+kundeforhold
+Verdien av merkevaren 
+
+
+Når bør en relasjonsstrategi ikke benyttes?
+• Når det er variasjonssøkende kjøpsatferd
+• Hvis kjøperen er på jakt etter variasjon i seg selv.
+• Når det ikke er mulig å skape emosjonelle bånd
+• Hvis kjøperen er en stor bedrift hvor avgjørelser tas av forskjellige
+• Når kunden føler liten risiko i kjøpssituasjonen
+• Når det er snakk om engangskjøp
+• Når produktene er udifferensierte
+➡Inntil kunder føler sterk lojalitet vil de alltid vurdere alternative leverandører!
+1/2

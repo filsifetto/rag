@@ -1,0 +1,879 @@
+A Framework for Targeting Banner Advertising On the Internet 
+Katherine Gallagher and Jeffrey Parsons 
+Faculty of Business Administration, Memorial University of Newfoundland 
+{ kgallagh, jeffreyp } @morgan.ucs.mun.ca 
+St. John's, NF, Canada 
+A1B 3x5 
+Abstract 
+Constraints that limit accurate targeting of advertising in 
+traditional media may not hold in cyberspace. This paper 
+presents a model for @ectively and effiiently targeting 
+hypermedia-based banner advertisements in an online 
+information service. 
+The model takes advantage of 
+information technology to micro-target banner 
+advertisements based on individual characteristics of users. 
+A simple version of the model, which has the virtue of ease 
+of development, is presented. Enhancements are also 
+proposed. These require more eflort to develop, but may 
+lead to even more precise targeting of advertisements. 
+Implementation of this framework may benefit both online 
+advertisers and online consumers. 
+1. Introduction 
+Cyberspace is a rapidly growing new medium for 
+commerce. To date, a great deal of industry attention has 
+focused on electronic transactions over the Intemet. 
+Although rapid growth is predicted over the next few years 
+[ 10,17,21], actual sales thus far have been only moderate: 
+users appear to regard the Intemet primaxily as a source of 
+product information--when it comes time to pay, they prefer 
+to buy offline by more conventional means [12,14]. 
+Responding to consumers' desire for information, 
+businesses in large numbers have developed sites on the 
+World Wide Web (WWW or Web). Most commercial Web 
+sites describe the firm and its products andor services, and 
+many offer opportunities for visitors to the Web site to 
+provide feedback and ask for specific information. As well, 
+some Web sites collect information from visitors in order to 
+improve future offerings. Some sites also support ordering 
+and payment. The interactive potential of Web sites is 
+particularly exciting, as it facilitates relationship marketing 
+and customer support, eliminating the obstacles of 
+geography and time [14, 221. 
+Not surprisingly, then, 
+industry and scholarly research has recently focused on 
+making Web sites more appealing and useful to visitors [ 131. 
+However, a Web site can only be effective if current and 
+prospective customers visit it. Attracting this audience is 
+currently a major challenge. 
+In this paper, we address the challenge of attracting a 
+deked target audience to a Web site via banneradvertising. 
+We propose a framework for effectively targeting banner 
+advertising in an electronic marketplace in a manner that 
+benefits both advertisers and consumers. 
+It allows 
+advertisers to reach consumers who are more likely to be 
+interested in the products andor services offered by the 
+company, and exposes consumers to information about 
+products and services that they are likely to be interested in 
+purchasing. Although the fitmework is discussed in terms 
+of the Intemet, we believe it will be relevant to whatever 
+form the "information superhighway" eventually assumes. 
+The framework takes advantage of the capabilities afforded 
+by information technology for collecting and processing data 
+about users. The next section examines trends in the 
+electronic marketplace. Subsequently, the current state of 
+advertising in this medium is discussed. Thereafter, a 
+framework for targeting banner advertising, supported by 
+appropriate information technologies, is proposed. Finally, 
+opportunities for further research are discussed 
+2. Marketing and Advertising in an Evolving 
+Electronic Marketplace 
+The Intemet began in the early 1970s as a US 
+government research project designed primarily for the 
+needs of the military. It expanded in the 1980s to serve the 
+intemational academic and research communities [19,23]. 
+In the 199Os, businesses began to appear on the Internet. 
+Although accurate estimates are obsolete as soon as they are 
+made, it is clear that today tens of millions of people have 
+access to the Internet [ 161 through over 100,000 computer 
+networks in 150 countries--and the numbers continue to 
+increase [ 141. Two types of developments are particularly 
+noteworthy with regard to this growth. 
+First, a large and ever expanding number of affluent, 
+educated consumers are using the Intemet [ll]. This 
+concentration of very desirable consumers has led to a surge 
+in commercial interest. Prior to 1990, nodes on the Intemet 
+were predominantly academic institutions. In 1990, about 
+1,000 businesses had Intemet connections. By June 1995, 
+over 21,000 businesses were online, and the growth in 
+commercial connectivity shows no sign of slowing [8]. 
+Second, the emergence of the hypermedia-based WWW, 
+1060-3425f97 $10.00 0 1997 IEEE 
+265 
+Authorized licensed use limited to: Norges Teknisk-Naturvitenskapelige Universitet. Downloaded on December 13,2021 at 23:48:19 UTC from IEEE Xplore.  Restrictions apply. 
+
+
+visit, ensuring there is 
+the firm and th 
+Web site and 
+is as a mechanism to 
+of a firm's Web site and 
+define two concepts c 
+exposures should there 
+motivation for improvin 
+arises from recent eve 
+based on the numbe 
+pressure online services 
+The estimate cited 
+the attraction effective 
+that only 1-2% of e 
+audience members usin 
+this group. However, si 
+together with point-and-clic multimedia interfaces such as 
+Netscape, have greatly increased usability of the Internet for 
+persons without extensive computer training. 
+The 
+development of "applet" technology, such as Java, which 
+allows programs to run on a variety of platforms, increases 
+the transparency of various Intemet services. In other 
+words, as technology continues to evolve, it is no longer an 
+obstacle to, but an enabler of, electronic commerce. 
+In this environment, companies are seeking ways to use 
+the Internet effectively [ 1,3, 13, 221. One active area in 
+electronic commerce involves using the Intemet as a 
+medium to communicate persuasive product and service 
+information via advertisements. These take various forms, 
+the most common of which are corporate Web sites and 
+banner advertising. We define a banner advertisement as: 
+paid communication (via text, graphics, video and/or 
+audio) of information about an organization and/or its 
+products and services 
+by an identified sponsor 
+embedded within, and visually distinct from, 
+with hypermedia links to the sponsor's Web site. 
+information provided by an online service 
+We distinguish banne 
+from simple hypermedia 
+links (paid or not) 
+ial Web sites: banner 
+advertising conveys a message even 
+follow the link; simple links can only 
+the user follows the link. Banner advertisements are also 
+distinct from what [14] refer to as "flat ads," single page 
+advertisements that do not contain hypemedia links. In this 
+paper, we restrict our discussion to banner advertising that 
+appears in the course of users' browsing and searching 
+activities on information services, such as Yahoo! 
+( h t t p : / / w w w . y a h o o . c o m )  a n d  E x c i t e  
+(http://www.excite.com), that provide an entry point to 
+Intemet resources. 
+Appendix 1 shows a banner 
+advertisements by the Saturn automobile company. 
+Scant attention has been paid to banner advertising by 
+researchers. This may be because banners seem relatively 
+insignificant, especially when compared with the interactive 
+richness of Web sites. Technical specifications for banner 
+advertisements severely limit creative options and preclude 
+any consumer-fm interaction beyond the consumer's 
+selection of the hypermedia link to the associated Web site 
+(Excite, for instance, specifies that "all banners are 468x60 
+pixels, gif format only, maximum file size is 7k" [9]). 
+Banner advertisements are, however, very important and 
+interesting when viewed as part of a system that converts 
+browsers and searchers into Web site visitors and, 
+ultimately, customers. In their model of this conversion 
+process, Berthon, Pitt and Watson [3] identify a sequence of 
+tasks. First, users must be made aware of the Web site, then 
+they must be attracted to and locate the site. Once users 
+have found the Web site, the task is to tum that hit into a 
+266 
+Authorized licensed use limited to: Norges Teknisk-Naturvitenskapelige Universitet. Downloaded on December 13,2021 at 23:48:19 UTC from IEEE Xplore.  Restrictions apply. 
+
+
+precisely targeting advertisements based on characteristics 
+and behavior of individual users of information services. 
+Moreover, such targeting can be more precise than the 
+targeting possible in traditional media. For example, visitors 
+to a "Travel" page on an information service may be good 
+targets for an advertisement for discount airfares, as would 
+readers of the Travel section of a newspaper. But the fact 
+that the online visitors have made a series of decisions and 
+taken a series of actions (Le., selecting only a subset of 
+highlighted links within a hierarchical menu of categories) 
+to reach the Travel page, rather than some other page (e.g., 
+the Home Decorating page) suggests they may have a 
+greater interest in travel than, say, readers who 
+unintentionally come upon the Travel section of a 
+newspaper and decide to read it. Since thke exposures are 
+more likely to be target audience members, attraction 
+effectiveness can be improved. Targeting individual users 
+strategy should also lead to fewer wasted exposures, since 
+the advertisement would not be shown to users who have not 
+reached the Travel page, thereby improving attraction 
+effectiveness. (See Appendix 2 for a similar example.) 
+At present, targeting of banner advertising does not 
+always occur. 
+For example, Appendix 3 shows an 
+advertisement for Honda that appeared when Organic 
+Gardening was selected from a hierarchical menu of 
+categories. People interested in organic gardening may not 
+be the best prospects for automobiles, as they are likely to be 
+more environmentally sensitive than the general population 
+and may feel that cars unnecessarily harm the environment. 
+Nevertheless, online information services do currently 
+provide some targeting capability. As of August 1996, both 
+Yahoo! [24] andExcite [9] offered advertisers three options: 
+general rotation, geographic or content targeting, and 
+keyword-based targeting. With "general rotation," banner 
+advertisements rotate randomly through user searches and 
+browsing on the site. The Honda advertisement that 
+appeared on the Organic Gardening page in Appendix 3 was 
+probably in general rotation. Restricted rotations permit 
+advertisers to purchase space in specified content areas or by 
+geographic region. For example, financial institutions can 
+limit the exposure of their banner advertisements to users 
+searching or browsing Business categories, and Canadian 
+advertisers can choose to have their banner advertisements 
+shown only to users who are searching or browsing in the 
+Yahoo! Canada site. These two options are analogous to the 
+targeting offered by traditional media such as newspapers, 
+magazines, television, and radio [4]. 
+The third option, keyword-based targeting, makes greater 
+use of the targeting potential of information services. A 
+company can buy keywords so that whenever a user enters 
+one of those keywords during a search, she will be exposed 
+to the company's banner advertisement. This ensures that 
+the banner advertisement is presented only to people with a 
+demonstrated interest in the area. For instance, a marketer 
+of golf equipment might buy the keyword "golf." Every 
+time a user enters "golf' in a search, a banner advertisement 
+for the equipment would appear. This is analogous to the 
+more precise targeting provided by magazines. 
+While these are useful strategies, they fail to take full 
+advantage of the targeting potential of banner advertising. 
+Current technology provides the capability to develop 
+sophisticated and detailed profiles of individual users of 
+information services based on individual characteristics and 
+past patterns of behavior in using the information service. 
+The next section proposes and describes informally two 
+versions of a model for targeting banner advertising by using 
+the information technology on which an online information 
+service is built. 
+3. A Model for Targeted Advertising 
+In traditional media, the quality of the information 
+available constrains an advertiser's ability to target 
+advertising effectively and efficiently. For example, many 
+media buying decisions are based on data provided by 
+research bureaus such as the Audit Bureau of Circulations 
+(ABC), Business Publication Audit of Circulation (BPA), 
+Arbitron, and A.C. Nielsen, which collect data on the 
+demographics and media habits of consumers, and 
+sometimes on product usage and brands [4]. These survey 
+data are cross-tabulated to develop a profile of the audience 
+of each media vehicle. The audience profile is then 
+compared to the target audience profile identified by the 
+advertiser to determine where there is a good match. For 
+instance, an automobile manufacturer might identify the 
+target audience for an advertisement for a particular model 
+of car as middle-income females, 18 to 34, with busy 
+lifestyles. Based on research bureau data, as well as the 
+experience and judgement of the media planner, media 
+vehicles with good reach in that demographic group would 
+be chosen. Realistically, though, this type of targeting is 
+usually very approximate. For instance, no matter how well 
+the media vehicle audience profile matches the target 
+audience profile, it is liiely that only a portion of the 
+audience would be in the market for a new car. 
+Online banner advertising may be able to overcome this 
+problem. It is possible to target users very precisely because 
+data can remain associated with individuals, so advertisers 
+can select exactly the users to whom they wish their 
+advertising to be exposed. It may be possible, for example, 
+to identify which users will be in the market for a new car in 
+a particular year. The remainder of this section describes 
+two versions of a model for targeting banner advertising by 
+taking advantage of the technological capabilities of the 
+online environment. 
+The model is designed to be 
+appropriate for use by information services which sell 
+26 7 
+Authorized licensed use limited to: Norges Teknisk-Naturvitenskapelige Universitet. Downloaded on December 13,2021 at 23:48:19 UTC from IEEE Xplore.  Restrictions apply. 
+
+
+advertising space. 
+3.1. Basic version 
+The basic version of the model requires that users be 
+assigned unique identifiers (e.g., user accounts) when they 
+fist connect to the information service. Subsequently, they 
+provide these identifiers each time they connect. Users also 
+complete an online questionnaire the fist time they use the 
+information service. 
+(Incentives to complete the 
+questionnaire may be provided by informing users that the 
+information will be used to filter out advertising for products 
+in which they are likely not to be interested.) The 
+questionnaire allows data to be collected on several 
+dimensions, including: (1) demographii attributes such as 
+geographic location, inc 
+family lifecycle stage, 
+occupation, and sex; (2) 
+graphic attributes such as 
+travel patterns and hobbie 
+) product and brand usage 
+attributes. This element of the basic model permits a banner 
+advertisement to be directed to users (and only those users) 
+who fit certain criteria, assuming data were collected on 
+relevant attributes. For instance, a banner advertisement for 
+baby strollers could reach parents of children under five 
+years old--and only individuals in that group. 
+In contrast, research bureau data uses demographic 
+correlates (e.g., male 
+, 18 to 34) to identify 
+media vehicles that a 
+ely large proportion of 
+the people in the iden& 
+mographic group [41. The 
+media vehicles thus c 
+s members of the target 
+group (e.g., older parents) and reach consumers not in the 
+target group (e.g., people who are between 18 and 34 but do 
+not have young children). Even audience data based on 
+cross-tabulations, while they supply information on more 
+variables, still cannot isolate individuals who are in the 
+target audience. (For example, research bureau data may 
+advertiser to identify a magazine whose audience 
+a large number of people between 18 and 34 who 
+have young children, but there will still be some readers who 
+are not in the target market.) 
+e second element of the basic model involves eliciting 
+et audience profile from advertisers. An advertiser 
+can specify a target audience using any number of attributes 
+about which data have been collected. These can be 
+expressed conjunctively and/or disjunctively. For example, 
+a specification may indicate that an advertisement is to be 
+presented to all users who (1) have household incomes over 
+$50,000, and (2) either work in a job that involves travel at 
+least four times per year or have travelled on vacation in at 
+least four of the past five years. 
+In this version of our model, the questionnaire 
+determines the data collected about each user. The content 
+of the questionnaire will vary depending on the nature of the 
+information service, expected users, and expected 
+advertisers. Howe 
+some subset of 
+advertisements ass 
+advertisements. 
+users are not d 
+advertisers are assu 
+target audience profile. 
+audience profdes, an 
+advertisements 
+also benefit, sinc 
+3.2. Enhanced V 
+The basic ver 
+compIeting a ques 
+information serv 
+Authorized licensed use limited to: Norges Teknisk-Naturvitenskapelige Universitet. Downloaded on December 13,2021 at 23:48:19 UTC from IEEE Xplore.  Restrictions apply. 
+
+
+questionnaire strategy is that it is subject to two potential 
+types of bias. First, the questionnaire designer will want to 
+identify as many user attributes relevant to potential 
+advertisers as possible. 
+As the number of attributes 
+increases, so does the length of the questionnaire, crating 
+the possibility of higher mortality in completing the 
+questionnaire (especially since it may be more difficult to 
+induce users to complete it because they are both physically 
+and psychologically remote), thereby increasing the 
+potential nonresponse bias [7]. Second, the questionnaire 
+method is plagued with well-known problems, such as errors 
+due to inaccurate recall, telescoping, social desirability 
+concems, and cognitive biases, as well as ambiguity, 
+intimidation, confusion, and incomprehensibility [2]. 
+In view of these potential problems, ii is appropiate to 
+enhance the model so that it does not rely on user self- 
+reports, can accommodate changing user characteristics and 
+preferences, and is less constrained by the choice of 
+questions. Fortunately, information technology may provide 
+assistance in each of these areas. 
+Current technology allows aconsiderable amount of data 
+about user search activities (both deliberate search and 
+browsing) to be collected unobtrusively and analyzed to 
+determine pattems. (We are dealing here only with the 
+capabilities of the technology, not with the ethical issues 
+such capabilities raise. However, we recognize that ethical 
+issues must be considered explicitly in the design of systems 
+based on our model. For instance, we believe users should 
+be aware that such information may be collected, and how 
+it may be used, and consent to this activity before using an 
+information service.) In the enhanced model, we propose 
+that patterns of search and browsing behavior exhibited by 
+users while using an information service determine which 
+advertisements are shown to that user during current or 
+future sessions. In the remainder of this section, we provide 
+a general overview of this approach. 
+As before, this model relies on assigning a unique 
+identifier to each user for recording herhis searching and 
+browsing activities while using the information service. 
+Each session constitutes a "record", consisting of data such 
+as: sites visited in order; pattern of navigation through a 
+hierarchical category structure (as in Yahoo!); choice of 
+search t e m  in keyword-based searches: and reaction to 
+previously exposed targeted banner advertisements (e.g., 
+which linked Web sites are selected and visited by the user 
+and which ones ignored). The aggregate of such records for 
+each user provides a profile from which preferences can be 
+implicitly generated. As a simple example, if a user has 
+made several searches using keywords such as "Atlantic 
+salmon'' and "fly fishing", and has visited the site of the 
+A n g l i n g  C l u b  L a x - a  o f  I c e l a n d  
+(http://www.ismennt.is/fyr-stoMax-a/uk/angl-uk.html), 
+she may be targeted for a banner advertisement for a fishing 
+lodge in Alaska. However, if a user has previously been 
+exposed to the same or similar banner advertisements but 
+has not visited linked Web sites when there was an 
+opportunity to do so, she may not be shown these banner 
+advertisements in future. 
+This version of the model has the advantage of 
+transparency. A user simply visits a service for whatever 
+purpose she has in mind. Data are collected unobtrusively 
+in the course of the visit. Moreover, the data reflect actual 
+user behavior, rather than attitudes, intentions, or reported 
+behavior captured through a questionnaire. Hence, the 
+quality of data derived from user behavior should be 
+superior to that of questionnaire data, for purposes of 
+targeting advertisements. 
+A disadvantage of this model is the preparatory work 
+involved on two fronts. First, it is not clear how to structure 
+the data collectedduring visits so that useful information can 
+easily be coded for storage and later extraction. Research is 
+needed to develop useful and efficient coding mechanisms 
+for storing such data as sequences of visits and search terms 
+used. We expect this can be handled using conventional 
+database structures such as relations (tables); however, the 
+design of a relational database for this purpose is itself a 
+distinct research issue. Second, the ability to store the 
+required data does not necessarily mean useful information 
+can be extracted from it. Further research is required to 
+determine the types of analyses that yield insights into user 
+characteristics and preferences hidden in the data. 
+The enhanced model should be used in conjunction with 
+the basic model. A questionnaire may be very effective for 
+identifying various demographic data relevant to advertisers 
+but impossible to ascertain simply from users' online search 
+and browsing behavior. However, since demographic data 
+has limitations for effectively targeting consumers of most 
+products, the enhanced model of data collection may yield 
+complementary data on preferences from pattems of online 
+search and browsing behavior. 
+The next section describes an implementation 
+architecture for the basic version of the model. Extensions 
+that support the enhanced version of the model remain as 
+future research. 
+4. An Implementation Architecture 
+The architecture required to implement the basic version 
+of the model consists of two parts: data structure to 
+represent user profiles and target audience profiles, and an 
+algorithm to select banner advertisements to display to a 
+user. This section describes these components. 
+269 
+Authorized licensed use limited to: Norges Teknisk-Naturvitenskapelige Universitet. Downloaded on December 13,2021 at 23:48:19 UTC from IEEE Xplore.  Restrictions apply. 
+
+
+4.1. Data Structure 
+To target banner advertisements, two types of profdes 
+are needed: profiles describing users of the information 
+service; and profiles describing the target audience for 
+advertisements, as defined by advertisers. Each profile can 
+be modeled as a set of attributes. 
+We assume there is a finite "universe" of attributes, A 
+= <al,...,*>, thathay potentially characterize users or target 
+audience members. 
+4.1.1. User Profile. Each user, ui, of the service can be 
+described by arecord consisting of values of the universe of 
+attributes, R, = <ai(&) ,..., a&)>, 
+where &uJ (n=l, ..., N) 
+denotes the value of attribute a,, for user'&. This may be 
+implemented in a relational database in which a table is 
+defined whose primary key is a user identifier, and 
+remaining attributes are those in A. Each row in the table 
+contains the profile of one user. (A more elaborate data 
+structure is needed to support the enhanced model, since 
+data must also be kept about the pattem of behavior of a 
+user over one or more sessions.) All attributes need not be 
+applicable or relevant to a particular user; hence, null values 
+are permitted. 
+A simple example serves to illustrate this stnrcture. 
+Consider a universe consisting of three attributes: age, 
+income, and number of dependents. Suppose there are two 
+users of a service. When those users have completed a 
+profile questionnaire, the resulting data may be stored in a 
+relational table as: 
+USER 
+usex-id age 
+income 
+dependents 
+U1 
+26 
+34000 
+0 
+u2 
+45 
+54000 
+2 
+4.1.2. Target Audience Profile. A target audience profile 
+is associated with each banner advertisement. A profile may 
+be expressed as: 
+(1) A characterization of an "ideal" target audience 
+member. 
+Such an ideal can be described by a record consisting of 
+values of the universe of attributes, T, = <th ..., tN>, where 
+t, (n=l,-..,N) is a specific value of attribute an. Some 
+values may be null, indicating that any values of those 
+attributes are permitted for the ideal; and/or a 
+(2) A characterization of the 'bcceptable " target audience. 
+Generally, an advertiser is interested in reaching those 
+within specified ranges of the attributes of interest. 
+Given N attributes of interest, acceptability can be 
+thought of as a region in N-dimensional space. This 
+region can be defined by specifying ranges of acceptable 
+values for various attributes in the universe. 
+ombinations of 
+Note that "distance" 
+whose profiles fall w 
+identifier for the 
+attributes are those 
+TARGET 
+advertisement, the ide 
+two-dimensional spac 
+range, the necessary 
+table whoserows desc 
+a lower and an u 
+$30,000. Such profiles 
+270 
+Authorized licensed use limited to: Norges Teknisk-Naturvitenskapelige Universitet. Downloaded on December 13,2021 at 23:48:19 UTC from IEEE Xplore.  Restrictions apply. 
+
+
+RANGE 
+ad-id 
+attribute 
+lower upper 
+T1 age 
+20 
+50 
+Tl income 
+40000 60000 
+T2 age 
+20 
+30 
+T2 income 
+20000 30000 
+In this case, the acceptable profile can be depicted as a 
+region in two-dimensional space. Figure 2 shows the profile 
+for TI. 
+It is possible that both ideal and acceptable profiles could 
+be generated by the same advertiser. By overlaying Figures 
+1 and 2, shown in Figure 3, we note that the ideal point need 
+not lie at the geometric center of the acceptable region. 
++ + - H - + m  
+1
+0
+2
+0
+3
+0
+4
+0
+5
+0
+ 
+hane 
+1004) 
+4 - t t - H -  
+1
+0
+2
+0
+3
+0
+4
+0
+5
+0
+ 
+To handle measures of "distance" from an ideal, ranges of 
+values on relevant attributes canbe replaced with advertiser- 
+specified information about the acceptable distributions of 
+values over attributes. For instance, an advertiser may 
+specify a mean (ideal) and standard deviation for an attribute 
+if "acceptability" is normally distributed about a central 
+value. Other measures of central tendency and dispersion 
+may be appropriate for attributes in which the range of 
+acceptability is quantified differently. The data structure of 
+the RANGE table can be modified to accommodate this 
+additional complexity. 
+4.2. Selecting Advertisements for Users 
+The primary challenge in effectively and efficiently 
+targeting banner advertising is matching user profiles with 
+target audience profiles, Figure 4 uses a data flow diagram 
+to depict the matching process described below. 
+When a registered user visits an information service, 
+hisher profile is retrieved. This profile is then compared 
+with the target audience profiles of banner advertisements 
+currently being run by the information service. Each target 
+audience profile is associated with a banner advertisement. 
+For each target audience profile, if there is no match with 
+the user profile, the associated advertisement is dropped 
+fiom further consideration. 
+After the comparisons are completed, a set of matched 
+target audience profiles fiom a variety of advertisers 
+remains. If this set is small, it may be feasible to show all 
+the associated banner advertisements to the user during the 
+session. In general, though, it will be necessary to select 
+some subset of advertisements from the matched set to 
+display to the user. We envision that the advertisers whose 
+advertisements are in the matched set will compete for the 
+opportunity to have their banner advertisements displayed 
+to the user. 
+The concept of acceptable regions in target audience 
+profiles provides a basis for competition. 
+Profiles 
+accommodate the possibility that some users withii the 
+region of acceptability may be more desirable to an 
+advertiser than others. Hence, a distance metric capturing 
+the relative desirability of a user with respect to an ideal 
+profile is possible. It is not the purpose of this paper to 
+propose or evaluate mettics. However, recognizing a notion 
+of distance allows the possibility for advertisers to "bid for 
+the opportunity to display an advertisement to a user. Such 
+bids would be determined by the advertiser, based on 
+variables such as the user profile (to determine the distance 
+from the ideal target audience profile) and advertising 
+budget. It may be feasible to automate this by having 
+software agents associated with each advertisement that 
+would calculate the distance measure for the user and 
+formulate a bid based on this, in addition to other 
+271 
+Authorized licensed use limited to: Norges Teknisk-Naturvitenskapelige Universitet. Downloaded on December 13,2021 at 23:48:19 UTC from IEEE Xplore.  Restrictions apply. 
+
+
+information such as whether the user had seen this 
+thiscriterion. So, thes 
+advertisement, or other advertisements for the same or 
+retrieved. Sincetheus 
+similar products, in previous sessions (information which 
+could be carried as part of the user profile). 
+advertisement corres 
+When bids are received, 
+beranked. The banner 
+advertisement correspondin 
+winning bid is displayed 
+to the user. 
+Other advertisements may be displayed 
+advertisement 
+according to their ranking if there is an opportunity to 
+(34000) is gre 
+display additional advertisements (e.g., if the user engages 
+in 
+in several search or browse activities during a session). 
+This architecture provides guidance for implementing 
+she 
+the basic version of the model. We present next a simple 
+example showing how the architecture operates. 
+ur would entail a cost 
+4.3. Example 
+Consider the relational database tables USER, 
+TARGET, and RANGE presented earlier. Suppose first that 
+the user with profile u1 connects to the information service. 
+the profile TI. (Note 
+This user’s profile, consisting of the database record <ut, 26, 
+example do not s 
+34000,0> is retrieved from the USER table. Next, target 
+audience profiles TI and Tnare retrieved from the TARGET 
+table. These identifiers determine the attributes whose 
+since the income 
+profile ranges have to be selected from the RANGE table. 
+of income for T2 
+Next, the age range for Ti, namely (20,30), is retrieved from 
+RANGE. Since the age value of u1 is 26, there is a match on 
+272 
+Authorized licensed use limited to: Norges Teknisk-Naturvitenskapelige Universitet. Downloaded on December 13,2021 at 23:48:19 UTC from IEEE Xplore.  Restrictions apply. 
+
+
+This example does not show the full scope of the model, 
+since there is no case where there are two or more target 
+audience profiles that match a particular user profile. To 
+illustrate this, consider an additional target audience profile 
+having only the condition that user income must be at least 
+5oooO. This profile would require adding the following 
+record to the RANGE table: <p3, income, 5oo00, - >. Now 
+if the user with profile uz connects to the information 
+service, a match with both Tz 
+and T3 will be found In this 
+case, the advertisers (or software agents) responsible for T2 
+and T3 will be contacted and provided with the profile 112. 
+Each advertiser (agent) will prepare a bid indicating how 
+much it is willing to pay to have the banner advertisement 
+comsponding to its profile exposed to the user with profile 
+uz. These bids are compiled and retumed Wtbe information 
+service, where they are ranlred. If we allow that the user 
+will be shown only one advertisement, the one which placed 
+the highest bid will be chosen. 
+In summary, this model makes use of rich, multiattribute 
+data at the individual user level in determining whether each 
+one will be exposed to a particular banner advertisement. 
+This leads to more effective and efficient targeting than is 
+possible using strategies such as general rotation, which 
+does not use data at the individual level, and restricted 
+rotation or keyword search, which rely on only a single data 
+item about an individual in determining which banner 
+advertisement(s) to ptesent to the user. It is also more 
+effective and efficient than targeting in the traditional media, 
+which does not use any data at the individual level. 
+5. Future Research 
+This paper has presented a framework for leveraging 
+information technology to target online banner advertising 
+more effectively to benefit both users (who would be 
+exposed only to advertising that is very probably of interest 
+to them) and advertisers (whose advertisements would reach 
+only those users who fit the target audience profile). This 
+framework is, however, merely a starting point. Additional 
+research on several fronts is needed before its potential can 
+be realized. Several specific research concems have already 
+been noted. In addition, there are more general issues. 
+First, a system supporting the basic version of the model, 
+based on the implementation architecture presented in this 
+paper, should be implemented. 
+Second, aa implementation supporting the enhanced 
+version of the model is needed. This will require research to 
+develop a more sophisticated database structure that can 
+preserve users' searching and browsing behavior over time. 
+In addition, techniques for detecting patterns of behavior are 
+needed. 
+Third, both theoretical and empirical research is needed 
+to explore agent bidding in the context of the framework 
+proposed in this paper. 
+Fourth, empirical work needs to be done to evaluate the 
+relative effectiveness and efficiency of this framework. A 
+priority should be to compare the (1) the basic version of the 
+model, (2) the enhanced version of the model, and (3) 
+existing approaches to targeting advertisements. 
+For 
+instance, it would be interesting to test whether placing a 
+banner advertisement on a relevant page (e.g., an 
+advertisement for a new movie on the Entertainment page of 
+an information service) would be more or less effective than 
+directing the same advertisement to individual users selected 
+on the basis of their answers to a questionnaire (i.e., the 
+simple version of the model) or their search and browsing 
+behavior (i.e., the enhanced version of the model). 
+Finally, the utility of this framework in other online 
+contexts should be investigated. For instance, this approach 
+could be used in developing Web sites that are more useful 
+to visitors. 
+Visitors with different profiles could 
+automatically be shown different pages more likely to be of 
+interest to them, eliminating the need for them to search the 
+Web site for the information they desire. 
+6. Conclusion 
+Cyberspace is a new medium for advertising. In 1994, 
+Edwin Artzt, chairman of Procter & Gamble, the largest 
+advertiser in the United States, warned advertising agencies 
+to "get their interactive act together" [6, p. 751. As the 
+advertisements in Appendices 1 and 3 show, even major 
+advertisers and their agencies may not be taking full 
+advantage of the opportunity to target their online banner 
+advertising. The information technology that makes the 
+WWW possible also allows the unobtrusive collection of 
+detailed information about user interests based on their 
+online searching and browsing. Advertisers should not 
+assume that the same constraints that make media planning 
+in traditional media a very inexact science also apply to 
+online advertising. 
+7. References 
+1. Armstrong, Arthur and John Hagel I11 (1996), "The Real Value 
+of On-line Communities," Haward Business Review 74(3), 
+134-141. 
+2. Barnes, James G. (1991), Research for Marketing Decision 
+Making. Toronto, ON: McGraw-Hill Ryerson. 
+3. Berthon, Pierre, Leyland E Pin, and Richard T. Watson 
+(1996). "The World Wide Web as an Advertising Medium: 
+Toward an Understanding of Conversion Efficiency," Journal 
+of Advertising Research 36( 1). 43-54. 
+4. Bovh, Courtland L., John V. Thiil, George P. Dovel, and 
+Marian Burke Wood (1995). Advertising Excellence. New 
+York, NY: McGraw-Hill. 
+5 .  Business Week, June 3,1996,44. 
+6. Castro, Janice (1995). "Just Click to Buy," Time, Spring, 74- 
+273 
+Authorized licensed use limited to: Norges Teknisk-Naturvitenskapelige Universitet. Downloaded on December 13,2021 at 23:48:19 UTC from IEEE Xplore.  Restrictions apply. 
+
+
+7. 
+8. 
+9. 
+10. 
+11. 
+12. 
+13. 
+14. 
+15 
+16. 
+17. 
+18. 
+19. 
+20. 
+21. 
+22. 
+23. 
+24. 
+75. 
+Churchill, Gilbert A. (1991), M 
+Methodological Foundations, Fifth Edition. Orlando, FL: 
+Dryden. 
+Cortese, Amy (1995), "Cyberspace: Crafting Software 
+that Will Let you Build a Business Out there," Business 
+Week (February 27), 78-86. 
+Excite 
+(1996), 
+Excite 
+Advertising 
+Rate 
+Card. 
+[http://www .excite. com/info/advertising .html] 
+Greenwald, John (1995), "Battle for Remote Control" 
+TIME Special Issue: Welcome to Cyberspace (Spring), 
+Gupta, Sunil and Jim Rtkow (1995a), "Consumer Survey 
+of WWW Users: 
+Preliminary Results from the Third 
+Survey," University of Michigan Business School. 
+[http://www.umich.edul -sgupta/hermes] ' 
+Gupta, Sunil and Jim Pitkow (1995b), "Consumer Survey 
+of WWW Users: Preliminary Results from the Fourth 
+Survey," University of Michigan Business School. 
+bttp: //www .umich. edul - sgupta/hermes] 
+Hoffman, Donna L. and Thomas P. Novak (1996), 
+"Marketing 
+in 
+Hypermedia 
+Computer-Mediated 
+Environments: 
+Conceptual Foundations ," Journal of 
+Marketing 60(3), 50-68. 
+Hoffman, Donna L., Thomas P. Novak, and Patrali 
+Chatterjee (1995), "Commercial Scenarios for the Web: 
+Opportunities and Challenges, " Journal of Computer- 
+, Special Issue on Electronic 
+71-73. 
+[http : //shun. huji . ac .ilijcmc/voll /ksue3/hoffman.html] 
+Information Week, "One-to-one Marketing Made Easy", 
+Information Week, December 18, 1995, 110. 
+Kahn, Robert E, (1994), "The Role of Government in the 
+Evolution of the Intemet," Communications of the ACM 
+Karlgaard, Rich (1995), "Bozo Explosion," Forbes ASAP 
+(December 4), 9. 
+Landau, Susan, Stephe 
+Kent, Clint Brooks, Scott 
+Charney, Dorothy Denning, Whitfield Diffe, Anthony 
+Lauck, Douglas Miller, Peter Neumann, and David Sobel 
+(1994), "Crypt0 Policy Perspectives," Communications of 
+the ACM 37(8), 115-121. 
+Leiner, Barry M. (1994), "Internet Technology," 
+Communications of the ACM 37(8), 32. 
+Ottawa Citizen, April 29, 1996, A10. 
+Press, Larry (1994), "Commercialization of the Internet," 
+Communications of the ACM 37(11), 17-21. 
+Quelch, John A. and Lisa R. KIein (1996), "The Internet 
+and International Marketing, " Sloan Management Review 
+Tetzeli, Rick (1994), "The Internet and Your Business," 
+Fortune 129 (March 7), 86 
+Yahoo! (1996), Sponso 
+Program Opportunities 
+Fttp: //www .yahoo .com/docslpr/adop. html] 
+37(8), 15-19. 
+37(3), 60-75. 
+8. Appen 
+274 
+Authorized licensed use limited to: Norges Teknisk-Naturvitenskapelige Universitet. Downloaded on December 13,2021 at 23:48:19 UTC from IEEE Xplore.  Restrictions apply. 

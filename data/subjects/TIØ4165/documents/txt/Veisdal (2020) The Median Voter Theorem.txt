@@ -1,0 +1,202 @@
+The Median Voter Theorem:  
+Why Politicians Move to the Center
+Jørgen Veisdal
+In public choice economics, the median voter theorem states that
+A majority rule voting system will select the outcome most pre-
+ferred by the median voter.1
+In other words, the voter in the middle of the probability distribution 
+picks the winner of the election. The prediction of the model, there-
+fore, is what intuitively seems questionable (given today’s politics), 
+namely that:
+Candidates position themselves around the center.
+The theorem rests on two core assumptions:
+•	 Candidates and/or parties may be placed along a one-­dimensional 
+political spectrum; and
+•	 Voters’ preferences are single-­peaked, meaning that voters have 
+one alternative they prefer over the other.
+History
+The dynamics and predictions of the median voter theorem made 
+their first appearance in economist Harold Hotelling’s2 legendary 
+1929 paper Stability in Competition,3 in which Hotelling in passing 
+notes that political candidates’ platforms seem to converge during 
+majoritarian elections. His paper regards the positioning of stores 
+by two sellers along a line segment, in which buyers are uniformly 
+distributed. The prediction of his model, now known simply as “Ho-
+telling’s law”4 is that in many markets it is rational for producers to 
+
+
+40	
+Jørgen Veisdal
+make their products as similar as possible, the so-­called “principle of 
+minimum differentiation.”
+The formal analysis of the principle of Hotelling’s law in majority 
+voting systems was provided in a related 1948 paper entitled On the Ra-
+tionale of Group Decision-­making by economist Duncan Black.5 Anthony 
+Downs,6 inspired by Adam Smith, further expanded on Black’s work in 
+his 1957 book An Economic Theory of Political Action in a Democracy.
+A Simple Voting Model
+The principle of the median voter theorem is successfully illustrated in 
+a game theory lecture by Yale economist Ben Polak,7 which is available 
+through the Open Yale Courses website.8 His very simple model goes 
+as follows:
+A Simple Voting Model (Polak 2007)
+Two candidates choose their positions along a political spectrum from 
+1 to 10:
+_	
+_	
+_	
+_	
+_	
+_	
+_	
+_	
+_	
+_
+1	
+2	
+3	
+4	
+5	
+6	
+7	
+8	
+9	
+10
+Imagine perhaps positions 1–3 being left-­wing positions and positions 
+8–10 being right-­wing positions. Assume that there are 10% of voters 
+in each position (a uniform distribution of voters). Assume also that 
+voters choose the closest candidate to their position. If there is a tie, 
+votes are split 50%/50% between the two candidates.
+The question for both candidates is where they should position them-
+selves along the political spectrum 1–10 in order to maximize their 
+shares of the vote.
+First, as candidate A, let us assume that candidate B places himself or 
+herself at the extreme left, in position 1. The question we need to ask 
+ourselves is then whether position 2 is a better strategy for maximiz-
+ing our share of the vote. Formally, we’re asking if uA(2,1) > uA(1,1), 
+i.e., whether the utility we obtain from choosing position 2 is greater 
+than that we obtain if we choose position 1, given our assumption that 
+the other candidate chooses position 1. We know that each position 
+
+
+	
+The Median Voter Theorem	
+41
+potentially holds 10% of the votes and if both choose the same position, 
+we split the election. We—in other words—know that if both choose 
+position 1, (1,1), both get 50% of the votes. If we as candidate A choose 
+position 2, however, (2,1), candidate B gets the 10% of votes in position 
+1, but we get the remaining 90% of votes in positions 2–10 as the result 
+of our assumption that voters choose their closest candidate:
+We can conclude that if candidate B chooses position 1, choosing 
+position 2 is better for us as candidate A than choosing position 1 (90% 
+vs. 50% of votes).
+Next, again as candidate A, let us assume that candidate B places 
+herself or himself at the second most extreme left, in position 2. Is 
+choosing position 2 still strictly better for us than choosing position 1? 
+Formally, we’re asking whether uA(2,2) > uA(1,2). Immediately, since 
+both are choosing the same position (2,2), we know that our payoff for 
+choosing position 2 is 50%, i.e., splitting the election. If we choose po-
+sition 1 against position 2, we find ourselves in the inverse of the latter 
+scenario (in the figure above) and can expect a payoff of 10%. We must 
+therefore conclude that if candidate B chooses position 2, as candidate 
+A we are still better off choosing position 2 (50% > 10% of votes), than 
+choosing position 1.
+Next, again as candidate A, let us assume that candidate B places 
+himself or herself at the third most extreme left, in position 3. Is choos-
+ing position 2 still strictly better for us than choosing position 1? For-
+mally, now we’re asking whether uA(2,3) > uA(1,3). In the first of these 
+scenarios, we get all the voters in position 1 plus all the voters in posi-
+tion 2 (a total of 20%), while candidate B gets all the voters in positions 
+3–10 (80%). In the second scenario, we get all the voters in position 1 
+plus half the voters in position 2 (since we are equally far from position 
+2 as candidate B is, a total of 15%). Either way, we see that position 2 
+2
+1
+4
+3
+6
+5
+8
+7
+10
+10%
+90%
+9
+u(1,2): Voter shares if candidate A chooses position 1 when candidate B 
+chooses position 2.
+
+
+42	
+Jørgen Veisdal
+is still strictly better for us as candidate A than position 1 (20% > 15% 
+of votes):
+Continuing for all strategies against choosing position 1, we will find 
+that position 2 always yields a higher payoff. Formally, we say that the 
+strategy of choosing position 2 strictly dominates the strategy of choos-
+ing position 1, for both candidates, no matter what the other candidate 
+chooses. We can hence eliminate position 1 as a viable strategy, since it 
+is never better than position 2 for either candidate. By considerations of 
+symmetry, we can do the same for position 10 vs. position 9:
+Having eliminated positions 1 and 10 as viable strategies for maxi-
+mizing our number of votes, we can next perform a similar analysis, 
+but now with a reduced model consisting of positions 2–9. Unexpect-
+edly, an analysis of position 2 vs. 3 (and 9 vs. 8) will yield the same 
+result, and so we may delete strategies 2 and 9 as well, and so on. In the 
+end, our model will have reduced to two viable positions, 5 and 6; let’s 
+call them “left and right.”
+u(1,3): Voter shares if candidate A chooses position 1 when candidate B 
+chooses position 3.
+u(2,3): Voter shares if candidate A chooses position 2 when candidate B 
+chooses position 3.
+u(2,3) in the reduced political spectrum.
+15%
+85%
+20%
+80%
+20%
+80%
+
+
+	
+The Median Voter Theorem	
+43
+An analysis of this reduced model will find that if we expect can-
+didate B to position herself or himself on the right, it is rational for us 
+to position ourselves on the left. If we expect candidate B to position 
+himself or herself on the left, it is rational for us to position ourselves 
+on the right:
+Our finding, in other words, is the prediction of the median voter 
+theorem, namely that:
+Candidates position themselves around the center.
+Clean as it looks, as with any model, our model depicting the essence 
+of the median voter theorem is ripe with limitations, including (but not 
+limited to) the following:
+•	 Voters are in reality not evenly distributed (10% at each position);
+•	 There are often more than two candidates in an election;
+•	 Real candidates cannot simply “position” themselves—their po-
+sitioning has to be believable; and
+•	 Even in referendums, there is often more than one issue being 
+voted on.
+Notes
+1. Holcombe, Randall G. (2006). Public Sector Economics: The Role of Government in the American 
+Economy. Pearson, London, p 155. https://​en​.wikipedia​.org​/wiki​/Median​_voter​_theorem.
+u(5,6) = u(6,5) in reduced political spectrum after eliminating dominated 
+strategies.
+u(5,6) = u(6,5): Voter shares if candidate A chooses position 5 and candidate 
+B chooses position 6.
+50% 50%
+50%
+50%
+
+
+44	
+Jørgen Veisdal
+2. https://​en​.wikipedia​.org​/wiki​/Harold​_Hotelling​#Spatial​_economics.
+3. Hotelling, Harold. (1929). “Stability in Competition.” Economic Journal 39, 153 (1929): 
+41–57.
+4. https://​en​.wikipedia​.org​/wiki​/Hotelling​%27s​_law.
+5. https://​en​.wikipedia​.org​/wiki​/Duncan​_Black.
+6. https://​en​.wikipedia​.org​/wiki​/Anthony​_Downs.
+7. https://​en​.wikipedia​.org​/wiki​/Ben​_Polak.
+8. https://​oyc​.yale​.edu​/economics​/econ​-­159.

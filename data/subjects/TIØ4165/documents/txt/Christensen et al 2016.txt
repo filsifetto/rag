@@ -1,0 +1,833 @@
+Know Your  
+Customers’  
+“Jobs to Be Done”
+Is innovation inherently a hit-or-miss endeavor? Not if  
+you understand why customers make the choices they do.  
+BY CLAYTON M. CHRISTENSEN, TADDY HALL, KAREN DILLON, AND DAVID S. DUNCAN
+SPOTLIGHT
+54 Harvard Business Review September 2016
+SPOTLIGHT ON CONSUMER INSIGHT
+
+
+ARTWORK Marijah Bac Cam, Blue Landscape  
+Charcoal, ink, marker, and pencil on paper
+F
+or as long as we can remember, innovation 
+has been a top priority—and a top 
+frustration—for leaders. In a recent 
+McKinsey poll, 84% of global executives reported 
+that innovation was extremely important to their 
+growth strategies, but a staggering 94% were 
+dissatisfied with their organizations’ innovation
+HBR.ORG
+September 2016 Harvard Business Review 55
+
+
+Madness time. Marketers who collect demographic 
+or psychographic information about him—and look 
+for correlations with other buyer segments—are not 
+going to capture those reasons. 
+After decades of watching great companies fail, 
+we’ve come to the conclusion that the focus on cor-
+relation—and on knowing more and more about cus-
+tomers—is taking firms in the wrong direction. What 
+they really need to home in on is the prog­ress that the 
+customer is trying to make in a given circumstance—
+what the customer hopes to accomplish. This is what 
+we’ve come to call the job to be done. 
+We all have many jobs to be done in our lives. 
+Some are little (pass the time while waiting in line); 
+some are big (find a more fulfilling career). Some 
+surface unpredictably (dress for an out-of-town busi-
+ness meeting after the airline lost my suitcase); some 
+regularly (pack a healthful lunch for my daughter to 
+take to school). When we buy a product, we essen-
+tially “hire” it to help us do a job. If it does the job 
+well, the next time we’re confronted with the same 
+job, we tend to hire that product again. And if it does 
+a crummy job, we “fire” it and look for an alternative. 
+(We’re using the word “product” here as shorthand 
+for any solution that companies can sell; of course, 
+the full set of “candidates” we consider hiring can 
+often go well beyond just offerings from companies.) 
+This insight emerged over the past two decades in 
+a course taught by Clay at Harvard Business School. 
+(See “Marketing Malpractice,” HBR, December 
+2005.) The theory of jobs to be done was developed 
+in part as a complement to the theory of disruptive 
+innovation—which at its core is about competitive 
+responses to innovation: It explains and predicts the 
+behavior of companies in danger of being disrupted 
+and helps them understand which new entrants 
+pose the greatest threats. 
+But disruption theory doesn’t tell you how to 
+create products and services that customers want 
+to buy. Jobs-to-be-done theory does. It transforms 
+our understanding of customer choice in a way that 
+no amount of data ever could, because it gets at the 
+causal driver behind a purchase.
+The Business of Moving Lives
+A decade ago, Bob Moesta, an innovation consultant 
+and a friend of ours, was charged with helping bolster 
+sales of new condominiums for a Detroit-area build-
+ing company. The company had targeted downsizers—
+retirees looking to move out of the family home and 
+The focus on 
+knowing more 
+and more about 
+customers has 
+taken firms in the 
+wrong direction.
+performance. Most people would agree that the vast 
+majority of innovations fall far short of ambitions. 
+On paper, this makes no sense. Never have busi-
+nesses known more about their customers. Thanks 
+to the big data revolution, companies now can col-
+lect an enormous variety and volume of customer 
+information, at unprecedented speed, and perform 
+sophisticated analyses of it. Many firms have estab-
+lished structured, disciplined innovation processes 
+and brought in highly skilled talent to run them. Most 
+firms carefully calculate and mitigate innovations’ 
+risks. From the outside, it looks as if companies have 
+mastered a precise, scientific process. But for most of 
+them, innovation is still painfully hit-or-miss. 
+What has gone so wrong? 
+The fundamental problem is, most of the masses 
+of customer data companies create is structured to 
+show correlations: This customer looks like that one, 
+or 68% of customers say they prefer version A to ver-
+sion B. While it’s exciting to find patterns in the num-
+bers, they don’t mean that one thing actually caused 
+another. And though it’s no surprise that correlation 
+isn’t causality, we suspect that most managers have 
+grown comfortable basing decisions on correlations. 
+Why is this misguided? Consider the case of one of 
+this article’s coauthors, Clayton Christensen. He’s 64 
+years old. He’s six feet eight inches tall. His shoe size 
+is 16. He and his wife have sent all their children off to 
+college. He drives a Honda minivan to work. He has 
+a lot of characteristics, but none of them has caused 
+him to go out and buy the New York Times. His rea-
+sons for buying the paper are much more specific. He 
+might buy it because he needs something to read on 
+a plane or because he’s a basketball fan and it’s March 
+SPOTLIGHT ON CONSUMER INSIGHT
+56 Harvard Business Review September 2016
+
+
+divorced single parents. Its units were priced to 
+appeal to that segment—$120,000 to $200,000—
+with high-end touches to give a sense of luxury. 
+“Squeakless” floors. Triple-waterproof basements. 
+Granite counters and stainless steel appliances. A 
+well-staffed sales team was available six days a week 
+for any prospective buyer who walked in the door. A 
+generous marketing campaign splashed ads across 
+the relevant Sunday real estate sections.
+The units got lots of traffic, but few visits ended 
+up converting to sales. Maybe bay windows would 
+be better? Focus group participants thought that 
+sounded good. So the architect scrambled to add 
+bay windows (and any other details that the focus 
+group suggested) to a few showcase units. Still sales 
+did not improve. 
+Although the company had done a cost-benefit 
+analysis of all the details in each unit, it actually 
+had very little idea what made the difference be-
+tween a tire kicker and a serious buyer. It was easy to 
+speculate about reasons for poor sales: bad weather, 
+underperforming salespeople, the looming reces-
+sion, holiday slowdowns, the condos’ location. But 
+instead of examining those factors, Moesta took an 
+unusual approach: He set out to learn from the peo-
+ple who had bought units what job they were hiring 
+the condominiums to do. “I asked people to draw a 
+timeline of how they got here,” he recalls. The first 
+thing he learned, piecing together patterns in scores 
+of interviews, was what did not explain who was 
+most likely to buy. There wasn’t a clear demographic 
+or psychographic profile of the new-home buyers, 
+even though all were downsizers. Nor was there a 
+definitive set of features that buyers valued so much 
+that it tipped their decisions.
+But the conversations revealed an unusual 
+clue: the dining room table. Prospective customers 
+repeatedly told the company they wanted a big 
+living room, a large second bedroom for visitors, and 
+a breakfast bar to make entertaining easy and casual; 
+on the other hand, they didn’t need a formal dining 
+room. And yet, in Moesta’s conversations with ac-
+tual buyers, the dining room table came up repeat-
+edly. “People kept saying, ‘As soon as I figured out 
+what to do with my dining room table, then I was 
+free to move,’” reports Moesta. He and his colleagues 
+couldn’t understand why the dining room table was 
+such a big deal. In most cases people were referring 
+to well-used, out-of-date furniture that might best be 
+given to charity—or relegated to the local dump.
+But as Moesta sat at his own dining room table 
+with his family over Christmas, he suddenly under-
+stood. Every birthday was spent around that table. 
+Every holiday. Homework was spread out on it. The 
+table represented family. 
+What was stopping buyers from making the de-
+cision to move, he hypothesized, was not a feature 
+that the construction company had failed to offer 
+but rather the anxiety that came with giving up 
+something that had profound meaning. The decision 
+to buy a six-figure condo, it turned out, often hinged 
+on a family member’s willingness to take custody of 
+a clunky piece of used furniture.
+That realization helped Moesta and his team 
+begin to grasp the struggle potential home buyers 
+faced. “I went in thinking we were in the business of 
+new-home construction,” he recalls. “But I realized 
+we were in the business of moving lives.”
+With this understanding of the job to be done, 
+dozens of small but important changes were made 
+to the offering. For example, the architect managed 
+to create space in the units for a dining room table by 
+reducing the size of the second bedroom. The com-
+pany also focused on easing the anxiety of the move 
+itself: It provided moving services, two years’ worth 
+of storage, and a sorting room within the condo 
+Idea in Brief
+WHAT’S WRONG
+Innovation success rates are  
+shockingly low worldwide, and  
+have been for decades.
+WHAT’S NEEDED
+Marketers and product developers 
+focus too much on customer profiles 
+and on correlations unearthed 
+in data, and not enough on what 
+customers are trying to achieve  
+in a particular circumstance. 
+WHAT’S EFFECTIVE
+Successful innovators identify  
+poorly performed “jobs” in 
+customers’ lives—and then  
+design products, experiences,  
+and processes around those jobs. 
+HBR.ORG
+September 2016 Harvard Business Review 57
+KNOW YOUR CUSTOMERS’ “JOBS TO BE DONE”
+
+
+Jobs are never simply about function—they 
+have powerful social and emotional dimen-
+sions. Creating space in the condo for a dining room 
+table reduced a very real anxiety that prospective 
+buyers had. They could take the table with them 
+if they couldn’t find a home for it. And having two 
+years’ worth of storage and a sorting room on the 
+premises gave condo buyers permission to work 
+slowly through the emotions involved in deciding 
+what to keep and what to discard. Reducing their 
+stress made a catalytic difference. 
+These principles are described here in a business-
+to-consumer context, but jobs are just as important 
+in B2B settings. For an example, see the sidebar 
+“Doing Jobs for B2B Customers.” 
+Designing Offerings Around Jobs
+A deep understanding of a job allows you to innovate 
+without guessing what trade-offs your customers 
+are willing to make. It’s a kind of job spec. 
+Of the more than 20,000 new products evaluated 
+in Nielsen’s 2012–2016 Breakthrough Innovation re-
+port, only 92 had sales of more than $50 million in 
+year one and sustained sales in year two, excluding 
+close-in line extensions. (Coauthor Taddy Hall is 
+the lead author of Nielsen’s report.) On the surface 
+the list of hits might seem random—International 
+Delight Iced Coffee, Hershey’s Reese’s Minis, and 
+Tidy Cats LightWeight, to name just a few—but they 
+have one thing in common. According to Nielsen, 
+every one of them nailed a poorly performed and 
+very specific job to be done. International Delight 
+Iced Coffee let people enjoy in their homes the taste 
+of coffeehouse iced drinks they’d come to love. And 
+development where new owners could take their 
+time making decisions about what to discard. 
+The insight into the job the customers needed 
+done allowed the company to differentiate its offer-
+ing in ways competitors weren’t likely to copy—or 
+even comprehend. The new perspective changed 
+everything. The company actually raised prices by 
+$3,500, which included (profitably) covering the cost 
+of moving and storage. By 2007, when industry sales 
+were off by 49% and the market was plummeting, 
+the developers had actually grown business by 25%. 
+Getting a Handle on  
+the Job to Be Done
+Successful innovations help consumers to solve 
+problems—to make the prog­ress they need to, while 
+addressing any anxieties or inertia that might be 
+holding them back. But we need to be clear: “Job 
+to be done” is not an all-purpose catchphrase. Jobs 
+are complex and multifaceted; they require precise 
+definition. Here are some principles to keep in mind:
+“Job” is shorthand for what an individual 
+really seeks to accomplish in a given circum-
+stance. But this goal usually involves more than just 
+a straightforward task; consider the experience a per-
+son is trying to create. What the condo buyers sought 
+was to transition into a new life, in the specific circum-
+stance of downsizing—which is completely different 
+from the circumstance of buying a first home.
+The circumstances are more important than 
+customer characteristics, product attr­ibutes, 
+new technologies, or trends. Before they under-
+stood the underlying job, the developers focused on 
+trying to make the condo units ideal. But when they 
+saw innovation through the lens of the customers’ 
+circumstances, the competitive playing field looked 
+totally different. For example, the new condos were 
+competing not against other new condos but against 
+the idea of no move at all. 
+Good innovations solve problems that for-
+merly had only inadequate solutions—or no 
+solution. Prospective condo buyers were looking for 
+simpler lives without the hassles of home ownership. 
+But to get that, they thought, they had to endure the 
+stress of selling their current homes, wading through 
+exhausting choices about what to keep. Or they could 
+stay where they were, even though that solution 
+would become increasingly imperfect as they aged. It 
+was only when given a third option that addressed all 
+the relevant criteria that shoppers became buyers. 
+Jobs are never 
+simply about 
+function—they have 
+powerful social 
+and emotional 
+dimensions.
+58 Harvard Business Review September 2016
+SPOTLIGHT ON CONSUMER INSIGHT
+
+
+also essential to create the right set of experiences for 
+the purchase and use of the product and then inte-
+grate those experiences into a company’s processes. 
+When a company does that, it’s hard for com-
+petitors to catch up. Take American Girl dolls. If you 
+don’t have a preteen girl in your life, you may not 
+understand how anyone could pay more than a hun-
+dred dollars for a doll and shell out hundreds more 
+for clothing, books, and accessories. Yet to date the 
+business has sold 29 million dolls, and it racks up 
+more than $500 million in sales annually.
+What’s so special about American Girls? Well, it’s 
+not the dolls themselves. They come in a variety of 
+styles and ethnicities and are lovely, sturdy dolls. 
+They’re nice, but they aren’t amazing. Yet for nearly 
+30 years they have dominated their market. When 
+you see a product or service that no one has success-
+fully copied, the product itself is rarely the source of 
+the long-term competitive advantage. 
+American Girl has prevailed for so long because 
+it’s not really selling dolls: It’s selling an experience. 
+Individual dolls represent different times and places 
+in U.S. history and come with books that relate each 
+doll’s backstory. For girls, the dolls provide a rich 
+opportunity to engage their imaginations, connect 
+with friends who also own the dolls, and create 
+unforgettable memories with their mothers and 
+grandmothers. For parents—the buyers—the dolls 
+help engage their daughters in a conversation about 
+thanks to Tidy Cats LightWeight litter, millions of cat 
+owners no longer had to struggle with getting heavy, 
+bulky boxes off store shelves, into car trunks, and up 
+the stairs into their homes.
+How did Hershey’s achieve a breakout success 
+with what might seem to be just another version 
+of the decades-old peanut butter cup? Its research-
+ers began by exploring the circumstances in which 
+Reese’s enthusiasts were “firing” the current prod-
+uct formats. They discovered an array of situations—
+driving the car, standing in a crowded subway, play-
+ing a video game—in which the original large format 
+was too big and messy, while the smaller, individu-
+ally wrapped cups were a hassle (opening them re-
+quired two hands). In addition, the accumulation 
+of the cups’ foil wrappers created a guilt-inducing 
+tally of consumption: I had that many? When the 
+company focused on the job that smaller versions 
+of Reese’s were being hired to do, it created Reese’s 
+Minis. They have no foil wrapping to leave a telltale 
+trail, and they come in a resealable flat-bottom bag 
+that a consumer can easily dip a single hand into. The 
+results were astounding: $235 million in the first two 
+years’ sales and the birth of a breakthrough category 
+extension. 
+Creating customer experiences. Identifying 
+and understanding the job to be done are only the 
+first steps in creating products that customers want—
+especially ones they will pay premium prices for. It’s 
+Identifying Jobs to Be Done
+Jobs analysis doesn’t 
+require you to throw out 
+the data and research 
+you’ve already gathered. 
+Personas, ethnographic 
+research, focus groups, 
+customer panels, 
+competitive analysis, and 
+so on can all be perfectly 
+valid starting points 
+for surfacing important 
+insights. Here are five 
+questions for uncovering 
+jobs your customers 
+need help with.
+Do you have a job that needs to be 
+done? In a data-obsessed world, it 
+might be a surprise that some of the 
+greatest innovators have succeeded 
+with little more than intuition to 
+guide their efforts. Pleasant Rowland 
+saw the opportunity for American 
+Girl dolls when searching for gifts 
+that would help her connect with 
+her nieces. Sheila Marcelo started 
+Care.com, the online “matchmaking” 
+service for child care, senior care, 
+and pet care, after struggling with 
+her family’s own care needs. Now, 
+less than 10 years later, it boasts 
+more than 19 million members 
+across 16 countries and revenues 
+approaching $140 million. 
+Where do you see noncon­sump­
+tion? You can learn as much 
+from people who aren’t hiring any 
+product as from those who are. 
+Nonconsumption is often where the 
+most fertile opportunities lie, as 
+SNHU found when it reached out to 
+older learners. 
+What work-arounds have people 
+invented? If you see consumers 
+struggling to get something done 
+by cobbling together work-arounds, 
+pay attention. They’re probably 
+deeply unhappy with the available 
+solutions—and a promising base of 
+new business. When Intuit noticed 
+that small-business owners were 
+using Quicken―designed for 
+individuals—to do accounting for 
+their firms, it realized small firms 
+represented a major new market.
+What tasks do people want to 
+avoid? There are plenty of jobs in 
+daily life that we’d just as soon get 
+out of. We call these “negative jobs.” 
+Harvard Business School alum Rick 
+Krieger and some partners decided 
+to start QuickMedx, the forerunner 
+of CVS MinuteClinics, after Krieger 
+spent a frustrating few hours waiting 
+in an emergency room for his son to 
+get a strep-throat test. MinuteClinics 
+can see walk-in patients instantly, 
+and their nurse practitioners can 
+prescribe medicines for routine 
+ailments, such as conjunctivitis,  
+ear infections, and strep throat. 
+What surprising uses have 
+customers invented for existing 
+products? Recently, some of the 
+biggest successes in consumer 
+packaged goods have resulted from 
+a job identified through unusual uses 
+of established products. For example, 
+NyQuil had been sold for decades as 
+a cold remedy, but it turned out that 
+some consumers were knocking back 
+a couple of spoonfuls to help them 
+sleep, even when they weren’t sick. 
+Hence, ZzzQuil was born, offering 
+consumers the good night’s rest they 
+wanted without the other active 
+ingredients they didn’t need.
+HBR.ORG
+September 2016 Harvard Business Review 59
+KNOW YOUR CUSTOMERS’ “JOBS TO BE DONE”
+
+
+box. It’s not the same as walking down the aisle in 
+the toy store and picking a Barbie off the shelf.’” 
+In recent years Toys “R” Us, Walmart, and even 
+Disney have all tried to challenge American Girl’s 
+success with similar dolls—at a small fraction of the 
+price. Though American Girl, which was acquired 
+by Mattel, has experienced some sales declines in 
+the past two years, to date no competitor has man-
+aged to make a dent in its market dominance. Why? 
+Rowland thinks that competitors saw themselves in 
+the “doll business,” whereas she never lost sight of 
+why the dolls were cherished: the experiences and 
+stories and connections that they enable. 
+Aligning processes. The final piece of the 
+puzzle is processes—how the company integrates 
+across functions to support the job to be done. 
+Processes are often hard to see, but they matter 
+profoundly. As MIT’s Edgar Schein has discussed, 
+processes are a critical part of an organization’s 
+unspoken culture. They tell people inside the com-
+pany, “This is what matters most to us.” Focusing 
+processes on the job to be done provides clear 
+guidance to everyone on the team. It’s a simple but 
+powerful way of making sure a company doesn’t 
+unintentionally abandon the insights that brought 
+it success in the first place.
+A good case in point is Southern New Hampshire 
+University, which has been lauded by U.S. News & 
+World Report (and other publications) as one of the 
+most innovative colleges in America. After enjoying 
+a 34% compounded annual growth rate for six years, 
+SNHU was closing in on $535 million in annual 
+revenues at the end of fiscal 2016. 
+Like many similar academic institutions, SNHU 
+once struggled to find a way to distinguish itself and 
+survive. The university’s longtime bread-and-butter 
+strategy had relied on appealing to a traditional stu-
+dent body: 18-year-olds, fresh out of high school, 
+continuing their education. Marketing and outreach 
+were generic, targeting everyone, and so were the 
+policies and delivery models that served the school. 
+SNHU had an online “distance learning” aca-
+demic program that was “a sleepy operation on a 
+nondescript corner of the main campus,” as presi-
+dent Paul LeBlanc describes it. Yet it had attracted 
+a steady stream of students who wanted to resume 
+an aborted run at a college education. Though the 
+online program was a decade old, it was treated 
+as a side proj­ect, and the university put almost no 
+resources into it.
+the generations of women that came before them—
+about their struggles, their strength, their values 
+and traditions. 
+American Girl founder Pleasant Rowland came 
+up with the idea when shopping for Christmas pres­
+ents for her nieces. She didn’t want to give them hy-
+persexualized Barbies or goofy Cabbage Patch Kids 
+aimed at younger children. The dolls—and their 
+worlds—reflect Rowland’s nuanced understanding 
+of the job preteen girls hire the dolls to do: help artic-
+ulate their feelings and validate who they are—their 
+identity, their sense of self, and their cultural and 
+racial background—and make them feel they can 
+surmount the challenges in their lives. 
+There are dozens of American Girl dolls repre-
+senting a broad cross section of profiles. Kaya, for 
+example, is a young girl from a Northwest Native 
+American tribe in the late 18th century. Her backstory 
+tells of her leadership, compassion, courage, and 
+loyalty. There’s Kirsten Larson, a Swedish immigrant 
+who settles in the Minnesota territory and faces hard-
+ships and challenges but triumphs in the end. And so 
+on. A significant part of the allure is the well-written, 
+historically accurate books about each character’s life. 
+Rowland and her team thought through every 
+aspect of the experience required to perform the job. 
+The dolls were never sold in traditional toy stores. 
+They were available only through mail order or at 
+American Girl stores, which were initially located in 
+just a few major metropolitan areas. The stores have 
+doll hospitals that can repair tangled hair or fix bro-
+ken parts. Some have restaurants in which parents, 
+children, and their dolls can enjoy a kid-friendly 
+menu—or where parents can host birthday parties. 
+A trip to the American Girl store has become a spe-
+cial day out, making the dolls a catalyst for family 
+experiences that will be remembered forever.
+No detail was too small to consider. Take the 
+sturdy red-and-pink boxes the dolls come in. 
+Rowland remembers the debate over whether to 
+wrap them with narrow cardboard strips, known as 
+“belly bands.” Because the bands each added 2 cents 
+and 27 seconds to the packaging process, the de-
+signers suggested skipping them. Rowland says she 
+rejected the idea out of hand: “I said, ‘You’re not get-
+ting it. What has to happen to make this special to the 
+child? I don’t want her to see some shrink-wrapped 
+thing coming out of the box. The fact that she has to 
+wait just a split second to get the band off and open 
+the tissue under the lid makes it exciting to open the 
+60 Harvard Business Review September 2016
+SPOTLIGHT ON CONSUMER INSIGHT
+
+
+SNHU’s online program was in competition 
+not with local colleges but with other national on-
+line programs, including those offered by both 
+traditional colleges and for-profit schools like the 
+University of Phoenix and ITT Technical Institute. 
+Even more significantly, SNHU was competing with 
+nothing. Nonconsumption. Suddenly, the market 
+that had seemed finite and hardly worth fighting for 
+became one with massive untapped potential. 
+But very few of SNHU’s existing policies, struc-
+tures, and processes were set up to support the 
+actual job that online students needed done. What 
+had to change? “Pretty much everything,” LeBlanc 
+recalls. Instead of treating online learning as a 
+second-class citizen, he and his team made it their 
+On paper, both traditional and online students 
+might look similar. A 35-year-old and an 18-year-old 
+working toward an accounting degree need the same 
+courses, right? But LeBlanc and his team saw that the 
+job the online students were hiring SNHU to do had 
+almost nothing in common with the job that “com-
+ing of age” undergraduates hired the school to do. On 
+average, online students are 30 years old, juggling 
+work and family, and trying to squeeze in an educa-
+tion. Often they still carry debt from an earlier college 
+experience. They’re not looking for social activities or 
+a campus scene. They need higher education to pro-
+vide just four things: convenience, customer service, 
+credentials, and speedy completion times. That, the 
+team realized, pre­sented an enormous opportunity.
+Des Traynor is a cofounder of 
+Intercom, which makes software 
+that helps companies stay in 
+touch with customers via their 
+websites, mobile apps, e‑mail, 
+and Facebook Messenger. 
+Intercom, which now has more than 
+10,000 customers and grew fourfold 
+in 2015, adopted a jobs-to-be-done 
+perspective to clarify its strategy in 2011, 
+when it was still an early-stage start-up. 
+Traynor spoke about that experience  
+with Derek van Bever and Laura Day  
+of Harvard Business School’s Forum  
+for Growth & Innovation. Here is an 
+edited version of their conversation.
+FORUM: How did you come across the “jobs” 
+approach to innovation and strategy? 
+TRAYNOR: Somewhat by accident! In 2011 
+Intercom had just four engineers and some 
+modest VC backing. I was asked to speak 
+about managing a start-up at a conference. 
+Clay Christensen opened the conference and 
+mentioned “jobs to be done.”
+And that made an impression because…?  
+We were searching for direction at the time. We 
+knew we wanted to help internet companies talk 
+to their customers―and to make that personal. 
+We knew that the features we shipped were 
+valuable—but we didn’t really know who was 
+using us. Customer support? Marketing? Market 
+research? Nor did we know exactly what they 
+were using us for. 
+How had you approached those questions 
+until then? We were using a personas-based 
+approach to segmentation, but it wasn’t working. 
+We had too many “typical 
+users” who had little  
+in common, going by traits 
+like demographics or job 
+titles. Because we didn’t  
+really understand why people 
+were coming to the platform—
+what they were using it for—we 
+charged a single price for access to 
+the entire platform. 
+As soon as I grasped the distinction between 
+“customers” and “problems people need help 
+with,” a lightbulb went off. I called my cofounder 
+Eoghan McCabe and said, “We’re going to build a 
+company that is focused on doing a job.” 
+And how did you figure out what the relevant 
+job was? We got in touch with innovation 
+consultant Bob Moesta, who has a lot of practical 
+experience with this approach. Bob and his team 
+conducted individual interviews with two types 
+of customers: people who had recently signed on 
+with us, and people who had dropped the service 
+or changed their usage significantly.
+He wanted to understand the timeline of 
+events that led up to a purchasing decision and 
+the “forces” that ultimately pushed people into 
+that decision. Bob has a theory that customers 
+always experience conflict when considering a 
+new purchase—what he calls “the struggling 
+moment.” There are pressures pushing them to 
+act―to solve a problem by “hiring” a solution—
+and forces like inertia, fear of change, and 
+anxiety holding them back. His overall objective 
+was to explain, in the customers’ words, what 
+caused people to resolve the conflict and “hire” 
+Intercom, and then how well Intercom performed.
+I listened in on four interviews live—and tried 
+not to jump to judgment. Two things stood 
+out. One, prospective clients who sampled our 
+services were usually flailing. Their growth had 
+flattened, and they were ready to try something 
+new. And two, the words they 
+described our product with were 
+really different from the words 
+we used. People using it to sign 
+up new customers kept using 
+the word “engage,” for example. 
+We used the term “outbound 
+messaging,” which has a very 
+different feel. 
+According to Bob, this is really common: 
+Companies fall in love with their own jargon. They 
+focus on the technology being offered rather than 
+the value being delivered. 
+What did you learn about the jobs you were 
+being hired to do? It turned out that people  
+had four distinct jobs: First, help me observe. 
+Show me the people who use my product and 
+what they do with it. Second, help me engage—
+to convert sign-ups into active users. Third, help 
+me learn—give me rich feedback from the right 
+people. And finally, help me support—to fix my 
+customers’ problems.
+How much did you change the business 
+once you understood the different jobs your 
+customers had? A lot. We now offer four 
+distinct services, each designed to support one 
+of those jobs. Our R&D group—120 people―has 
+four teams, one for each job, and we’ve gone 
+deeper and deeper on each job. 
+Essentially, we realized that we’d been offering 
+a one-size-fits-none service. The initial price felt 
+high because no customer needed everything we 
+were selling. 
+How did that change work out? Our conversion 
+rate has increased, since prospects can now buy 
+just the piece of the site that suits their initial job, 
+and we’re able to establish multiple points of sale 
+across client organizations, since there is now a 
+logical path for relationship growth.
+Doing Jobs for B2B Customers
+HBR.ORG
+September 2016 Harvard Business Review 61
+KNOW YOUR CUSTOMERS’ “JOBS TO BE DONE”
+
+
+But perhaps most important, SNHU realized that 
+enrolling prospects in their first class was only the be-
+ginning of doing the job. The school sets up each new 
+online student with a personal adviser, who stays in 
+constant contact—and notices red flags even before 
+the students might. This support is far more critical 
+to continuing education students than traditional 
+ones, because so many obstacles in their everyday 
+lives conspire against them. Haven’t checked out this 
+week’s assignment by Wednesday or Thursday? Your 
+adviser will touch base with you. The unit test went 
+badly? You can count on a call from your adviser to 
+see not only what’s going on with the class but what’s 
+going on in your life. Your laptop is causing you prob-
+lems? An adviser might just send you a new one. This 
+unusual level of assistance is a key reason that SNHU’s 
+online programs have extremely high Net Promoter 
+Scores (9.6 out of 10) and a graduation rate—about 
+50%—topping that of virtually every community col-
+lege (and far above that of costlier, for-profit rivals, 
+which have come under fire for low graduation rates).
+SNHU has been open with would-be competitors, 
+offering tours and visits to executives from other ed-
+ucational institutions. But the experiences and pro-
+cesses the university has created for online students 
+would be difficult to copy. SNHU did not invent all its 
+tactics. But what it has done, with laser focus, is en-
+sure that its hundreds and hundreds of processes are 
+tailored to the job students are hiring the school for. 
+MANY ORGANIZATIONS have unwittingly designed 
+innovation processes that produce inconsistent and 
+disappointing outcomes. They spend time and money 
+compiling data-rich models that make them masters 
+of description but failures at prediction. But firms 
+don’t have to continue down that path. Innovation 
+can be far more predictable—and far more profitable—
+if you start by identifying jobs that customers are 
+struggling to get done. Without that lens, you’re 
+doomed to hit-or-miss innovation. With it, you can 
+leave relying on luck to your competitors. 
+ 
+
+HBR Reprint R1609D 
+focus. During a session with about 20 faculty mem-
+bers and administrators, they charted the entire ad-
+missions process on a whiteboard. “It looked like a 
+schematic from a nuclear submarine!” he says. The 
+team members circled all the hurdles that SNHU 
+was throwing up—or not helping people overcome—
+in that process. And then, one by one, they elimi-
+nated those hurdles and replaced them with experi-
+ences that would satisfy the job that online students 
+needed to get done. Dozens of decisions came out 
+of this new focus. 
+Here are some key questions the team worked 
+through as it redesigned SNHU’s processes:
+What experiences will help customers make 
+the prog­ress they’re seeking in a given circum-
+stance? For older students, information about 
+financial aid is critical; they need to find out if con-
+tinuing their education is even possible, and time 
+is of the essence. Often they’re researching options 
+late at night, after a long day, when the kids have fi-
+nally gone to sleep. So responding to a prospective 
+student’s inquiry with a generic e‑mail 24 hours 
+later would often miss the window of opportunity. 
+Understanding the context, SNHU set an internal goal 
+of a follow-up phone call within eight and a half min­
+utes. The swift personal response makes prospective 
+students much more likely to choose SNHU. 
+What obstacles must be removed? Decisions 
+about a prospect’s financial aid package and how 
+much previous college courses would count toward 
+an SNHU degree were resolved within days instead 
+of weeks or months.
+What are the social, emotional, and func-
+tional dimensions of the job? Ads for the online 
+program were completely reoriented toward later-
+life learners. They attempted to resonate not just 
+with the functional dimensions of the job, such as 
+getting the training needed to advance in a career, 
+but also with the emotional and social ones, such as 
+the pride people feel in earning their degrees. One 
+ad featured an SNHU bus roaming the country hand-
+ing out large framed diplomas to online students 
+who couldn’t be on campus for graduation. “Who 
+did you get this degree for?” the voice-over asks, 
+as the commercial captures glowing graduates in 
+their homes. “I got it for me,” one woman says, hug-
+ging her diploma. “I did this for my mom,” beams 
+a 30-something man. “I did it for you, bud,” one fa-
+ther says, holding back tears as his young son chirps, 
+“Congratulations, Daddy!”
+Clayton M. Christensen is the Kim B. Clark Professor 
+at Harvard Business School. Taddy Hall is a principal 
+with the Cambridge Group and the leader of Nielsen’s 
+Breakthrough Innovation Project. Karen Dillon is the 
+former editor of Harvard Business Review. David S. Duncan 
+is a senior partner at Innosight. They are the coauthors 
+of the forthcoming Competing Against Luck: The Story 
+of Innovation and Customer Choice (HarperBusiness/
+HarperCollins, October 2016).
+62 Harvard Business Review September 2016
+SPOTLIGHT ON CONSUMER INSIGHT
+HBR.ORG
+
+
+Harvard Business Review Notice of Use Restrictions, May 2009
+Harvard Business Review and Harvard Business Publishing Newsletter content on
+EBSCOhost is licensed for the private individual use of authorized EBSCOhost users. It is not
+intended for use as assigned course material in academic institutions nor as corporate learning
+or training materials in businesses. Academic licensees may not use this content in electronic
+reserves, electronic course packs, persistent linking from syllabi or by any other means of
+incorporating the content into course resources. Business licensees may not host this content
+on learning management systems or use persistent linking or other means to incorporate the
+content into learning management systems. Harvard Business Publishing will be pleased to
+grant permission to make this content available through such means. For rates and permission,
+contact permissions@harvardbusiness.org.

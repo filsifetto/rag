@@ -17,7 +17,7 @@ from typing import Optional, Dict, Any
 project_root = Path(__file__).parent.parent
 sys.path.insert(0, str(project_root))
 
-from core.config import Settings
+from core.config import Settings, apply_subject
 from core.database.qdrant_client import QdrantManager
 from core.database.document_store import DocumentStore
 from core.services.embedding_service import EmbeddingService
@@ -52,14 +52,18 @@ LANGUAGE_OPTIONS: Dict[str, Dict[str, str]] = {
 class InteractiveSearchInterface:
     """Interactive search interface with rich console output."""
     
-    def __init__(self, language: Optional[str] = None):
+    def __init__(self, language: Optional[str] = None, subject: Optional[str] = None):
         """Initialize the search interface.
         
         Args:
             language: Optional language code ('en' or 'no') for LLM output.
+            subject: Optional subject name to search within a dedicated collection.
         """
         self.console = Console()
         self.settings = Settings()
+        if subject:
+            self.settings = apply_subject(self.settings, subject)
+        self.subject = subject
         
         # Initialize services
         self.qdrant_manager = QdrantManager(self.settings)
@@ -93,7 +97,8 @@ class InteractiveSearchInterface:
             "• [cyan]stats[/cyan] - Show database statistics\n"
             "• [cyan]help[/cyan] - Show detailed help\n"
             "• [cyan]quit[/cyan] - Exit the application\n\n"
-            f"Language: [bold]{self._language_display()}[/bold]",
+            f"Language: [bold]{self._language_display()}[/bold]\n"
+            f"Subject:  [bold]{self.subject or 'default (all)'}[/bold]",
             border_style="blue"
         ))
     
@@ -569,6 +574,13 @@ def parse_args() -> argparse.Namespace:
         help="Language for LLM responses: 'en' (English) or 'no' (Norwegian). "
              "If omitted, no explicit language instruction is sent."
     )
+    parser.add_argument(
+        "--subject", "-s",
+        type=str,
+        default=None,
+        help="Subject to search (e.g. 'software-engineering'). "
+             "Searches the dedicated Qdrant collection for this subject."
+    )
     return parser.parse_args()
 
 
@@ -583,7 +595,7 @@ async def main():
     )
 
     # Create and run interface
-    interface = InteractiveSearchInterface(language=args.language)
+    interface = InteractiveSearchInterface(language=args.language, subject=args.subject)
     await interface.run()
 
 
