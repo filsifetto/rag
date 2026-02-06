@@ -35,11 +35,16 @@ from rich.markdown import Markdown
 LANGUAGE_OPTIONS: Dict[str, Dict[str, str]] = {
     "en": {
         "name": "English",
-        "instruction": "You MUST write your entire response in English.",
+        "instruction": "The user may ask questions in English. You MUST write your entire response in English.",
     },
     "no": {
         "name": "Norwegian",
-        "instruction": "Du MÅ skrive hele svaret ditt på norsk (bokmål).",
+        "instruction": (
+            "Brukeren kan stille spørsmål på norsk. "
+            "Du MÅ skrive hele svaret ditt på norsk (bokmål), "
+            "inkludert resonnering, begrensninger og kildehenvisninger. "
+            "Kildedokumentene kan være på engelsk – oversett og oppsummer innholdet til norsk."
+        ),
     },
 }
 

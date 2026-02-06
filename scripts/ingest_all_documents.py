@@ -37,6 +37,7 @@ from core.database.document_store import DocumentStore
 from core.services.embedding_service import EmbeddingService
 from core.models.document import Document, DocumentMetadata, DocumentType
 from core.parsers.pdf import PDFMetadataExtractor
+from core.citation import enrich_metadata
 from rich.console import Console
 from rich.progress import Progress, SpinnerColumn, TextColumn, BarColumn, TaskProgressColumn, TimeElapsedColumn
 from rich.table import Table
@@ -153,6 +154,9 @@ def discover_documents(documents_dir: Path, extra_files: List[Path] = None) -> L
                 meta["category"] = _guess_category(file_path.name)
                 meta["language"] = "en"
 
+                # Enrich with citation registry data (APA metadata)
+                meta = enrich_metadata(meta, file_path.name)
+
                 # Merge heuristic tags with any keywords from PDF metadata
                 existing_tags = meta.get("tags", [])
                 guessed_tags = _guess_tags(file_path.name)
@@ -191,17 +195,20 @@ def discover_documents(documents_dir: Path, extra_files: List[Path] = None) -> L
                 if text:
                     doc_type = "markdown" if ext == ".md" else "text"
                     word_count = len(text.split())
+                    meta = {
+                        "title": file_path.stem,
+                        "source": file_path.name,
+                        "document_type": doc_type,
+                        "category": _guess_category(file_path.name),
+                        "word_count": word_count,
+                        "language": "en",
+                        "tags": _guess_tags(file_path.name),
+                    }
+                    # Enrich with citation registry data (APA metadata)
+                    meta = enrich_metadata(meta, file_path.name)
                     raw_docs.append({
                         "content": text,
-                        "metadata": {
-                            "title": file_path.stem,
-                            "source": file_path.name,
-                            "document_type": doc_type,
-                            "category": _guess_category(file_path.name),
-                            "word_count": word_count,
-                            "language": "en",
-                            "tags": _guess_tags(file_path.name),
-                        }
+                        "metadata": meta,
                     })
                     console.print(f"  📝 {ext.upper()}: [green]{file_path.name}[/green] ({word_count:,} words)")
             except Exception as e:

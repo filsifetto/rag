@@ -27,6 +27,7 @@ from core.database.document_store import DocumentStore
 from core.services.embedding_service import EmbeddingService
 from core.models.document import Document, DocumentMetadata, DocumentType
 from core.parsers.pdf import PDFMetadataExtractor
+from core.citation import enrich_metadata
 from rich.console import Console
 from rich.progress import Progress, TaskID
 from rich.table import Table
@@ -76,14 +77,18 @@ def load_documents_from_directory(directory: Path) -> List[Dict[str, Any]]:
                     # Create document metadata
                     doc_type = DocumentType.MARKDOWN if file_path.suffix.lower() == '.md' else DocumentType.TEXT
                     
+                    meta = {
+                        "title": file_path.stem,
+                        "source": str(file_path),
+                        "document_type": doc_type,
+                        "file_size": file_path.stat().st_size
+                    }
+                    # Enrich with citation registry data (APA metadata)
+                    meta = enrich_metadata(meta, file_path.name)
+
                     documents.append({
                         "content": content,
-                        "metadata": {
-                            "title": file_path.stem,
-                            "source": str(file_path),
-                            "document_type": doc_type,
-                            "file_size": file_path.stat().st_size
-                        }
+                        "metadata": meta
                     })
             except Exception as e:
                 logging.warning(f"Failed to load {file_path}: {e}")
@@ -127,6 +132,9 @@ def load_single_file(file_path: Path, title: str = None, category: str = None) -
         if category:
             meta["category"] = category
 
+        # Enrich with citation registry data (APA metadata)
+        meta = enrich_metadata(meta, file_path.name)
+
         return [{
             "content": content,
             "metadata": meta,
@@ -142,15 +150,19 @@ def load_single_file(file_path: Path, title: str = None, category: str = None) -
 
     doc_type = DocumentType.MARKDOWN if suffix == '.md' else DocumentType.TEXT
 
+    meta = {
+        "title": title or file_path.stem,
+        "source": str(file_path.resolve()),
+        "document_type": doc_type,
+        "file_size": file_path.stat().st_size,
+        "category": category,
+    }
+    # Enrich with citation registry data (APA metadata)
+    meta = enrich_metadata(meta, file_path.name)
+
     return [{
         "content": content,
-        "metadata": {
-            "title": title or file_path.stem,
-            "source": str(file_path.resolve()),
-            "document_type": doc_type,
-            "file_size": file_path.stat().st_size,
-            "category": category,
-        }
+        "metadata": meta
     }]
 
 

@@ -13,6 +13,7 @@ import time
 from datetime import datetime
 
 from ..models.search_result import SearchResult, ResponseAnalysis
+from ..citation import format_apa_inline, format_apa_reference, build_citation_key
 from ..config import Settings
 
 
@@ -101,16 +102,24 @@ class ResponseGenerator:
     MAX_CONTENT_CHARS_PER_SOURCE = 1500
 
     def _build_context(self, search_results: List[SearchResult]) -> str:
-        """Build structured context from search results, truncating to fit token budget."""
+        """Build structured context from search results, truncating to fit token budget.
+
+        Each source is labelled with an APA-style citation key so the LLM can
+        produce proper in-text citations.
+        """
         context_parts = []
         
         for i, result in enumerate(search_results, 1):
-            # Format metadata for display
+            meta = result.metadata
+            citation_key = build_citation_key(meta)
+            inline_cite = format_apa_inline(meta)
+
+            # Build a compact metadata line
             metadata_items = []
-            for key, value in result.metadata.items():
-                if key in ["title", "author", "source", "category", "created_at"]:
+            for key in ("title", "author", "year", "journal", "publisher", "chapter"):
+                value = meta.get(key)
+                if value:
                     metadata_items.append(f"{key}: {value}")
-            
             metadata_str = ", ".join(metadata_items) if metadata_items else "No metadata"
             
             # Truncate content to stay within token budget
@@ -119,7 +128,7 @@ class ResponseGenerator:
                 content = content[:self.MAX_CONTENT_CHARS_PER_SOURCE] + "... [truncated]"
             
             context_parts.append(f"""
-Source {i} (ID: {result.id}):
+Source [{citation_key}] {inline_cite}:
 Content: {content}
 Metadata: {metadata_str}
 Relevance Score: {result.combined_score:.3f}
@@ -129,22 +138,41 @@ Relevance Score: {result.combined_score:.3f}
     
     def _create_system_prompt(self, custom_instructions: Optional[str] = None) -> str:
         """Create comprehensive system prompt for response generation."""
-        base_prompt = """You are a research assistant that synthesizes information from provided sources.
+        base_prompt = """You are an academic research assistant that synthesizes information from provided sources using APA 7th edition referencing.
 
-Rules:
+CITATION RULES:
 1. Base your response ONLY on the provided sources.
-2. Reference sources by their ID numbers.
-3. Provide step-by-step reasoning.
-4. Calculate confidence (0-1) based on source quality and consensus.
-5. Note any gaps or limitations.
+2. Use APA 7 in-text citations. Each source is labelled with its citation key in square brackets (e.g. [Sommerville, 2015]). Cite like: (Sommerville, 2015) or (Crispin & Gregory, 2008, Ch. 6).
+3. When a source has a chapter, include it: (Author, Year, Ch. X).
+4. When paraphrasing, place the citation at the end of the relevant sentence or clause.
+5. When multiple sources support the same point, combine them: (Author1, Year; Author2, Year).
+6. After your answer, include a "References" section with full APA 7 reference entries for every source you cited. Use ONLY the references provided in the source metadata — do not invent references.
+7. Provide step-by-step reasoning.
+8. Calculate confidence (0-1) based on source quality and consensus.
+9. Note any gaps or limitations.
 
-CONFIDENCE LEVELS: Very High (0.9-1.0), High (0.75-0.89), Medium (0.5-0.74), Low (0.25-0.49), Very Low (0.0-0.24)."""
+CONFIDENCE LEVELS: Very High (0.9-1.0), High (0.75-0.89), Medium (0.5-0.74), Low (0.25-0.49), Very Low (0.0-0.24).
+
+REFERENCE FORMAT EXAMPLES:
+- Book: Author, A. A. (Year). *Title of work* (Xth ed.). Publisher.
+- Journal: Author, A. A. (Year). Title of article. *Journal Name*, *Volume*(Issue), Pages."""
         
         if custom_instructions:
             base_prompt += f"\n\nADDITIONAL INSTRUCTIONS:\n{custom_instructions}"
         
         return base_prompt
     
+    def _build_reference_list(self, search_results: List[SearchResult]) -> str:
+        """Build an APA 7 reference list from the search results metadata."""
+        seen: set = set()
+        refs: list = []
+        for result in search_results:
+            ref_entry = format_apa_reference(result.metadata)
+            if ref_entry not in seen:
+                seen.add(ref_entry)
+                refs.append(ref_entry)
+        return "\n".join(refs)
+
     def _create_user_prompt(self, query: str, context: str) -> str:
         """Create structured user prompt with query and context."""
         return f"""QUESTION: {query}
@@ -152,7 +180,7 @@ CONFIDENCE LEVELS: Very High (0.9-1.0), High (0.75-0.89), Medium (0.5-0.74), Low
 SOURCES:
 {context}
 
-Provide a comprehensive answer based on the sources above."""
+Provide a comprehensive answer based on the sources above. Use APA 7 in-text citations and end with a References section."""
     
     def _create_no_results_response(self, query: str, start_time: float) -> ResponseAnalysis:
         """Create response when no search results are available."""

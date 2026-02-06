@@ -10,6 +10,8 @@ from pydantic import BaseModel, Field, field_validator, model_validator
 from datetime import datetime
 from enum import Enum
 
+from ..citation import format_apa_inline, format_apa_reference, build_citation_key
+
 
 class SearchResultType(str, Enum):
     """Type of search result."""
@@ -94,12 +96,16 @@ class SearchResult(BaseModel):
             source_info["chunk_index"] = self.chunk_index
         
         # Add relevant metadata
-        if "title" in self.metadata:
-            source_info["title"] = self.metadata["title"]
-        if "author" in self.metadata:
-            source_info["author"] = self.metadata["author"]
-        if "source" in self.metadata:
-            source_info["source"] = self.metadata["source"]
+        for key in ("title", "author", "source", "year", "journal",
+                    "publisher", "chapter", "volume", "issue", "pages",
+                    "edition", "publication_type", "doi", "isbn"):
+            if key in self.metadata:
+                source_info[key] = self.metadata[key]
+
+        # Add formatted citation key
+        source_info["citation_key"] = build_citation_key(self.metadata)
+        source_info["apa_inline"] = format_apa_inline(self.metadata)
+        source_info["apa_reference"] = format_apa_reference(self.metadata)
         
         return source_info
     
@@ -192,22 +198,36 @@ class ResponseAnalysis(BaseModel):
         )
     
     def get_citation_text(self) -> str:
-        """Generate citation text for the response."""
+        """Generate APA 7 formatted citation text for the response."""
         if not self.sources_used:
             return "No sources available."
         
-        citations = []
-        for i, source_id in enumerate(self.sources_used, 1):
-            # Find source details
+        # De-duplicate references (same work may appear for multiple chunks)
+        seen: set = set()
+        references: list = []
+        for source_id in self.sources_used:
             source_detail = next(
                 (s for s in self.source_details if s.get("id") == source_id),
                 {"id": source_id}
             )
-            
-            title = source_detail.get("title", f"Source {i}")
-            citations.append(f"[{i}] {title}")
+            ref = source_detail.get("apa_reference")
+            if ref and ref not in seen:
+                seen.add(ref)
+                references.append(ref)
+            elif not ref:
+                # Fallback for sources without full APA data
+                title = source_detail.get("title", f"Source {source_id}")
+                author = source_detail.get("author", "Unknown")
+                year = source_detail.get("year", "n.d.")
+                fallback = f"{author} ({year}). {title}."
+                if fallback not in seen:
+                    seen.add(fallback)
+                    references.append(fallback)
         
-        return "Sources: " + "; ".join(citations)
+        if not references:
+            return "No sources available."
+        
+        return "References:\n" + "\n".join(references)
     
     def to_summary(self) -> Dict[str, Any]:
         """Create a summary of the response analysis."""
