@@ -41,6 +41,19 @@ class DocumentMetadata(BaseModel):
     source: Optional[str] = Field(None, description="Source of the document")
     url: Optional[str] = Field(None, description="Original URL if applicable")
     
+    # Citation metadata (APA 7)
+    year: Optional[int] = Field(None, description="Publication year")
+    publication_type: Optional[str] = Field(None, description="Type: book, journal, conference, web, other")
+    publisher: Optional[str] = Field(None, description="Publisher name")
+    journal: Optional[str] = Field(None, description="Journal or periodical name")
+    volume: Optional[str] = Field(None, description="Volume number")
+    issue: Optional[str] = Field(None, description="Issue number")
+    pages: Optional[str] = Field(None, description="Page range, e.g. '56-65'")
+    edition: Optional[str] = Field(None, description="Edition, e.g. '10th'")
+    chapter: Optional[str] = Field(None, description="Chapter number or title")
+    doi: Optional[str] = Field(None, description="Digital Object Identifier")
+    isbn: Optional[str] = Field(None, description="ISBN number")
+    
     # Classification
     category: Optional[str] = Field(None, description="Document category")
     tags: List[str] = Field(default_factory=list, description="Document tags")

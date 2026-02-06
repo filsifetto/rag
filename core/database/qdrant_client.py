@@ -16,7 +16,7 @@ import uuid
 from dataclasses import dataclass
 import time
 
-from ..config.settings import Settings
+from ..config import Settings
 
 
 @dataclass
@@ -63,6 +63,8 @@ class QdrantManager:
                     on_disk=True  # Enable disk storage for large datasets
                 ),
                 optimizers_config=OptimizersConfig(
+                    deleted_threshold=0.2,
+                    vacuum_min_vector_number=1000,
                     default_segment_number=2,
                     max_segment_size=20000,
                     memmap_threshold=20000,

@@ -6,7 +6,7 @@ import pytest
 import asyncio
 from unittest.mock import Mock, patch, AsyncMock
 from core.services.embedding_service import EmbeddingService, EmbeddingResult, EmbeddingCache
-from core.config.settings import Settings
+from core.config import Settings
 
 
 @pytest.fixture

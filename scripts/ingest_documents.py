@@ -15,16 +15,18 @@ import argparse
 from pathlib import Path
 from typing import List, Dict, Any
 import time
+from datetime import datetime
 
 # Add the project root to the Python path
 project_root = Path(__file__).parent.parent
 sys.path.insert(0, str(project_root))
 
-from core.config.settings import Settings
+from core.config import Settings
 from core.database.qdrant_client import QdrantManager
 from core.database.document_store import DocumentStore
 from core.services.embedding_service import EmbeddingService
 from core.models.document import Document, DocumentMetadata, DocumentType
+from core.parsers.pdf import PDFMetadataExtractor
 from rich.console import Console
 from rich.progress import Progress, TaskID
 from rich.table import Table
@@ -87,6 +89,120 @@ def load_documents_from_directory(directory: Path) -> List[Dict[str, Any]]:
                 logging.warning(f"Failed to load {file_path}: {e}")
     
     return documents
+
+
+def load_single_file(file_path: Path, title: str = None, category: str = None) -> List[Dict[str, Any]]:
+    """Load a single document file (.txt, .md, .json, or .pdf)."""
+    if not file_path.exists():
+        raise FileNotFoundError(f"File not found: {file_path}")
+    if not file_path.is_file():
+        raise ValueError(f"Path is not a file: {file_path}")
+
+    suffix = file_path.suffix.lower()
+
+    if suffix == '.json':
+        docs = load_documents_from_json(file_path)
+        # Apply CLI overrides to each document
+        for doc in docs:
+            meta = doc.setdefault("metadata", {})
+            if title:
+                meta["title"] = title
+            if category:
+                meta["category"] = category
+        return docs
+
+    if suffix == '.pdf':
+        extractor = PDFMetadataExtractor()
+        content, pdf_meta = extractor.extract_text_and_metadata(file_path)
+
+        if not content.strip():
+            raise ValueError(f"No extractable text found in PDF: {file_path}")
+
+        meta = pdf_meta.to_document_metadata_dict(source=str(file_path.resolve()))
+        # CLI overrides take precedence over embedded metadata
+        if title:
+            meta["title"] = title
+        elif not meta.get("title"):
+            meta["title"] = file_path.stem
+        if category:
+            meta["category"] = category
+
+        return [{
+            "content": content,
+            "metadata": meta,
+        }]
+
+    if suffix not in ('.txt', '.md'):
+        raise ValueError(
+            f"Unsupported file type '{suffix}'. Supported: .txt, .md, .json, .pdf"
+        )
+
+    with open(file_path, 'r', encoding='utf-8') as f:
+        content = f.read()
+
+    doc_type = DocumentType.MARKDOWN if suffix == '.md' else DocumentType.TEXT
+
+    return [{
+        "content": content,
+        "metadata": {
+            "title": title or file_path.stem,
+            "source": str(file_path.resolve()),
+            "document_type": doc_type,
+            "file_size": file_path.stat().st_size,
+            "category": category,
+        }
+    }]
+
+
+# --- Ingestion log -----------------------------------------------------------
+
+INGESTION_LOG_PATH = Path(__file__).parent.parent / "data" / "ingestion_log.json"
+
+
+def _load_ingestion_log() -> List[Dict[str, Any]]:
+    """Load the ingestion log from disk."""
+    if INGESTION_LOG_PATH.exists():
+        with open(INGESTION_LOG_PATH, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return []
+
+
+def _save_ingestion_log(log: List[Dict[str, Any]]) -> None:
+    """Persist the ingestion log to disk."""
+    INGESTION_LOG_PATH.parent.mkdir(parents=True, exist_ok=True)
+    with open(INGESTION_LOG_PATH, "w", encoding="utf-8") as f:
+        json.dump(log, f, indent=2, default=str)
+
+
+def record_ingestion(documents: List, all_results: List[Dict[str, Any]], batch_size: int) -> int:
+    """Append successfully ingested documents to the ingestion log.
+
+    Returns the number of new entries added.
+    """
+    log = _load_ingestion_log()
+    added = 0
+
+    doc_offset = 0
+    for batch in all_results:
+        for res in batch["results"]:
+            doc = documents[doc_offset]
+            doc_offset += 1
+            if not res.success:
+                continue
+            log.append({
+                "document_id": res.document_id,
+                "title": doc.metadata.title or res.document_id,
+                "source": doc.metadata.source,
+                "category": doc.metadata.category,
+                "document_type": str(doc.metadata.document_type),
+                "token_count": res.token_count,
+                "chunk_count": res.chunk_count,
+                "ingested_at": datetime.now().isoformat(),
+            })
+            added += 1
+
+    _save_ingestion_log(log)
+    return added
 
 
 def create_sample_documents() -> List[Dict[str, Any]]:
@@ -161,34 +277,39 @@ async def ingest_documents_batch(
     """Ingest a batch of documents."""
     start_time = time.time()
     
-    # Generate embeddings for all documents
-    contents = [doc.content for doc in documents]
-    embedding_results = await embedding_service.create_embeddings_batch(contents)
-    
-    # Process documents with chunking if needed
+    # Process documents with chunking and embedding
     ingestion_results = []
     total_tokens = 0
     total_chunks = 0
     
-    for i, (document, embedding_result) in enumerate(zip(documents, embedding_results)):
-        # Generate chunks and chunk embeddings if document is large
+    for i, document in enumerate(documents):
         chunk_embeddings = None
-        if len(document.content.split()) > 500:  # Chunk if more than 500 words
-            chunks = embedding_service.chunk_text(document.content)
-            if len(chunks) > 1:
-                document.chunks = chunks
-                chunk_embedding_results = await embedding_service.create_embeddings_batch(chunks)
-                chunk_embeddings = [result.embedding for result in chunk_embedding_results]
+        chunk_size = embedding_service.settings.chunk_size_tokens
+        overlap = embedding_service.settings.chunk_overlap_tokens
+        chunks = embedding_service.chunk_text(document.content, chunk_size=chunk_size, overlap=overlap)
+        
+        if len(chunks) > 1:
+            document.chunks = chunks
+            chunk_embedding_results = await embedding_service.create_embeddings_batch(chunks)
+            chunk_embeddings = [result.embedding for result in chunk_embedding_results]
+            # Use the first chunk embedding as the main document embedding
+            main_embedding = chunk_embedding_results[0].embedding
+            token_count = sum(r.token_count for r in chunk_embedding_results)
+        else:
+            # Single chunk — embed the whole document once
+            embedding_result = await embedding_service.create_embedding(document.content)
+            main_embedding = embedding_result.embedding
+            token_count = embedding_result.token_count
         
         # Ingest document
         result = document_store.ingest_document(
             document=document,
-            embedding=embedding_result.embedding,
+            embedding=main_embedding,
             chunk_embeddings=chunk_embeddings
         )
         
         ingestion_results.append(result)
-        total_tokens += embedding_result.token_count
+        total_tokens += token_count
         total_chunks += result.chunk_count or 0
         
         # Update progress
@@ -220,6 +341,23 @@ async def main():
         "--data-path",
         type=Path,
         help="Path to documents (file or directory)"
+    )
+    parser.add_argument(
+        "--file",
+        type=Path,
+        help="Path to a single file to ingest (.txt, .md, .json, or .pdf)"
+    )
+    parser.add_argument(
+        "--title",
+        type=str,
+        default=None,
+        help="Title for the ingested document (used with --file)"
+    )
+    parser.add_argument(
+        "--category",
+        type=str,
+        default=None,
+        help="Category for the ingested document (used with --file)"
     )
     parser.add_argument(
         "--create-sample",
@@ -274,7 +412,12 @@ async def main():
         # Load documents
         console.print("📄 Loading documents...")
         
-        if args.create_sample:
+        if args.file:
+            console.print(f"Loading single file: [cyan]{args.file}[/cyan]")
+            raw_documents = load_single_file(
+                args.file, title=args.title, category=args.category
+            )
+        elif args.create_sample:
             console.print("Creating sample documents...")
             raw_documents = create_sample_documents()
         elif args.data_path:
@@ -286,7 +429,7 @@ async def main():
                 console.print(f"[red]❌ Path not found: {args.data_path}[/red]")
                 return 1
         else:
-            console.print("[red]❌ Please specify --data-path or --create-sample[/red]")
+            console.print("[red]❌ Please specify --file, --data-path, or --create-sample[/red]")
             return 1
         
         if not raw_documents:
@@ -361,7 +504,13 @@ async def main():
         
         console.print(summary_table)
         
+        # Update ingestion log
         if total_successful > 0:
+            added = record_ingestion(documents, all_results, args.batch_size)
+            console.print(
+                f"📝 Logged {added} document(s) to "
+                f"[cyan]{INGESTION_LOG_PATH.relative_to(project_root)}[/cyan]"
+            )
             console.print(Panel.fit(
                 "[bold green]🎉 Document ingestion completed![/bold green]\n"
                 "You can now search documents with:\n"

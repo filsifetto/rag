@@ -1,0 +1,930 @@
+Dette materialet er vernet etter åndsverkloven og er helt eller 
+delvis fremstilt etter avtale med Kopinor. Materialet kan benyttes 
+av studenter som deltar i det aktuelle emnet, for egne studier, i et­
+hvert format og på enhver plattform. Uten uttrykkelig samtykke er 
+annen eksemplarfremstilling og tilgjengeliggjøring bare tillatt når 
+det er hjemlet i lov (kopiering til privat bruk, sitat o.l.) eller avtale 
+med Kopinor (www.kopinor.no).
+Digitalt framstilt av:
+NTNU Universitetsbiblioteket
+This material is protected by copyright law and is wholly or partly 
+produced by agreement with Kopinor. The material can be used 
+by students who participate in the relevant course, for their own 
+studies, in any format and on any platform. Without expressed 
+consent, other copying and making available is only permitted 
+when authorized by law (copying for private use, quotation, etc.) 
+or agreement with Kopinor (www.kopinor.no).
+Stray, V., Moe, N. B. & Sjøberg, D.I.K. (2020). Daily stand-up meetings: Start 
+breaking the rules. IEEE software. Vol. 37(3), s. 70-77
+Utdraget er klarert i henhold til Kopinoravtalen for dette semesteret: VÅR 2024
+
+
+70
+IE E E S O F T WA R E | PU BLI S H E D BY T H E I E E E CO M PU T E R S O CI E T Y
+074 0 -74 5 9/2 0 © 2 0 2 0 I E E E
+FEATURE: SELF-ORGANIZING SOFTWARE TEAMS
+IF YOU WORK on an agile project, 
+you are probably familiar with some 
+format of the daily stand-up meeting 
+because it is a popular practice.1,2
+Some staff may see the meeting as a 
+necessary venue for communication 
+with the team while others consider 
+it a waste of time. We have re-
+searched daily stand-up meetings for 
+almost a decade and helped software 
+engineering companies find ways 
+to improve them. In this article, we 
+share our findings and provide rec-
+ommendations on how to conduct
+effective daily stand-up meetings.
+Agile business methods intro-
+duced the practice of daily stand-ups 
+to improve communication in soft-
+ware development teams. In these 
+meetings, team members share in-
+formation and thus become aware of 
+ 
+what other members are doing, with 
+the hope that team members will 
+then align their actions to fit the ac-
+tions of the others, i.e., mutual ad-
+justment.3 Furthermore, meetings 
+that improve access to information 
+foster employee empowerment.4
+Despite clear guidelines for how 
+the 15-min meeting should be con-
+ducted,5 through our visits to more 
+than 40 companies and several hun-
+dred teams, we have found that im-
+plementing daily stand-ups in a way 
+that benefits the whole team is quite 
+challenging. So, how can we adjust 
+the practice to boost team perfor-
+mance? Understanding how to con-
+duct these meetings for self-managing 
+software development teams requires 
+more than just examining the group’s 
+inner workings; we must also under-
+stand the organizational context sur-
+rounding them. Therefore, we have 
+conducted a multiple-case study in 
+four software companies to identify 
+positive and negative aspects of daily 
+stand-up meetings and provide rec-
+ommendations on how to make them 
+more valuable.
+Research Background 
+The four companies we studied be-
+long to different application do-
+mains. ITConsult is a Norwegian IT 
+consulting company, TelSoft is an in-
+ternational telecommunications soft-
+ware company, GlobEng is a global 
+software company that provides ser-
+vices for the engineering industry, 
+and NorBank is a Nordic bank and 
+insurance company. Data collection 
+and analysis took place from 2010 
+to 2018.
+To gather different perspectives on 
+the meeting, we interviewed 60 proj-
+ect members with roles at all levels in 
+15 different teams (see Table 1). The 
+overall discussion topic was team-
+work and meetings, with a particular 
+ Daily Stand-Up 
+Meetings
+Start Breaking the Rules!
+Viktoria Stray,  University of Oslo and  SINTEF
+Nils Brede Moe,  SINTEF
+Dag I.K. Sjøberg, Universi ty of Oslo and SINTEF
+//  Daily st and-up meetings are commonly 
+used for software teams to collaborate 
+and exchange information, but conducting 
+them in a way that benefits the whole team 
+can be challenging. We describe factors 
+that can affect meetings and propose 
+recommendations for improving them. //
+Digital Object Identifier 10.1109/MS.2018.2875988
+Date of current version: 16 April 2020
+Authorized licensed use limited to: Norges Teknisk-Naturvitenskapelige Universitet. Downloaded on December 06,2020 at 17:30:26 UTC from IEEE Xplore.  Restrictions apply. 
+
+
+ 
+M AY/J U N E 2020  |  IE E E S O F T WA R E 
+71
+focus on daily stand-up meetings. 
+More details on the interview guide 
+and research context are available.6,7 
+We observed and documented 102 
+daily stand-up meetings. Eight of the 
+meetings from TelSoft and NorBank 
+were audiotaped, transcribed, and 
+coded based on a validated coding 
+scheme for team meeting processes.8 
+Figure 1 shows the proportion of 
+words stated in each of the six cat-
+egories we identified. The number 
+of words can be considered to be a 
+proxy for the time spent.
+Daily Stand-Ups:  
+What, How, When,  
+and for Whom?
+The interviewees expressed that dis-
+cussions other than answering the 
+three Scrum questions were most 
+valuable. Furthermore, the value of 
+the stand-ups was affected by meet-
+ing facilitation behavior, the depen-
+dencies among tasks, and the time 
+of day the meetings were held. In 
+addition, we found that junior team 
+members were more satisfied with 
+the meetings than senior team mem-
+bers. See Table 2 for a summary of 
+the main benefits of and difficulties 
+for conducting daily stand-ups.
+What Is Discussed in the Meetings?
+and incomplete information, it is rea-
+Participants in daily stand-ups are 
+sonable to question whether spend-
+traditionally supposed to answer a 
+ing this time on making decisions is 
+variant of only the following three 
+worthwhile. A thorough definition 
+questions: “What did I do yester-
+and analysis of the problem character-
+day?” (Q1), “What will I do today?” 
+izes a successful problem-solving pro-
+(Q2), and “Do I see any impedi-
+cess, which may be time-consuming.
+ments?” (Q3). We found that the 
+To understand decision making 
+teams addressed far more than the 
+in this context, we use the theory of 
+three questions within the 15 min. 
+naturalistic decision making,9 which 
+Analysis of the transcribed meetings 
+postulates that experts can make 
+showed that, on average, only 34% 
+correct decisions under  challenging 
+of the meeting was spent on answer-
+conditions, such as time pressure, un-
+ing the three questions (see Figure 1). 
+certainty, and vague goals, without 
+The teams spent almost as much 
+having to perform extensive analy-
+time (31%) on elaborating on prob-
+ses and compare options. They can 
+lem issues, discussing possible solu-
+use their experience to recognize 
+tions, and making decisions, which 
+problems that they have encountered 
+is also known as problem-focused 
+previously. They form mental simula-
+communication.8 
+tions of the current problem, which 
+According to Scrum, the daily 
+they use to quickly suggest appropri-
+stand-up should not be used to discuss 
+ate solutions. Because problem-focused 
+the solutions to obstacles raised. 
+communication is essential for prob-
+However, in the interviews, problem-
+lem solving,8 and the stand-up is the 
+focused communication was the most 
+only daily coordination arena for the 
+frequently mentioned positive aspect of 
+whole team, we argue that the meet-
+these meetings. The teams highly val-
+ing is necessary for effective decision 
+ued having an arena for quick problem 
+making in agile teams.
+solving, even if the problem-solving 
+Both meeting transcripts and ob-
+sessions were as short as 1 min.
+servations showed that the prob-
+Because the daily stand-up is char-
+lem-focused communication usually 
+acterized by limited time, uncertainty, 
+happened after the team members had 
+Table 1. The data sources. 
+Company
+ITConsult
+TelSoft
+GlobEng
+NorBank
+Total/average
+Locations visited
+Poland, Norway 
+Malaysia, 
+Norway
+China, Poland, Norway, 
+United Kingdom
+Norway
+Nine sites
+Number of teams studied
+2
+3
+7
+3
+15
+Average team size (minimum/maximum)
+9.5 (9/10)
+9.3 (9/10)
+8.3 (5/13)
+14 (13/14)
+10.3 (5/14)
+Number of interviews
+15
+20
+13
+12
+60
+Number of stand-up meetings observed
+19
+39
+13
+31
+102
+Average stand-up meeting duration in 
+minutes (minimum/maximum)
+10.8 (4/18)
+15.5 (7/24)
+11.6 (4/18)
+8.9 (4/13)
+11.7 (4/24)
+Authorized licensed use limited to: Norges Teknisk-Naturvitenskapelige Universitet. Downloaded on December 06,2020 at 17:30:26 UTC from IEEE Xplore.  Restrictions apply. 
+
+
+72
+IE E E S O F T WA R E | W W W.CO M PU T E R .O R G /S O F T WA R E | @ I E E E S O F T WA R E
+FEATURE: SELF-ORGANIZING SOFTWARE TEAMS
+described what they were going to do 
+(Q2) or had mentioned an obstacle
+(Q3). Just relaying what they had been 
+doing (Q1) rarely triggered problem-
+focused communication. Therefore, 
+Q2 and Q3 are clearly most impor-
+tant for making quick decisions. 
+While the interviewees expressed they 
+were least happy to spend time on Q1, 
+the teams actually spent the most time 
+on that question, mainly because talk-
+ing about what had been done often 
+ended up as cumbersome reporting
+with superfluous details.
+The challenge of knowing what
+others need to know tended to re-
+sult in team members trying to include 
+ 
+ 
+ 
+FIGURE 1. The proportion of topics discussed in daily stand-up meetings. 
+Meeting
+Management
+4%
+Digressions
+7%
+Coordination 
+of Tasks
+9%
+Project 
+Management
+15%
+Problem-Focused 
+Communication
+31%
+Impediments
+ (Q3)
+  11%
+The Three Scrum 
+Will Do
+Questions
+(Q2)
+34%
+23%
+Have Done 
+(Q1)
+66%
+Table 2. The benefits and problems 
+of daily stand-up meetings.
+ Main benefits
+• Problems are identified, discussed, and resolved quickly.
+• The team’s cohesion and shared commitment improve. 
+• There is a greater awareness of what other team members are doing.
+• Interactions are better coordinated through mutual adjustment.
+• The decision-making process becomes more effective.
+Main problems
+•  The information shared is not perceived to be relevant, particularly due to the diversity in roles, 
+tasks, and seniority.
+• Managers or Scrum masters use the meeting primarily to receive status information.
+• Productivity decreases because the day is broken into slots.
+ 
+Authorized licensed use limited to: Norges Teknisk-Naturvitenskapelige Universitet. Downloaded on December 06,2020 at 17:30:26 UTC from IEEE Xplore.  Restrictions apply. 
+
+
+M AY/J U N E 2020 |  IE E E S O F T WA R E
+73
+everything they had worked on, inde-
+pendent of its relevance to others. In
+one team that did not spend much time 
+on Q1, the Scrum master explained,
+“We don’t want to know the details of 
+what you did yesterday, but something 
+that is useful for the whole team. We 
+had to change the mind-set and find
+out what to say in the meeting. We
+practiced a lot and improved.”
+How Are the Meetings Facilitated?
+If the behavior of the meeting facili-
+tator made team members address 
+the facilitator, we observed that the 
+stand-up often became a status-re-
+porting meeting. If the facilitator
+managed to make team members
+talk to each other, it tended to be-
+come a discussion meeting. To illus-
+trate the two types of meetings, we 
+show conversation charts from two
+observations in TelSoft (Figures 2 
+and 3). The lines represent an inter-
+action between two participants.
+Figure 2 shows a reporting meet-
+ing in which the facilitator contr-
+olled the conversation by allocating
+turns for speaking. In this way, team 
+members naturally directed their 
+responses to her and had fewer in-
+teractions with each other. Figure 3
+shows a discussion meeting in which 
+team members engaged in what the
+other members were saying. The fa-
+cilitators who managed to get people 
+to talk to each other were usually in-
+volved in the day-to-day work and
+solved team tasks, so therefore had
+less need for status information.
+Team members who practiced
+daily stand-ups as reporting meet-
+ings expressed negative attitudes.
+One member said it felt like hav-
+ing oral exams every day and an-
+other said, “No one in the team
+really wants to be at the status meet-
+ing.” When the regular facilitator of 
+such meetings was absent, the team 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+usually either dropped the meeting 
+person to talk based on the tasks 
+that day or they conducted a discus-
+that are important to her.” We ob-
+sion meeting instead.
+served that people who spoke early 
+One developer explained, “To-
+were given the time they wanted, 
+day the Scrum master was not there, 
+while the Scrum master cut short 
+and we probably had our best daily 
+those who spoke last, because the 
+meeting. Because usually, the meet-
+meeting was approaching its time 
+ings are focused on information 
+limit. It is negative for a team if, for 
+useful to the Scrum master, but not 
+example, developers are given more 
+for us. He is also more interested in 
+time to speak than testers. To make 
+what we have done than what we 
+the team productive, everyone in the 
+are going to do.” Other research has 
+team should speak roughly the same 
+found that poor meetings may have 
+amount of time.10
+a negative effect beyond the meet-
+Facilitating the meeting can be 
+ings themselves, such as reduced job 
+even more challenging when the 
+satisfaction, coworker trust, and 
+team members are distributed be-
+well-being.4,11
+yond the physical location of the 
+When the facilitator had a per-
+meeting, which was the case in many 
+sonal interest in the status of specific 
+of the teams we studied. The teams 
+tasks, they often gave team members 
+with facilitators who used video in-
+working on these tasks more atten-
+stead of only audio had more dis-
+tion, leading to an unbalanced con-
+cussion meetings. One developer 
+tribution. One team member said, 
+explained, “Use of video changed 
+“The Scrum master chooses the next 
+our meetings because if you see 
+FIGURE 2. A conversation chart for a reporting meeting. 
+Facilitator
+Authorized licensed use limited to: Norges Teknisk-Naturvitenskapelige Universitet. Downloaded on December 06,2020 at 17:30:26 UTC from IEEE Xplore.  Restrictions apply. 
+
+
+74
+IE E E S O F T WA R E | W W W.CO M PU T E R .O R G /S O F T WA R E | @ I E E E S O F T WA R E
+FEATURE: SELF-ORGANIZING SOFTWARE TEAMS
+people’s reactions and their gestures, 
+meetings were often delayed by a few 
+you immediately know whether they 
+minutes because some participants 
+are listening or are bored, and 
+arrived late for work, which made
+whether they don’t understand what 
+the time spent in the meeting more 
+you said.” Additionally, using a large 
+than 15 min for those who arrived 
+video screen at the right height for 
+on time.
+standing helped team members to 
+More importantly, many team 
+acquire the feeling that everyone was 
+members considered the meeting to 
+a part of the same standing circle, 
+be a disruptive interruption, partic-
+which further increased team spirit 
+ularly during programming activi-
+and improved the communication.
+ties. One developer said, “I find the 
+meeting useful, but the interruption 
+When Are the Meetings Held?
+it causes is disturbing. I have to de-
+Most agile teams conduct their daily 
+tach myself from what I am work-
+stand-ups in the morning. A few 
+ing on, and when I get back it takes 
+team members told us that it is good 
+some time to start again where I left 
+to start the day by gathering the 
+off.” Therefore, even when arriving 
+team, to hear what people will be 
+early, some team members waited 
+working on and whether it will face 
+until after the meeting to start work-
+any obstacles. Nevertheless, in many 
+ing on challenging issues, and in-
+cases, we found that an early start 
+stead spent their time before the 
+time reduced the perceived value of 
+meeting on tasks that did not require 
+the meeting and the effectiveness of 
+concentration. This behavior is natu-
+the team. We observed that early 
+ral because other research has found 
+ 
+that most developers need more than 
+15 min to resume work after an in-
+terruption.12 Starting early in the 
+morning (e.g., 8:30 a.m.) or late in 
+the afternoon (e.g., 3:30 p.m.) was 
+also seen as undermining the much-
+valued flexibility regarding work 
+hours in the companies.
+Participants said that starting 
+later in the day (e.g., 10:00 a.m.) was 
+also problematic because there was 
+not enough time between the daily 
+meeting and lunch to do anything 
+useful. Many staff members felt that 
+starting right before lunch was a bet-
+ter option because then there was 
+no added interruption and the team 
+could go and eat lunch together.
+Who Benefits Most From 
+the Meetings?
+The way work was assigned and co-
+ordinated affected the dynamics of 
+the stand-ups. In some teams, there 
+were few interdependencies between 
+different members’ tasks, mainly be-
+cause they had specialized roles and 
+low knowledge redundancy; that is, 
+team members had expertise in dif-
+ferent technical areas and worked 
+on separate modules. Therefore, 
+what one team member worked on 
+was often uninteresting or irrelevant 
+for members other than the Scrum 
+master or technical lead, so staff 
+usually did not pay attention when 
+others were talking.
+When there is little interdepen-
+dence among team members, there is 
+less need for mutual adjustment and 
+problem-focused communication 
+and, as a result, most of the time is 
+instead spent on reporting. Particu-
+larly, there is less interdependence 
+in larger teams because everyone’s 
+work depends on only a fraction of 
+others’ work. Accordingly, we ob-
+served that larger teams had more 
+reporting meetings. NorBank had 
+FIGURE 3. A conversation chart for a discussion meeting.
+Facilitator
+Authorized licensed use limited to: Norges Teknisk-Naturvitenskapelige Universitet. Downloaded on December 06,2020 at 17:30:26 UTC from IEEE Xplore.  Restrictions apply. 
+
+
+M AY/J U N E 2020 |  IE E E S O F T WA R E
+75
+the largest teams, partly as a conse-
+quence of having BizDevOps teams, 
+which include people from business, 
+development, and operations. Dis-
+cussing problems among such a vari-
+ety of roles would have required too 
+much time and would not have been 
+relevant for all attendees.
+When more people attend a meet-
+ing, there is less time available for 
+each person to be active, so team 
+members are generally less satisfied 
+with large meetings. Consistent with 
+what we found in a recent survey of 
+stand-ups, there was a significant de-
+crease in meeting satisfaction when 
+the team comprised more than 12 
+members.2 Furthermore, we found 
+that experience played an important 
+role with respect to who benefitted 
+from the meeting. Junior team mem-
+bers were generally more positive than 
+senior ones. These senior team mem-
+bers often perceived the daily stand-
+ups as having little personal value
+because they already knew what was 
+going on and did not receive any new 
+information in the meeting.
+Moreover, the positive attitude 
+toward problem-solving discussions
+is more relevant to junior staff be-
+cause the problems they encounter 
+are easier to solve in a daily stand-
+up format. Senior team members 
+often work on more complex tasks 
+in which the problems require more 
+expertise and time to resolve than a 
+daily stand-up allows. Also, when an 
+experienced team member works on 
+a complex task, there might be little 
+progress for some days, and team
+members do not see repeating what is 
+said in the previous meeting as valu-
+able. One senior developer said, “The 
+intervals are too short to report on; 
+often you feel that you did not have 
+much progress from the day before.”
+We have also seen that se-
+nior team members attend more 
+ 
+ 
+ 
+meetings, both internal to the team 
+and external, in addition to the daily 
+stand-ups. The daily meeting is then 
+considered to be an additional daily 
+interruption, which may reduce the 
+well-being of senior team members 
+because a higher meeting load nega-
+tively affects fatigue levels and sub-
+jective workload.11
+Recommendations
+In our longitudinal study, we made a 
+set of initial recommendations on the 
+basis of our early interviews and ob-
+servations. Several teams then tried 
+these guidelines. While there is no 
+clear recipe for conducting a suc-
+cessful daily stand-up that fits all 
+companies, we make the following 
+recommendations based on all our 
+data collection and analysis.
+Omit Question 1
+To avoid the daily stand-up becom-
+ing a status-reporting meeting that 
+does not realize its potential ben-
+efits, we suggest that team mem-
+bers do not report what has been 
+accomplished since the last meet-
+ing (Q1). Eliminating this question 
+will reduce status-reporting and 
+self-justification, in which partici-
+pants explain in detail what they 
+have done and why they have not 
+achieved as much as expected. More 
+time will then be available to dis-
+cuss and solve problems.
+While it is valuable for team 
+members to know the status and 
+progress of the other team mem-
+bers’ tasks, such information can 
+be shared more efficiently by other 
+means. For example, some teams 
+display their status on a visual 
+board, and some use a chatbot in 
+Slack (an electronic communication 
+tool) to collect status information 
+from everyone, which is later posted 
+to the whole team.
+Share Facilitation Responsibility
+Facilitators need to consciously al-
+lot equal time to all participants. It 
+is easy (often unconsciously) to al-
+low some people to talk more than 
+others because the information from 
+these people may be of particular 
+interest to the facilitators. Further-
+more, facilitators must be aware of 
+how the allocation of who speaks 
+during the meeting affects the con-
+versation flow. Try both an approach 
+in which the tasks on the board are 
+discussed and a round-robin ap-
+proach in which the team members 
+know, without interruptions, who 
+will speak next.
+An alternative to having one ap-
+pointed facilitator is to circulate the 
+facilitator role among a set of team 
+members, which is what some of 
+the observed teams did. Leadership 
+that is broadly distributed instead of 
+centralized in the hands of a single 
+individual is known as shared lead-
+ership. This form of leadership can 
+empower a team and foster both the 
+task-related and social dimensions 
+of a group’s function, such as trust, 
+cohesion, and commitment. Because 
+new facilitators may influence how 
+the meeting is carried out, sharing 
+the facilitator role will give the team 
+opportunities to reflect upon differ-
+ent ways to conduct the daily stand-
+ups. If the facilitator is not the same 
+person as the team leader, it is less 
+likely that the daily stand-up be-
+comes a status-reporting meeting.
+Meet Right Before Lunch
+If a team decides to conduct daily 
+stand-ups, the meetings must fit the 
+rhythm of the team members’ days and 
+weeks. It is important to find the least 
+disruptive time to reduce the potential 
+for fragmented work. In many cases, 
+conducting the meeting early in the 
+morning has some drawbacks. Right 
+Authorized licensed use limited to: Norges Teknisk-Naturvitenskapelige Universitet. Downloaded on December 06,2020 at 17:30:26 UTC from IEEE Xplore.  Restrictions apply. 
+
+
+76 
+IE E E S O F T WA R E  |  W W W.CO M PU T E R .O R G /S O F T WA R E  |  @ I E E E S O F T WA R E
+FEATURE: SELF-ORGANIZING SOFTWARE TEAMS
+before lunch may be a better time, as 
+meeting five times a week. For exam-
+it will merge two interruptions. Many 
+ple, small, collocated teams that have 
+teams tried this, and one respondent 
+a high degree of informal communi-
+commented on not having the meet-
+cation may not need a daily meeting. 
+ing in the morning: “There are many 
+Furthermore, in a large team there 
+advantages with the new time; one is 
+will be less need for mutual adjust-
+that people have different preferences 
+ment among all of the team mem-
+when it comes to what time to arrive 
+bers. Therefore, it might be better 
+at work. When having the stand-up 
+to split the team into smaller groups 
+late, all of us are able to have moments 
+and hold separate meetings for staff 
+of flow before the meeting. It is also 
+that works together on a daily ba-
+much easier to remember what you 
+sis, with less frequent meetings for 
+are working on. I know the trend has 
+the whole team. Alternatively, team 
+spread to other teams.”
+members may post answers to the 
+Furthermore, hungry team mem-
+three Scrum questions electronically 
+bers are more prone to end the meet-
+on a daily basis, and then have a less 
+ing on time and, in addition, they are 
+frequent physical meeting in which 
+more likely to have lunch together, 
+they can concentrate on problem- 
+which will stimulate team cohesion. 
+focused communication.
+They can also continue discussions 
+on their way to lunch and during 
+lunch, if needed.
+e have worked with many 
+teams in different com-
+Adapt the Frequency
+panies who have exper-
+The daily stand-up meeting is, as the W
+imented with our recommendations 
+name indicates, intended to be con-
+(Table 3). They have stopped asking 
+ducted daily. However, we found 
+Q1 (“What did you do yesterday?”) 
+that not all teams benefit from 
+and instead started sharing the 
+facilitation responsibility to opti-
+mize communication patterns and 
+changed the frequency and time of 
+meetings. In particular, setting the 
+correct meeting time (right before 
+lunch) has been widely adopted and 
+appreciated. Furthermore, we have 
+yet to meet any teams who have rein-
+stated Q1 after a trial period without 
+it. Members appreciate focusing on 
+the work that is ahead of them and 
+being allowed to discuss problems 
+and solutions. One recommendation 
+that has been adopted less frequently 
+is sharing the facilitator role, proba-
+bly because Scrum masters and team 
+leaders feel that it is their responsi-
+bility to facilitate the meetings.
+When we help companies, we al-
+ways advise them to collect informa-
+tion about the daily meeting, to gain 
+insights regarding their team and 
+how to enhance its productivity. Hav-
+ing a person from another team draw 
+a conversation chart (see Figure 2) is 
+a technique that may provide insight 
+as well as a valuable basis for discus-
+sions about daily stand-ups. Relevant 
+questions to discuss are as follows. 
+• “How can all team members 
+benefit from the meeting?” 
+• “Are people talking to each 
+other or to the facilitator?”
+• “Is it a reporting or discussion 
+meeting?”
+• “Who should facilitate the 
+meeting?”
+• “Is every team member talking 
+approximately the same amount 
+of time?”
+• “Should the meeting focus on 
+people or tasks?”
+We advise all agile teams to try 
+to improve their meetings by experi-
+menting with breaking the rules that 
+they follow. Taking responsibility for 
+improving the meetings will make the 
+Table 3. Recommendations for daily stand-up meetings.
+Stop asking, “What did you do yesterday?”
+• Reduce the time spent on status reporting and self-justification.
+• Focus on future work, particularly considering dependencies and obstacles.
+• Spend time discussing and solving problems as well as making quick decisions.
+Optimize the communication pattern.
+• Share the leadership to increase joint responsibility, such as by rotating the facilitator role.
+• Team members should communicate with each other and not report to the facilitator.
+Find the least disruptive time.
+• Consider scheduling the meeting right before lunch to decrease the number of interruptions.
+Find the frequency that offers the most value.
+• In a team that communicates well, stop meeting daily if three or four times a week is sufficient.
+•  In a large team, some members do not need to meet as frequently as others, depending on the 
+interdependencies among tasks and members.
+Authorized licensed use limited to: Norges Teknisk-Naturvitenskapelige Universitet. Downloaded on December 06,2020 at 17:30:26 UTC from IEEE Xplore.  Restrictions apply. 
+
+
+M AY/J U N E 2020 |  IE E E S O F T WA R E
+77
+team more self-managed. An agile 
+software team should continuously 
+inspect and adapt the daily stand-up 
+meeting to fulfil the team’s needs. 
+Some of the adjustments might be 
+about challenging the old mindset, 
+such as conducting the meetings daily 
+and in the morning, and discuss-
+ing only the three Scrum questions. 
+Teams that make appropriate adjust-
+ments become more productive. 
+References
+VersionOne, “VersionOne 13th An-
+nual State of Agile Report,” May 
+2019. [Online]. Available: https://
+explore.versionone.com/state-of-agile/
+13th-annual-state-of-agile-report
+1. V. Stray, N. B. Moe, and G. R. Berg-
+ersen, “Are daily stand-up meetings 
+valuable? A survey of developers in 
+software teams,” in Int. Conf. Agile 
+Processes in Software Engineering 
+and Extreme Programming, 2017, 
+pp. 274–281.
+2. H. Mintzberg, Mintzberg on Man-
+agement: Inside our Strange World 
+of Organizations. New York: Free 
+Press, 1989. 
+3. J. A. Allen, N. Lehmann-Willen-
+brock, and S. J. Sands, “Meetings 
+as a positive boost? How and when 
+meeting satisfaction impacts em-
+ployee empowerment,” J. Bus. Res., 
+vol. 69, no. 10, pp. 4340–4347, Oc t. 
+2016. 
+4. K. Schwaber and J. Sutherland, 
+“The Scrum guide,” No v. 2017, pp. 
+1–19. [O
+ nline]. Available: http://
+scrumguides.org/docs/scrumguide/
+v2017/2017-Scrum-Guide-US.pdf
+5. V. Stray, D. I. K. Sjøberg, and T. 
+Dybå, “The daily stand-up meeting: 
+A grounded theory study,” J. Syst. 
+Softw., vol. 114, pp. 101–124, Apr. 
+2016.
+6. H. Nyrud and V. Stray, “Inter-
+team coordination mechanisms in 
+ large-scale agile,” in Proc. ACM X
+2017 Scientific Workshops, pp. 1–
+doi: 10.1145/3120459.3120476.
+7. S. Kauffeld and N. Lehmann- 
+Willenbrock, “Meetings matter: Effe
+of team meetings on team and organ-
+isational success,” Small Group Res.,
+vol. 43, no. 2, pp. 130–158, Mar. 20
+8. G. Klein, “Naturalistic decision ma
+ing,” Hum. Factors, vol. 50, no. 3, 
+pp. 456–460, June 2008. 
+9. C. Duhigg, “What Google lea
+ rned 
+from its quest to build the perfect 
+t eam,” New York Times, Feb. 25, 
+2016. [Online]. Available: https://
+www.nytimes.com/2016/02/28/
+magazine/what-google-learned
+P 
+6. 
+cts 
+ 
+12.
+k-
+-from-its-quest-to-build-the-perfect
+-team.html 
+10. A. Luong and S. G. Rogelberg, “Meet-
+ings and more meetings: The relation-
+ship between meeting load and the 
+daily well-being of employees,” Group 
+Dyn., vol. 9, no. 1, pp. 58–67, 2005. 
+11. C. Parnin and S. Rugaber, “Resump-
+tion strategies for interrupted program-
+ming tasks,” Software Quality J., 
+vol. 19, no. 1, pp. 5–34, Aug. 2011.
+ABOUT THE AUTHORS
+VIKTORIA STRAY is an associate professor in the Department of 
+Informatics, University of Oslo, Sweden, and is a researcher at SIN-
+TEF. Her research interests include agile methods, global software 
+engineering, teamwork, coordination, and large-scale develop-
+ment. Stray received a Ph.D. in software engineering from the 
+University of Oslo. She is a Member of the IEEE and ACM. Contact 
+her at stray@ifi.uio.no.
+NILS BREDE MOE is a senior scientist at SINTEF and an 
+adjunct professor at the Blekinge Institute of Technology. His 
+research interests relate to organisational, sociotechnical, and 
+global/distributed aspects. Moe received a Ph.D. in computer 
+science from the Norwegian University of Science and Tech-
+nology, Trondheim. Contact him at nilsm@sintef.no.
+DAG I.K. SJØBERG is a professor at the University of Oslo. 
+His research interests are the software lifecycle, including 
+agile and lean development processes, and empirical research 
+methods in software engineering. Sjøberg received a Ph.D. 
+in computing science from the University of Glasgow. He is a 
+Member of the IEEE and ACM. Contact him at dagsj@ifi.uio.no.
+Access all your IEEE Computer 
+Society subscriptions at
+computer.org
+/mysubscriptions
+Authorized licensed use limited to: Norges Teknisk-Naturvitenskapelige Universitet. Downloaded on December 06,2020 at 17:30:26 UTC from IEEE Xplore.  Restrictions apply. 

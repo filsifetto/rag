@@ -1,0 +1,22 @@
+[
+  {
+    "document_id": "f7eb7b1c-63b9-5573-a05d-82b6f231a5be",
+    "title": "06 Cohn Chapter2",
+    "source": "/home/filsifetto/dev/personal/rag/data/documents/_extracted/06 Cohn Chapter2.pdf",
+    "category": null,
+    "document_type": "pdf",
+    "token_count": 4380,
+    "chunk_count": 0,
+    "ingested_at": "2026-02-06T16:18:26.905407"
+  },
+  {
+    "document_id": "d6eaebb8-b00c-5184-9195-a13b779cfcfb",
+    "title": "15 Waterman",
+    "source": "/home/filsifetto/dev/personal/rag/data/documents/txt/15 Waterman.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1622,
+    "chunk_count": 8,
+    "ingested_at": "2026-02-06T16:52:39.628462"
+  }
+]

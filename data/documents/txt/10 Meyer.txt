@@ -1,0 +1,616 @@
+Dette materialet er vernet etter åndsverkloven og er helt eller 
+delvis fremstilt etter avtale med Kopinor. Materialet kan benyttes 
+av studenter som deltar i det aktuelle emnet, for egne studier, i et­
+hvert format og på enhver plattform. Uten uttrykkelig samtykke er 
+annen eksemplarfremstilling og tilgjengeliggjøring bare tillatt når 
+det er hjemlet i lov (kopiering til privat bruk, sitat o.l.) eller avtale 
+med Kopinor (www.kopinor.no).
+Digitalt framstilt av:
+NTNU Universitetsbiblioteket
+This material is protected by copyright law and is wholly or partly 
+produced by agreement with Kopinor. The material can be used 
+by students who participate in the relevant course, for their own 
+studies, in any format and on any platform. Without expressed 
+consent, other copying and making available is only permitted 
+when authorized by law (copying for private use, quotation, etc.) 
+or agreement with Kopinor (www.kopinor.no).
+Meyer, B., (2018). Making sense of agile methods. IEEE software. 
+Vol. 35(2), s. 91-94
+
+
+0 740-7459/18/$33.00 © 2018 IEEE 
+MARCH/APRIL 2018  |  IEEE SOFTWARE
+91
+Editor: Cesare Pautasso
+University of Lugano
+c.pautasso@ieee.org
+Editor: Olaf Zimmermann
+University of Applied Sciences  
+of Eastern Switzerland, Rapperswil
+ozimmerm@hsr.ch
+INSIGHTS
+Making Sense  
+of Agile Methods
+Bertrand Meyer
+SOME 10 YEARS ago, I realized I 
+had been missing something big in 
+software engineering. I had heard 
+about Extreme Programming (XP) 
+early, thanks to a talk by Pete 
+McBreen at a summer school in 1999 
+and another by Kent Beck himself at 
+TOOLS USA in 2000. But I hadn’t 
+paid much attention to Scrum. When 
+I took a look, I noticed two strik-
+ing discrepancies in the state of agile 
+methods.
+The first discrepancy was be-
+tween university software engineer-
+ing courses, which back then (things 
+have changed) often didn’t cover 
+agility, and the industry buzz, which 
+was only about agility.
+As I started going through the ag-
+ile literature, the second discrepancy 
+emerged: an amazing combination 
+of the best and the worst ideas, plus 
+much in between. In many cases, 
+when faced with a new methodologi-
+cal approach, a person can quickly 
+deploy what in avionics is called 
+Identification Friend or Foe (IFF): 
+will it help or hurt? With agile, IFF 
+ 
+fails. It didn’t help that the tone of 
+most published discussions on ag-
+ile methods (with a few exceptions, 
+notably Balancing Agility and Dis-
+cipline: A Guide for the Perplexed1) 
+was adulatory. Sharing your passion 
+for a novel approach is commend-
+able, but not a reason to throw away 
+your analytical skills. A precedent
+comes to mind: people (including
+me) who championed object-oriented 
+programming a decade or so earlier 
+might at times have let their enthu-
+siasm show, but we didn’t fail to dis-
+cuss cons along with pros.
+ 
+ 
+Beyond the Boasts and Good 
+Intentions
+The natural reaction was to apply a 
+rule that often helps: when curious, 
+teach a class; when bewildered, write 
+a book. Thus was Agile! The Good, 
+the Hype and the Ugly born.2 (Also 
+see the edX online course Agile 
+Software Development; www.edx.org 
+/course/agile-software-development 
+-ethx-asd-1x-0.) My first goal was
+to provide a concise tutorial on agile 
+ 
+ 
+methods, addressing a frequently 
+heard request for a comprehensive, 
+no-frills, news-not-editorial descrip-
+tion of agile concepts. The second 
+goal was analytical: offering an as-
+sessment of agile boasts.
+These 
+boasts 
+are 
+impressive. 
+The title of a recent book by one 
+of the creators of Scrum prom-
+ises “Twice the Work in Half 
+the Time.”3 Wow! I’ll take a produc-
+tivity improvement of four any time. 
+Another book by both of the meth-
+od’s creators informs us, “You have 
+been ill served by the software in-
+dustry for 40 years—not purposely, 
+but inextricably. We want to restore 
+the partnership.”4 No less! (Was any 
+software used in producing that 
+statement?)
+The agile literature has a certain 
+adolescent quality (“No one else un-
+derstands!”), but ideas aren’t born in 
+a vacuum. I quickly realized that the 
+agile movement was best understood 
+as evolution rather than revolution. 
+Although you wouldn’t guess it from 
+some of the agile proclamations, the 
+From the Editors
+Bertrand Meyer runs agile methods and practices through his personal friend-or-foe 
+test. Find out more about his experiences and opinions about the hype, ugly, good, 
+and even brilliant aspects of agile! —Cesare Pautasso and Olaf Zimmermann
+
+
+INSIGHTS
+92 
+IE E E S O F T WA R E  |  W W W.CO M PU T E R .O R G /S O F T WA R E  |  @ I E E E S O F T WA R E
+software engineering communit
+didn’t wait until the Agile Manifest
+(agilemanifesto.org) to recognize th
+importance of change; every tex
+book emphasizes the role of th
+“soft” in “software.” For exampl
+my 1995 book Object Success,5 
+presentation of object technolo
+for managers, advocated desig
+ing for change and stressed the pr
+eminence of code over diagrams an
+documents. For these issues as we
+as for some of the other agile ideas
+the importance of tests, the necessit
+of an iterative process—the agil
+contribution was not to invent co
+cepts but to convince industry t
+adopt them.
+In looking at matters such as su
+port for requirements change, I e
+countered yet another discrepanc
+between grand intentions and tim
+rous advice. It’s great for the Agil
+Manifesto to “welcome change,” b
+producing changeable software is 
+technical issue, not a moral one. 
+is hard to reconcile such lofty goal
+with the deprecation of softwar
+techniques that actually suppo
+change: information hiding, deeme
+ineffective in Leading Lean Sof
+ware Development,6 and design fo
+extension and reuse, pooh-poohe
+in Extreme Programming Installed.
+(Full citations appear in Agile! Th
+Good, the Hype and the Ugly, se
+tions 4.4.4 and 4.4.5.)
+There are more eyebrow-raisin
+agile 
+pronouncements, 
+but 
+w
+shouldn’t let them obscure the a
+ile school’s major contributions. A
+ter all, marketing buzz goes only s
+far; developers and managers, drive
+mostly by pragmatic consideration
+haven’t embraced agile ideas
+more accurately, some agile ideas
+without good reasons. (For my par
+I wouldn’t have spent the better pa
+of four years reading more or les
+y 
+o 
+e 
+t-
+e 
+e, 
+a 
+gy 
+n-
+e-
+d 
+ll 
+—
+y 
+e 
+n-
+o 
+p-
+n-
+y: 
+o-
+e 
+ut 
+a 
+It 
+s 
+e 
+rt 
+d 
+t-
+r 
+d 
+7 
+e 
+c-
+g 
+e 
+g-
+f-
+o 
+n 
+s, 
+— 
+—
+t, 
+rt 
+s 
+the entire agile literature, practic-
+ing agile methods, and qualifying as 
+a proud Certified Scrum Master, if 
+I thought the approach was worth-
+less.) But you need a constantly alert 
+IFF to sort out the best and worst 
+agile ideas.
+Sorting Out the Agile Ideas
+The final chapter of Agile! The 
+Good, the Hype and the Ugly sum-
+marizes the book’s analysis by listing 
+items in each of the three categories, 
+complementing the Good with the 
+subcategory of the truly Brilliant. 
+Here are a few significant examples 
+in each category.
+The Hype
+Let’s start with the Hype, which can 
+also be called the Indifferent: ideas 
+that have been oversold even though 
+their impact is modest. An example 
+is pair programming: the practice 
+of developing software in groups of 
+two people, one at the keyboard and 
+one standing by, speaking out their 
+thought processes to each other. XP 
+prescribes pair programming as the 
+standard practice. One use of pair 
+programming is as a source of re-
+search papers: you can measure and 
+compare the outcome (development 
+time and number of bugs) of two 
+groups working on the same topic, 
+one with pair programming and the 
+other using traditional techniques. 
+Such studies are relatively easy to 
+conduct using student projects in 
+a university software engineering 
+course.
+These studies, of which there 
+are many, show that pair program-
+ming has no significant advantage 
+or disadvantage compared to other 
+techniques such as code inspection 
+(for example, see “Two Controlled 
+Experiments Concerning the Com-
+parison of Pair Programming to Peer 
+Review”8). The truth is that pair 
+programming is an interesting prac-
+tice, to be used on occasion, typically 
+for a tricky part of the development 
+requiring competence from two dif-
+ferent areas, but there’s no reason 
+to impose it as the sole mode of de-
+velopment. It’s also easy to misuse 
+by confusing it with mentoring, an 
+entirely different idea.
+Other examples of the Indiffer-
+ent include the role of open spaces 
+(although office layout deserves at-
+tention, some of the best software 
+was developed in garages), self- 
+organizing teams (different projects 
+and different contexts will require 
+different styles of project manage-
+ment), and the charming invention 
+of planning poker.
+The Ugly
+More worrying are the agile recom-
+mendations that fall into the Ugly 
+category. Perhaps the most damag-
+ing is the widespread rejection of 
+“Big Up-Front Everything”: up-front 
+requirements, up-front design. For a 
+typical example, see “Agile Design: 
+Intentional yet Emergent.”9 The ra-
+tionale is understandable: some proj-
+ects spend too much time in general 
+preliminary discussions, a phenom-
+enon sometimes called analysis pa-
+ralysis, and we should strive instead 
+to start some actual coding early.
+This healthy reaction doesn’t jus-
+tify swinging the pendulum to the 
+other extreme. No serious engineer-
+ing process can skip an initial step 
+of careful planning. It is good to put 
+limits on it but irresponsible to re-
+move it. The project failures I tend 
+to see nowadays in my role as a con-
+sultant (or project rescuer) are often 
+due to an application of this ag-
+ile rule: “We don’t need no stinkin’ 
+requirements phase; we’re agile. 
+Let’s just produce user stories and 
+
+
+INSIGHTS
+ 
+M A R CH /A PR I L 2018  |  IE E E S O F T WA R E 
+93
+implement them as we go.” A sure 
+the same breath as completely rea-
+but not so long ago was the norm) of 
+way to disaster.
+sonable ideas—in agile texts. As I 
+splitting the task into large chunks 
+User stories themselves also fall 
+come to the Good and the Brilliant, 
+leading to separate subprojects, and 
+into the Ugly. They are a good way 
+it’s useful to include an example of 
+trying to reconcile them months 
+to validate requirements by ensuring 
+a technique that, depending on how 
+down the road. The splitting is easy; 
+that the requirements handle com-
+you use it, qualifies as part of either 
+it’s the reconciliation that can be a 
+monsense user interaction scenarios, 
+the worst or the best.
+nightmare. Divergent assumptions, 
+but an insufficient basis for speci-
+I mentioned that, at the beginning 
+often implicit, preside over the de-
+fying requirements. A user story 
+of the last decade, agile methods had 
+sign of the various components and 
+describes one case; piling up case 
+found their way into industry but not 
+propagate into the depths of each of 
+over case doesn’t give you a specifi-
+academia. Students learn their trade 
+them, rendering them incompatible. 
+cation. What it gives you is a system 
+not just from courses but also from 
+The only remedy is to catch such di-
+that handles the user stories—the ex-
+summer internships in industry. In 
+vergence right away.
+act planned scenarios—and possibly 
+one of my first classes as a newly 
+Although iterative development 
+nothing else.
+minted professor in 2002, I gave a 
+isn’t an agile invention, agile made 
+In Agile! The Good, the Hype 
+lecture on software design. A third-
+it the default and particularly pro-
+and the Ugly, I cite at length the 
+year student came to me afterward 
+moted the use of short iterations. 
+work of Pamela Zave from AT&T, 
+and asked why I was still teaching 
+(“Short” has evolved to mean in-
+who has for decades studied feature-
+such nonsense. Everyone knows, he 
+creasingly shorter. Just a few years 
+based design of telecommunication 
+said, that nowadays no one does de-
+ago, promoting six-week sprints 
+systems. (A collection of Zave’s re-
+sign; we just produce “the simplest 
+sounded audacious. Today we’re 
+search papers on requirements and 
+thing that can possibly work” and 
+hearing about one-week or some-
+other topics is at www.research.att 
+then refactor. I was stunned (not 
+times one-day sprints. This isn’t 
+.com/people/Zave_Pamela/custom 
+having realized how far XP ideas 
+even taking into account the spread 
+/indexCustom.html.) The problem 
+had percolated).
+of DevOps processes with their 
+with individual features is that they 
+He was wrong: no magic process 
+rapid fine-grain interleaving of 
+interact with each other. Such in-
+can, through refactoring, turn bad 
+develop ment, testing, and deploy-
+teractions, often subtle, doom any 
+design into good. Refactoring junk 
+ment.) Continuous integration and 
+method that tells you to build a sys-
+yields junk. Understood this way, 
+continuous testing are natural com-
+tem by just implementing feature af-
+refactoring would fall into the Ugly. 
+plements to this core idea. These and 
+ter feature. Everything will look fine 
+Yet refactoring also belongs to the 
+a number of other agile precepts are 
+until you suddenly discover that the 
+Good by teaching us that we should 
+truly Good.
+next user story conflicts with previ-
+never be content with a first software 
+ously implemented ones, and you 
+version simply because it works. In-
+Finally, the Brilliant
+have to go back and rethink every-
+stead, we should apply the systematic 
+I mentioned that some of the Good 
+thing. Although no universally ac-
+habit of questioning our designs and 
+deserves an upgrade to Brilliant. 
+cepted answer exists to the question 
+looking into what could be done bet-
+Here are just two examples. Both 
+of how best to write requirements, 
+ter. In other words, whatever the stu-
+are ideas that figure in the agile lit-
+object-oriented analysis, which looks 
+dent thought, the right approach is 
+erature, although with less emphasis 
+past individual scenarios to uncover 
+to work hard, up front, on producing 
+than others that, to me at least, are 
+the underlying data abstractions, is a 
+a good design—and later on to make 
+less significant.
+good start (see chapter 27 of Object-
+it even better through refactoring.
+The first deserves substantial dis-
+Oriented Software Construction10).
+Some other positive contributions 
+cussion, but I will just state it: no 
+of agile methods are for everyone to 
+branching. Repeat after me: branch-
+Toward the Good
+see, because agile ideas have already 
+ing is evil. The second appears in 
+Rejections of up-front tasks and reli-
+exerted a major influence on soft-
+Scrum texts, but without a name; I 
+ance on user stories for requirements 
+ware development. Most visibly, no 
+call it the Closed-Window Rule. It 
+are examples of the harmful advice 
+project in its right mind would go 
+states that the list of tasks for an it-
+you’ll find proffered—sometimes in 
+into the scheme (which looks crazy, 
+eration (a sprint, which, as noted, is 
+
+
+INSIGHTS
+94 
+IE E E S O F T WA R E  |  W W W.CO M PU T E R .O R G /S O F T WA R E  |  @ I E E E S O F T WA R E
+short) can’t grow. No matter who re-
+advantage of the Good and Brilliant. 
+quests an addition—queen, hero, or 
+Industry, which usually has its feet
+laborer—everyone will be told “no.” 
+solidly on the ground, understood
+The proposed functionality will have 
+this situation early. Despite some
+to wait until the next sprint.
+agile proponents’ absolutist claims
+There’s an escape mechanism (an 
+(adopt every single one of my pre-
+exception in programming-language 
+cepts, or else …), every project I’ve
+terms): if the addition is truly essen-
+seen embraces a subset of the chosen 
+tial, you can cancel the sprint and 
+method’s ideas, rejecting those that
+start afresh. This possibility will ad-
+don’t fit its culture or needs.
+dress truly urgent cases but is so ex-
+Agile methods are no panacea.
+treme as to be used only rarely. The 
+Like most human endeavors, they
+beauty of the Closed-Window Rule 
+have their dark side, but that hasn’t
+is that it brings stability to software 
+prevented them from improving the
+projects, preventing the constant in-
+practice of software development
+flux of supposedly good ideas that dis-
+in concrete ways. In any case, they
+rupt the development. Some of those 
+don’t invalidate the knowledge of
+ideas might not look so good when 
+software engineering accumulated
+you wake up sober the next morn-
+over the preceding decades. Some of
+ing; the Closed-Window Rule fosters 
+their beneficial insights contradict
+a process of attrition and selection in 
+specific elements of this traditional
+which only the fittest ideas survive.
+wisdom, but for the most part they
+These survivors won’t have that 
+complement and expand it.
+long to wait. The rule would be un-
+Agile is not a negation of what
+workable with the long steps of old-
+came before. It is one more brick in
+style project development, but with a 
+the patient construction of the mod-
+typical one-month sprint, the aver-
+ern software engineering edifice. 
+age delay will be two weeks, during 
+which the ideas will get the oppor-
+References
+tunity to mature. Few suggestions 
+1. B. Boehm and R. Turner, Balanc-
+of added functionality are so critical 
+ing Agility and Discipline: A Guide 
+that they cannot wait two weeks.
+for the Perplexed, Addison-Wesley, 
+B
+2003.
+ 2. B. Meyer, Agile! The Good, the Hype 
+enefitting from agile meth-
+and the Ugly, Springer, 2014.
+ods is a matter of spot-
+ 3. J. Sutherland, Scrum: The Art of Do-
+ting and rejecting the Ugly, 
+ing Twice the Work in Half the Time, 
+ignoring the Hype, and taking 
+Random House, 2015.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+4. K. Schwaber and J. Sutherland, Soft-
+ware in 30 Days: How Agile Manag-
+ers Beat the Odds, Delight Their 
+Customers, and Leave Competitors 
+in the Dust, John Wiley & Sons, 
+2012.
+ 5. B. Meyer, Object Success: A Manag-
+er’s Guide to Object Orientation, Its 
+Impact on the Corporation and Its 
+Use for Reengineering the Software 
+Process, Prentice Hall, 1995.
+ 6. M. Poppendieck and T. Poppendieck, 
+Leading Lean Software Develop-
+ment, Addison-Wesley, 2010.
+ 7. R. Jeffries, A. Anderson, and C. 
+Hendrickson, Extreme Programming 
+Installed, Addison-Wesley, 2001.
+ 8. M. Müller, “Two Controlled Experi-
+ments Concerning the Comparison of 
+Pair Programming to Peer Review,”  
+J. Systems and Software, vol. 78,  
+no. 2, 2005, pp. 166–179.
+ 9. M. Cohn, “Agile Design: Intentional 
+yet Emergent,” blog, 4 Dec. 2009; 
+www.mountaingoatsoftware.com 
+/blog/agile-design-intentional-yet 
+-emergent.
+ 10. B. Meyer, Object-Oriented Software 
+Construction, 2nd ed., Prentice Hall, 
+1997.
+ABOUT THE AUTHOR
+BERTRAND MEYER is a professor of software engineering at Politecnico 
+di Milano and Innopolis University. Contact him at bertrand.meyer@inf 
+.ethz.ch.
+Read your subscriptions 
+through the myCS 
+publications portal at 
+http://mycs.computer.org

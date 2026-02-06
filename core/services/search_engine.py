@@ -17,7 +17,7 @@ from dataclasses import dataclass
 from ..models.search_result import SearchResult, SearchResultType
 from ..database.qdrant_client import QdrantManager, SearchPoint
 from .embedding_service import EmbeddingService
-from ..config.settings import Settings
+from ..config import Settings
 
 
 @dataclass

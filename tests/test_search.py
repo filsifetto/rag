@@ -9,7 +9,7 @@ from core.services.search_engine import HybridSearchEngine, QueryAnalyzer, Searc
 from core.services.embedding_service import EmbeddingService, EmbeddingResult
 from core.database.qdrant_client import QdrantManager, SearchPoint
 from core.models.search_result import SearchResult, SearchResultType
-from core.config.settings import Settings
+from core.config import Settings
 
 
 @pytest.fixture

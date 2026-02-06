@@ -16,7 +16,7 @@ from pathlib import Path
 project_root = Path(__file__).parent.parent
 sys.path.insert(0, str(project_root))
 
-from core.config.settings import Settings
+from core.config import Settings
 from core.database.qdrant_client import QdrantManager
 from rich.console import Console
 from rich.progress import Progress, SpinnerColumn, TextColumn

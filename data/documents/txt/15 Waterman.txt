@@ -1,0 +1,315 @@
+Dette materialet er vernet etter åndsverkloven og er helt eller 
+delvis fremstilt etter avtale med Kopinor. Materialet kan benyttes 
+av studenter som deltar i det aktuelle emnet, for egne studier, i et­
+hvert format og på enhver plattform. Uten uttrykkelig samtykke er 
+annen eksemplarfremstilling og tilgjengeliggjøring bare tillatt når 
+det er hjemlet i lov (kopiering til privat bruk, sitat o.l.) eller avtale 
+med Kopinor (www.kopinor.no).
+Digitalt framstilt av:
+NTNU Universitetsbiblioteket
+This material is protected by copyright law and is wholly or partly 
+produced by agreement with Kopinor. The material can be used 
+by students who participate in the relevant course, for their own 
+studies, in any format and on any platform. Without expressed 
+consent, other copying and making available is only permitted 
+when authorized by law (copying for private use, quotation, etc.) 
+or agreement with Kopinor (www.kopinor.no).
+Waterman, M. (2018). Agility, risk, and uncertainty, part 1: 
+Designing an agile architecture. IEEE software. Vol. 35(2), s. 99-101 
+
+
+0 740-7459/18/$33.00 © 2018 IEEE 
+M A R CH /A PR I L 2018  |  IEEE SOFTWARE
+99
+THE PRAGMATIC  
+ARCHITECT
+Editor: Eoin Woods
+Endava 
+eoin.woods@endava.com
+Agility, Risk, and 
+Uncertainty, Part 1: 
+Designing an Agile 
+Architecture
+Michael Waterman
+SOFTWARE ARCHITECTS IN ag-
+ile environments face the dilemma
+of determining how much effort
+goes into architecting up front, be-
+fore development starts. This is
+an issue that agile methodologies
+and frameworks don’t address and
+that’s becoming more critical as ag-
+ile development gets used for a wider 
+range of problems. This article is the 
+first of two that discuss findings of
+my recent research based on the ex-
+periences of 44 agile practitioners,1
+to help shed light on the problem.
+If architects (whether individual
+architects or the development team
+as a whole) spend too much time ar-
+chitecting up front, they’ll struggle
+to be agile. This is partly because
+they’re making architectural deci-
+sions too early—decisions that could 
+later prove to be wrong or subject to 
+change. It’s also because this exces-
+sive effort will delay development
+and the opportunity for early cus-
+tomer feedback.
+On the other hand, too little ar-
+chitecting results in ad hoc deci-
+sions that might not support the
+system’s architecturally significant
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+requirements—the requirements that 
+impact the architecture. If the team 
+is spending all its time fixing archi-
+tectural problems that should have 
+been thought through up front, it’s 
+not delivering customer value. And, 
+just as if the team spent too much 
+time architecting, it will struggle to 
+be agile.
+Somewhere in between is the op-
+timal level of architecting that maxi-
+mizes the team’s architectural agility. 
+How can we determine this optimal 
+level? To answer that, we must re-
+alize that the optimal level depends 
+highly on the team’s context. This 
+context includes whether the require-
+ments are stable, the amount of tech-
+nical risk, how early the customer 
+wants to start using the system (per-
+haps earning revenue from it), the 
+team’s agility, how agile-friendly the 
+team’s environment is (such as busi-
+ness and administration or project 
+stakeholders), and the team’s archi-
+tectural and technical experience.
+The Agile Architecture
+The context determines the team’s 
+ability to design an agile architecture— 
+one that supports the team’s agility 
+and hence its ability to respond to 
+change. I define agile architecture us-
+ing two dimensions:
+• It has been designed using an 
+agile process.
+• It’s modifiable and tolerant of 
+change.
+The former means that the architec-
+ture isn’t a static set of decisions—it 
+evolves as the system evolves and as 
+the team revisits architectural deci-
+sions. The latter means that the ar-
+chitecture can adapt more easily as 
+the system changes.
+Neither dimension by itself is nec-
+essarily sufficient for the architec-
+ture to be agile. An architecture can 
+be designed using an agile process 
+but not be particularly modifiable 
+and tolerant of change. As Simon 
+Brown said, “In my experience … 
+teams are more focused on deliver-
+ing functionality rather than looking 
+after their architecture.”2 An archi-
+tecture can be designed to be modifi-
+able and tolerant of change, but if it’s 
+not designed using an agile process, 
+Authorized licensed use limited to: Norges Teknisk-Naturvitenskapelige Universitet. Downloaded on December 17,2020 at 12:06:00 UTC from IEEE Xplore.  Restrictions apply. 
+
+
+100 
+IE E E S O F T WA R E  |  W W W.CO M PU T E R .O R G /S O F T WA R E  |  @ I E E E S O F T WA R E
+it can’t fully welcome change (the 
+system grows and the requirements 
+second principle of the Agile Mani-
+evolve. However, that’s desirable be-
+festo; agilemanifesto.org) as an in-
+cause the decisions are delayed until 
+trinsic characteristic.
+the team has the best understanding 
+My research found that teams 
+about how to implement them.
+design agile architectures using five 
+Proving the architecture with
+tactics:
+code iteratively means simultaneous 
+design and development, which is 
+• Keep designs simple.
+particularly useful if uncertainty ex-
+• Prove the architecture with code 
+ists about whether the architecture 
+iteratively.
+will meet the requirements. Simul-
+• Use good design practices.
+taneous design and coding lets the 
+• Delay decision making.
+team prove the architecture with real 
+• Plan for options.
+code, rather than through analysis, 
+and refine the design if necessary. 
+Each tactic differently impacts the 
+This lets the team come up with the 
+required responsiveness to change 
+simplest solution that works. So, like 
+and the amount of up-front design. 
+the simplicity tactic, this increases 
+Table 1 summarizes these impacts.
+modifiability and reduces the up-
+Keeping designs simple is all 
+front effort.
+about designing only for what’s im-
+Good design practices to improve 
+mediately required: no overengineer-
+modifiability include separation of 
+ing or gold-plating, no designing 
+concerns (for example, service-oriented 
+for what might be required (called 
+architecture, microservices, and en-
+YAGNI—You Ain’t Gonna Need It— 
+capsulated modules) and using qual-
+in Extreme Programming3). Simplic-
+ity management tools to ensure good 
+ity reduces the detail in the design 
+design at the class level. Although 
+and the up-front effort. It increases 
+good design practices should be an 
+the ease with which the design can 
+architect’s goal no matter what de-
+be modified because there’s less de-
+velopment process he or she uses, 
+sign to change. Of course, simplic-
+they’re especially important in agile 
+ity guarantees that the architecture 
+development because they reduce the 
+will need to be updated later as the 
+effort required to change the design. 
+ 
+Good design practices don’t reduce 
+the up-front effort; indeed, they can 
+increase it because they require ex-
+tra discipline. However, the bene-
+fits they bring are worth that extra 
+effort2 because changes can be iso-
+lated and limited to small parts of 
+the system.
+Delaying decision making is re-
+lated to simplicity: this tactic aims 
+to reduce the impact of trying to pre-
+dict requirements that aren’t fully 
+understood yet. Decisions are left 
+as late as possible without delaying 
+development, which allows the team 
+as much time as possible to under-
+stand the requirements. Delaying 
+decisions makes the architectural 
+decisions more tolerant of change: 
+fewer decisions must be revisited as 
+requirements change, and the design 
+requires less change.
+Planning for options means the 
+team makes decisions that retain 
+flexibility and don’t close off future 
+options. The architecture is designed 
+to be easily extended. Although 
+planning for options is related to 
+good design practices, it’s less about 
+general modularity and encapsula-
+tion and more about understanding 
+what might need changing later and 
+ensuring that the design isn’t opti-
+mized so much that it makes those 
+changes difficult. This tactic doesn’t 
+reduce up-front effort (and might 
+increase it if, for example, the team 
+uses extra levels of indirection to 
+make changes to a particular tech-
+nology layer easier).
+The participants in my research 
+used some or all of these five tac-
+tics to produce smaller, simpler, 
+and more agile architecture designs 
+that grow and evolve as the partici-
+pants’ understanding of the systems 
+develops. Hence, these tactics sup-
+port their teams’ ability to respond 
+to change.
+Table 1. Tactics for designing agile architecture and 
+their impacts.
+Tactic
+Impact on responsiveness to 
+change
+Reduces up-front design 
+effort?
+Keep designs simple
+Increases modifiability
+Yes
+Prove the architecture with 
+code iteratively
+Increases modifiability
+Yes
+Use good design practices
+Increases modifiability
+No
+Delay decision making
+Increases tolerance to change
+Yes
+Plan for options
+Increases tolerance to change
+No
+Authorized licensed use limited to: Norges Teknisk-Naturvitenskapelige Universitet. Downloaded on December 17,2020 at 12:06:00 UTC from IEEE Xplore.  Restrictions apply. 
+
+
+THE PRAGMATIC ARCHITECT
+M A R CH /A PR I L 2018  |  IE E E S O F T WA R E
+101
+I
+n tension with minimizing de-
+sign effort and deferring deci-
+sions as long as possible is the 
+architect’s need to reduce technical 
+risk. Risk has a big impact on archi-
+tects’ ability to design an agile archi-
+tecture and thus how much up-front 
+design they do. I’ll discuss this im-
+pact in Part 2. 
+References
+1. M. Waterman, J. Noble, and G. 
+Software Eng. (ICSE 15), 2015, pp. 
+3. M. Fowler, “Is Design Dead?,” Ex-
+Allen, “How Much Up-Front? A 
+347–357.
+treme Programming Examined, G. 
+Grounded Theory of Agile Archi-
+2. S. Brown, Software Architecture for 
+Succi and M. Marchesi, eds., Addison-
+tecture,” Proc. 2015 Int’l Conf. 
+Developers, Leanpub, 2013.
+Wesley Longman, 2001, pp. 3–17.
+ABOUT THE AUTHOR
+MICHAEL WATERMAN is a solution architect at Specialised Architecture 
+Services. Contact him at mike@specarc.co.nz.
+www.computer.org/silverbullet
+*Also available at iTunes
+This series of in-depth interviews with 
+prominent security experts features Gary 
+McGraw as anchor. IEEE Security & Privacy 
+magazine publishes excerpts of the 20-minute 
+conversations in article format each issue.
+Authorized licensed use limited to: Norges Teknisk-Naturvitenskapelige Universitet. Downloaded on December 17,2020 at 12:06:00 UTC from IEEE Xplore.  Restrictions apply. 

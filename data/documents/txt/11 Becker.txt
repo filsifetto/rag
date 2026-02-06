@@ -1,0 +1,1239 @@
+Dette materialet er vernet etter åndsverkloven og er helt eller 
+delvis fremstilt etter avtale med Kopinor. Materialet kan benyttes 
+av studenter som deltar i det aktuelle emnet, for egne studier, i et­
+hvert format og på enhver plattform. Uten uttrykkelig samtykke er 
+annen eksemplarfremstilling og tilgjengeliggjøring bare tillatt når 
+det er hjemlet i lov (kopiering til privat bruk, sitat o.l.) eller avtale 
+med Kopinor (www.kopinor.no).
+Digitalt framstilt av:
+NTNU Universitetsbiblioteket
+This material is protected by copyright law and is wholly or partly 
+produced by agreement with Kopinor. The material can be used 
+by students who participate in the relevant course, for their own 
+studies, in any format and on any platform. Without expressed 
+consent, other copying and making available is only permitted 
+when authorized by law (copying for private use, quotation, etc.) 
+or agreement with Kopinor (www.kopinor.no).
+Becker, C., Betz, S. m.fl. (2016). Requirements: The key to sustainability. IEEE 
+software. Vol. 33(1), s. 56-65
+
+
+56 
+IEEE SOFTWARE  |  PUBLISHED BY THE IEEE COMPUTER SOCIETY 
+0 7 4 0 - 7 4 5 9 /1 6 /$ 3 3 . 0 0  ©  2 016 IEEE
+Requirements: 
+The Key to 
+Sustainability
+Christoph Becker, University of Toronto
+Stefanie Betz, Karlsruhe Institute of Technology
+Ruzanna Chitchyan, University of Leicester
+Leticia Duboc, State University of Rio de Janeiro
+Steve M. Easterbrook, University of Toronto
+Birgit Penzenstadler, California State University, Long Beach
+Norbert Seyff, University of Applied Sciences  
+and Arts Northwestern Switzerland
+Colin C. Venters, University of Huddersfield
+// Software’s critical role in society demands a 
+paradigm shift in the software engineering mind-set. 
+This shift is driven by requirements engineering. //
+SOFTWARE SYSTEMS are a major 
+in other technical systems and in so-
+driver of social and economic activ-
+cioeconomic and natural systems. 
+ity. Software engineering (SE) tends 
+This embedding is obvious when the 
+to focus on the technical elements—
+interaction is explicit, such as envi-
+artificial systems with clear bound-
+ronmental monitoring or flight con-
+aries and identifiable parts and con-
+trol software.
+nections, modules and dependencies. 
+However, software-intensive sys-
+But software systems are embedded 
+tems have become so essential to 
+societies that the resulting sociotech-
+nical systems’ boundaries and inter-
+actions are often hard to identify. 
+For example, communication, travel 
+booking, and procurement systems 
+influence the socioeconomic and 
+natural environment through far-
+reaching effects on how we form re-
+lationships, how we travel, and what 
+we buy. The engineering process 
+rarely makes these effects explicit. 
+Their lack of visibility makes assess-
+ing a software system’s long-term and 
+cumulative impacts difficult.
+Designing for sustainability is a 
+major challenge that can profoundly 
+change SE’s role in society. But what 
+does it mean to establish sustain-
+ability as a major concern in SE? As 
+software engineers, we’re responsible 
+for our software’s long-term conse-
+quences, irrespective of the primary 
+purpose of the system we’re design-
+ing. Requirements are the key lever-
+age point for practitioners who want 
+to develop sustainable software-
+intensive systems. Here, we pre sent 
+two examples that illustrate the 
+changes needed in SE and show how 
+considering sustainability explicitly 
+will affect requirements activities.
+Sustainability in 
+Software Engineering
+Sustainability is the capacity to en-
+dure, so a system’s sustainability de-
+scribes how well it will continue to 
+exist and function, even as circum-
+stances change. Sustainability has of-
+ten been equated with environmental 
+issues, but it’s increasingly clear that 
+it requires simultaneous consider-
+ation of environmental resources, so-
+cietal and individual well-being, eco-
+nomic prosperity, and the long-term 
+viability of technical infrastructure.
+A technical system’s sustainabil-
+ity differs considerably from that of 
+a socioeconomic system. Software 
+FOCUS: THE FUTURE OF SOFTWARE ENGINEERING
+
+
+ 
+JANUARY/FEBRUARY 2016  |  IE E E S O F T WA R E 
+57
+engineers tend to focus on sustain-
+ability’s 
+technical 
+dimension, 
+in
+which it’s simply a measure of the 
+software system’s longevity.1 How-
+ever, to understand broader sustain-
+ability issues, we must ask which sys-
+tem to sustain, for whom, over which 
+time frame, and at what cost.2 This 
+involves five interrelated dimensions:3
+• The individual dimension covers 
+individual freedom and agency 
+(the ability to act in an environ-
+ment), human dignity, and ful-
+fillment. It includes individuals’ 
+ability to thrive, exercise their 
+rights, and develop freely.
+• The social dimension covers re-
+lationships between individuals 
+and groups. For example, it cov-
+ers the structures of mutual trust 
+and communication in a social 
+system and the balance between 
+conflicting interests.
+• The economic dimension covers 
+financial aspects and business 
+value. It includes capital growth 
+and liquidity, investment ques-
+tions, and financial operations.
+• The technical dimension covers 
+the ability to maintain and evolve 
+artificial systems (such as soft-
+ware) over time. It refers to main-
+tenance and evolution, resilience, 
+and the ease of system transitions.
+• The environmental dimension 
+covers the use and stewardship 
+of natural resources. It includes 
+questions ranging from immedi-
+ate waste production and energy 
+consumption to the balance of 
+local ecosystems and climate 
+change concerns.
+Complex software-intensive sys-
+tems can affect sustainability in any 
+of these dimensions. Changes in one 
+system, in one dimension, often have 
+impacts in other dimensions and other 
+ 
+systems. For example, consider a hard-
+to-maintain software system (technical 
+sustainability). Excessive maintenance 
+costs affect the owning company’s fi-
+nancial liquidity (social and economic 
+sustainability). This might limit its
+growth and even threaten its survival 
+(economic sustainability).
+Similar tradeoffs occur across
+other dimensions. For example, car-
+bon offsets incentivize environmen-
+tally sustainable behavior through
+tradeoffs with the economic dimen-
+sion. The triple-bottom-line perspec-
+tive requires a business to account for 
+ 
+ 
+ 
+social and environmental as well as
+financial outcomes.4 The correspond-
+ing business practices have led to a
+surge in the number of social enter-
+prises, which achieve survival rates
+above average for new businesses.5
+Increasingly, software engineers
+need to understand the effects by
+which software system design de-
+cisions can enable or undermine
+the sustainability of socioeconomic
+and natural systems over time (see
+the sidebar, “Classifying the Sys-
+temic Effects of Software”). Be-
+cause sustainability is inherently
+multidisciplinary, any effort to de-
+fine it involves concepts, principles,
+and methods from a range of disci-
+plines and makes an integrated view 
+crucial for effective system design.
+The notion of sustainability design
+brings these concerns together using 
+systems-thinking principles (see the
+sidebar, “Sustainability Principles
+for Software Engineering”).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+A Tale of Two Projects
+A software system’s impact on its 
+environment is often determined by 
+how the software engineers under-
+stand its requirements. This impact’s 
+foundation is set in the decisions 
+on which system to build (if any at 
+all), the choices of whom to ask and 
+whom to involve, and the specifica-
+tion of what constitutes success.
+The following examples describe 
+two projects to develop a procure-
+ment system that supports purchas-
+ing products and contracting services 
+in a private company in the energy 
+sector. Products, services, and sup-
+pliers must pass the company’s ap-
+proval process and be registered in 
+the system before a purchase. This 
+approval considers the supplier’s re-
+liability, capacity to deliver, and, in 
+some cases, adherence to interna-
+tional standards of environmental 
+management, health, and safety.
+The examples are inspired by a 
+real-world project.6 The first exam-
+ple reflects typical software projects, 
+which don’t use sustainability de-
+sign. The second shows what could 
+happen if a project applied sustain-
+ability design. Terms in italics in-
+dicate aspects that are common to 
+both projects, for easy comparison.
+Development without  
+Sustainability Design
+The project’s purpose is to maximize 
+the organization’s procurement effi-
+ciency, increase the financial return, 
+and ensure suppliers’ compliance 
+We need to consider systems’ immediate 
+features and effects and their longer-
+running aggregate and cumulative impact.
+
+
+58 
+IE E E S O F T WA R E  |  W W W.CO M PU T E R .O R G /S O F T WA R E  |  @ I E E E S O F T WA R E
+FOCUS: THE FUTURE OF SOFTWARE ENGINEERING
+with certain rules. The criteria for 
+the show.” A few influential stake-
+selecting products and services focus 
+holders determine the project scope 
+on price, delivery time, and payment 
+early on so that the project can fo-
+conditions.
+cus on a minimal design scope to
+Using a stakeholder influence ma-
+maximize project speed. The proj-
+trix, the project leader focuses on 
+ect team moves swiftly to determine 
+those stakeholders who can “stop 
+the boundaries of the software to be; 
+ 
+the only scoping questions revolve 
+around the software’s interfaces 
+with neighboring systems.
+The project’s success criteria 
+are to develop and deliver the sys-
+tem within the given budget and 
+time. The question of feasibility 
+centers on the software project in-
+vestment’s expected amortization 
+period. Risk analysis focuses on eco-
+nomic risks that could inhibit project 
+completion.
+Requirements elicitation requests 
+stakeholders’ input through struc-
+tured forms to identify what they 
+want the system to do. Additionally, 
+the team analyzes previous systems 
+and consults business process docu-
+ments. Requirements prioritization 
+is determined by functional require-
+ments and economic constraints and 
+is completed quickly because the 
+core stakeholder group has a strong 
+consensus.
+The requirements specification is 
+documented following the software 
+requirements specifications template 
+from IEEE Standard 830. System 
+measurement and monitoring em-
+ploy performance and availability in-
+dicators. The system is completed on 
+time and within budget and shows 
+a reasonably low rate of faults, so 
+the project is considered a success at 
+completion.
+Development  
+with Sustainability Design
+Consider conducting the same proj-
+ect while treating sustainability as a 
+first-class concern in line with sus-
+tainability design principles (see the 
+sidebar, “Sustainability Principles 
+for Software Engineering”).
+While discussing the project’s 
+purpose, the initial project team 
+discusses the company’s values 
+and responsibilities and identi-
+fies opportunities to support the 
+CLASSIFYING  
+THE SYSTEMIC EFFECTS  
+OF SOFTWARE
+Many critical effects in sociotechnical systems play out over time. So, we need to 
+consider not just our systems’ immediate features and effects but their longer-
+running aggregate and cumulative impact. We distinguish three orders of effects.1
+Immediate effects are the direct effects of the production, use, and disposal 
+of software systems. This includes the immediate benefit of system features and 
+the full life-cycle impacts, such as a life-cycle assessment (LCA) would include. 
+An LCA evaluates the environmental impact of a product’s life from the extrac-
+tion of raw materials to its disposal or recycling.
+Enabling effects arise from a system’s application over time. This includes not 
+only opportunities to consume more (or fewer) resources but also other changes 
+induced by system use.
+Structural effects represent “persistent changes observable at the macro lev-
+el. Structures emerge from the entirety of actions at the micro level and, in turn, 
+influence these actions.”1 Ongoing use of a new software system can lead to 
+shifts in capital accumulation; drive changes in social norms, policies, and laws; 
+and alter our relationship with the natural world.
+Consider Airbnb.com. Its immediate effects include resources consumed and 
+jobs created during its development, energy consumed during its deployment, 
+and the room renting and booking services it offers. Its enabling effects include 
+changes in how its users make travel arrangements as alternatives to hotel 
+bookings and in how property owners rent out space.
+These enabling effects (the “sharing economy”) have been both praised and 
+criticized for their far-reaching structural impacts. For example, Airbnb repre-
+sents a substantial share of the buy-to-let market in major cities. The continuing 
+price surges in these cities’ hot spots have been linked to the density of buy-to-
+let properties. Many of these exist only because of the arbitrage that services 
+such as Airbnb.com provide. The system enables transactions that provide a 
+higher return on investment than long-term rentals. This has caused major con-
+cerns in several large cities.
+Reference
+ 1. L.M. Hilty and B. Aebischer, “ICT for Sustainability: An Emerging Research Field,” ICT Innova-
+tions for Sustainability, Springer, 2015, pp. 3–36.
+
+
+ 
+JANUARY/FEBRUARY 2016  |  IE E E S O F T WA R E 
+59
+company’s 
+sustainable 
+develop-
+ment. For example, the system can 
+support sustainability in the supply 
+chain by making transparent the
+carbon footprint of purchases and
+facilitating the selection of provid-
+ers who apply sustainable practices. 
+This doesn’t change the overall
+project objectives, but it influences 
+subsequent steps.
+The scope of analysis starts with 
+an inclusive, integrated view of the 
+procurement 
+processes, 
+material
+flows into the company, and the lo-
+cal community’s social and political 
+environment. When defining possi-
+ble system boundaries, the team ex-
+periments with multiple perspectives 
+and works jointly with the procure-
+ment department and others.
+The team expands the set of stake-
+holders and draws on knowledge be-
+yond the team by using a stakeholder 
+impact analysis. This analysis con-
+siders enabling and structural effects 
+to identify those most affected by the 
+project, including those external to
+the company. Stakeholders include
+local supplier representatives, service 
+delivery organizations, process ana-
+lysts, the chief technology officer,
+and the strategic-planning and fore-
+sight group.
+To keep the number of stakehold-
+ers manageable, a sustainability ex-
+pert acts as a surrogate stakeholder 
+for others in the community and the 
+further environment that the system 
+might affect. A team member is as-
+signed to each of the five sustain-
+ability dimensions so that responsi-
+bility for identifying possible effects 
+is clear and effective communica-
+tion with additional stakeholders
+can take place. These team mem-
+bers consult relevant experts in areas 
+such as supply chain sustainability,
+carbon accounting, and socially re-
+sponsible procurement. They also
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+consult anthropologists analyzing 
+time and within budget, but will be 
+and interpreting current technologi-
+measured and monitored over the 
+cal developments and their impact 
+36 months  after project comple-
+on society.
+tion. In this period, the team will 
+The team agrees that the proj-
+measure a set of indicators covering 
+ect’s success criteria are not re-
+the five sustainability dimensions. It 
+stricted to whether it’s delivered on 
+will try to measure
+SUSTAINABILITY 
+PRINCIPLES FOR 
+SOFTWARE ENGINEERING
+The following principles are based on “Sustainability Design and Software: The 
+Karlskrona Manifesto.”1
+• Sustainability is systemic; a system can never be treated in isolation from 
+its environment.
+• Sustainability is multidimensional; the five key dimensions are economic, 
+social, environmental, technical, and individual.
+• Sustainability is interdisciplinary; sustainability design in software engineer-
+ing requires an appreciation of concepts from other disciplines and must 
+work across disciplines.
+• Sustainability transcends the software’s purpose; any software can impact 
+the sustainability of its socioeconomic, sociotechnical, cultural, and natural 
+environments.
+• Sustainability is multilevel; it requires us to consider at least two spheres 
+during system design: the system under design and its sustainability, and 
+the wider system of which it will be part.
+• Sustainability is multi-opportunity; it requires us to seek interventions that 
+have the most leverage on a system2 and to consider the opportunity costs.
+• Sustainability involves multiple timescales; it requires long-term thinking to 
+address the timescales on which sustainability effects occur.
+• Sustainability isn’t zero-sum; changing a system’s design to consider the 
+long-term effects doesn’t automatically imply making sacrifices now.
+• System visibility is a necessary precondition and enabler for sustainability 
+design. This is because only a transparent status of the system and its 
+context, made visible at different abstraction levels and perspectives, can 
+enable system designers to make informed responsible choices.
+For more on this, see www.sustainabilitydesign.org.
+References
+ 1. C. Becker et al., “Sustainability Design and Software: The Karlskrona Manifesto,” Proc. 37th 
+IEEE Int’l Conf. Software Eng. (ICSE 15), 2015, pp. 467–476.
+ 2. D.H. Meadows, Leverage Points: Places to Intervene in a System, Sustainability Inst., 1999.
+
+
+60 
+IE E E S O F T WA R E  |  W W W.CO M PU T E R .O R G /S O F T WA R E  |  @ I E E E S O F T WA R E
+FOCUS: THE FUTURE OF SOFTWARE ENGINEERING
+• technical debt,
+• social reputation and im-
+proved relations with the local 
+community,
+• individual aspects such as pri-
+vacy compliance and the satis-
+faction of those involved in the 
+procurement process,
+• environmental aspects such as 
+the total carbon footprint of the 
+products and services acquired, 
+and
+• amortization of the project costs
+and improved cost–benefit rela-
+tions in procurement.
+During risk analysis, the tea
+considers internal and external risk
+related to systemic effects in all fiv
+dimensions. For example, consider
+ing the evolving regulations on en
+vironmental accountability as a risk
+the team develops a set of transpar
+ency requirements for the system. I
+also identifies uncertainties abou
+future shifts in procurement as sus
+tainable products become more com
+petitive. So, it includes a feature t
+monitor these uncertainties.
+During requirements elicitation
+the team employs participatory tech
+niques. The inclusive perspective let
+the project leverage contribution
+from a broader set of stakeholders
+including local service providers. I
+a series of workshops, the team use
+a sustainability reference goal mode
+to derive specific sustainability goal
+for the project and align them wit
+other system goals, while derivin
+extended usage scenarios with th
+local community representatives.
+The resulting requirements speci
+fication is based on a template tha
+includes checklists for sustainabilit
+criteria and standards compliance i
+all five dimensions. The document i
+circulated among all the stakehold
+ers and is shared with regulator
+ 
+m 
+s 
+e 
+-
+-
+, 
+-
+t 
+t 
+-
+-
+o 
+, 
+-
+s 
+s 
+, 
+n 
+s 
+l 
+s 
+h 
+g 
+e 
+-
+t 
+y 
+n 
+s 
+-
+y 
+agencies to demonstrate that the
+project meets relevant sustainability 
+rules. So, it’s also used more actively 
+in subsequent stages.
+ 
+Sustainability Debt
+The system resulting from this pro-
+curement project is different when 
+development takes into account sus-
+tainability principles and therefore 
+long-term consequences.
+Focusing on sustainability de-
+sign, software engineers must adopt 
+a mind-set quite different from the 
+puzzle-solving attitude often found 
+in engineering and business. Now, 
+the objective is to identify and under-
+stand “wicked problems”: problems 
+that are deeply embedded in a com-
+plex system with no definitive formu-
+lation and no clear stopping rule. In 
+such cases, every solution changes the 
+nature of the problem, so little oppor-
+tunity exists for trial-and-error learn-
+ing.7,8 Instead, we need an adaptive, 
+responsive, and iterative approach 
+emphasizing shared understanding.
+Figure 1 highlights selected im-
+mediate, enabling, and structural ef-
+fects of the procurement system in 
+the five sustainability dimensions. 
+Consider a system feature that tracks 
+individual products’ carbon foot-
+print, letting users choose products 
+with lower footprints. The com-
+pound structural effect in the eco-
+nomic dimension can benefit local 
+suppliers with environmentally sus-
+tainable production and can lead to 
+a reduced carbon footprint.
+The diagram in Figure 1 sup-
+ports interactive collaboration among 
+stakeholders to discover, document, 
+and validate the system’s potential ef-
+fects. Not all effects will be positive. 
+For example, automating product se-
+lection rules to minimize the carbon 
+footprint takes away the manager’s 
+freedom to make decisions in the 
+procurement process.9 This can re-
+duce mutual trust between the orga-
+nization’s members.
+The diagram also facilitates a 
+conversation about sustainability 
+debt: decisions made for the present 
+situation have invisible effects that 
+accumulate over time in each of the 
+five dimensions.10 When we increase 
+energy consumption, reduce indi-
+vidual privacy, impose technical bar-
+riers, or incur additional financial 
+costs, we incur debts in these dimen-
+sions to different stakeholders. Mak-
+ing these effects visible is the first 
+step to understanding and consider-
+ing them in system design decisions.
+Requirements  
+Are the Key
+In those two projects, a series of 
+decision points occurred during 
+system design. Many of them were 
+requirements-engineering activities 
+that occurred repeatedly in all itera-
+tions throughout the projects. Each 
+decision influenced the decision 
+space of subsequent choices and pro-
+foundly affected the system and its 
+effects. Table 1 highlights how key 
+activities change when we consider 
+sustainability design principles.
+Requirements’ leverage becomes 
+clear when we consider their rela-
+tionships with engineering tech-
+niques. We develop techniques to 
+quantify, construct, and test arti-
+facts and to control whether the 
+results fall in an acceptable range. 
+However, for design concerns such 
+as usability, performance, maintain-
+ability, or sustainability, such tech-
+niques are only applied once a need 
+has been identified. Without such a 
+need, the engineering techniques will 
+remain unused and hence have no ef-
+fect on the project.
+For 
+example, 
+techniques 
+for 
+increasing technical sustainability 
+
+
+JANUARY/FEBRUARY 2016  |  IE E E S O F T WA R E
+61
+abound, ranging from architec-
+and expressed. On the other hand, 
+whatever techniques we develop to 
+tural design patterns to documenta-
+a stated requirement for which no 
+support these activities.
+tion guidelines. Yet, because apply-
+technique yet exists will lead to an 
+So, requirements engineers play 
+ing these techniques often involves 
+identifi ed gap in technological abil-
+a key role in sustainability. As “sus-
+an up-front investment of effort, it 
+ity. This means that in practice, 
+tainability engineers,” they go be-
+occurs only when a longer life ex-
+systemic changes to the activities in 
+yond a narrow system perspective 
+pectancy of a system is recognized 
+Table 1 will dominate the effects of 
+and follow an interdisciplinary, 
+ECONOMIC
+The procurement 
+system’s life-cycle 
+costs can be a burden.
+System evolution 
+can increase 
+Markets can reward 
+TECHNICAL
+technical debt.
+environmentally 
+sustainable 
+production.
+Users can choose 
+products with 
+low carbon
+footprints.
+System quality: 
+The local economy 
+maintainability
+can be strengthened.
+Transparency of 
+procurement 
+System feature: 
+facilitates business
+show products’ 
+interaction with local
+carbon footprint 
+suppliers.
+The carbon footprint 
+AL
+can be reduced.
+Community 
+SOCIAL
+relationships 
+can be improved.
+IMMEDIATE EFFECT
+The individual choice of 
+ENVIRONMENT
+decision makers in the 
+Trust within 
+supply chain would decrease.
+the company 
+ENABLING EFFECT
+could be 
+diminished.
+STRUCTURAL EFFECT
+INDIVIDUAL
+The system makes 
+the procurement 
+process transparent 
+to local suppliers.
+The system could 
+impose strict rules 
+on product selection.
+Procurement 
+system
+FIGURE 1. Selected immediate, enabling, and structural effects of the procurement system in the fi ve sustainability dimensions. The 
+diagram supports interactive collaboration among stakeholders to discover, document, and validate the system’s potential effects.
+
+
+62 
+IE E E S O F T WA R E  |  W W W.CO M PU T E R .O R G /S O F T WA R E  |  @ I E E E S O F T WA R E
+FOCUS: THE FUTURE OF SOFTWARE ENGINEERING
+systems-oriented, stakeholder-fo
+ cused 
+technical, economic, and natural en-
+which specifies that engineers are 
+approach, 
+supported 
+by 
+higher 
+vironments and the individuals in 
+to “act in accordance with the prin-
+management and executives. Their 
+those environments.
+ciples of sustainability, and prevent 
+task is to understand the nature of 
+This responsibility is reflected 
+avoidable adverse impact on the en-
+software-intensive systems and the 
+in the new UK Standard for Profes-
+vironment and society.”11 It’s up to 
+impact those can have on their social, 
+sional 
+Engineering 
+Competence, 
+SE curricula developers to equip 
+TABLE 1
+Table 1. Software engineering practices for sustainability.*
+Task
+Standard current practice
+Focus of future practice
+Mind-setting
+The world is a puzzle, and we should solve 
+The world is complex, and we should first understand the 
+the problem.
+dilemmas.
+Determination of the 
+Focus on the immediate business need and 
+Emphasize how the project can affect sustainability in all 
+project objective and 
+key system features. Don’t question the 
+dimensions. Strive to advance sustainability in multiple 
+the system purpose, 
+project’s or system’s purpose.
+dimensions simultaneously. Experiment with different system 
+boundary, and scope
+boundaries to understand the alternative impacts.
+External constraint 
+See constraints as imposed by the direct 
+See constraints in each dimension as opportunities. Look for 
+identification
+environment of the system and its technical 
+constraints from additional sources, starting with company 
+interfaces. Minimize the constraints 
+corporate-social-responsibility policies, legislation, and 
+considered, but include legal, safety, 
+sustainability standards.
+security, technical, and business resources.
+Stakeholder 
+Minimize the number of stakeholders 
+Maximize stakeholder involvement in an inclusive perspective 
+identification
+involved, and focus on those who have 
+integrating external stakeholders, and involve those who 
+influence. Focus on internal stakeholders, 
+are affected. Assign a dedicated role to be responsible for 
+and exclude unreachable stakeholders.
+sustainability, and introduce surrogate stakeholders to represent 
+outside interests.
+Success criteria 
+Focus on the financial bottom line at project 
+Focus on advancing multiple dimensions simultaneously, 
+definition
+completion. Measure the business outcome 
+including financial aspects, and take into account that most 
+and financial return on investment.
+effects occur after project completion.
+Requirements 
+Focus on the features and immediate effects 
+Help the stakeholders understand the system’s enabling effects. 
+elicitation
+the stakeholders want.
+Use creativity techniques and long-term scenarios to forecast 
+the potential structural impact.
+Risk identification
+Identify risks that threaten timely project 
+Include the effects on the system’s wider environment. Include 
+completion within the budget.
+enabling and structural effects and risks that can develop over 
+time.
+Tradeoff analysis
+View tradeoff analysis as a prioritization 
+Strive to transform sustainability tradeoffs into mutually 
+and selection problem, and let the key 
+beneficial situations. Ensure that a wider range of stakeholders 
+stakeholders decide.
+(or their surrogates) discuss sustainability tradeoffs.
+Go/no-go decision
+Base the decision on feasibility, financial 
+This continues to be an internal business decision but is 
+costs and benefits, and risk exposure 
+documented to show to external audiences that it took into 
+to project participants—that is, internal 
+account sustainability indicators and enabling effects. The 
+stakeholders.
+decision is based on a consideration of positive and negative 
+effects in all five dimensions.
+Requirements 
+Let key stakeholders verify that their 
+Ensure broad community involvement focused on understanding 
+validation
+interests are captured.
+effects.
+Project completion
+Verify whether success criteria are met on 
+Evaluate the effects in all five dimensions over a certain time 
+the completion date. After that, focus on 
+frame after completion, aligned with the expected timescale of 
+maintenance and evolution.
+effects.
+Requirements 
+Current templates ignore long-term effects 
+Templates require information about sustainability as a design 
+documentation
+and sustainability considerations.
+concern and support analysts with checklists.
+* For a description of the dimensions mentioned in the table, see the section “Sustainability in Software Engineering.”
+
+
+ 
+JANUARY/FEBRUARY 2016  |  IE E E S O F T WA R E 
+63
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+divide-and-conquer approach to sys-
+tems analysis.
+Although these challenging shifts
+won’t come easy, taking such per-
+spectives provides an opportunity
+to stand out, an invitation to inno
+vate, and an occasion for software
+engineers and companies to distin-
+guish themselves with a unique sell-
+ 
+ 
+-
+ 
+ing point in a competitive market.
+We also have the opportunity to help
+shape broader sustainability policy. A 
+shift to a sustainable society requires
+large-scale change both in govern-
+ment policy and in engineering and
+business practice; neither on its own
+will suffice. But regulatory change is
+much easier if it builds on established 
+best practices, so software practitio-
+ners must take the lead.
+If you agree that we, as software
+engineers, have a responsibility for
+the long-term impact of the systems
+we design, the sustainability design
+principles provide an opportunity to
+get started. We can and should start
+now, and practitioners can lead the
+way. We need to collect experiences
+in applying sustainability principles
+in SE and learn from the process. An
+important way to make this vision of 
+software as a force for sustainability
+a reality is by cooperation between
+industry and academia.
+Successful collaborations to inte
+grate sustainability concerns into es-
+tablished practices can significantly
+and positively influence the long-term
+effects of the systems we design. To fa-
+cilitate this, we must do three things.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+-
+ 
+ 
+First, we must identify and tackle 
+causes of unsustainable software 
+design. For this, industry can invite 
+academics to research, analyze, and 
+reengineer their current development 
+processes and practices for improved 
+sustainability.
+Second, we must develop exem-
+plar case studies that demonstrate 
+the benefits of sustainability design 
+in SE. For this, early adopter indus-
+trial collaborators can partner with 
+academics to apply research findings 
+such as those summarized in Table 1 
+and report on longer-term results.
+Finally, we must build compe-
+tences in the theory and practice of 
+sustainable design into the training 
+of all software engineers. Industry 
+can make the demand for software 
+practitioners trained in sustainabil-
+ity principles explicit by requiring 
+specific competences from potential 
+employees. Researchers and educa-
+tors should develop improved cur-
+ricula that incorporate sustainabil-
+ity principles and ensure that future 
+software professionals possess the 
+competences needed to advance sus-
+tainability goals through SE.
+Let’s get started.
+Acknowledgments
+This 
+research 
+is 
+supported 
+by 
+the 
+Deutsche Forschungsgemeinschaft proj-
+ect EnviroSiSE (PE2044/1-1); FAPERJ 
+(210.551/2015); CNPQ (14/2014); NSERC 
+(RGPIN-2014-06638); the European So-
+cial Fund; the Ministry for Science, Re-
+search, and the Arts  Baden-Württemberg; 
+future software engineers with the
+competences required to simultane-
+ously advance goals in all five di-
+mensions, beyond the technical and
+economic.
+For a long time, concerns about
+such effects have taken a backseat in 
+SE, but this is changing as standards 
+are being adjusted. For example, the 
+working group WG42 on ISO/IEC
+42030 (Architecture Evaluation) is
+discussing energy efficiency and en-
+vironmental concerns at the soft-
+ware architecture level. In addition,
+the IEEE P1680.1 Standard for En-
+vironmental Assessment of Personal
+Computer Products is being revised.
+Although these steps are impor-
+tant, a full consideration of all five
+sustainability dimensions is needed
+on the level of quality models, system 
+documentation templates, and the
+analysis of systemic effects throughout 
+system life-cycle stages. Requirements 
+engineers will often be responsible for 
+introducing relevant standards in each 
+of the five dimensions into the elicita-
+tion and specification process. To sup-
+port this, revisions of the ISO 25000
+series should incorporate sustainabil-
+ity considerations related to software
+systems’ quality attributes. In addi-
+tion, ISO 29148 should acknowledge
+the importance of system character-
+istics beyond interaction with human
+users and encourage consideration of
+the systemic effects of software sys-
+tems in RE.
+S
+oftware’s critical role in so-
+ciety demands a paradigm
+shift in the SE mind-set.
+Sustainability 
+design 
+emphasizes
+an appreciation of wicked problems
+over a focus on puzzles and pieces,
+systems thinking over computational 
+problem solving, and an integrated
+understanding of systems over a
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Software’s critical role in society  
+demands a paradigm shift in the 
+software engineering mind-set.
+
+
+64 
+IE E E S O F T WA R E  |  W W W.CO M PU T E R .O R G /S O F T WA R E  |  @ I E E E S O F T WA R E
+FOCUS: THE FUTURE OF SOFTWARE ENGINEERING
+ABOUT THE AUTHORS
+CHRISTOPH BECKER is an assistant 
+professor at the University of Toronto, where 
+he leads the Digital Curation Institute, and 
+a senior scientist at the Vienna University of 
+Technology. His research focuses on sustain-
+ability in software engineering and informa-
+tion systems design, digital curation and digi-
+tal preservation, and digital libraries. Becker 
+received a PhD in computer science from the 
+Vienna University of Technology. Contact him 
+at christoph.becker@utoronto.ca.
+STEVE M. EASTERBROOK is a professor 
+in the University of Toronto’s Department 
+of Computer Science and a member of the 
+School of the Environment and the  Centre 
+for Global Change Science. His research fo-
+cuses on climate informatics—specifi cally, 
+applying computer science and software 
+engineering to the challenge posed by global 
+climate change. Easterbrook received his 
+PhD in computing from Imperial College Lon-
+don. Contact him at sme@cs.toronto.edu.
+STEFANIE BETZ is a senior research 
+scientist in the Karlsruhe Institute of Tech-
+nology’s Department of Applied Informat-
+ics and Formal Description Methods. Her 
+research centers on sustainable software 
+and systems engineering, particularly from 
+the perspective of requirements engineer-
+ing and business process management. 
+Betz received a PhD in applied informatics 
+from the Karlsruhe Institute of Technology. 
+Contact her at stefanie.betz@kit.edu.
+BIRGIT PENZENSTADLER is an assistant 
+professor of software engineering at Cali-
+fornia State University, Long Beach. Her re-
+search focuses on software engineering for 
+sustainability and resilience; she leads the 
+university’s Resilience Lab. Penzenstadler 
+received a habilitation in environmental 
+sustainability in software engineering from 
+the Technical University of Munich. Contact 
+her at birgit.penzenstadler@csulb.edu.
+RUZANNA CHITCHYAN is a lecturer 
+in the University of Leicester’s Depart-
+ment of Computer Science and a member 
+of the Centre for Landscape and Climate 
+Research. Her research centers on require-
+ments engineering and architecture design 
+for software-intensive sociotechnical 
+systems and sustainability. Chitchyan 
+received a PhD in software engineering 
+from Lancaster University. Contact her at 
+rc256@leicester.ac.uk.
+NORBERT SEYFF is a professor in the 
+School of Engineering and the Institute of 
+4D Technologies at the University of Applied 
+Sciences and Arts Northwestern Switzer-
+land and a senior research associate in the 
+University of Zurich’s Department of Infor-
+matics. His research focuses on require-
+ments engineering and software modeling, 
+particularly on empowering and supporting 
+end-user participation in system develop-
+ment. Seyff received a PhD in computer sci-
+ence from Johannes Kepler University Linz. 
+Contact him at norbert.seyff@fhnw.ch.
+LETICIA DUBOC is a lecturer in the State 
+University of Rio de Janeiro’s Department 
+of Computer Science and an honor-
+ary research fellow at the University of 
+Birmingham. Her research focuses on 
+software system sustainability and scal-
+ability, particularly from the perspective of 
+requirements engineering and early analysis 
+of software qualities. Duboc received a PhD 
+in computer science from University College 
+London. Contact her at leticia@ime.uerj.br.
+COLIN C. VENTERS is a senior lecturer 
+in software systems engineering at the 
+University of Huddersfi eld. His research 
+focuses on sustainable software systems 
+engineering from a software architecture 
+perspective for presystem understanding 
+and postsystem maintenance and evolution. 
+Venters received a PhD in computer science 
+from the University of Manchester. Contact 
+him at c.venters@hud.ac.uk.
+
+
+JANUARY/FEBRUARY 2016  |  IE E E S O F T WA R E
+65
+and the Vienna Science and Technology 
+Fund (WWTF) through project Bench-
+markDP (ICT2012-46). Special thanks to 
+our friend and colleague Sedef Akinli Ko-
+cak, a PhD researcher at Ryerson Univer-
+sity, for her contributions to this article.
+References
+ 1. H. Koziolek, “Sustainability Evalu-
+ation of Software Architectures: A 
+Systematic Review,” Proc. Joint ACM 
+SIGSOFT Conf.—QoSA and ACM 
+SIGSOFT Symp.—ISARCS on Qual-
+ity of Software Architectures—QoSA 
+and Architecting Critical Systems—
+ISARCS (QoSA-ISARCS 11), 2011, 
+pp. 3–12.
+ 2. J.A. Tainter, “Social Complexity and 
+Sustainability,” Ecological Complex-
+ity, vol. 3, no. 2, 2006, pp. 91–103.
+ 3. B. Penzenstadler et al., “Safety, 
+Security, Now Sustainability: The 
+Nonfunctional Requirement for the 
+21st Century,” IEEE Software, 
+vol. 31, no. 3, 2014, pp. 40–47.
+ 4. J. Elkington, “Enter the Triple Bot-
+tom Line,” The Triple Bottom Line: 
+Does It All Add Up? Assessing the 
+Sustainability of Business and CSR, 
+A. Henriques and J. Richardson, eds., 
+Earthscan, 2004, pp. 1–16.
+ 5. “Who Lives the Longest? Busting the 
+Social Venture Survival Myth,” E3M, 
+2014; http://socialbusinessint.com
+/wp-content/uploads/Who-lives-the
+-longest_-FINAL-version2.pdf.
+ 6. C. Bomfi m et al., “Modelling Sustain-
+ability in a Procurement System: An 
+Experience Report,” Proc. IEEE 
+22nd Int’l Conf. Requirements Eng. 
+(RE 14), 2014, pp. 402–411.
+ 7. H.W. Rittel and M.M. Webber, 
+“Dilemmas in a General Theory of 
+Planning,” Policy Sciences, vol. 4, 
+no. 2, 1973, pp. 155–169.
+ 8. S. Easterbrook, “From Computa-
+tional Thinking to Systems Thinking: 
+A Conceptual Toolkit for Sustain-
+ability Computing,” Proc. 2nd Int’l 
+Conf. Information and Communica-
+tion Technologies for Sustainability, 
+Atlantis Press, 2014; doi:10.2991
+/ict4s-14.2014.28.
+ 9. J.A. Klein, “A Reexamination of 
+Autonomy in Light of New Manufac-
+turing Practices,” Human Relations, 
+vol. 44, no. 1, 1991, pp. 21–38.
+ 10. S. Betz et al., “Sustainability Debt: A 
+Metaphor to Support Sustainability 
+Design Decisions,” Proc. 4th Int’l 
+Workshop Requirements Eng. for 
+Sustainable Systems (RE4SuSy 15), 
+2015; http://ceur-ws.org/Vol-1416
+/Session2Paper4.pdf.
+ 11. UK Standard for Professional En-
+gineering Competence (UK-SPEC), 
+Engineering Council, 2014.
+CONFERENCES
+in the Palm of Your Hand
+IEEE Computer Society’s Conference Publishing Services (CPS) is now offering 
+conference program mobile apps! Let your attendees have their conference 
+schedule, conference information, and paper listings in the palm of their hands.
+The conference program mobile app 
+works for Android devices, iPhone, 
+iPad, and the Kindle Fire.
+For more information please contact cps@computer.org
+Selected CS articles and columns 
+are also available for free at 
+http://ComputingNow.computer.org.

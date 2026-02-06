@@ -8,6 +8,7 @@ and generating responses using the hybrid search and RAG capabilities.
 
 import sys
 import asyncio
+import argparse
 import logging
 from pathlib import Path
 from typing import Optional, Dict, Any
@@ -16,7 +17,7 @@ from typing import Optional, Dict, Any
 project_root = Path(__file__).parent.parent
 sys.path.insert(0, str(project_root))
 
-from core.config.settings import Settings
+from core.config import Settings
 from core.database.qdrant_client import QdrantManager
 from core.database.document_store import DocumentStore
 from core.services.embedding_service import EmbeddingService
@@ -30,11 +31,28 @@ from rich.syntax import Syntax
 from rich.markdown import Markdown
 
 
+# Map of supported language codes to display names and LLM instructions
+LANGUAGE_OPTIONS: Dict[str, Dict[str, str]] = {
+    "en": {
+        "name": "English",
+        "instruction": "You MUST write your entire response in English.",
+    },
+    "no": {
+        "name": "Norwegian",
+        "instruction": "Du MÅ skrive hele svaret ditt på norsk (bokmål).",
+    },
+}
+
+
 class InteractiveSearchInterface:
     """Interactive search interface with rich console output."""
     
-    def __init__(self):
-        """Initialize the search interface."""
+    def __init__(self, language: Optional[str] = None):
+        """Initialize the search interface.
+        
+        Args:
+            language: Optional language code ('en' or 'no') for LLM output.
+        """
         self.console = Console()
         self.settings = Settings()
         
@@ -54,6 +72,9 @@ class InteractiveSearchInterface:
         self.search_limit = 10
         self.vector_weight = self.settings.default_vector_weight
         self.keyword_weight = self.settings.default_keyword_weight
+        
+        # Language setting for LLM output (None = no explicit instruction)
+        self.language: Optional[str] = language
     
     def display_welcome(self):
         """Display welcome message and system status."""
@@ -66,7 +87,8 @@ class InteractiveSearchInterface:
             "• [cyan]config[/cyan] - Configure search settings\n"
             "• [cyan]stats[/cyan] - Show database statistics\n"
             "• [cyan]help[/cyan] - Show detailed help\n"
-            "• [cyan]quit[/cyan] - Exit the application",
+            "• [cyan]quit[/cyan] - Exit the application\n\n"
+            f"Language: [bold]{self._language_display()}[/bold]",
             border_style="blue"
         ))
     
@@ -156,6 +178,17 @@ class InteractiveSearchInterface:
         except Exception as e:
             self.console.print(f"[red]❌ Search failed: {e}[/red]")
     
+    def _confidence_style(self, level: str) -> str:
+        """Return a rich color style string based on confidence level."""
+        styles = {
+            "very_high": "bold green",
+            "high": "green",
+            "medium": "yellow",
+            "low": "red",
+            "very_low": "bold red",
+        }
+        return styles.get(level, "white")
+
     async def ask_question(self, question: str) -> None:
         """Ask a question and get an AI-generated response."""
         try:
@@ -180,71 +213,92 @@ class InteractiveSearchInterface:
             # Generate response
             response = await self.response_generator.generate_response(
                 query=question,
-                search_results=search_results
+                search_results=search_results,
+                custom_instructions=self._get_language_instruction()
             )
             
-            # Display response
-            self.console.print("\n" + "="*80)
+            # Display the answer
+            self.console.print()
             self.console.print(Panel(
                 Markdown(response.answer),
                 title="🤖 AI Response",
-                border_style="green"
+                border_style="green",
+                padding=(1, 2),
             ))
             
-            # Display analysis
-            analysis_table = Table(title="Response Analysis")
-            analysis_table.add_column("Metric", style="cyan")
-            analysis_table.add_column("Value", style="green")
+            # Build a compact status bar beneath the answer
+            conf_style = self._confidence_style(response.confidence_level)
+            confidence_label = (response.confidence_level or "unknown").replace("_", " ").title()
+            quality_tag = "[yellow]⚠ Needs Review[/yellow]" if response.needs_review else "[green]✔ Good[/green]"
+
+            status_line = (
+                f"  [{conf_style}]Confidence: {response.confidence_score:.0%} ({confidence_label})[/{conf_style}]"
+                f"  │  Source coverage: {response.source_coverage:.0%}"
+                f"  │  Sources: {len(response.sources_used)}"
+                f"  │  {quality_tag}"
+                f"  │  ⏱ {response.processing_time:.2f}s"
+            )
+            self.console.print(Panel(status_line, border_style="dim", padding=(0, 1)))
             
-            analysis_table.add_row("Confidence", f"{response.confidence_score:.2f} ({response.confidence_level})")
-            analysis_table.add_row("Source Coverage", f"{response.source_coverage:.2f}")
-            analysis_table.add_row("Sources Used", str(len(response.sources_used)))
-            analysis_table.add_row("Processing Time", f"{response.processing_time:.2f}s")
-            
-            if response.needs_review:
-                analysis_table.add_row("Quality", "[yellow]Needs Review[/yellow]")
-            else:
-                analysis_table.add_row("Quality", "[green]Good[/green]")
-            
-            self.console.print(analysis_table)
+            # Show limitations inline if present
+            if response.limitations:
+                self.console.print(Panel(
+                    f"[yellow]{response.limitations}[/yellow]",
+                    title="⚠️  Limitations",
+                    border_style="yellow",
+                    padding=(0, 2),
+                ))
             
             # Show reasoning if requested
             if Confirm.ask("Show detailed reasoning?", default=False):
-                reasoning_content = "\n".join([f"{i+1}. {step}" for i, step in enumerate(response.reasoning_steps)])
+                reasoning_table = Table(
+                    show_header=False,
+                    box=None,
+                    padding=(0, 1, 0, 0),
+                    show_edge=False,
+                )
+                reasoning_table.add_column("Step", style="bold cyan", width=4, justify="right")
+                reasoning_table.add_column("Description")
+                for i, step in enumerate(response.reasoning_steps, 1):
+                    reasoning_table.add_row(f"{i}.", step)
+
                 self.console.print(Panel(
-                    reasoning_content,
+                    reasoning_table,
                     title="🧠 Reasoning Steps",
-                    border_style="blue"
+                    border_style="blue",
+                    padding=(1, 2),
                 ))
             
             # Show sources if requested
             if Confirm.ask("Show source details?", default=False):
+                source_table = Table(title="📚 Sources", border_style="cyan", show_lines=True)
+                source_table.add_column("#", style="bold", width=3, justify="right")
+                source_table.add_column("Title / ID", style="cyan", ratio=3)
+                source_table.add_column("Author", ratio=2)
+                source_table.add_column("Score", justify="right", width=7)
+
                 for i, source_detail in enumerate(response.source_details, 1):
-                    source_content = f"""ID: {source_detail['id']}
-Type: {source_detail['type']}
-Score: {source_detail['score']:.3f}"""
-                    
-                    if 'title' in source_detail:
-                        source_content += f"\nTitle: {source_detail['title']}"
-                    if 'author' in source_detail:
-                        source_content += f"\nAuthor: {source_detail['author']}"
-                    
-                    self.console.print(Panel(
-                        source_content,
-                        title=f"Source {i}",
-                        border_style="cyan"
-                    ))
-            
-            # Show limitations if any
-            if response.limitations:
-                self.console.print(Panel(
-                    response.limitations,
-                    title="⚠️ Limitations",
-                    border_style="yellow"
-                ))
+                    title = source_detail.get("title", source_detail.get("id", "—"))
+                    author = source_detail.get("author", "—")
+                    score = f"{source_detail['score']:.3f}" if "score" in source_detail else "—"
+                    source_table.add_row(str(i), title, author, score)
+
+                self.console.print(source_table)
             
         except Exception as e:
             self.console.print(f"[red]❌ Question processing failed: {e}[/red]")
+
+    def _language_display(self) -> str:
+        """Return a human-readable label for the current language setting."""
+        if self.language and self.language in LANGUAGE_OPTIONS:
+            return LANGUAGE_OPTIONS[self.language]["name"]
+        return "Default (no preference)"
+
+    def _get_language_instruction(self) -> Optional[str]:
+        """Return the LLM instruction string for the current language, or None."""
+        if self.language and self.language in LANGUAGE_OPTIONS:
+            return LANGUAGE_OPTIONS[self.language]["instruction"]
+        return None
 
     def configure_search(self) -> None:
         """Configure search settings."""
@@ -258,6 +312,7 @@ Score: {source_detail['score']:.3f}"""
         config_table.add_row("Vector Weight", f"{self.vector_weight:.2f}")
         config_table.add_row("Keyword Weight", f"{self.keyword_weight:.2f}")
         config_table.add_row("Active Filters", str(len(self.current_filters)))
+        config_table.add_row("LLM Language", self._language_display())
 
         self.console.print(config_table)
 
@@ -265,7 +320,7 @@ Score: {source_detail['score']:.3f}"""
         while True:
             choice = Prompt.ask(
                 "\nWhat would you like to configure?",
-                choices=["limit", "weights", "filters", "reset", "done"],
+                choices=["limit", "weights", "filters", "language", "reset", "done"],
                 default="done"
             )
 
@@ -297,11 +352,26 @@ Score: {source_detail['score']:.3f}"""
             elif choice == "filters":
                 self.configure_filters()
 
+            elif choice == "language":
+                lang_choices = list(LANGUAGE_OPTIONS.keys()) + ["none"]
+                lang_labels = ", ".join(
+                    f"{code} ({info['name']})" for code, info in LANGUAGE_OPTIONS.items()
+                )
+                self.console.print(f"Available languages: {lang_labels}, none (no preference)")
+                new_lang = Prompt.ask(
+                    "Choose language",
+                    choices=lang_choices,
+                    default=self.language or "none"
+                )
+                self.language = None if new_lang == "none" else new_lang
+                self.console.print(f"✅ LLM language set to {self._language_display()}")
+
             elif choice == "reset":
                 self.search_limit = 10
                 self.vector_weight = self.settings.default_vector_weight
                 self.keyword_weight = self.settings.default_keyword_weight
                 self.current_filters = {}
+                self.language = None
                 self.console.print("✅ Settings reset to defaults")
 
             elif choice == "done":
@@ -482,8 +552,25 @@ Score: {source_detail['score']:.3f}"""
                 self.console.print(f"[red]❌ Error: {e}[/red]")
 
 
+def parse_args() -> argparse.Namespace:
+    """Parse command-line arguments."""
+    parser = argparse.ArgumentParser(
+        description="QdrantRAG-Pro Interactive Search"
+    )
+    parser.add_argument(
+        "--language", "-l",
+        choices=["en", "no"],
+        default=None,
+        help="Language for LLM responses: 'en' (English) or 'no' (Norwegian). "
+             "If omitted, no explicit language instruction is sent."
+    )
+    return parser.parse_args()
+
+
 async def main():
     """Main function."""
+    args = parse_args()
+
     # Setup logging
     logging.basicConfig(
         level=logging.WARNING,  # Reduce noise in interactive mode
@@ -491,7 +578,7 @@ async def main():
     )
 
     # Create and run interface
-    interface = InteractiveSearchInterface()
+    interface = InteractiveSearchInterface(language=args.language)
     await interface.run()
 
 

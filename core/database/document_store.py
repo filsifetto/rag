@@ -16,7 +16,7 @@ from dataclasses import dataclass, asdict
 
 from .qdrant_client import QdrantManager, SearchPoint
 from ..models.document import Document, DocumentMetadata
-from ..config.settings import Settings
+from ..config import Settings
 
 
 @dataclass
@@ -59,7 +59,7 @@ class DocumentStore:
                 vector=embedding,
                 payload={
                     "content": document.content,
-                    "metadata": asdict(document.metadata),
+                    "metadata": document.metadata.model_dump(mode="json"),
                     "document_type": "main",
                     "created_at": datetime.now().isoformat(),
                     "content_hash": self._hash_content(document.content),
@@ -73,13 +73,13 @@ class DocumentStore:
             # Add chunk points if provided
             if chunk_embeddings and document.chunks:
                 for i, (chunk, chunk_embedding) in enumerate(zip(document.chunks, chunk_embeddings)):
-                    chunk_id = f"{document.id}_chunk_{i}"
+                    chunk_id = str(uuid.uuid5(uuid.NAMESPACE_DNS, f"{document.id}_chunk_{i}"))
                     chunk_point = PointStruct(
                         id=chunk_id,
                         vector=chunk_embedding,
                         payload={
                             "content": chunk,
-                            "metadata": asdict(document.metadata),
+                            "metadata": document.metadata.model_dump(mode="json"),
                             "document_type": "chunk",
                             "parent_document_id": document.id,
                             "chunk_index": i,
@@ -276,8 +276,8 @@ class DocumentStore:
     
     def _generate_document_id(self, content: str) -> str:
         """Generate a unique document ID based on content hash."""
-        content_hash = hashlib.md5(content.encode()).hexdigest()
-        return f"doc_{content_hash}_{uuid.uuid4().hex[:8]}"
+        # Qdrant requires point IDs to be UUIDs or unsigned integers
+        return str(uuid.uuid5(uuid.NAMESPACE_DNS, content))
     
     def _hash_content(self, content: str) -> str:
         """Generate a hash of the content for deduplication."""

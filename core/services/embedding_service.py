@@ -17,7 +17,7 @@ import time
 import json
 from datetime import datetime, timedelta
 
-from ..config.settings import Settings
+from ..config import Settings
 
 
 @dataclass
@@ -99,7 +99,7 @@ class EmbeddingService:
         
         # Rate limiting
         self.last_request_time = 0
-        self.min_request_interval = 0.1  # 100ms between requests
+        self.min_request_interval = 0.1  # 100ms between API requests to avoid rate limits
     
     async def create_embedding(self, text: str) -> EmbeddingResult:
         """Create embedding for a single text."""
@@ -264,10 +264,12 @@ class EmbeddingService:
             chunk_text = self.encoding.decode(chunk_tokens)
             chunks.append(chunk_text)
             
-            # Move start position with overlap
-            start = end - overlap
-            if start >= len(tokens):
+            # We've reached the end of the text
+            if end >= len(tokens):
                 break
+            
+            # Move start position with overlap, ensuring forward progress
+            start = max(start + 1, end - overlap)
         
         self.logger.debug(f"Split text into {len(chunks)} chunks")
         return chunks
@@ -278,17 +280,17 @@ class EmbeddingService:
         chunk_size: Optional[int] = None
     ) -> tuple[EmbeddingResult, List[EmbeddingResult]]:
         """Embed a document and its chunks."""
-        # Create main document embedding
-        main_embedding = await self.create_embedding(content)
-        
-        # Create chunks and their embeddings
         chunks = self.chunk_text(content, chunk_size)
-        chunk_embeddings = []
         
-        if len(chunks) > 1:  # Only create chunk embeddings if we actually have chunks
+        if len(chunks) > 1:
+            # Multiple chunks: embed them all in one batch, use first as main
             chunk_embeddings = await self.create_embeddings_batch(chunks)
-        
-        return main_embedding, chunk_embeddings
+            main_embedding = chunk_embeddings[0]
+            return main_embedding, chunk_embeddings
+        else:
+            # Single chunk: embed once, no separate chunk embeddings needed
+            main_embedding = await self.create_embedding(content)
+            return main_embedding, []
     
     def get_cache_stats(self) -> Dict[str, Any]:
         """Get embedding cache statistics."""

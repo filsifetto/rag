@@ -1,0 +1,476 @@
+Dette materialet er vernet etter åndsverkloven og er helt eller 
+delvis fremstilt etter avtale med Kopinor. Materialet kan benyttes 
+av studenter som deltar i det aktuelle emnet, for egne studier, i et­
+hvert format og på enhver plattform. Uten uttrykkelig samtykke er 
+annen eksemplarfremstilling og tilgjengeliggjøring bare tillatt når 
+det er hjemlet i lov (kopiering til privat bruk, sitat o.l.) eller avtale 
+med Kopinor (www.kopinor.no).
+Digitalt framstilt av:
+NTNU Universitetsbiblioteket
+This material is protected by copyright law and is wholly or partly 
+produced by agreement with Kopinor. The material can be used 
+by students who participate in the relevant course, for their own 
+studies, in any format and on any platform. Without expressed 
+consent, other copying and making available is only permitted 
+when authorized by law (copying for private use, quotation, etc.) 
+or agreement with Kopinor (www.kopinor.no).
+Cohn, M. (2004), i; User stories applied. 1.utgave (ISBN 9780321205681) 
+Chapter 2: Writing Stories
+
+
+17
+Chapter 2
+Writing Stories
+In this chapter we turn our attention to writing the stories. To create good sto-
+ries we focus on six attributes. A good story is:
+• Independent
+• Negotiable
+• Valuable to users or customers
+• Estimatable
+• Small
+• Testable
+Bill Wake, author of Extreme Programming Explored and Refactoring
+Workbook, has suggested the acronym INVEST for these six attributes (Wake
+2003a).
+Independent
+As much as possible, care should be taken to avoid introducing dependencies
+between stories. Dependencies between stories lead to prioritization and plan-
+ning problems. For example, suppose the customer has selected as high priority
+a story that is dependent on a story that is low priority. Dependencies between
+stories can also make estimation much harder than it needs to be. For example,
+suppose we are working on the BigMoneyJobs website and need to write stories
+for how companies can pay for the job openings they post to our site. We could
+write these stories:
+1.
+A company can pay for a job posting with a Visa card.
+2.
+A company can pay for a job posting with a MasterCard.
+From the Library of www.wowebook.com
+
+
+18
+WRITING STORIES
+3.
+A company can pay for a job posting with an American Express card.
+Suppose the developers estimate that it will take three days to support the
+first credit card type (regardless of which it is) and then one day each for the
+second and third. With highly dependent stories such as these you don’t know
+what estimate to give each story—which story should be given the three day
+estimate?
+When presented with this type of dependency, there are two ways around it:
+• Combine the dependent stories into one larger but independent story
+• Find a different way of splitting the stories
+Combining the stories about the different credit card types into a single large
+story (“A company can pay for a job posting with a credit card”) works well in
+this case because the combined story is only five days long. If the combined
+story is much longer than that, a better approach is usually to find a different
+dimension along which to split the stories. If the estimates for these stories had
+been longer, then an alternative split would be:
+1.
+A customer can pay with one type of credit card.
+2.
+A customer can pay with two additional types of credit cards.
+If you don’t want to combine the stories and can’t find a good way to split
+them, you can always take the simple approach of putting two estimates on the
+card: one estimate if the story is done before the other story, a lower estimate if
+it is done after.
+Negotiable
+Stories are negotiable. They are not written contracts or requirements that the
+software must implement. Story cards are short descriptions of functionality,
+the details of which are to be negotiated in a conversation between the cus-
+tomer and the development team. Because story cards are reminders to have a
+conversation rather than fully detailed requirements themselves, they do not
+need to include all relevant details. However, if at the time the story is written
+some important details are known, they should be included as annotations to
+the story card, as shown in Story Card 2.1. The challenge comes in learning to
+include just enough detail.
+Story Card 2.1 works well because it provides the right amount of informa-
+tion to the developer and customer who will talk about the story. When a devel-
+From the Library of www.wowebook.com
+
+
+NEGOTIABLE
+19
+oper starts to code this story, she will be reminded that a decision has already
+been made to accept the three main cards and she can ask the customer if a
+decision has been made about accepting Discover cards. The notes on the card
+help a developer and the customer to resume a conversation where it left off
+previously. Ideally, the conversation can be resumed this easily regardless of
+whether it is the same developer and customer who resume the conversation.
+Use this as a guideline when adding detail to stories.
+On the other hand, consider a story that is annotated with too many notes,
+as shown in Story Card 2.2. This story has too much detail (“Collect the expi-
+ration month and date of the card”) and also combines what should probably
+be a separate story (“The system can store a card number for future use”).
+Working with stories like Story Card 2.2 is very difficult. Most readers of
+this type of story will mistakenly associate the extra detail with extra precision.
+However, in many cases specifying details too soon just creates more work. For
+example, if two developers discuss and estimate a story that says simply “a
+company can pay for a job posting with a credit card” they will not forget that
+their discussion is somewhat abstract. There are too many missing details for
+A company can pay for a job posting with a credit card.
+Note: Accept Visa, MasterCard, and American Express.
+Consider Discover.
+■
+Story Card 2.1
+A story card with notes providing additional detail.
+A company can pay for a job posting with a credit card.
+Note: Accept Visa, MasterCard, and American Express.
+Consider Discover. On purchases over $100, ask for card ID
+number from back of card. The system can tell what type of card
+it is from the first two digits of the card number. The system
+can store a card number for future use. Collect the expiration
+month and date of the card.
+■
+Story Card 2.2
+A story card with too much detail.
+From the Library of www.wowebook.com
+
+
+20
+WRITING STORIES
+them to mistakenly view their discussion as definitive or their estimate as accu-
+rate. However, when as much detail is added as in Story Card 2.2, discussions
+about the story are much more likely to feel concrete and real. This can lead to
+the mistaken belief that the story cards reflect all the details and that there’s no
+further need to discuss the story with the customer.
+If we think about the story card as a reminder for the developer and cus-
+tomer to have a conversation, then it is useful to think of the story card as con-
+taining:
+• a phrase or two that act as reminders to hold the conversation
+• notes about issues to be resolved during the conversation
+Details that have already been determined through conversations become
+tests. Tests can be noted on the back of the story card if using note cards or in
+whatever electronic system is being used. Story Card 2.3 and Story Card 2.4
+show how the excess detail of Story Card 2.2 can be turned into tests, leaving
+just notes for the conversation as part of the front of the story card. In this way,
+the front of a story card contains the story and notes about open questions
+while the back of the card contains details about the story in the form of tests
+that will prove whether or not it works as expected.
+Valuable to Purchasers or Users
+It is tempting to say something along the lines of “Each story must be valued by
+the users.” But that would be wrong. Many projects include stories that are not
+valued by users. Keeping in mind the distinction between user (someone who
+uses the software) and purchaser (someone who purchases the software), sup-
+pose a development team is building software that will be deployed across a
+A company can pay for a job posting with a credit card.
+Note: Will we accept Discover cards?
+Note for UI: Don’t have a field for card type (it can be derived
+from first two digits on the card).
+■
+Story Card 2.3
+The revised front of a story card with only the story and questions 
+to be discussed.
+From the Library of www.wowebook.com
+
+
+VALUABLE TO PURCHASERS OR USERS
+21
+large user base, perhaps 5,000 computers in a single company. The purchaser of
+a product like that may be very concerned that each of the 5,000 computers is
+using the same configuration for the software. This may lead to a story like “All
+configuration information is read from a central location.” Users don’t care
+where configuration information is stored but purchasers might.
+Similarly, stories like the following might be valued by purchasers contem-
+plating buying the product but would not be valued by actual users:
+• Throughout the development process, the development team will produce
+documentation suitable for an ISO 9001 audit.
+• The development team will produce the software in accordance with
+CMM Level 3.
+What you want to avoid are stories that are only valued by developers. For
+example, avoid stories like these:
+• All connections to the database are through a connection pool.
+• All error handling and logging is done through a set of common classes.
+As written, these stories are focused on the technology and the advantages to
+the programmers. It is very possible that the ideas behind these stories are good
+ones but they should instead be written so that the benefits to the customers or
+the user are apparent. This will allow the customer to intelligently prioritize
+these stories into the development schedule. Better variations of these stories
+could be the following:
+• Up to fifty users should be able to use the application with a five-user
+database license.
+• All errors are presented to the user and logged in a consistent manner.
+Test with Visa, MasterCard and American Express (pass).
+Test with Diner’s Club (fail).
+Test with good, bad and missing card ID numbers.
+Test with expired cards.
+Test with over $100 and under $100.
+■
+Story Card 2.4
+Details that imply test cases are separated from the story itself. 
+Here they are shown on the back of the story card.
+From the Library of www.wowebook.com
+
+
+22
+WRITING STORIES
+In exactly the same way it is worth attempting to keep user interface assump-
+tions out of stories, it is also worth keeping technology assumptions out of sto-
+ries. For example, the revised stories above have removed the implicit use of a
+connection pool and a set of error handling classes.
+The best way to ensure that each story is valuable to the customer or users is
+to have the customer write the stories. Customers are often uncomfortable with
+this initially—probably because developers have trained them to think of every-
+thing they write as something that can be held against them later. (“Well, the
+requirements document didn’t say that…”) Most customers begin writing sto-
+ries themselves once they become comfortable with the concept that story cards
+are reminders to talk later rather than formal commitments or descriptions of
+specific functionality.
+Estimatable
+It is important for developers to be able to estimate (or at least take a guess at)
+the size of a story or the amount of time it will take to turn a story into working
+code. There are three common reasons why a story may not be estimatable:
+1.
+Developers lack domain knowledge.
+2.
+Developers lack technical knowledge.
+3.
+The story is too big.
+First, the developers may lack domain knowledge. If the developers do not
+understand a story as it is written, they should discuss it with the customer who
+wrote the story. Again, it’s not necessary to understand all the details about a
+story, but the developers need to have a general understanding of the story.
+Second, a story may not be estimatable because the developers do not under-
+stand the technology involved. For example, on one Java project we were asked
+to provide a CORBA interface into the system. No one on the team had done
+that so there was no way to estimate the task. The solution in this case is to
+send one or more developers on what Extreme Programming calls a spike,
+which is a brief experiment to learn about an area of the application. During
+the spike the developers learn just enough that they can estimate the task. The
+spike itself is always given a defined maximum amount of time (called a time-
+box), which allows us to estimate the spike. In this way an unestimatable story
+turns into two stories: a quick spike to gather information and then a story to
+do the real work.
+From the Library of www.wowebook.com
+
+
+SMALL
+23
+Finally, the developers may not be able to estimate a story if it is too big. For
+example, for the BigMoneyJobs website, the story “A Job Seeker can find a
+job” is too large. In order to estimate it the developers will need to disaggregate
+it into smaller, constituent stories.
+A Lack of Domain Knowledge
+As an example of needing more domain knowledge, we were building a website
+for long-term medical care of chronic conditions. The customer (a highly qualified
+nurse) wrote a story saying “New users are given a diabetic screening.” The develop-
+ers weren’t sure what that meant and it could have run the gamut from a simple web
+questionnaire to actually sending something to new users for an at-home physical
+screening, as was done for the company’s product for asthma patients. The develop-
+ers got together with the customer and found out that she was thinking of a simple
+web form with a handful of questions.
+Even though they are too big to estimate reliably, it is sometimes useful to
+write epics such as “A Job Seeker can find a job” because they serve as place-
+holders or reminders about big parts of a system that need to be discussed. If
+you are making a conscious decision to temporarily gloss over large parts of a
+system, then consider writing an epic or two that cover those parts. The epic
+can be assigned a large, pulled–from–thin–air estimate.
+Small
+Like Goldilocks in search of a comfortable bed, some stories can be too big,
+some can be too small, and some can be just right. Story size does matter
+because if stories are too large or too small you cannot use them in planning.
+Epics are difficult to work with because they frequently contain multiple sto-
+ries. For example, in a travel reservation system, “A user can plan a vacation” is
+an epic. Planning a vacation is important functionality for a travel reservation
+system but there are many tasks involved in doing so. The epic should be split
+into smaller stories. The ultimate determination of whether a story is appropri-
+ately sized is based on the team, its capabilities, and the technologies in use.
+From the Library of www.wowebook.com
+
+
+24
+WRITING STORIES
+Splitting Stories
+Epics typically fall into one of two categories:
+• The compound story
+• The complex story
+A compound story is an epic that comprises multiple shorter stories. For
+example, the BigMoneyJobs system may include the story “A user can post her
+resume.” During the initial planning of the system this story may be appropri-
+ate. But when the developers talk to the customer, they find out that “post her
+resume” actually means:
+• that a resume can include education, prior jobs, salary history, publica-
+tions, presentations, community service, and an objective
+• that users can mark resumes as inactive
+• that users can have multiple resumes
+• that users can edit resumes
+• that users can delete resumes
+Depending on how long these will take to develop, each could become its
+own unique story. However, that may just take an epic and go too far in the
+opposite direction, turning it into a series of stories that are too small. For
+example, depending on the technologies in use and the size and skill of the
+team, stories like these will generally be too small:
+• A Job Seeker can enter a date for each community service entry on a
+resume.
+• A Job Seeker can edit the date for each community service entry on a
+resume.
+• A Job Seeker can enter a date range for each prior job on a resume.
+• A Job Seeker can edit the date range for each prior job on a resume.
+Generally, a better solution is to group the smaller stories as follows:
+• A user can create resumes, which include education, prior jobs, salary his-
+tory, publications, presentations, community service, and an objective.
+• A user can edit a resume.
+• A user can delete a resume.
+From the Library of www.wowebook.com
+
+
+SPLITTING STORIES
+25
+• A user can have multiple resumes.
+• A user can activate and inactivate resumes.
+There are normally many ways to disaggregate a compound story. The pre-
+ceding disaggregation is along the lines of create, edit, and delete, which is com-
+monly used. This works well if the create story is small enough that it can be
+left as one story. An alternative is to disaggregate along the boundaries of the
+data. To do this, think of each component of a resume as being added and
+edited individually. This leads to a completely different disaggregation:
+• A user can add and edit education information.
+• A user can add and edit job history information.
+• A user can add and edit salary history information.
+• A user can add and edit publications.
+• A user can add and edit presentations.
+• A user can add and edit community service.
+• A user can add and edit an objective.
+And so on. 
+Unlike the compound story, the complex story is a user story that is inher-
+ently large and cannot easily be disaggregated into a set of constituent stories. If
+a story is complex because of uncertainty associated with it, you may want to
+split the story into two stories: one investigative and one developing the new
+feature. For example, suppose the developers are given the story “A company
+can pay for a job posting with a credit card” but none of the developers has
+ever done credit card processing before. They may choose to split the stories
+like this:
+• Investigate credit card processing over the web.
+• A user can pay with a credit card.
+In this case the first story will send one or more developers on a spike. When
+complex stories are split in this way, always define a timebox around the inves-
+tigative story, or spike. Even if the story cannot be estimated with any reason-
+able accuracy, it is still possible to define the maximum amount of time that will
+be spent learning.
+Complex stories are also common when developing new or extending known
+algorithms. One team in a biotech company had a story to add novel extensions
+From the Library of www.wowebook.com
+
+
+26
+WRITING STORIES
+to a standard statistical approach called expectation maximization. The com-
+plex story was rewritten as two stories: the first to research and determine the
+feasibility of extending expectation maximization; the second to add that func-
+tionality to the product. In situations like this one it is difficult to estimate how
+long the research story will take.
+Consider Putting the Spike in a Different Iteration
+When possible, it works well to put the investigative story in one iteration and the
+other stories in one or more subsequent iterations. Normally, only the investigative
+story can be estimated. Including the other, non-estimatable stories in the same iter-
+ation with the investigative story means there will be a higher than normal level of
+uncertainty about how much can be accomplished in that iteration.
+The key benefit of breaking out a story that cannot be estimated is that it
+allows the customer to prioritize the research separately from the new function-
+ality. If the customer has only the complex story to prioritize (“Add novel
+extensions to standard expectation maximization”) and an estimate for the
+story, she may prioritize the story based on the mistaken assumption that the
+new functionality will be delivered in approximately that timeframe. If instead,
+the customer has an investigative, spike story (“research and determine the fea-
+sibility of extending expectation maximization”) and a functional story
+(“extend expectation maximization”), she must choose between adding the
+investigative story that adds no new functionality this iteration and perhaps
+some other story that does.
+Combining Stories
+Sometimes stories are too small. A story that is too small is typically one that
+the developer says she doesn’t want to write down or estimate because doing
+that may take longer than making the change. Bug reports and user interface
+changes are common examples of stories that are often too small. A good
+approach for tiny stories, common among Extreme Programming teams, is to
+combine them into larger stories that represent from about a half-day to several
+days of work. The combined story is given a name and is then scheduled and
+worked on just like any other story.
+For example, suppose a project has five bugs and a request to change some
+colors on the search screen. The developers estimate the total work involved
+From the Library of www.wowebook.com
+
+
+TESTABLE
+27
+and the entire collection is treated as a single story. If you’ve chosen to use
+paper note cards, you can do this by stapling them together with a cover card.
+Testable
+Stories must be written so as to be testable. Successfully passing its tests proves
+that a story has been successfully developed. If the story cannot be tested, how
+can the developers know when they have finished coding?
+Untestable stories commonly show up for nonfunctional requirements,
+which are requirements about the software but not directly about its functional-
+ity. For example, consider these nonfunctional stories:
+• A user must find the software easy to use.
+• A user must never have to wait long for any screen to appear.
+As written, these stories are not testable. Whenever possible, tests should be
+automated. This means strive for 99% automation, not 10%. You can almost
+always automate more than you think you can. When a product is developed
+incrementally, things can change very quickly and code that worked yesterday
+can stop working today. You want automated tests that will find this as soon as
+possible.
+There is a very small subset of tests that cannot realistically be automated.
+For example, a user story that says “A novice user is able to complete common
+workflows without training” can be tested but cannot be automated. Testing
+this story will likely involve having a human factors expert design a test that
+involves observation of a random sample of representative novice users. That
+type of test can be both time-consuming and expensive, but the story is testable
+and may be appropriate for some products.
+The story “a user never has to wait long for any screen to appear” is not test-
+able because it says “never” and because it does not define what “wait long”
+means. Demonstrating that something never happens is impossible. A far easier,
+and more reasonable target, is to demonstrate that something rarely happens.
+This story could have instead been written as “New screens appear within two
+seconds in 95% of all cases.” And—even better—an automated test can be writ-
+ten to verify this.
+From the Library of www.wowebook.com
+
+
+28
+WRITING STORIES
+Summary
+• Ideally, stories are independent from one another. This isn’t always possi-
+ble but to the extent it is, stories should be written so that they can be
+developed in any order.
+• The details of a story are negotiated between the user and the developers.
+• Stories should be written so that their value to users or the customer is
+clear. The best way to achieve this is to have the customer write the stories.
+• Stories may be annotated with details, but too much detail obscures the
+meaning of the story and can give the impression that no conversation is
+necessary between the developers and the customer.
+• One of the best ways to annotate a story is to write test cases for the story.
+• If they are too big, compound and complex stories may be split into multi-
+ple smaller stories.
+• If they are too small, multiple tiny stories may be combined into one big-
+ger story.
+• Stories need to be testable.
+Developer Responsibilities
+• You are responsible for helping the customer write stories that are prom-
+ises to converse rather than detailed specifications, have value to users or
+the customer, are independent, are testable, and are appropriately sized.
+• If tempted to ask for a story about the use of a technology or a piece of
+infrastructure, you are responsible for instead describing the need in terms
+of its value to users or the customer.
+Customer Responsibilities
+• You are responsible for writing stories that are promises to converse rather
+than detailed specifications, have value to users or to yourself, are inde-
+pendent, are testable, and are appropriately sized.
+From the Library of www.wowebook.com
+
+
+QUESTIONS
+29
+Questions
+2.1
+For the following stories, indicate if it is a good story or not. If not, 
+why?
+a A user can quickly master the system.
+b A user can edit the address on a resume.
+c A user can add, edit and delete multiple resumes.
+d The system can calculate saddlepoint approximations for 
+distributions of quadratic forms in normal variables.
+e All runtime errors are logged in a consistent manner.
+2.2
+Break this epic up into appropriately sized component stories: “A 
+user can make and change automated job search agents.”
+From the Library of www.wowebook.com

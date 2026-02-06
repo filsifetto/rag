@@ -13,7 +13,7 @@ import time
 from datetime import datetime
 
 from ..models.search_result import SearchResult, ResponseAnalysis
-from ..config.settings import Settings
+from ..config import Settings
 
 
 class ResponseGenerator:
@@ -22,7 +22,7 @@ class ResponseGenerator:
     def __init__(self, settings: Settings):
         """Initialize response generator."""
         self.settings = settings
-        self.openai_client = instructor.from_openai(OpenAI(api_key=settings.openai_api_key))
+        self.openai_client = instructor.patch(OpenAI(api_key=settings.openai_api_key))
         self.logger = logging.getLogger(__name__)
         
         # Response configuration
@@ -97,8 +97,11 @@ class ResponseGenerator:
             self.logger.error(f"Error generating response: {e}")
             return self._create_error_response(query, str(e), start_time)
     
+    # Maximum characters of content to include per source (~375 tokens)
+    MAX_CONTENT_CHARS_PER_SOURCE = 1500
+
     def _build_context(self, search_results: List[SearchResult]) -> str:
-        """Build structured context from search results."""
+        """Build structured context from search results, truncating to fit token budget."""
         context_parts = []
         
         for i, result in enumerate(search_results, 1):
@@ -110,60 +113,32 @@ class ResponseGenerator:
             
             metadata_str = ", ".join(metadata_items) if metadata_items else "No metadata"
             
-            # Add result type information
-            type_info = f"Type: {result.result_type}"
-            if result.parent_document_id:
-                type_info += f", Parent: {result.parent_document_id}"
-            if result.chunk_index is not None:
-                type_info += f", Chunk: {result.chunk_index}"
+            # Truncate content to stay within token budget
+            content = result.content
+            if len(content) > self.MAX_CONTENT_CHARS_PER_SOURCE:
+                content = content[:self.MAX_CONTENT_CHARS_PER_SOURCE] + "... [truncated]"
             
             context_parts.append(f"""
 Source {i} (ID: {result.id}):
-{type_info}
-Content: {result.content}
+Content: {content}
 Metadata: {metadata_str}
 Relevance Score: {result.combined_score:.3f}
-Score Breakdown: {result.explanation}
 ---""")
         
         return "\n".join(context_parts)
     
     def _create_system_prompt(self, custom_instructions: Optional[str] = None) -> str:
         """Create comprehensive system prompt for response generation."""
-        base_prompt = """You are an expert research assistant that synthesizes information from multiple sources to provide accurate, comprehensive answers.
+        base_prompt = """You are a research assistant that synthesizes information from provided sources.
 
-CORE PRINCIPLES:
-1. Base your response ONLY on the provided sources
-2. Synthesize information across multiple sources when relevant
-3. Provide clear reasoning for your conclusions
-4. Indicate confidence levels and any limitations
-5. Reference sources by their ID numbers
-6. Maintain objectivity and acknowledge uncertainty when appropriate
+Rules:
+1. Base your response ONLY on the provided sources.
+2. Reference sources by their ID numbers.
+3. Provide step-by-step reasoning.
+4. Calculate confidence (0-1) based on source quality and consensus.
+5. Note any gaps or limitations.
 
-RESPONSE REQUIREMENTS:
-- Provide step-by-step reasoning that shows how you arrived at your answer
-- Calculate confidence based on source quality, consensus, and completeness
-- Identify which specific sources contribute to your answer
-- Note any gaps, contradictions, or limitations in available information
-- Ensure your answer directly addresses the user's question
-- Use clear, professional language appropriate for the context
-
-CONFIDENCE SCORING GUIDELINES:
-- Very High (0.9-1.0): Multiple high-quality sources with strong consensus
-- High (0.75-0.89): Good sources with general agreement, minor gaps
-- Medium (0.5-0.74): Adequate sources but some uncertainty or conflicts
-- Low (0.25-0.49): Limited sources or significant gaps in information
-- Very Low (0.0-0.24): Insufficient or contradictory information
-
-SOURCE COVERAGE CALCULATION:
-- Calculate what percentage of the provided sources actually contribute to your answer
-- Higher coverage generally indicates more comprehensive analysis
-
-QUALITY INDICATORS:
-- Prioritize sources with higher relevance scores
-- Consider source metadata (author, publication date, type) in your assessment
-- Look for corroboration across multiple independent sources
-- Identify and note any potential biases or limitations in sources"""
+CONFIDENCE LEVELS: Very High (0.9-1.0), High (0.75-0.89), Medium (0.5-0.74), Low (0.25-0.49), Very Low (0.0-0.24)."""
         
         if custom_instructions:
             base_prompt += f"\n\nADDITIONAL INSTRUCTIONS:\n{custom_instructions}"
@@ -174,17 +149,10 @@ QUALITY INDICATORS:
         """Create structured user prompt with query and context."""
         return f"""QUESTION: {query}
 
-AVAILABLE SOURCES:
+SOURCES:
 {context}
 
-Please analyze these sources and provide a comprehensive response that addresses the question. Include your reasoning process, confidence assessment, source usage analysis, and any limitations in the available information.
-
-Remember to:
-1. Reference sources by their ID numbers when making specific claims
-2. Explain your reasoning step by step
-3. Assess the quality and reliability of the information
-4. Note any assumptions you're making
-5. Identify gaps or areas where more information would be helpful"""
+Provide a comprehensive answer based on the sources above."""
     
     def _create_no_results_response(self, query: str, start_time: float) -> ResponseAnalysis:
         """Create response when no search results are available."""

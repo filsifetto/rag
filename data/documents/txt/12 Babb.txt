@@ -1,0 +1,930 @@
+Dette materialet er vernet etter åndsverkloven og er helt eller 
+delvis fremstilt etter avtale med Kopinor. Materialet kan benyttes 
+av studenter som deltar i det aktuelle emnet, for egne studier, i et­
+hvert format og på enhver plattform. Uten uttrykkelig samtykke er 
+annen eksemplarfremstilling og tilgjengeliggjøring bare tillatt når 
+det er hjemlet i lov (kopiering til privat bruk, sitat o.l.) eller avtale 
+med Kopinor (www.kopinor.no).
+Digitalt framstilt av:
+NTNU Universitetsbiblioteket
+This material is protected by copyright law and is wholly or partly 
+produced by agreement with Kopinor. The material can be used 
+by students who participate in the relevant course, for their own 
+studies, in any format and on any platform. Without expressed 
+consent, other copying and making available is only permitted 
+when authorized by law (copying for private use, quotation, etc.) 
+or agreement with Kopinor (www.kopinor.no).
+Babb, J., Hoda, R. & Nørbjerg, J. (2014). Embedding reflection and learning 
+into agile software development. IEEE software. Vol. 31(4), s. 51-57
+Utdraget er klarert i henhold til Kopinoravtalen for dette semesteret: VÅR 2024
+
+
+0740-7459/14/$31.00 © 2014 IEEE 
+JULY/AUGUST 2014  |  IEEE SOFTWARE
+51
+FEATURE: SECTION TITLE
+FOCUS: REFLECTIVE SOFTWARE ENGINEER
+Embedding 
+Refl ection and 
+Learning into 
+Agile Software 
+Development
+Jeffry Babb, West Texas A&M University
+Rashina Hoda, University of Auckland
+Jacob Nørbjerg, Aalborg University
+// The theoretical underpinnings of agile methods 
+emphasize regular refl ection as a means to sustainable 
+development pace and continuous learning, but in 
+practice, high iteration pressure can diminish refl ection 
+opportunities. The Refl ective Agile Learning Model 
+(REALM) combines insights and results from studies 
+of agile development practices in India, New Zealand, 
+and the US with Schön’s theory of refl ective practice 
+to embed refl ection in everyday agile practices. // 
+IMPLICIT IN THE agile tenet—“at 
+accordingly”1—is the fact that agile 
+regular intervals, the team refl ects 
+teams should regularly assess their
+on how to become more effective, 
+process and its outcomes. Individu-
+then tunes and adjusts its behavior 
+als and teams are expected to engage 
+ 
+in regular refl ection to maintain and 
+improve their software processes.1–5
+Using refl ective practice, agile devel-
+opers can determine the degree to 
+which the process, or aspects of it, 
+can be expanded, adapted, altered, 
+or abandoned.3 Thus, agile software 
+development projects are expected to 
+consistently yield results in both ar-
+eas of productivity (regular delivery 
+of working software) and the refl ec-
+tion required to maintain an effec-
+tive software process. However, in 
+practice, this balancing act between 
+productivity and continuous process 
+improvement and learning is non-
+trivial to achieve and sustain.3 In-
+dividuals and teams often perform 
+under sustained pressure to deliver 
+customer value (iteration pressure) 
+and might abandon or under-en-
+gage in core agile practices related 
+to refl ection and learning, lead-
+ing to diminished opportunities for 
+knowledge sharing, learning, and 
+refl ection.3,6 Without an ongoing re-
+fl ective dialog about their practices, 
+software teams may experience pro-
+cess erosion.7
+In this article, we present the 
+Refl ective Agile Learning Model 
+(REALM), showing where and how 
+to integrate refl ective practice in ag-
+ile software development. The model 
+combines insights and results from 
+industrial studies of agile develop-
+ment practices in India, New Zea-
+land, and the US with Schön’s theory 
+of refl ective practice.8–10 Although a 
+theoretical synthesis of agile methods 
+and Donald Schön’s refl ective prac-
+tice isn’t a novel suggestion,2,5,11,12
+our approach underscores the ef-
+fectiveness of refl ective practice to 
+sustain and improve an agile devel-
+opment team. REALM provides 
+concrete guidelines for embedding 
+refl ective practice into an itera-
+tive and agile software engineering 
+Authorized licensed use limited to: Norges Teknisk-Naturvitenskapelige Universitet. Downloaded on January 06,2021 at 15:15:41 UTC from IEEE Xplore.  Restrictions apply. 
+
+
+52 
+IE E E S O F T WA R E  |  W W W.CO M PU T E R .O R G /S O F T WA R E  |  @ I E E E S O F T WA R E
+FOCUS: REFLECTIVE SOFTWARE ENGINEER
+development cycle. This model is an 
+evolution of previous models but has 
+been refi ned to present a refl ective 
+process maintenance perspective.3,6
+Drawing upon Evidence
+We created REALM by drawing
+upon evidence from two industrial-
+studies of agile practices: a longitu-
+dinal Action Research study of ag-
+ile software development in a small 
+software company in the US, and a 
+Grounded Theory study of software 
+teams and practices involving 58 soft-
+ware practitioners from 23 differ-
+ent companies in New Zealand and 
+ 
+India, most of whom were using agile 
+were those most closely related to 
+methods such as Scrum, extreme pro-
+learning and refl ection.3,6
+gramming (XP), or a combination of 
+A model for the infusion of refl ec-
+the two. Both studies involved obser-
+tive practice into XP was a salient 
+vations of workplaces and practices 
+outcome of the US study. Developers 
+plus direct face-to-face interviews of 
+engaged in daily learning and refl ec-
+team members as a means to collect 
+tion habits that reinforced and com-
+qualitative data.
+plemented activities already endemic 
+A prominent fi nding emerging 
+to agile methods. We refi ned and 
+from both studies independently 
+augmented REALM via the learn-
+was the teams’ adaptations of stan-
+ing-focused practices of the Scrum 
+dard agile practices to suit particu-
+and XP teams in the Grounded The-
+lar organizational or project con-
+ory study. The fi ndings from both 
+texts. In particular, we found that 
+studies complement one another and 
+the practices most likely to be lost, 
+combine to inform a new model of 
+sacrifi ced, or compromised over time 
+refl ection in agile practice. 
+Release planning
+Project goals
+1
+Group
+programming
+3
+Retrospective
+7
+Estimation and
+iteration planning
+2
+Learning spike
+5
+Daily standup
+4
+Iteration goals
+Working software
+Pair-in-need
+Project wiki
+Customer rep
+Coach or
+Team
+Scrum master 
+Reflection-in-action
+Demo and
+acceptance testing
+6
+Reflection-on-action
+FIGURE 1. The Refl ective Agile Learning Model (REALM). Standard and adapted agile practices with implicit refl ection-in-action 
+opportunities are depicted in green; learning-focused agile practices with explicit refl ection-on-action opportunities are depicted in blue.
+Authorized licensed use limited to: Norges Teknisk-Naturvitenskapelige Universitet. Downloaded on January 06,2021 at 15:15:41 UTC from IEEE Xplore.  Restrictions apply. 
+
+
+ 
+JULY/AU GU S T 2014  |  IE E E S O F T WA R E 
+53
+A New REALM  
+of Application
+As part of a learning team, a reflec-
+tive practitioner is one who engages
+in two separate but intertwined re-
+flective processes: reflection-in-ac-
+tion concerning the individual re-
+sponses to shaping the problem at
+hand and its possible solutions, and
+reflection-on-action concerning a
+post hoc evaluation process for ex-
+tending and validating individual and 
+team repertoire. Schön defines rep-
+ertoire as an accumulation of ideas,
+examples, situations, and actions
+gleaned from the whole of a practi-
+tioner’s experience such as it is acces-
+sible for understanding and action.9 
+At 
+first, 
+this 
+might 
+seem
+either too trivial or too obtuse to
+systematically 
+guide 
+a 
+software
+process. However, without ongoing
+and explicit attention to reflection,
+even an agile development team can
+lose its ability to learn and improve.
+Thus, the purpose of REALM is
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+to routinize awareness of ongoing 
+planning, group programming, pair-
+reflection in and on action in agile 
+in-need, project wikis, and product 
+development projects. The model’s 
+demo and acceptance testing. Dur-
+development is strongly grounded 
+ing these agile activities, developers 
+in the reflection-in and -on action 
+are most engaged with the materials 
+practices identified across the two 
+of design and development.
+studies. Figure 1 illustrates how 
+REALM highlights opportunities 
+Release planning. In release plan-
+for reflection-in-action, which is 
+ning, overall domain context, proj-
+implicit in standard and adapted 
+ect goals, and product features are 
+agile practices (green); reflection-
+discussed, which drives the tempo 
+on-action includes explicit learning-
+and direction of team practices 
+focused agile practices (blue). Table 1 
+throughout the project. Any clues 
+summarizes the model’s steps.
+that a project might reveal about 
+past contexts and experiences will 
+Reflection-in-Action
+become evident to the developer at 
+A practitioner who’s more conscious 
+this stage. The reflective practitioner, 
+of her reflection-in-action will be 
+with heightened awareness, could be 
+more apt to take note of her reac-
+more apt to draw from repertoire at 
+tions and solutions to new prob-
+this point.
+lems in a manner that can inform 
+her repertoire. This is useful both to 
+Collective estimation and iteration 
+the practitioner and to the team she 
+planning. The team collectively se-
+works with. In REALM, these re-
+lects and estimates tasks for the 
+flections are most evident in release 
+current iteration, and in so doing, 
+planning, estimation and iteration 
+team members acquire and confirm 
+TABLE 1
+Learning and reflection opportunities  
+in the Reflective Agile Learning Model (REALM).
+Agile practices
+Reflection-in-action
+Release planning
+Learning about the project, domain, and product
+Collective estimation and 
+iteration planning
+Learning about each other’s skills and areas of expertise, and the team’s collective capacity to delivery 
+(velocity)
+Group programming
+Learning new skills and expertise from each other
+Pair-in-need
+Novices learning about the team and project as they pair with experts; pairs learning a new technology or skill 
+as they work on a challenging task
+Project wiki
+Capturing project-based learning about the domain and individual reflections (blogs)
+Demo and acceptance testing
+Learning from acceptance test failures that fuel refinements and guide product vision
+Agile practices
+Reflection-on-action
+Daily standup
+Reflection on action performed the previous day, planning for the day’s actions, and highlighting impediments
+Learning spike
+Adapted practice that embodies reflection on action as some members devote exclusive time to new learning
+Retrospective
+Standard agile practice devoted exclusively to reflection on actions performed in previous iteration
+Authorized licensed use limited to: Norges Teknisk-Naturvitenskapelige Universitet. Downloaded on January 06,2021 at 15:15:41 UTC from IEEE Xplore.  Restrictions apply. 
+
+
+54 
+IE E E S O F T WA R E  |  W W W.CO M PU T E R .O R G /S O F T WA R E  |  @ I E E E S O F T WA R E
+FOCUS: REFLECTIVE SOFTWARE ENGINEER
+knowledge of each other’s skills 
+experienced member to learn “the 
+repertoire. Opportunities for reflec-
+and areas of expertise. Learning 
+tricks of the trade.” Other instances 
+tion-on-action in REALM are the 
+about the team’s collective capac-
+include team members pairing up to 
+retrospective, the daily standup, and 
+ity to deliver (velocity) starts here. 
+learn and apply a new technology or 
+learning spikes. 
+Including the whole team—not just 
+skill to solve a challenging task.
+Retrospective. While 
+most 
+agile 
+methods call for a retrospective, in 
+Individuals and teams need  
+practice, it’s an activity that can eas-
+ily be skipped or skimped. Retro-
+to constantly add to and draw  
+spectives provide a means of exam-
+from their repertoire.
+ining the thoughts, experiences, and 
+notes on the various consultations 
+with and examinations of both indi-
+vidual and team repertoire. This is a 
+developers or leads, but stakehold-
+Project wikis. Teams often capture 
+process of making the tacit explicit 
+ers, too—ensures a shared vision 
+project-based terminology and con-
+by asking of our actions, “What 
+and understanding of the project 
+text-specific conventions in a wiki 
+did/does this mean?” Therefore, re-
+based on inputs from multiple per-
+format shared between the team and 
+flection-on-action in general, and in 
+spectives and collective agreements. 
+the customer. Individuals might also 
+particular during the retrospective, 
+Teams can use this as an excellent 
+engage in writing blogs to capture 
+is both vital and challenging.
+opportunity to discuss customer ex-
+and share learning gained from proj-
+pectations with regard to team pro-
+ect experiences.
+Daily standup. Repertoire is mostly 
+ductivity, which is a key element in 
+called on during the “action” stages 
+managing learning throughout the 
+Product demo and acceptance test-
+of a project: a daily standup meeting 
+project. The reflective practitioner 
+ing. Here the team can again draw 
+allows the practitioner and the team 
+will look for metaphors and pat-
+on its collective repertoire, as it 
+to recall recent reflection-in-action 
+terns to allow past experience to 
+must adjust to the customer’s inter-
+while it’s still fresh. This daily rou-
+guide and clarify task formulation 
+action with and feedback regarding 
+tine constitutes a critically important 
+and prioritization.
+the software’s emerging functional-
+component for engaging in reflective 
+ities. Although agile methods call 
+practice to benefit process mainte-
+Group programming. Software de-
+on teams to constantly involve the 
+nance. Throughout daily practice, 
+velopment acutely draws on tacit 
+customer, the customer can rarely 
+practitioners on the team will ide-
+knowledge 
+and 
+repertoire. 
+The 
+immerse into the same “zone” as 
+ally accumulate observations and re-
+working rhythm and velocity of the 
+the developers at the height of the 
+flections. Thus, the daily standup is 
+team will be established, and any 
+development process, making for 
+an opportunity to aggregate reflec-
+corrections and adjustments, par-
+a constant translation process. Re-
+tions to reinforce or challenge team 
+ticularly those made “on the spot,” 
+flection-in-action at the moment of 
+and individual repertoire. During 
+will most benefit from reflection-in-
+iteration demonstration and accep-
+the daily standup, the team can dis-
+action. Overtly and tacitly, habits, 
+tance will have an appreciable im-
+cuss project velocity and story burn-
+skills, and knowledge pass between 
+pact on the next iteration and the 
+down, as well as develop a platform 
+team members in a revelatory man-
+nature of the product. 
+for observations on repertoire use 
+ner in terms of project trajectory and 
+and understanding.
+risk mitigation. 
+Reflection-on-Action
+Reflection-on-action is the “after-
+Learning spikes. Another test of rep-
+Pair-in-need. Agile teams might not 
+action report” on how repertoire 
+ertoire is the development of proof-
+pair-program all the time in prac-
+has changed. It’s during reflection-
+of-concept “spike” solutions to de-
+tice. However, they do pair up on 
+on-action that teams attempt to 
+termine individual and team ability 
+an as needed basis such as when a 
+answer questions regarding what 
+to branch out into new techniques, 
+newcomer to the team pairs with an 
+to keep, discard, and modify in 
+tools, or knowledge. Spike solutions 
+Authorized licensed use limited to: Norges Teknisk-Naturvitenskapelige Universitet. Downloaded on January 06,2021 at 15:15:41 UTC from IEEE Xplore.  Restrictions apply. 
+
+
+ 
+JULY/AU GU S T 2014  |  IE E E S O F T WA R E 
+55
+enhance individual and team reper-
+toire via experiential learning. 
+Practical Examples
+During the US study, the software 
+team worked over a nine-month
+period to make reflection-in-action 
+a habit and coerce reflection into 
+an explicit activity. Among other 
+items, they adopted the habit of 
+on-the-spot reflection-in-action by 
+“microblogging” in a team wiki to 
+accumulate their thoughts and ob-
+servations. At the end of the day, 
+the developers also contributed to 
+a team blog for reflection later that 
+night or the next morning: 
+“I put it in the wiki right then, I 
+knew I wanted to come back to 
+it later. There have been a lot of 
+times I knew I wanted to come 
+back to something that I looked 
+at six months ago, but I couldn’t 
+remember where I found it, so 
+I don’t want to lose this knowl-
+edge.” – small shop owner and lead 
+developer, Virginia, US
+This explicit process of reflec-
+tive practice was slowly ingrained 
+into the team by habits engaged in 
+throughout the day. During devel-
+opment, particularly when pair-pro-
+gramming, developers would con-
+sciously remember to record tidbits 
+of reflective writing in their team 
+wiki. This habit of microblogging 
+was used to “feed” the daily standup 
+with a synopsis of interesting obser-
+vations and other helpful items. This 
+activity became a team expectation 
+to be engaged in equally alongside 
+more traditional activities that gauge 
+project velocity, coordinate task
+completion, and so on. These daily 
+habits further supported the project 
+retrospectives (reflection-on-action)
+that formalized the development of 
+ 
+ 
+ 
+individual and team repertoire. Be-
+practices such as the learning spike 
+cause iteration pressure to deliver 
+to concentrate on exclusive learn-
+maximum customer value as quickly 
+ing. For example, a team in New 
+and efficiently as possible was quite 
+Zealand, as a result of a retrospec-
+high, 
+reflection-in-action 
+helped 
+tive session, discovered that manual 
+team members annotate their experi-
+testing was placing high demands 
+ences in the hope that their body of 
+on team productivity. As a result of 
+knowledge could be tested, verified/
+team discussions and with manage-
+validated, and documented:
+ment support, they agreed to conduct 
+a learning spike where team members 
+“I think that the blogging, the wiki, 
+took exclusive time off project work 
+and the daily standup are very 
+to create an automated test suite:
+important ways to keep an active 
+project on track. We have so many 
+“We’ve just basically reduced our 
+projects going on that if we do not 
+velocity and taken the time to do 
+follow up, either through the daily 
+those things because we knew they 
+standup or through the wiki, the 
+were important. We made a call 
+projects will get off track.” – devel-
+that we were not going to wimp 
+oper, Virginia, US
+out, and go back to the manual 
+testing...we’ve taken automation 
+The blogs and wikis used by the 
+a lot further... doing 100 percent 
+US team certainly aren’t novel tools, 
+automation.” – agile coach, NZ
+but the way in which they facilitated 
+the habits necessary to understand 
+While the spike led to a reduction 
+the tacit-to-explicit process of reflec-
+in project velocity in the short-term, 
+tive practice was. Daily and regular 
+the team clearly benefitted from au-
+engagement of these tools provided 
+tomating the testing in the long-term 
+the team with a means of raising 
+across all projects. Lessons from this 
+awareness and consciousness of how 
+experience were captured and shared 
+individual 
+practitioners 
+framed, 
+by the agile coach as presentations to 
+shaped, and set problems in their 
+the local agile community.
+daily work.
+Pair-in-need was a common prac-
+In the Grounded Theory study, 
+tice used across teams in India and 
+mature teams tended to use standard 
+New Zealand to boost learning while 
+practices such as retrospectives ef-
+benefitting from investing two minds 
+fectively to drive action based on re-
+on a particularly challenging problem:
+flections on previous iteration:
+“The way we do it is that if things 
+“With every retrospective, we 
+are unpredictable, we always 
+certainly came up with ideas to 
+take up user stories as a pair … if 
+improve our process, and I think 
+something [task] requires—this is 
+with all those retrospective sessions 
+complex, this is design-intensive—
+under our belt, with all the experi-
+we sit together and pair it.” – agile 
+ence sizing, planning, everything 
+coach, India
+combined, it really made us evolve 
+as a team.” – business analyst, NZ
+While newer teams (with less 
+than a year of experience) in the 
+Reflections during retrospectives 
+Grounded Theory study struggled to 
+led to teams introducing adapted 
+embed learning in everyday practice 
+Authorized licensed use limited to: Norges Teknisk-Naturvitenskapelige Universitet. Downloaded on January 06,2021 at 15:15:41 UTC from IEEE Xplore.  Restrictions apply. 
+
+
+56 
+IE E E S O F T WA R E  |  W W W.CO M PU T E R .O R G /S O F T WA R E  |  @ I E E E S O F T WA R E
+FOCUS: REFLECTIVE SOFTWARE ENGINEER
+JEFFRY BABB is an assistant professor of computer informa-
+tion systems at West Texas A&M University. His research 
+interests include small-team software development, agile 
+software development, and mobile application development. 
+Babb received a PhD in information systems from Virginia Com-
+monwealth University. Contact him at jbabb@wtamu.edu.
+RASHINA HODA is the director of the Software Engineer-
+ing Processes, Tools and Applications research group in the 
+University of Auckland’s Department of Electrical and Computer 
+Engineering. Her research interests include self-organizing 
+teams, agile software development, and human-computer inter-
+action. Hoda received a PhD in computer science from Victoria 
+University of Wellington. Contact her at r.hoda@auckland.ac.nz.
+JACOB NØRBJERG is an associate professor in Aalborg 
+University’s Department of Computer Science. His research 
+interests are in systems development organization and manage-
+ment and software process improvement. Nørbjerg received a 
+PhD in information systems development from the University of 
+Copenhagen. Contact him at jacobnor@cs.aau.dk.
+ABOUT THE AUTHORS
+to varying degrees, mature teams 
+mastered refl ection-in and -on ac-
+tion. Using standard and adapted 
+refl ective practices, these teams were 
+able to discover better ways of work-
+ing and also worked better together. 
+They became highly self-organizing 
+in nature.
+From Learning Teams to 
+Learning Organizations
+In the software process context, a 
+learning organization8 is an environ-
+ment most able to engage in refl ec-
+tive practice.2 A learning organiza-
+tion recognizes the importance of 
+individual and collective knowledge 
+within the organization and the need 
+to manage it as an asset.2. A learning 
+organization values each member’s 
+professional development, realizing 
+that effective people will make an 
+fective product. Whereas refl ecti
+practice focuses on developing in
+vidual repertoire, a learning orga
+zation promotes the accumulation 
+individual repertoire.9 In this sen
+a learning organization provides
+working environment that valu
+learning as a daily activity.8 
+In essence, the introduction 
+refl ective practice to a software d
+velopment organization facilitates
+learning system in which no partic
+lar software development method
+as important as the ability to ada
+and develop knowledge appropria
+in the team. This leaves little dou
+as to why agile methods have been 
+compelling in software engineeri
+for the past decade: agile practical
+demands a learning organizatio
+ef-
+ve 
+di-
+ni-
+of 
+se, 
+ a 
+es 
+of 
+e-
+ a 
+u-
+ is 
+pt 
+te 
+bt 
+so 
+ng 
+ly 
+n. 
+Moreover, the habits required to 
+engage in refl ective practice would 
+more likely be fostered and nurtured 
+in a learning organization. 
+REALM illustrates the relevance 
+of refl ective practice to software en-
+gineering for organizational learning 
+as it helps accumulate individual and 
+team repertoire. As individuals build 
+their repertoire, and in turn estab-
+lish a team repertoire, both the team 
+and the individual are reinforced. 
+Team refl ections-on-action can rein-
+force individual refl ection-in-action 
+to cement learning in a manner that 
+strengthens individuals, who in turn 
+strengthen team acumen, and ulti-
+mately the organization itself.
+Recommendations for 
+the Refl ective Agile 
+Practitioner
+A refl ective agile practitioner is any 
+software engineering professional—
+developer, tester, manager, coach—
+empowered by supportive manage-
+ment,3 who engages in refl ective 
+practice as a means to enhance his or 
+her personal and team productivity 
+and fuel long-term process and team 
+improvements. Based on our experi-
+ences with REALM, we can provide 
+some recommendations for such re-
+fl ective practitioners.
+Harness Standard Agile Practices to 
+Implicitly Capture Refl ection-in-Action
+It’s easy to “go through the mo-
+tions” when performing various ag-
+ile practices. By being conscious of 
+the learning opportunities present 
+in everyday agile practices as sug-
+gested in REALM (such as release 
+planning), an agile practitioner can 
+gain signifi cant knowledge about the 
+product domain, usage context, re-
+quired technologies (including learn-
+ing new skills), and individual and 
+team capabilities.
+Authorized licensed use limited to: Norges Teknisk-Naturvitenskapelige Universitet. Downloaded on January 06,2021 at 15:15:41 UTC from IEEE Xplore.  Restrictions apply. 
+
+
+ 
+JULY/AU GU S T 2014  |  IE E E S O F T WA R E 
+57
+Make Effective Use of Retrospectives 
+management and enable the practi-
+to Achieve Continuous Improvement
+tioner to emerge as a thought-leader
+The retrospective is a standard ag-
+in his or her professional sphere. An
+ile practice explicitly designed to 
+even less demanding mechanism to
+capture reflection-on-action. How-
+share lessons with the wider commu-
+ever, retrospectives are often eas-
+nity is to participate in research ef
+ily abandoned or diminished to 
+forts that serve to capture the experi-
+lip-service as teams get more used 
+ences of several practitioners, which
+to the process and begin to focus 
+in turn can help inform the interna-
+exclusively on delivery. Reflective 
+tional software community.
+practitioners should hold on to the 
+practice of retrospectives and use 
+them effectively to reflect on their 
+lthough reflection as a
+processes, thereby achieving con- A
+means of learning is 
+tinuous improvement.
+highly espoused benefit
+and expected outcome of agile soft-
+Introduce Adapted Agile Practices to 
+ware methods, its practice doesn’t
+Explicitly Capture Reflection-on-Action
+explicitly provide guidance on how
+It’s common for practitioners to de-
+to create an environment that will
+vise new or adapted practices to 
+support ongoing learning and re-
+overcome particular challenges and 
+flection. 
+Theoretically, 
+however,
+needs, such as learning spike, pair-
+the focus of agile principles on con-
+in-need, and project wikis. A reflec-
+tinuous learning presents a unique
+tive practitioner should be open to 
+opportunity to benefit from the ap-
+inventing his or her own strategies or 
+plication of the reflective practice
+endeavor to be in sync with the latest 
+paradigm developed by Schön as a
+in the practitioner community to help 
+means to achieve process mainte-
+with learning and applying strategies 
+nance (and evolution).
+devised by other practitioners.
+REALM uses reflective practice to
+develop micro habits for uncovering
+Share Lessons within the Organization 
+tacit knowledge among a software de-
+and Wider Software Community
+velopment team. Whether an individ-
+Presenting experience reports at lo-
+ual must adopt a new beneficial habit
+cal and international conferences 
+or cease an existing detrimental one,
+or workshops is a great way to dis-
+habit-forming is a behavior modifica-
+tribute the knowledge and learning 
+tion concern that’s “easier said than
+gained from personal experiences. 
+done.” As it has been suggested that
+Most agile conferences or work-
+practitioners capable of success with
+shops host practitioner tracks that 
+agile methods should generally be
+welcome experience reports and 
+high-functioning, the agile tenet for
+presentations. Blogging is another 
+self-organization is highly correlated
+effective practice to achieve similar 
+with the habits required for success-
+outcomes with limited investments. 
+ful reflective practice. 
+Popular social networking commu-
+Using REALM, software teams
+nities also provide ample avenues 
+can consider ways to implement
+to share with and learn from the 
+reflective practice to achieve and
+wider practitioner community. Such 
+sustain a much-emphasized ele-
+efforts are typically well-received 
+ment of agile methods: the ability
+and even commended by peers and 
+to adapt and evolve methods for a
+ 
+ 
+ 
+-
+ 
+ 
+a 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+continuously 
+improving 
+software 
+process at the individual, team, and 
+organizational levels.
+References
+ 1.  A. Cockburn and J. Highsmith, “Agile 
+Software Development, the People Fac-
+tor,” Computer, vol. 34, no. 11, 2001, pp. 
+131–133.
+ 2.  O. Hazzan and J. Tomayko, “The 
+Re flective Practitioner Perspective in eX-
+treme Programming,” Extreme Program-
+ming and Agile Methods: XP/Agile Universe 
+2003, F. Maurer and D. Wells, eds., Springer 
+Berlin Heidelberg, 2003, pp. 51–61.
+ 3.  R. Hoda, J. Babb, and, J. Nørbjerg, “To-
+ward Learning Teams,” IEEE Software, 
+vol. 30, no. 4, 2013, pp. 95–98.
+ 4.  N.B. Moe, T. Dingsøyr, and T. Dybå, 
+“A Teamwork Model for Understanding 
+an Agile Team: A Case Study of a Scrum 
+Project,” Information and Software Tech-
+nology, vol. 52, 2010, pp. 480–491.
+ 5.  S. Nerur and V. Balijepally, “Theo-
+retical Reflections on Agile Development 
+Methodologies: The Traditional Goal of 
+Optimization and Control is Making Way 
+for Learning and Innovation,” Comm. 
+ACM, vol. 50, no. 3, 2007, pp. 79–83.
+ 6.  J. Babb, R. Hoda, and J. Nørbjerg, 
+“Barriers to Learning in Agile Software 
+Development Projects,” Agile Processes in 
+Software Engineering and Extreme Pro-
+gramming, H. Baumeister and B. Weber, 
+eds., Springer, 2013, pp. 1–15. 
+ 7.  G. Coleman and R. O’Connor, “Inves-
+tigating Software Process in Practice: A 
+Grounded Theory Perspective,” J. Systems 
+and Software, vol. 81, no. 5, 2008, pp. 
+772–784.
+ 8.  C. Argyris and D. Schön, Organizational 
+Learning: A Theory of Action Perspective, 
+Addison Wesley, 1978.
+ 9.  D. Schön, The Reflective Practitioner: 
+How Professionals Think in Action, Basic 
+Books, 1983.
+ 10.  D. Schön, Educating the Reflective 
+Practitioner: Toward a New Design for 
+Teaching and Learning in the Professions, 
+Jossey-Bass, 1987.
+ 11.  J.A. Highsmith, Adaptive Software 
+Development: A Collaborative Approach, 
+Dorset House, 2000.
+ 12.  J. McAvoy and T. Butler, “A Failure 
+to Learn by Software Developers: Inhibit-
+ing the Adoption of an Agile Software 
+Development Methodology,” J. Informa-
+tion Technology Case and Application 
+Research, vol. 11, no. 1, 2009, pp. 23–45.
+Selected CS articles and columns 
+are also available for free at  
+http://ComputingNow.computer.org.
+Authorized licensed use limited to: Norges Teknisk-Naturvitenskapelige Universitet. Downloaded on January 06,2021 at 15:15:41 UTC from IEEE Xplore.  Restrictions apply. 

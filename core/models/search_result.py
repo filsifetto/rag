@@ -118,7 +118,7 @@ class ResponseAnalysis(BaseModel):
     
     # Quality metrics
     confidence_score: float = Field(..., description="Confidence in answer accuracy (0-1)")
-    confidence_level: ConfidenceLevel = Field(..., description="Categorical confidence level")
+    confidence_level: Optional[ConfidenceLevel] = Field(None, description="Categorical confidence level")
     source_coverage: float = Field(..., description="Percentage of sources used in response")
     
     # Reasoning and sources
@@ -143,7 +143,9 @@ class ResponseAnalysis(BaseModel):
     @field_validator("confidence_score", "source_coverage")
     @classmethod
     def validate_percentages(cls, v):
-        """Ensure percentage values are between 0 and 1."""
+        """Ensure percentage values are between 0 and 1, normalizing if needed."""
+        if v > 1:
+            v = v / 100.0
         if not 0 <= v <= 1:
             raise ValueError("Percentage values must be between 0 and 1")
         return v
@@ -159,7 +161,7 @@ class ResponseAnalysis(BaseModel):
     @model_validator(mode='after')
     def set_confidence_level(self):
         """Automatically set confidence level based on confidence score."""
-        if isinstance(self.confidence_level, str):
+        if self.confidence_level is not None:
             return self
 
         if self.confidence_score >= 0.9:

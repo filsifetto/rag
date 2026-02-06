@@ -1,0 +1,1193 @@
+Dette materialet er vernet etter åndsverkloven og er helt eller 
+delvis fremstilt etter avtale med Kopinor. Materialet kan benyttes 
+av studenter som deltar i det aktuelle emnet, for egne studier, i et­
+hvert format og på enhver plattform. Uten uttrykkelig samtykke er 
+annen eksemplarfremstilling og tilgjengeliggjøring bare tillatt når 
+det er hjemlet i lov (kopiering til privat bruk, sitat o.l.) eller avtale 
+med Kopinor (www.kopinor.no).
+Digitalt framstilt av:
+NTNU Universitetsbiblioteket
+This material is protected by copyright law and is wholly or partly 
+produced by agreement with Kopinor. The material can be used 
+by students who participate in the relevant course, for their own 
+studies, in any format and on any platform. Without expressed 
+consent, other copying and making available is only permitted 
+when authorized by law (copying for private use, quotation, etc.) 
+or agreement with Kopinor (www.kopinor.no).
+Runeson, P., Andersson, C. m.fl. (2006). What do we know about 
+defect detection methods? IEEE software. Vol. 23(3), s. 82-90
+Utdraget er klarert i henhold til Kopinoravtalen for dette semesteret: VÅR 2024
+
+
+8 2
+IEEE SOFTWARE
+Published by the IEEE Computer Society
+0740-7459/06/$20.00 © 2006 IEEE
+This article helps define questions regard-
+ing defect detection techniques and presents a
+survey of empirical studies on testing and in-
+spection techniques. We then interpret the
+findings in terms of practical use. 
+The term defect always relates to one or
+more underlying faults in an artifact such as
+code. In the context of this article, defects map
+to single faults. Thus, we use the terms defect
+and fault interchangeably, as have many of the
+authors whose work we refer to.
+What influences the choice of
+method?
+The choice of defect detection method de-
+pends on factors such as the artifacts, the
+types of defects they contain, who’s doing the
+detection, how it’s done, for what purpose,
+and in which activities. Factors also include
+which criteria govern the evaluation.
+These factors show that many variations
+must be taken into account. When you search
+the evidence for the the pros and cons of using
+some defect detection method, you must
+choose specific levels of these factors to guide
+the appraisal of empirical evidence.
+Artifact
+Which artifact are you assessing? Require-
+ments? Design? Code? Testing requires an ex-
+ecutable representation—that is, code—while
+inspection can apply to any artifact. Most ex-
+periments, by necessity, use small, artificial ar-
+tifacts. Using industrial artifacts improves the
+study’s generalizability but also leads to more
+confounding factors.
+Types of defects
+What types of defects do the artifacts con-
+tain? There’s a big difference between gram-
+feature
+What Do We Know about
+Defect Detection Methods?
+Per Runeson, Carina Andersson, and Thomas Thelin, Lund University
+Anneliese Andrews, University of Denver
+Tomas Berling, Ericsson Microwave Systems
+D
+etecting defects in software product development requires serious
+effort, so it’s important to use the most efficient and effective
+methods. Evidence-based software engineering can help software
+practitioners decide which methods to use and for what purpose.1
+EBSE involves defining relevant questions, surveying and appraising avail-
+able empirical evidence, and integrating and evaluating new practices in the
+target environment. 
+defect detection
+A survey of defect
+detection studies
+comparing
+inspection and
+testing techniques
+yields practical
+recommendations:
+use inspections for
+requirements and
+design defects, and
+use testing for code.
+
+
+matical errors in code and missing require-
+ments in a requirements specification. Testing
+and inspection methods might be better or
+worse for different types of defects. In this ar-
+ticle, we first classify defects on the basis of
+their origin: requirements, design, or code.
+Second, many empirical studies categorize de-
+fects along two dimensions, as Victor Basili
+and Richard Selby proposed.2 The first dimen-
+sion classifies defects as either an omission
+(something is missing) or a commission (some-
+thing is incorrect), while the second dimension
+defines defect classes according to their tech-
+nical content.2,3 Other classifications focus on
+the defect’s severity in terms of its impact for
+the user: unimportant, important, or crucial.4
+Actor
+Who’s the reviewer or tester? A freshman
+student in an experimental setting? An experi-
+enced software engineer in industry? What’s
+the incentive for doing a good job in an em-
+pirical study, which isn’t part of a real devel-
+opment project?5 To confound matters further,
+experienced students have been observed to
+outperform recently graduated engineers.6
+Technique
+Which techniques are you using for inspec-
+tion and testing respectively? Because there are
+many techniques for each, we refer to inspec-
+tion and testing as families of verification
+techniques. For testing, we distinguish be-
+tween structural (white box) and functional
+(black box) testing. 
+Purpose
+What’s the purpose of the inspection and
+testing activity? The activity might contribute
+to validation—that is, assuring that the correct
+system is developed—or to verification—that
+is, assuring that the system meets its specifica-
+tions—or to both. The primary goal of both
+inspection and testing is to find defects, but
+more specifically, is it to detect a defect’s pres-
+ence, for later isolation by someone else, or is
+it to isolate the underlying fault? Testing re-
+veals a defect’s presence through its manifesta-
+tion as a failure during execution. Inspections
+point directly at the underlying fault.
+Furthermore, there are secondary purposes
+for inspection and testing. Inspections might
+contribute to knowledge transfer, for example,
+whereas testing in a test-driven design setting
+produces test specifications that also might
+constitute a detailed design specification.7
+Defect detection activities
+A defect might originate in one development
+stage and be detected in the same or a later
+stage. For instance, a missing interface in a de-
+sign specification could propagate to the coding
+stage, resulting in missing functionality in the
+code. You might detect this design defect during
+a design inspection, code inspection, unit test,
+function test, or system test. Because defect de-
+tection focuses on abstraction levels, we con-
+sider that primary defect detection activities are
+at the same level of abstraction and secondary
+defect detection activities are at a different level.
+For example, for design defects, design inspec-
+tion and functional testing are primary activi-
+ties, and code inspection and unit testing are
+secondary defect detection activities.
+Table 1 illustrates primary and secondary
+defect detection activities for defects originat-
+ing from requirements, design, and coding
+(listed in column 1). Cells numbered 1 repre-
+sent primary defect detection activities, and
+cells numbered 2 classify secondary activities. 
+Evaluation criteria
+What are the criteria for selecting tech-
+niques? Should you choose the most effective or
+the most efficient method? Efficiency in this
+context means the number of defects found per
+time unit spent on verification, and effectiveness
+means the share of the existing defects found.
+Survey of empirical studies 
+Available sources of empirical evidence are
+experiments and case studies. Experiments
+provide good internal validity.8 They can ma-
+nipulate the investigation’s context and control
+many parameters. However, achieving high ex-
+May/June 2006
+IEEE SOFTWARE
+8 3
+Table 1
+Defect origins and detection
+Defect detection activity
+Phase of 
+Requirements
+Design 
+Code 
+Unit 
+Function 
+System 
+defect origin
+inspection
+inspection
+inspection
+test
+test
+test
+Requirements
+1
+2
+2
+2
+2
+1
+Design
+N/A
+1
+2
+2
+1
+2
+Coding
+N/A
+N/A
+1
+1
+2
+2
+
+
+8 4
+IEEE SOFTWARE
+www.computer.org/software
+Table 2
+Surveyed empirical studies on inspection versus testing
+Number of defects of 
+Study and year
+Type
+Technique
+Artifact
+certain types*
+Actors
+Purpose
+Result†
+Hetzel,17 1976
+Experiment
+Functional test 
+Code modules  
+–  
+39 students
+Detection
+Effectiveness: 
+vs. structural test 
+(PL/1)
+testing > inspection
+and inspection
+3 programs,
+64–170  
+statements each
+Myers,18 1978
+Experiment
+Code (PL/1)
+15 defects
+59 
+Detection
+Effectiveness: 
+63 statements
+professionals
+inspection = testing;  
+complementary, but
+different for some 
+classes of defects
+Basili and 
+Experiment
+Code (Fortran,
+4 programs, total  
+32 
+Detection
+Effectiveness and 
+Selby,2 1987
+Simpl-T)
+34 defects
+professionals
+efficiency depend
+169, 145, 147,
+Om/com: 0/2 ini, 4/4 
++ 42 
+on software type 
+and 365 LOC)
+cmp, 2/5 cnt, 2/11  
+advanced
+int, 2/1 d, 0/1 cos
+students
+Kamsties and 
+Experiment 
+Code (C)
+3 programs, 6/9/7 
+27 and 15 
+Detection 
+Effectiveness: no 
+Lott,19 1995
+(replication)
+211, 248,
+defects 0/2/0 ini, 0/0/1  
+students in
+and 
+significant difference
+and 230 LOC
+cmp, 3/2/3 cnt, 0/3/0 
+replications
+isolation
+Efficiency: 
+int, 2/1/2 d, 1/1/1 cos
+1 and 2, 
+testing > inspection
+respectively
+Roper et al.20
+Experiment 
+Code19
+3 programs, 
+47 students
+Detection
+Effectiveness: no 
+1997
+(replication)
+8/9/8 defects
+significant difference
+Efficiency: 
+testing > inspection
+Combination better
+Laitenberger,11
+Experiment 
+Inspection, then 
+Code (C)
+13 defects, 2 ini, 4 cnt, 
+20 students
+Detection
+Not complementary
+1998
+structural testing
+262 LOC
+2 cmp, 2 cos, 3 d
+So et al.,12
+Experiment
+Voting, testing, 
+Code (Pascal)
+Experiment 1: 
+26 and 15 
+Detection
+Effectiveness: voting > 
+2002
+self-checks, code 
+8 programs,
+270 major faults
+students in 
+testing > inspection;
+reading, data-flow
+1,201–2,414
+Experiment 2:   
+experiments
+complementary  
+analysis, Fagan 
+LOC each 
+179 major faults
+1 and 2, 
+Efficiency: testing <
+inspection
+respectively 
+inspection 
+Runeson and 
+Experiment
+Inspection vs. 
+Code (C)
+9 in each version
+30 students
+Detection
+For detection: 
+Andrews,13
+structural testing
+190 and 208 
+0/1 ini, 5/0 cnt, 
+and 
+testing > inspection
+2003
+LOC each
+1/0 int, 0/4 cmp, 
+isolation
+For isolation: 
+1/2 cos, 1/2 d
+inspection > testing
+Juristo and 
+Experiment 
+Functional test vs.
+Code19 + one
+4 programs, 9 defects each
+196 students
+Detection
+Effectiveness: different
+Vegas,14 2003
+(replication)
+structural testing  
+new program
+Om/com: 1/2 ini,
+for different fault types
+and inspection 
+2/2 cnt, 1/1 cos 
+Testing > inspection
+Code19
+3 programs, 7 defects each
+46 students 
+Om/com: 1/1 ini, 1/1 
+cnt, 0/1 cmp, 1/1 cos
+Andersson et 
+Experiment
+Inspection vs. 
+Design (text)
+2 design document
+51 students
+Detection
+Inspection > testing
+al.,15 2003
+functional testing
+9 pages, 2,300 
+versions, 13/14 defects,  
+Different faults found 
+words
+3/4 crucial, 5/6 important,
+(one version) 
+5/4 unimportant 
+Conradi et al.,16
+Case study 
+Inspection, desk 
+Design (code)
+1,502 and 6,300 in
+Professionals
+Inspection > testing 
+1999
+check, test
+two projects, respectively
+Berling and
+Case study
+Inspection, unit
+Requirements,  
+244 (45 likely to 
+Professionals
+Isolation
+Little overlap between
+Thelin,3 2003
+test, subsystem 
+design, code
+propagate to code)
+testing and inspection
+and system test
+* om = omission, com = commission, ini = initialization, cmp = computation, cnt = control, int = interface, d = data, cos = cosmetic
+† “x > y” means x is better than y 
+
+
+ternal validity in experiments is difficult. Case
+marizes five experimental studies comparing
+studies have a more realistic context but by na-
+inspection and testing methods as well as re-
+ture are subject to confounding factors. A case
+sults from one experiment he conducted that
+study’s generalizability depends on how similar
+combined inspection and testing.11 Later, four
+it is to an actual situation. No single experi-
+experimental studies12–15 and two case stud-
+ment or case study can provide a complete an-
+ies3,16 added to the knowledge on inspections
+swer, but a collection of studies can contribute
+versus testing.
+to understanding a phenomenon.
+We used these 12 studies—nine experiments
+Many empirical studies have investigated
+on code defects, one experiment on design de-
+defect detection techniques, inspections, and
+fects, and two case studies on a comprehensive
+testing in isolation. Aybüke Aurum, Håkan
+defect detection process—to search for evidence
+Petersson, and Claes Wohlin summarize 25
+that would help developers choose between de-
+years of empirical research on software in-
+fect detection methods. We followed the proce-
+spections, including more than 30 studies that
+dures in the EBSE framework that Tore Dybå,
+investigated different reading techniques, team
+Barbara Kitchenham, and Magne Jørgensen re-
+sizes, meeting gains, and so on.9 Similarly, Na-
+cently presented.1 Table 2 summarizes empirical
+talia Juristo, Ana Moreno, and Sira Vegas
+studies involving both inspection and testing,
+summarize 25 years of empirical research on
+and table 3 presents data from the studies. We
+software testing based on more than 20 stud-
+report the experiments’ outcomes and relate
+ies.10 They compare testing within and across
+them to the results of the case studies con-
+so-called “families” of techniques. Despite the
+ducted. The issues covered include
+large number of studies, they conclude that
+our collective knowledge of testing techniques
+■
+requirements defects,
+is limited.
+■
+design defects,
+We know even less about the relationship
+■
+code defects,
+between inspection and testing and the effects
+■
+different defect types, and
+of combining them. Oliver Laitenberger sum-
+■
+efficiency versus effectiveness.
+May/June 2006
+IEEE SOFTWARE
+8 5
+Table 3
+Average values of effectiveness and efficiency for defect detection
+Study
+Inspection 
+Inspection 
+Testing 
+Testing 
+Different
+effectiveness (%)*,†
+efficiency† ,‡
+effectiveness*,§
+efficiency‡ ,§
+faults found
+Experiments
+Code
+Hetzel17
+37.3
+–
+47.7; 46.7
+–
+–
+Myers18
+38.0
+0.8
+30.0; 36.0
+1.62; 2.07
+Yes
+Basili and Selby2
+54.1
+Dependent on 
+54.6; 41.2
+–
+Yes
+software type
+Kamsties and Lott19
+43.5
+2.11
+47.5; 47.4
+4.69; 2.92
+Partly (for some
+50.3
+1.52
+60.7; 52.8
+3.07; 1.92
+types) 
+Roper et al.20
+32.1
+1.06
+55.2; 57.5
+2.47; 2.20
+Yes
+Laitenberger11
+38
+–
+9#
+–
+No
+So et al.12
+17.9, 34.6
+0.16; 0.26
+43.0
+0.034
+Yes
+Runeson and Andrews13
+27.5
+1.49
+37.5
+1.8
+Yes
+Juristo and Vegas14
+20.0
+–
+37.7; 35.5
+–
+Partly (for some 
+–
+–
+75.8; 71.4
+–
+types)
+Design
+Andersson et al.15
+53.5
+5.05
+41.8
+2.78
+Yes for one version,
+no for the other
+Case studies
+Conradi et al.16
+–
+0.82
+–
+0.013
+– 
+Berling and Thelin3
+86.5 (estimated)
+0.68 (0.13)
+80
+0.10
+Yes
+* Percent of the artifact’s defects that are detected.
+† Single entries involve code reading; multiple entries in one cell are reported in this order: code reading, Fagan inspection. 
+‡ Detected defects per hour.
+§ Single entries involve functional testing; multiple entries in one cell are reported in this order: functional test, structural test.
+# Testing is conducted in sequence after the inspection. 
+
+
+Requirements defects
+Several experiments compared different re-
+quirements inspection methods,9 but none
+compared one to a testing method. The choice
+between requirements inspection and system
+testing is quite obvious and needs no experi-
+ments: spending effort up front to establish a
+good set of requirements is more efficient than
+developing a system on the basis of incorrect
+requirements and then reworking it. The case
+study by Tomas Berling and Thomas Thelin
+supports this assumption.3
+Design defects
+The key question regarding design defects
+is whether inspecting design documents or
+testing the implemented function is more effi-
+cient. Carina Andersson and her colleagues
+addressed this issue in one experiment.15
+They observed defect detection in a design
+specification and in a log from function test
+execution; they used experimental groups that
+varied greatly. 
+Inspections were significantly more effective
+and efficient than testing. The study’s partici-
+pants found more than half of the defects (53.5
+percent) during inspection and fewer (41.8 per-
+cent) during testing (see table 3). Efficiency
+was five defects per hour for inspection and
+fewer than three per hour for testing.
+The analysis didn’t take into account re-
+work costs. A defect detected during design in-
+spection is much cheaper to correct than one
+detected in function testing, because the latter
+involves reworking the design and code. This
+implies even greater efficiency for design in-
+spections compared to functional testing.
+Berling and Thelin confirmed these results
+in their industrial case study, including five in-
+cremental project iterations.3 Inspections de-
+tected on average 0.68 defects per hour, while
+testing detected 0.10 defects per hour (see
+table 3). For the fraction of faults that they es-
+timated to propagate into code, the rate was
+0.13 defects per hour. This case study also re-
+ports slightly higher effectiveness for inspec-
+tions, but the differences are small. Reidar
+Conradi, Amarjit Singh Marjara, and Børge
+Skåtevik had similar results in their case study:
+they reported 0.82 defects per hour in design
+inspection and only 0.013 defects per hour in
+function testing.16 So, the empirical data sup-
+port design inspections as a more efficient
+means for detecting design defects. 
+Code defects
+Most of the experiments investigated code
+defects. However, they revealed no clear an-
+swer as to whether code inspection or test-
+ing—functional or structural—is preferable.
+James Miller21 attempted to analyze the re-
+sults from the first five studies (see table 2),
+but variation among the studies was too large
+to apply meta-analysis. So, we simply rank the
+techniques with respect to their effectiveness
+and efficiency. Figure 1 presents effective-
+ness—that is, the percentage of total defects
+that the different techniques found.
+8 6
+IEEE SOFTWARE
+www.computer.org/software
+100
+Inspection
+90
+Functional testing
+80
+Structural testing
+Percent defects
+70
+60
+50
+40
+30
+20
+10
+0
+Hetzel
+Myers
+Basili and Selby
+Kamsties and Lott
+Kamsties and Lott
+Roper et al.
+So et al.
+Runeson and Andrews
+egas
+egas
+Juristo and V
+Juristo and V
+Effectiveness
+Figure 1. Average 
+effectiveness of 
+techniques for code 
+defect detection.
+
+
+No technique emerges as a clear winner or
+loser. All three techniques are ranked most ef-
+fective in at least one study and least effective in
+at least one study. However, except in one case,
+all researchers who compared the three tech-
+niques found the difference between the aver-
+age effectiveness of the first and second tech-
+niques to be smaller than between the second
+and third. The data doesn’t support a scientific
+conclusion as to which technique is superior,
+but from a practical perspective it seems that
+testing is more effective than code inspections.
+Figure 2 presents the efficiency ranking—
+that is, the number of defects found per time
+unit—for those studies reporting efficiency
+data. (For the others, the space is left blank.)
+The efficiency rankings differ from the effec-
+tiveness rankings. Glenford Myers’ study18
+ranked inspection most effective and least effi-
+cient, while a study by Sun Sup So and his col-
+leagues12 ranked testing most effective and
+least efficient. The study by Marc Roper, Mur-
+ray Wood, and James Miller20 ranked func-
+tional testing most effective and structural
+testing most efficient, but the differences are
+small.
+The studies by Erik Kamsties and Christo-
+pher Lott19 and by Per Runeson and Anneliese
+Andrews13 distinguish between detection and
+isolation of defects. In the former study, this
+moved inspections to the second rank. In the
+latter study, this distinction didn’t change the
+rank between the two studied techniques. The
+study by Roper, Wood, and Miller20 also dis-
+tinguishes between detection and isolation,
+which improved inspection’s performance, but
+it still ranked third.
+We caution that these studies were con-
+ducted in isolation and thus didn’t take into
+account secondary issues such as the informa-
+tion-spreading effects of inspections, the value
+of unit-test automation, cost, and intrinsic val-
+ues of a test suite or test-driven design.
+Different defect types
+The studies vary widely in the types of de-
+fects the artifacts contain. If that’s indeed an
+important factor, then the absence or presence
+of different types of defects might affect effi-
+ciency and effectiveness. Table 2, column 5
+shows the types of defects in each study, if they
+were known. 
+Comparing the studies is difficult. First,
+only five of the studies report defects by the
+same type scheme and can be used to investi-
+gate whether the differences depend on the
+fault type, not only on the technique. Second,
+the frequencies of the different defect types
+vary widely among the remaining studies.
+Third, only a fraction of defects are found; so,
+while we might know each artifact’s defect
+type frequencies, we might not know the de-
+fect type frequencies of the defects that were
+found. Given the low proportion of defects
+found, this makes cross-study comparison dif-
+ficult, if not impossible. Fourth, classification
+schemes involve subjective judgment that can
+confuse classification results.
+Few studies investigate the relationship be-
+tween defect types and inspection versus test-
+ing. One study found a statistically significant
+difference between defect types discovered by
+inspection and by testing.13 This implies that
+the techniques’ performance is sensitive to the
+May/June 2006
+IEEE SOFTWARE
+8 7
+Hetzel
+Myers
+Basili and Selby
+Kamsties and Lott
+Kamsties and Lott
+Roper et al.
+So et al.
+Runeson and Andrews
+egas
+egas
+Juristo and V
+Juristo and V
+5
+4
+Inspection
+Defects/hour
+Functional testing
+3
+Structural testing
+2
+1
+0
+ 
+Efficiency
+Figure 2. Average 
+efficiency of techniques
+for code defect 
+detection.
+
+
+defect type. The same study indicates that sub-
+jects tend to prefer testing over inspection; this
+is a piece of qualitative information that
+should be taken into account.
+Kamsties and Lott found two significant
+differences in performance between defect
+types; inspections gave worse results in finding
+omissions type faults and control class faults.19
+Juristo and Vegas replicated this experiment
+twice.7 In the first replication, cosmetic faults
+were most difficult to find, irrespective of tech-
+nique. However, defect type didn’t affect code
+inspection, contradicting an earlier study by
+Basili and Selby.2 Functional testing performed
+better than structural testing for faults of omis-
+sion, and testing techniques performed better
+than inspection. Basili and Selby couldn’t de-
+tect a clear pattern as to which technique de-
+tects which defect types more easily.
+In summary, the jury is still out as to the ef-
+fect of defect types on the performance of in-
+spection versus testing.
+Effectiveness and efficiency
+Absolute levels of effectiveness of defect
+detection techniques are remarkably low. In
+all but one experimental study, the subjects
+found only 25 to 50 percent of the defects on
+average during inspection, and slightly more
+during testing (30 to 60 percent). This means
+that on average, more than half the defects re-
+main! The Berling and Thelin case study re-
+ported 86.5 percent effectiveness for inspec-
+tions and 80 percent effectiveness for testing.3
+However, these are based on an estimated
+number of defects that the technique could
+possibly find, not on the total number of de-
+fects in the documents.
+The experimental studies found 1 to 2.5 de-
+fects per hour. The size of the artifacts was at
+most a few hundred lines of code. This is small
+from an industrial perspective, where profes-
+sionals deal with more complex artifacts,
+struggle with more communication overhead,
+and so on. Consequently, the efficiency in the
+industrial case studies is lower: 0.01 to 0.82
+defects per hour. The variation is also much
+larger, which might be due to different com-
+pany measures of efficiency.3
+The practical implication of the primary
+defect detection methods’ low effectiveness
+and efficiency values is that secondary detec-
+tion methods might play a larger role than the
+surveyed empirical studies concluded.
+Validity of the empirical results
+The studies we summarized indicate pros
+and cons for the two families of defect detec-
+tion techniques, but no clear winner. But how
+valid are the results?
+We can analyze threats to the validity of
+empirical studies along four dimensions: inter-
+nal, conclusion, construct, and external valid-
+ity.8 From a practitioner point of view, exter-
+nal validity is the most important.22 From a
+researcher point of view, internal validity is
+traditionally considered the key to successful
+research. However, it’s important to balance
+all dimensions of validity to achieve trustwor-
+thy empirical studies.
+The surveyed experimental studies’ in-
+ternal validity seems quite high. Established
+researchers conducted the studies, mostly in
+student environments with experienced stu-
+dents. On the other hand, the inconclusive
+results indicate the presence of factors that
+weren’t under experimental control. By us-
+ing established analysis methods, the stud-
+ies also seem to limit conclusion validity
+threats.
+For case studies, on the other hand, high in-
+ternal and conclusion validity is harder to
+achieve. Confounding factors might interact
+with the factor under study and threaten in-
+ternal validity. Because data collection is often
+set up for purposes other than empirical study,
+conclusion validity might be threatened.
+Both experiments and case studies poten-
+tially threaten construct validity, because they
+use different instantiations of defect detection
+methods to represent test and inspection tech-
+niques. The studies listed in table 2 present
+large variations within as well as between the
+families of techniques, both in experiments
+and case studies. 
+The major threat for experiments is exter-
+nal validity, because they’re conducted on
+small artifacts, mostly with students as sub-
+jects. The case studies suffer less from external
+threats, although there’s a risk that the condi-
+tions specific to a particular case greatly influ-
+ence the outcome. 
+What’s the answer?
+Our analysis of existing empirical studies
+showed no clear-cut answer to the question of
+which defect detection method to choose.
+However, from a practical viewpoint, these
+findings tend to be true:
+8 8
+IEEE SOFTWARE
+www.computer.org/software
+The studies
+indicate pros
+and cons for the
+two families of
+defect detection
+techniques, but
+no clear winner.
+
+
+May/June 2006
+IEEE SOFTWARE
+8 9
+■
+For requirements defects, no empirical evi-
+dence exists at all, but the fact that costs for
+requirements inspections are low compared
+to implementing incorrect requirements in-
+dicates that reviewers should look for re-
+quirements defects through inspection.
+■
+For design specification defects, the case
+studies and one experiment indicate that
+inspections are both more efficient and
+more effective than functional testing.
+■
+For code, functional or structural test-
+ing is ranked more effective or efficient
+than inspection in most studies. Some
+studies conclude that testing and inspec-
+tion find different kinds of defects, so
+they’re complementary. Results differ
+when studying fault isolation and not
+just defect detection.
+■
+Verification’s effectiveness is low; review-
+ers find only 25 to 50 percent of an arti-
+fact’s defects using inspection, and testers
+find 30 to 60 percent using testing. This
+makes secondary defect detection impor-
+tant. The efficiency is in the magnitude of
+1 to 2.5 defects per hour spent on inspec-
+tion or testing.
+Several studies call for replication and further
+work on this topic. Factors seem to be at work
+that aren’t measured or controlled but that
+nonetheless influence defect detection methods’
+performance. It might be useful to investigate
+“softer” factors such as motivation and satisfac-
+tion5 and in particular to apply methods in prac-
+tice, monitor them, and follow up. 
+P
+ractitioners can use our empirical re-
+sults in two ways: either as a guideline
+for a high-level strategy of defect de-
+tection or in a full EBSE fashion,1 finding an
+answer to a specific question.
+In strategy definitions, the summary of the
+empirical studies can act as a general guide for
+which defect detection methods to use for dif-
+ferent purposes and at different stages of de-
+velopment. Our findings aren’t novel or
+strictly empirically based. However, defining
+such a strategy would benefit many organiza-
+tions and projects. Making a defect detection
+strategy explicit helps communicate values in-
+ternally, making project members aware of
+how their work fits into the complete picture.
+The strategy could also be a starting point for
+EBSE-based investigations of more specific
+trade-offs between different methods.
+To precisely specify which defect detection
+technique to use, you can apply a full EBSE cy-
+cle,1 along with the variation factors we out-
+lined earlier. Table 4 shows examples of varia-
+tion factors that are important in searching for
+a feasible defect detection technique.
+These factors help frame the general ques-
+tion into a more precise one: “Which defect
+detection technique should we use to detect as
+many critical and important omission defects
+in interfaces as possible, in code inspection
+and unit testing, conducted by novice testers
+and programmers?” Then you can survey the
+studies in table 2 in detail as a basis for your
+decision. You might choose a combination of
+structural and functional testing, for example.
+Then to anchor the decision, you’d take into
+account the organization’s previous experi-
+ence. As a final step in the cycle, you must
+monitor and evaluate the selected technique’s
+performance. 
+Furthermore, if we feed our industrial eval-
+uations back to the research community, we
+can increase the body of knowledge about
+these methods’ usefulness.
+References
+1.
+T. Dybå, B.A. Kitchenham, and M. Jørgensen, “Evi-
+dence-Based Software Engineering for Practitioners,”
+IEEE Software, vol. 22, no. 1, 2005, pp. 58–65.
+2.
+V.R. Basili and R. Selby, “Comparing the Effectiveness
+of Software Testing Strategies,” IEEE Trans. Software
+Eng., Dec. 1987, pp. 1278–1296.
+3.
+T. Berling and T. Thelin, “An Industrial Case Study of
+the Verification and Validation Activities,” Proc. 9th 
+Int’l Software Metrics Symp., IEEE CS Press, 2003, pp.
+226–238.
+Table 4
+Example definition of factor levels
+Factor
+Example 
+Artifact
+Code modules
+Types of defects
+Omitted, crucial, and important interfaces
+Actor
+Novice testers and programmers
+Technique
+Any feasible technique
+Purpose
+Design verification
+Defect detection activity
+Code inspection and unit testing
+Evaluation criteria
+Effectiveness
+
+
+9 0
+IEEE SOFTWARE
+www.computer.org/software
+4.T. Thelin, P. Runeson, and C. Wohlin, “Prioritized Use
+Cases as a Vehicle for Software Inspections,” IEEE
+Software, vol. 20, no. 4, 2003, pp. 30–33.
+5.
+M. Höst, C. Wohlin, and T. Thelin, “Experimental
+Context Classification: Incentives and Experience of
+Subjects,” Proc. 27th Int’l Conf. Software Eng., ACM
+Press, 2005, pp. 470–478.
+6.
+M. Höst, B. Regnell, and C. Wohlin, “Using Students as
+Subjects—A Comparative Study of Students and Profes-
+sionals in Lead-Time Impact Assessment,” Empirical
+Software Eng., vol. 5, no. 3, 2000, pp. 201–214.
+7.
+K. Beck, Test Driven Development: By Example, Addi-
+son-Wesley, 2002.
+8.
+C. Wohlin et al., Experimentation in Software Engi-
+neering: An Introduction, Kluwer Academic Publishers,
+2000.
+9.
+A. Aurum, H. Petersson, and C. Wohlin, “State-of-the-
+Art: Software Inspections after 25 Years,” Software
+Testing, Verification, and Reliability, vol. 12, no. 3,
+2002, pp. 133–154.
+10.
+N. Juristo, A.M. Moreno, and S. Vegas, “Reviewing 25
+Years of Testing Technique Experiments,” Empirical
+Software Eng., vol. 9, nos. 1–2, 2004, pp. 7–44.
+11.
+O. Laitenberger, “Studying the Effects of Code Inspec-
+tion and Structural Testing on Software Quality,” Proc.
+9th Int’l Symp. Software Reliability Eng., IEEE CS
+Press, 1998, pp. 237–246.
+12.
+S.S. So et al., “An Empirical Evaluation of Six Methods
+to Detect Faults in Software,” Software Testing, Verifi-
+cation, and Reliability, vol. 12, no. 3, 2002, pp.
+155–171.
+13.
+P. Runeson and A. Andrews, “Detection or Isolation of
+Defects? An Experimental Comparison of Unit Testing
+and Code Inspection,” Proc. 14th Int’l Symp. Software
+Reliability Eng., IEEE CS Press, 2003, pp. 3–13.
+14.
+N. Juristo and S. Vegas, “Functional Testing, Structural
+Testing, and Code Reading: What Fault Type Do They
+Each Detect?” Empirical Methods and Studies in Soft-
+ware Engineering, R. Conradi and A.I. Wang, eds.,
+Springer, 2003, pp. 208–232.
+15.
+C. Andersson et al., “An Experimental Evaluation of
+Inspection and Testing for Detection of Design Faults,”
+Proc. IEEE/ACM Int’l Symp. Empirical Software Eng.,
+IEEE CS Press, 2003, pp. 174–184.
+16.
+R. Conradi, A.S. Marjara, and B. Skåtevik, “An Empiri-
+cal Study of Inspection and Testing Data at Ericsson,
+Norway,” Proc. 24th NASA Software Eng. Workshop,
+NASA, 1999; http://sel.gsfc.nasa.gov/website/sew/1999/
+topics/marjara_SEW99paper.pdf.
+17.
+W.C. Hetzel, “An Experimental Analysis of Program
+Verification Methods,” doctoral dissertation, Dept. of
+Computer Science, Univ. of North Carolina, Chapel
+Hill, 1976.
+18.
+G.J. Myers, “A Controlled Experiment in Program Test-
+ing and Code Walkthroughs/Inspections,” Comm.
+ACM, Sept. 1978, pp. 760–768.
+19.
+E. Kamsties and C.M. Lott, “An Empirical Evaluation
+of Three Defect-Detection Techniques,” Proc. 5th Euro-
+pean Software Eng. Conf., LNCS 989, Springer, 1995,
+pp. 362–383.
+20.
+M. Roper, M. Wood, and J. Miller, “An Empirical Eval-
+uation of Defect Detection Techniques,” Information
+and Software Technology, vol. 39, no. 11, 1997, pp.
+763–775.
+21.
+J. Miller, “Applying Meta-Analytical Procedures to
+Software Engineering Experiments,” J. Systems and
+Software, vol. 54, no. 1, 2000, pp. 29–39.
+22.
+A. Rainer, T. Hall, and N. Baddoo, “Persuading Devel-
+opers to ‘Buy into’ Software Process Improvement: Lo-
+cal Opinion and Empirical Evidence,” Proc. Int’l Symp.
+Empirical Software Eng., IEEE CS Press, 2003, pp.
+326–355.
+For more information on this or any other computing topic, please visit our
+Digital Library at www.computer.org/publications/dlib.
+About the Authors
+Per Runeson is a professor of software engineering at Lund University and leader of the
+Software Engineering Research Group. He also holds a senior researcher position funded by
+the Swedish Research Council. His research interests include software development methods
+and processes, particularly for verification and validation. He received his PhD in software en-
+gineering from Lund University. He serves on the editorial boards of Empirical Software Engi-
+neering Journal and the Journal of the Association of Software Testing. Contact him at Dept. of
+Communication Systems, Lund Univ., Box 118, SE-22100 Lund, Sweden; per.runeson@
+telecom.lth.se.
+Anneliese Andrews is a professor in and chair of the University of Denver’s Depart-
+ment of Computer Science. Her research interests include software design, testing, and mainte-
+nance as well as quantitative approaches to software engineering data analysis. She received
+her PhD in computer science from Duke University. She serves on the editorial board of the
+Empirical Software Engineering Journal. Contact her at the Dept. of Computer Science, Univ. of
+Denver, 2360 S. Gaylord St., John Greene Hall, Rm. 100, Denver, CO 80208; andrews@cs.
+du.edu.
+Carina Andersson is a licentiate in software engineering and a doctoral candidate at
+Lund University. Her research interests include software development verification and valida-
+tion processes and software quality metrics and models. She received her MSc in engineering
+physics with industrial management from Lund University. Contact her at the Dept. of Commu-
+nication Systems, Lund Univ., Box 118, SE-22100 Lund, Sweden; carina.andersson@telecom.
+lth.se.
+Tomas Berling is a specialist at Ericsson Microwave Systems and a researcher at the IT
+University of Göteborg. His research and application interests include system verification and
+validation of complex software systems. He received his PhD in software engineering from
+Lund University. Contact him at Ericsson Microwave Systems, SE-431 84 Mölndal, Sweden;
+tomas.berling@ericsson.com.
+Thomas Thelin is an associate professor of software engineering at Lund University.
+His research interests include empirical methods in software engineering; software quality; and
+verification and validation with emphasis on testing, inspections, and estimation methods. He
+received his PhD in software engineering from Lund University. Contact him at the Dept. of
+Communication Systems, Lund Univ., Box 118, SE-22100 Lund, Sweden; thomas.thelin@
+telecom.lth.se.
