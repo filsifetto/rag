@@ -25,9 +25,9 @@ sys.path.insert(0, str(project_root))
 from core.config import Settings, apply_subject
 from core.database.qdrant_client import QdrantManager
 from core.database.document_store import DocumentStore
+from core.loaders import load_user_document, parse_page_markers
 from core.services.embedding_service import EmbeddingService
 from core.models.document import Document, DocumentMetadata, DocumentType
-from core.parsers.pdf import PDFMetadataExtractor
 from core.citation import enrich_metadata
 from rich.console import Console
 from rich.progress import Progress, TaskID
@@ -45,27 +45,6 @@ def setup_logging(log_level: str = "INFO"):
             logging.FileHandler('ingest_documents.log')
         ]
     )
-
-
-def parse_page_markers(content: str) -> Optional[List[Tuple[int, str]]]:
-    """Parse '--- Page N ---' or '--- Slide N ---' markers in text.
-
-    Returns a list of (page_number, page_text) for page-aware chunking, or None
-    if no markers are found (so ingestion uses normal chunking without page numbers).
-    """
-    # Match "--- Page N ---" or "--- Slide N ---" (convert slides to page numbers)
-    pattern = re.compile(r"^--- (?:Page|Slide) (\d+) ---\s*", re.MULTILINE | re.IGNORECASE)
-    matches = list(pattern.finditer(content))
-    if not matches:
-        return None
-    page_list = []
-    for i, m in enumerate(matches):
-        page_num = int(m.group(1))
-        start = m.end()
-        end = matches[i + 1].start() if i + 1 < len(matches) else len(content)
-        page_text = content[start:end].strip()
-        page_list.append((page_num, page_text))
-    return page_list if page_list else None
 
 
 def load_documents_from_json(file_path: Path) -> List[Dict[str, Any]]:
@@ -122,16 +101,10 @@ def load_documents_from_directory(directory: Path) -> List[Dict[str, Any]]:
 
 def load_single_file(file_path: Path, title: str = None, category: str = None) -> List[Dict[str, Any]]:
     """Load a single document file (.txt, .md, .json, or .pdf)."""
-    if not file_path.exists():
-        raise FileNotFoundError(f"File not found: {file_path}")
-    if not file_path.is_file():
-        raise ValueError(f"Path is not a file: {file_path}")
-
     suffix = file_path.suffix.lower()
 
     if suffix == '.json':
         docs = load_documents_from_json(file_path)
-        # Apply CLI overrides to each document
         for doc in docs:
             meta = doc.setdefault("metadata", {})
             if title:
@@ -140,57 +113,9 @@ def load_single_file(file_path: Path, title: str = None, category: str = None) -
                 meta["category"] = category
         return docs
 
-    if suffix == '.pdf':
-        extractor = PDFMetadataExtractor()
-        content, page_list, pdf_meta = extractor.extract_text_and_metadata_by_page(file_path)
-
-        if not content.strip():
-            raise ValueError(f"No extractable text found in PDF: {file_path}")
-
-        meta = pdf_meta.to_document_metadata_dict(source=str(file_path.resolve()))
-        # CLI overrides take precedence over embedded metadata
-        if title:
-            meta["title"] = title
-        elif not meta.get("title"):
-            meta["title"] = file_path.stem
-        if category:
-            meta["category"] = category
-
-        # Enrich with citation registry data (APA metadata)
-        meta = enrich_metadata(meta, file_path.name)
-
-        return [{
-            "content": content,
-            "metadata": meta,
-            "page_list": page_list,
-        }]
-
-    if suffix not in ('.txt', '.md'):
-        raise ValueError(
-            f"Unsupported file type '{suffix}'. Supported: .txt, .md, .json, .pdf"
-        )
-
-    with open(file_path, 'r', encoding='utf-8') as f:
-        content = f.read()
-
-    doc_type = DocumentType.MARKDOWN if suffix == '.md' else DocumentType.TEXT
-
-    meta = {
-        "title": title or file_path.stem,
-        "source": str(file_path.resolve()),
-        "document_type": doc_type,
-        "file_size": file_path.stat().st_size,
-        "category": category,
-    }
-    # Enrich with citation registry data (APA metadata)
-    meta = enrich_metadata(meta, file_path.name)
-
-    doc_dict = {"content": content, "metadata": meta}
-    # Parse page markers (e.g. from convert_to_txt.py) for page-aware chunking
-    page_list = parse_page_markers(content)
-    if page_list:
-        doc_dict["page_list"] = page_list
-    return [doc_dict]
+    # .txt, .md, .pdf: use shared loader from core
+    doc = load_user_document(file_path, title=title, category=category)
+    return [doc.to_ingest_dict()]
 
 
 # --- Ingestion log -----------------------------------------------------------

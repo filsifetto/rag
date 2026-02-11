@@ -1,7 +1,7 @@
 # QdrantRAG
 
 A Retrieval-Augmented Generation (RAG) system built on [Qdrant](https://qdrant.tech/) and [OpenAI](https://openai.com/).
-It ingests documents (PDF, TXT, JSON), creates vector embeddings, and answers natural-language questions by combining semantic search with keyword matching.
+It ingests documents (PDF, TXT, JSON), creates vector embeddings, and answers natural-language questions by combining semantic search with keyword matching. Documents can be organised by **subject** (one Qdrant collection per subject), and responses include **page-level references** when source material has page information.
 
 ---
 
@@ -25,9 +25,9 @@ It ingests documents (PDF, TXT, JSON), creates vector embeddings, and answers na
                    └──────────────┘
 ```
 
-1. **Ingest** — documents are chunked, embedded via OpenAI, and stored in Qdrant.
-2. **Search** — a query is embedded and matched against stored vectors; a keyword score is blended in for precision.
-3. **Respond** — the top-ranked chunks are sent to GPT-4, which synthesises a sourced answer with a confidence score.
+1. **Ingest** — documents are chunked (with optional page-aware chunking for PDFs and TXT with page markers), embedded via OpenAI, and stored in Qdrant. Ingestion can be scoped by **subject** (e.g. one collection per course).
+2. **Search** — a query is embedded and matched against stored vectors; a keyword score is blended in for precision. Search runs against the default collection or a chosen subject collection.
+3. **Respond** — the top-ranked chunks are sent to the LLM, which synthesises a sourced answer with APA-style citations (including page numbers when available) and a confidence score.
 
 ---
 
@@ -36,19 +36,27 @@ It ingests documents (PDF, TXT, JSON), creates vector embeddings, and answers na
 ```
 ├── core/                        # Library code
 │   ├── config.py                # Pydantic settings (reads .env)
-│   ├── models/                  # Data models (Document, SearchResult)
+│   ├── citation.py              # APA 7 citation registry and formatting
+│   ├── models/                  # Data models (Document, SearchResult, document_feedback, …)
+│   ├── loaders/                 # Document loader (file → content + metadata)
 │   ├── database/                # Qdrant client wrapper & document store
-│   ├── services/                # Embedding, search engine, response generation
+│   ├── services/                # Embedding, search, response gen, document feedback
 │   └── parsers/                 # File-format parsers (PDF, …)
 │
 ├── scripts/                     # Runnable entry-points
-│   ├── setup_database.py        # Create / reset the Qdrant collection
-│   ├── ingest_documents.py      # Ingest a single file or directory
-│   ├── ingest_all_documents.py  # Batch-ingest everything in data/documents/
-│   └── interactive_search.py    # Interactive CLI for search & Q&A
+│   ├── setup_database.py        # Create / reset Qdrant collection(s)
+│   ├── ingest_documents.py      # Ingest a file or directory (optionally by subject)
+│   ├── ingest_all_documents.py  # Batch-ingest from data/documents/ or subject dir
+│   ├── convert_to_txt.py        # Convert PDFs/PPTX in subject folders to TXT
+│   ├── interactive_search.py   # Interactive CLI for search & Q&A (optionally by subject)
+│   └── document_feedback.py    # Feedback + reference suggestions for a document (by subject)
 │
 ├── data/
-│   └── documents/               # Drop your source files here
+│   ├── documents/               # Default drop location for source files
+│   └── subjects/                # Per-subject data (e.g. <subject>/documents/txt/)
+│
+├── docs/                        # Design and planning
+│   └── PLAN_DOCUMENT_FEEDBACK.md  # Plan: document feedback & reference suggestions
 │
 ├── tests/                       # Pytest test suite
 ├── notebooks/                   # Jupyter analysis notebooks
@@ -107,25 +115,38 @@ Qdrant dashboard: <http://localhost:6333/dashboard>
 ### 4. Initialise the database
 
 ```bash
+# Default collection
 python scripts/setup_database.py
+
+# Or a subject-specific collection (e.g. for course TIØ4165)
+python scripts/setup_database.py --subject TIØ4165
 ```
 
 ### 5. Ingest documents
 
-Place files in `data/documents/` (PDF, TXT, MD, JSON), then:
+Place files in `data/documents/` (PDF, TXT, MD, JSON), or under `data/subjects/<subject>/documents/` for subject-scoped ingestion:
 
 ```bash
-# Ingest everything under data/documents/
+# Ingest everything under data/documents/ (default collection)
 python scripts/ingest_all_documents.py
 
-# Or ingest a single file
+# Ingest a single file
 python scripts/ingest_documents.py --file path/to/document.pdf
+
+# Ingest by subject (uses collection qdrant_rag_<subject>)
+python scripts/ingest_documents.py --data-path data/subjects/TIØ4165/documents --subject TIØ4165
 ```
+
+TXT files that contain `--- Page N ---` markers (e.g. from `scripts/convert_to_txt.py`) are chunked in a page-aware way so that responses can cite specific pages.
 
 ### 6. Search
 
 ```bash
+# Search default collection
 python scripts/interactive_search.py
+
+# Search a subject collection
+python scripts/interactive_search.py --subject TIØ4165
 ```
 
 Inside the interactive CLI:
@@ -164,12 +185,31 @@ Documents are split into token-bounded chunks (default 512 tokens, 50-token over
 
 ### Response Generation
 
-Top-ranked chunks are assembled into a context prompt and sent to GPT-4 via [Instructor](https://github.com/jxnl/instructor) for structured output. Each response includes:
+Top-ranked chunks are assembled into a context prompt and sent to the LLM (e.g. GPT-4) via [Instructor](https://github.com/jxnl/instructor) for structured output. Each response includes:
 
 - The synthesised **answer**
 - A **confidence score** (0–1)
 - **Reasoning steps** explaining how the answer was derived
-- **Source references** back to the original documents
+- **Source references** in APA 7 style; when chunks have page information, citations include page numbers (e.g. Author, Year, p. 12)
+
+### Subjects and collections
+
+You can run one global collection (`QDRANT_COLLECTION_NAME`) or one collection per **subject** (e.g. per course). Use `--subject <name>` with `setup_database.py`, `ingest_documents.py`, and `interactive_search.py`. The collection name becomes `qdrant_rag_<subject_slug>`.
+
+---
+
+## Document feedback
+
+You can get **feedback and reference suggestions** for a document (e.g. essay) against a subject's ingested material. The document is **not** ingested; it is only read. The system queries the subject collection, then the LLM suggests where to add citations and optional edits.
+
+- **Marked proposed changes:** Suggested insertion points and edit locations are shown with a **yellow background** in the terminal so you can see exactly where to add each citation or change.
+- **References at the bottom:** Each suggested citation is listed again at the bottom with **full APA 7 references including page numbers**, so you can look up the source and double-check. The goal is to make it easy to verify and improve your text.
+
+```bash
+python scripts/document_feedback.py --file path/to/essay.txt --subject TIØ4165
+```
+
+Options: `--max-sources` (default 10), `--search-limit` (default 15), `--verbose`. See [docs/PLAN_DOCUMENT_FEEDBACK.md](docs/PLAN_DOCUMENT_FEEDBACK.md) for the design.
 
 ---
 
@@ -190,6 +230,7 @@ All settings live in [core/config.py](core/config.py) and can be overridden with
 | `MIN_SEARCH_SCORE` | `0.6` | Minimum score threshold |
 | `CHUNK_SIZE_TOKENS` | `512` | Tokens per chunk |
 | `CHUNK_OVERLAP_TOKENS` | `50` | Overlap between chunks |
+| `BATCH_SIZE` | `500` | Embedding API batch size (AIMD-adaptive at runtime) |
 | `MAX_RESPONSE_TOKENS` | `1000` | Max tokens in generated response |
 | `RESPONSE_TEMPERATURE` | `0.1` | LLM temperature |
 
