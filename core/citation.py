@@ -5,213 +5,104 @@ This module provides:
   - A registry mapping source filenames to full bibliographic metadata.
   - Functions to look up citation data during ingestion.
   - APA 7 formatting helpers for in-text citations and reference lists.
+
+The registry is loaded from a JSON file (default: data/citation_registry.json).
+Override with the CITATION_REGISTRY_PATH environment variable.
+
+Registry file format: JSON array of objects. Each object must have:
+  - "pattern": regex string matched against the document filename (first match wins).
+  - APA fields: author, year, title, publication_type ("book" | "journal" | "other"),
+    and optionally chapter, edition, publisher, isbn, journal, volume, issue, pages, doi.
 """
 
+import json
+import logging
+import os
 import re
+from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
+logger = logging.getLogger(__name__)
 
 # ---------------------------------------------------------------------------
-# Citation registry
+# Registry path and cache
 # ---------------------------------------------------------------------------
-# Each entry maps a filename pattern (regex) to citation metadata.
-# Fields follow APA 7 conventions.
-# ---------------------------------------------------------------------------
+_PROJECT_ROOT = Path(__file__).resolve().parent.parent
+DEFAULT_REGISTRY_PATH = _PROJECT_ROOT / "data" / "citation_registry.json"
 
-CITATION_REGISTRY: List[Dict[str, Any]] = [
-    # --- Books / book chapters ---
-    {
-        "pattern": r"(?i)sommerville.*chapter\s*1\b",
-        "author": "Sommerville, I.",
-        "year": 2015,
-        "title": "Software Engineering",
-        "chapter": "1",
-        "edition": "10th",
-        "publisher": "Pearson Education",
-        "isbn": "9781292096131",
-        "publication_type": "book",
-    },
-    {
-        "pattern": r"(?i)sommerville.*chapter\s*2\b",
-        "author": "Sommerville, I.",
-        "year": 2015,
-        "title": "Software Engineering",
-        "chapter": "2",
-        "edition": "10th",
-        "publisher": "Pearson Education",
-        "isbn": "9781292096131",
-        "publication_type": "book",
-    },
-    {
-        "pattern": r"(?i)sommerville.*chapter\s*3\b",
-        "author": "Sommerville, I.",
-        "year": 2015,
-        "title": "Software Engineering",
-        "chapter": "3",
-        "edition": "10th",
-        "publisher": "Pearson Education",
-        "isbn": "9781292096131",
-        "publication_type": "book",
-    },
-    {
-        "pattern": r"(?i)sommerville.*chapter\s*6",
-        "author": "Sommerville, I.",
-        "year": 2015,
-        "title": "Software Engineering",
-        "chapter": "6",
-        "edition": "10th",
-        "publisher": "Pearson Education",
-        "isbn": "9781292096131",
-        "publication_type": "book",
-    },
-    {
-        "pattern": r"(?i)cohn.*chapter\s*1\b",
-        "author": "Cohn, M.",
-        "year": 2004,
-        "title": "User Stories Applied: For Agile Software Development",
-        "chapter": "1",
-        "publisher": "Addison-Wesley Professional",
-        "isbn": "9780321205681",
-        "publication_type": "book",
-    },
-    {
-        "pattern": r"(?i)cohn.*chapter\s*2\b",
-        "author": "Cohn, M.",
-        "year": 2004,
-        "title": "User Stories Applied: For Agile Software Development",
-        "chapter": "2",
-        "publisher": "Addison-Wesley Professional",
-        "isbn": "9780321205681",
-        "publication_type": "book",
-    },
-    {
-        "pattern": r"(?i)crispin.*gregory.*chapter\s*6\b",
-        "author": "Crispin, L., & Gregory, J.",
-        "year": 2008,
-        "title": "Agile Testing: A Practical Guide for Testers and Agile Teams",
-        "chapter": "6",
-        "publisher": "Addison-Wesley Professional",
-        "isbn": "9780321534460",
-        "publication_type": "book",
-    },
-    {
-        "pattern": r"(?i)crispin.*gregory.*chapter\s*10\b",
-        "author": "Crispin, L., & Gregory, J.",
-        "year": 2008,
-        "title": "Agile Testing: A Practical Guide for Testers and Agile Teams",
-        "chapter": "10",
-        "publisher": "Addison-Wesley Professional",
-        "isbn": "9780321534460",
-        "publication_type": "book",
-    },
-    {
-        "pattern": r"(?i)kanban\s+and\s+scrum",
-        "author": "Kniberg, H., & Skarin, M.",
-        "year": 2010,
-        "title": "Kanban and Scrum: Making the Most of Both",
-        "publisher": "C4Media",
-        "publication_type": "book",
-    },
-    {
-        "pattern": r"(?i)scrum\s+and\s+xp\s+from\s+the\s+trenches",
-        "author": "Kniberg, H.",
-        "year": 2015,
-        "title": "Scrum and XP from the Trenches",
-        "edition": "2nd",
-        "publisher": "C4Media",
-        "publication_type": "book",
-    },
+_registry_cache: Optional[List[Dict[str, Any]]] = None
 
-    # --- Journal articles ---
-    {
-        "pattern": r"(?i)\bmeyer\b",
-        "author": "Meyer, B.",
-        "year": 2018,
-        "title": "Making sense of agile methods",
-        "journal": "IEEE Software",
-        "volume": "35",
-        "issue": "2",
-        "pages": "91-94",
-        "publication_type": "journal",
-    },
-    {
-        "pattern": r"(?i)\bbecker\b",
-        "author": "Becker, C., Betz, S., Chitchyan, R., Duboc, L., Easterbrook, S. M., Penzenstadler, B., Seyff, N., & Venters, C. C.",
-        "year": 2016,
-        "title": "Requirements: The key to sustainability",
-        "journal": "IEEE Software",
-        "volume": "33",
-        "issue": "1",
-        "pages": "56-65",
-        "publication_type": "journal",
-    },
-    {
-        "pattern": r"(?i)\bbabb\b",
-        "author": "Babb, J., Hoda, R., & Nørbjerg, J.",
-        "year": 2014,
-        "title": "Embedding reflection and learning into agile software development",
-        "journal": "IEEE Software",
-        "volume": "31",
-        "issue": "4",
-        "pages": "51-57",
-        "publication_type": "journal",
-    },
-    {
-        "pattern": r"(?i)\bstray\b",
-        "author": "Stray, V., Moe, N. B., & Sjøberg, D. I. K.",
-        "year": 2020,
-        "title": "Daily stand-up meetings: Start breaking the rules",
-        "journal": "IEEE Software",
-        "volume": "37",
-        "issue": "3",
-        "pages": "70-77",
-        "publication_type": "journal",
-    },
-    {
-        "pattern": r"(?i)\bruneson\b",
-        "author": "Runeson, P., Andersson, C., Thelin, T., Andrews, A., & Berber, T.",
-        "year": 2006,
-        "title": "What do we know about defect detection methods?",
-        "journal": "IEEE Software",
-        "volume": "23",
-        "issue": "3",
-        "pages": "82-90",
-        "publication_type": "journal",
-    },
-    {
-        "pattern": r"(?i)\bwaterman\b",
-        "author": "Waterman, M.",
-        "year": 2018,
-        "title": "Agility, risk, and uncertainty, part 1: Designing an agile architecture",
-        "journal": "IEEE Software",
-        "volume": "35",
-        "issue": "2",
-        "pages": "99-101",
-        "publication_type": "journal",
-    },
-    {
-        "pattern": r"(?i)dings.yr",
-        "author": "Dingsøyr, T., Strode, D., & Lindsjørn, Y.",
-        "year": 2022,
-        "title": "Right thoughts & right action: How to make agile teamwork effective",
-        "journal": "Amplify",
-        "volume": "35",
-        "issue": "2",
-        "pages": "12-17",
-        "publication_type": "journal",
-    },
-]
+
+def clear_registry_cache() -> None:
+    """Clear the in-memory registry cache. Used when switching registry path or in tests."""
+    global _registry_cache
+    _registry_cache = None
+
+
+def _get_registry_path() -> Path:
+    """Resolve path to the citation registry file (env override supported)."""
+    path = os.environ.get("CITATION_REGISTRY_PATH")
+    return Path(path) if path else DEFAULT_REGISTRY_PATH
+
+
+def load_registry(force_reload: bool = False) -> List[Dict[str, Any]]:
+    """Load the citation registry from the configured JSON file.
+
+    Entries are cached. Use force_reload=True to re-read from disk.
+    Each entry must have a "pattern" (regex string) and APA metadata fields.
+    Invalid patterns are skipped and logged.
+    """
+    global _registry_cache
+    if _registry_cache is not None and not force_reload:
+        return _registry_cache
+
+    path = _get_registry_path()
+    if not path.exists():
+        logger.debug("Citation registry not found at %s; using empty registry.", path)
+        _registry_cache = []
+        return _registry_cache
+
+    try:
+        with open(path, encoding="utf-8") as f:
+            raw = json.load(f)
+    except (json.JSONDecodeError, OSError) as e:
+        logger.warning("Failed to load citation registry from %s: %s", path, e)
+        _registry_cache = []
+        return _registry_cache
+
+    if not isinstance(raw, list):
+        logger.warning("Citation registry must be a JSON array; got %s", type(raw).__name__)
+        _registry_cache = []
+        return _registry_cache
+
+    compiled: List[Dict[str, Any]] = []
+    for i, entry in enumerate(raw):
+        if not isinstance(entry, dict) or "pattern" not in entry:
+            logger.debug("Skipping registry entry %s: missing 'pattern' or not an object.", i)
+            continue
+        pattern = entry.get("pattern")
+        if not isinstance(pattern, str):
+            continue
+        try:
+            re_obj = re.compile(pattern)
+        except re.error as e:
+            logger.warning("Invalid regex in citation registry entry %s: %s", i, e)
+            continue
+        compiled.append({**entry, "_re": re_obj})
+
+    _registry_cache = compiled
+    return _registry_cache
 
 
 def lookup_citation(filename: str) -> Optional[Dict[str, Any]]:
     """Look up citation metadata for a given filename.
 
-    Returns the first matching registry entry, or ``None`` if no match.
+    Returns the first matching registry entry (without internal keys), or ``None`` if no match.
     """
-    for entry in CITATION_REGISTRY:
-        if re.search(entry["pattern"], filename):
-            # Return a copy without the regex pattern
-            return {k: v for k, v in entry.items() if k != "pattern"}
+    registry = load_registry()
+    for entry in registry:
+        if entry["_re"].search(filename):
+            return {k: v for k, v in entry.items() if k != "pattern" and k != "_re"}
     return None
 
 

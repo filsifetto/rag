@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Changed
+- **Citation registry** – Moved from hardcoded list in `core/citation.py` to external JSON file
+  `data/citation_registry.json`. Add or edit entries there without changing code. Override path
+  with `CITATION_REGISTRY_PATH`. `lookup_citation()` and `enrich_metadata()` API unchanged.
+- **Document feedback query strategy** – Replaced single-query (first 2000 chars) with a **sliding-window**
+  strategy so the whole document is covered. Queries are collectively exhaustive and overlapping
+  (default window 2000 chars, step 1000 chars → 50% overlap). Use `window_size` and `step_size` in
+  `document_to_search_queries()` to tune. CLI shows how many query windows were used.
+
 ## [1.0.1] - 2024-06-29
 
 ### 🐛 Bug Fixes

@@ -73,6 +73,7 @@ async def run_feedback(
         console.print("[yellow]Document has no text to search.[/yellow]")
         feedback = await feedback_service.generate_feedback(doc.content, [])
     else:
+        console.print(f"[dim]Document split into {len(queries)} search query window(s) (sliding window, full coverage).[/dim]")
         all_results = []
         for q in queries:
             results = await search_engine.search(q, limit=search_limit)
