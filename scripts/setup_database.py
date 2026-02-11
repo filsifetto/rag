@@ -179,7 +179,8 @@ def main():
                 ("metadata.document_type", "keyword"),
                 ("metadata.created_at", "datetime"),
                 ("document_type", "keyword"),
-                ("parent_document_id", "keyword")
+                ("parent_document_id", "keyword"),
+                ("page_number", "integer"),
             ]
             
             for field_name, field_type in indexes_to_create:

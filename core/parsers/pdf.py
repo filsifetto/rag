@@ -180,6 +180,40 @@ class PDFMetadataExtractor:
         finally:
             doc.close()
 
+    def extract_text_and_metadata_by_page(
+        self,
+        pdf_path: Path,
+    ) -> Tuple[str, List[Tuple[int, str]], PDFMetadata]:
+        """Extract full text, per-page text (for page-aware chunking), and metadata.
+
+        Returns ``(full_text, [(page_number, page_text), ...], PDFMetadata)``.
+        Page numbers are 1-based.
+        """
+        pdf_path = Path(pdf_path)
+        if not pdf_path.exists():
+            raise FileNotFoundError(f"PDF file not found: {pdf_path}")
+
+        doc = fitz.open(str(pdf_path))
+        try:
+            page_list: List[Tuple[int, str]] = []
+            pages: List[str] = []
+            for i, page in enumerate(doc):
+                page_num = i + 1
+                text = page.get_text("text")
+                if text.strip():
+                    page_list.append((page_num, text))
+                    pages.append(text)
+
+            full_text = "\n\n".join(pages)
+            full_text = re.sub(r"\f", "\n", full_text)
+            full_text = re.sub(r"\n{3,}", "\n\n", full_text)
+            full_text = full_text.strip()
+
+            metadata = self._build_metadata(doc, pdf_path, text=full_text)
+            return full_text, page_list, metadata
+        finally:
+            doc.close()
+
     # ---- internal helpers --------------------------------------------------
 
     def _extract_text(self, doc: fitz.Document) -> str:

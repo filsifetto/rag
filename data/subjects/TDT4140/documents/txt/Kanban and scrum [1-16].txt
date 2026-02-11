@@ -1,3 +1,6 @@
+--- Page 1 ---
+
+--- Page 2 ---
  
 FREE ONLINE EDITION 
  
@@ -26,6 +29,7 @@ scrum-minibook
  
 
 
+--- Page 3 ---
  
  
 Kanban and Scrum - 
@@ -48,6 +52,7 @@ http://www.infoq.com/minibooks/kanban-
 scrum-minibook 
 
 
+--- Page 4 ---
  
  
  
@@ -87,6 +92,7 @@ ISBN: 978-0-557-13832-6
 Printed in the United States of America 
 
 
+--- Page 5 ---
  
 iii 
 Contents 
@@ -122,6 +128,7 @@ PART II – CASE STUDY .........................................................
 24.  Setting the first Work In Progress (WIP) limit .................................. 71 
 
 
+--- Page 6 ---
 KANBAN AND SCRUM - MAKING THE MOST OF BOTH 
 iv 
 25.  Honoring the Work In Progress (WIP) limit ..................................... 73 
@@ -137,6 +144,7 @@ ABOUT THE AUTHORS ..............................................................
  
 
 
+--- Page 7 ---
  
 v 
  
@@ -164,6 +172,9 @@ situation – your next step toward better software development.
 Mary Poppendieck
 
 
+--- Page 8 ---
+
+--- Page 9 ---
  
 vii 
  
@@ -198,6 +209,7 @@ focusing the whole team and the wider organization on solving the
 problem, unblocking the item and restoring flow. 
 
 
+--- Page 10 ---
 KANBAN AND SCRUM - MAKING THE MOST OF BOTH 
 viii 
 Kanban uses a visual control mechanism to track work as it flows through 
@@ -239,6 +251,7 @@ shortening cycle times from commitment to delivery and eliminating
 rework since the chance that priorities will change is minimized. 
 
 
+--- Page 11 ---
 INTRODUCTION  
 ix 
 One final word on Kanban is that the effect of limiting WIP provides 
@@ -279,6 +292,7 @@ people attended and 3 of them were from Yahoo!: Aaron Sanders, Karl
 Scotland and Joe Arnold. They went home to California, India and the UK 
 
 
+--- Page 12 ---
 KANBAN AND SCRUM - MAKING THE MOST OF BOTH 
 x 
 and implemented Kanban with their teams, which were already struggling 
@@ -322,6 +336,7 @@ Sequim, Washington, USA
 July 8th, 2009 
 
 
+--- Page 13 ---
  
 xi 
  
@@ -368,6 +383,7 @@ Fred: “Could you commit to 1 week of work? Will you be
 allowed to focus and work in peace for 1 week?” 
 
 
+--- Page 14 ---
 KANBAN AND SCRUM - MAKING THE MOST OF BOTH 
 xii 
 • 
@@ -413,6 +429,7 @@ Jim:
 Fred: “Just read on...” 
 
 
+--- Page 15 ---
 INTRODUCTION  
 xiii 
 Purpose of this book 
@@ -426,6 +443,9 @@ how Kanban and Scrum might be useful in your environment.
 Let us know if we succeed! 
 
 
+--- Page 16 ---
+
+--- Page 17 ---
  
 1 
 Part I – Comparison 
@@ -440,6 +460,9 @@ Well, maybe just a little.
 /Henrik Kniberg 
 
 
+--- Page 18 ---
+
+--- Page 19 ---
  
 3 
 1 
@@ -461,6 +484,7 @@ http://www.infoq.com/minibooks/kanban-
 scrum-minibook 
 
 
+--- Page 20 ---
 4 |KANBAN AND SCRUM – MAKING THE MOST OF BOTH 
  
 • 
@@ -496,6 +520,7 @@ Limit Work In Progress (WIP) – assign explicit limits to how
 many items may be in progress at each workflow state. 
 
 
+--- Page 21 ---
 WHAT ARE SCRUM AND KANBAN ANYWAY? | 5 
  
 • 
@@ -506,6 +531,9 @@ lead time as small and predictable as possible.
 We collect useful Kanban links at: http://www.crisp.se/kanban 
 
 
+--- Page 22 ---
+
+--- Page 23 ---
  
 7 
 2 
@@ -536,6 +564,7 @@ http://www.infoq.com/minibooks/kanban-
 scrum-minibook 
 
 
+--- Page 24 ---
 8 |KANBAN AND SCRUM – MAKING THE MOST OF BOTH 
  
  
@@ -572,6 +601,7 @@ are no rules or constraints at all. As you can see, both extremes of the
 scale are kind of ridiculous. 
 
 
+--- Page 25 ---
 SO HOW DO SCRUM AND KANBAN RELATE TO EACH OTHER? | 9 
  
 Agile methods are sometimes called lightweight methods, specifically 
@@ -599,6 +629,7 @@ includes most of Scrum + a bunch of fairly specific engineering practices
 such as test-driven development and pair programming. 
 
 
+--- Page 26 ---
 10 |KANBAN AND SCRUM – MAKING THE MOST OF BOTH 
  
 Scrum is less prescriptive than XP, since it doesn’t prescribe any specific 
@@ -632,6 +663,7 @@ any one weapon or any one
 school of fighting. 
 
 
+--- Page 27 ---
  
 11 
 3 
@@ -657,6 +689,9 @@ represent whoever it is that sets the priorities of a team, regardless of the
 process used. 
 
 
+--- Page 28 ---
+
+--- Page 29 ---
  
 13 
 4 
@@ -692,6 +727,7 @@ http://www.infoq.com/minibooks/kanban-
 scrum-minibook 
 
 
+--- Page 30 ---
 14 |KANBAN AND SCRUM – MAKING THE MOST OF BOTH 
  
 Team #2 (three cadences) 
@@ -709,6 +745,7 @@ do a more in-depth retrospective every fourth week.”
  
 
 
+--- Page 31 ---
  
 15 
 5 
@@ -737,6 +774,7 @@ per column is 4, since there are only 4 items on the whole board. So
 Scrum limits WIP indirectly, while Kanban limits WIP directly. 
 
 
+--- Page 32 ---
 16 |KANBAN AND SCRUM – MAKING THE MOST OF BOTH 
  
 Most Scrum teams eventually learn that it is a bad idea to have too many 
@@ -771,6 +809,7 @@ estimating things (you might even consider estimation to be waste). It’s
 easier to create a smooth-flowing system if items are roughly equal-sized. 
 
 
+--- Page 33 ---
  
 17 
 6 
@@ -795,6 +834,7 @@ http://www.infoq.com/minibooks/kanban-
 scrum-minibook 
 
 
+--- Page 34 ---
 18 |KANBAN AND SCRUM – MAKING THE MOST OF BOTH 
  
 • 
@@ -830,6 +870,7 @@ especially if you combine with XP (eXtreme programming):
  
 
 
+--- Page 35 ---
 BOTH ARE EMPIRICAL | 19 
  
 When done correctly, Scrum + XP gives you a bunch of extremely 
@@ -867,6 +908,7 @@ Let’s say we have a 4 person team, and we decide to start with a WIP
 limit of 1. 
 
 
+--- Page 36 ---
 20 |KANBAN AND SCRUM – MAKING THE MOST OF BOTH 
  
  
@@ -888,6 +930,7 @@ usually have 2 ongoing items at any given time. The WIP of 8 is just an
 upper limit, so having fewer items in progress is fine! 
 
 
+--- Page 37 ---
 BOTH ARE EMPIRICAL | 21 
  
 Imagine now, however, that we run into a problem with the integration 
@@ -907,6 +950,7 @@ measure average lead time and keep optimizing our WIP limits to
 optimize the lead time: 
 
 
+--- Page 38 ---
 22 |KANBAN AND SCRUM – MAKING THE MOST OF BOTH 
  
  
@@ -920,6 +964,7 @@ buffer to pull work from in the meantime.
 Experiment! Or, as the Scrumologists say, Inspect & Adapt! 
 
 
+--- Page 39 ---
  
 23 
 7 
@@ -939,6 +984,7 @@ http://www.infoq.com/minibooks/kanban-
 scrum-minibook 
 
 
+--- Page 40 ---
 24 |KANBAN AND SCRUM – MAKING THE MOST OF BOTH 
  
 So what would the Kanban team say then? 
@@ -966,6 +1012,7 @@ team may even decide to use timeboxed fixed-commitment iterations, just
 like Scrum. 
 
 
+--- Page 41 ---
  
 25 
 8 
@@ -988,6 +1035,9 @@ reset it and start over.
  
 
 
+--- Page 42 ---
+
+--- Page 43 ---
  
 27 
 9 
@@ -1008,6 +1058,7 @@ http://www.infoq.com/minibooks/kanban-
 scrum-minibook 
 
 
+--- Page 44 ---
 28 |KANBAN AND SCRUM – MAKING THE MOST OF BOTH 
  
 Here are two examples: 
@@ -1024,6 +1075,7 @@ So in Kanban you need to establish some ground rules for who uses the
 board and how, then experiment with the rules to optimize flow. 
 
 
+--- Page 45 ---
  
 29 
 10 
@@ -1044,6 +1096,9 @@ takes 1 month to complete and another item that takes 1 day.
  
 
 
+--- Page 46 ---
+
+--- Page 47 ---
  
 31 
 11 
@@ -1070,6 +1125,7 @@ Agreements (SLAs) – for example “when we commit to an MMF it will
 always be delivered within 15 days”. 
 
 
+--- Page 48 ---
 32 |KANBAN AND SCRUM – MAKING THE MOST OF BOTH 
  
 There’s all kinds of interesting techniques for Kanban-style release 
@@ -1079,6 +1135,7 @@ techniques until you find one that suits your context. We’ll probably see
 some “best practices” emerge over time. 
 
 
+--- Page 49 ---
  
 33 
 12 
@@ -1103,6 +1160,7 @@ http://www.infoq.com/minibooks/kanban-
 scrum-minibook 
 
 
+--- Page 50 ---
 34 |KANBAN AND SCRUM – MAKING THE MOST OF BOTH 
  
 Another strategy would be to have the team work on features from both 
@@ -1115,6 +1173,7 @@ same board. We might distinguish them using different colored cards:
  
 
 
+--- Page 51 ---
  
 35 
 13 
@@ -1152,12 +1211,14 @@ iteration shorter than 1 week you might consider ditching timeboxed
 iterations entirely. 
 
 
+--- Page 52 ---
 36 |KANBAN AND SCRUM – MAKING THE MOST OF BOTH 
  
 I’ve said it before and I’ll keep saying it: Experiment until you find 
 something that works for you! And then keep experimenting :o) 
 
 
+--- Page 53 ---
  
 37 
 14 
@@ -1195,6 +1256,7 @@ can limit the size of it, and create decision rules for how it should be
 prioritized. 
 
 
+--- Page 54 ---
 38 |KANBAN AND SCRUM – MAKING THE MOST OF BOTH 
  
 In Scrum, daily meetings are prescribed 
@@ -1235,6 +1297,7 @@ The main purpose of a burndown chart is to easily find out as early as
 possible if we are behind or ahead of schedule, so that we can adapt. 
 
 
+--- Page 55 ---
 MINOR DIFFERENCES | 39 
  
 In Kanban, burndown charts are not prescribed. In fact, no particular type 
@@ -1260,6 +1323,7 @@ items deployed per day). Over time we can see how higher velocity
 reduces lead time, while higher WIP increases lead time. 
 
 
+--- Page 56 ---
 40 |KANBAN AND SCRUM – MAKING THE MOST OF BOTH 
  
 Most organizations want to get stuff done faster (= reduce lead time). 
@@ -1275,6 +1339,7 @@ absolutely minimize the number of items sitting around in queues, and a
 cumulative flow diagram helps provide the right incentives for this. 
 
 
+--- Page 57 ---
  
 41 
 15 
@@ -1300,6 +1365,7 @@ http://www.infoq.com/minibooks/kanban-
 scrum-minibook 
 
 
+--- Page 58 ---
 42 |KANBAN AND SCRUM – MAKING THE MOST OF BOTH 
  
 Under this scenario, a Kanban board might instead look something like 
@@ -1326,6 +1392,7 @@ say there are 2 items in “Done”:
  
 
 
+--- Page 59 ---
 SCRUM BOARD VS KANBAN BOARD – A LESS TRIVIAL EXAMPLE | 43 
  
 That means there can only be 1 item in “Ongoing”. That means there will 
@@ -1353,6 +1420,7 @@ The WIP limits are there to stop problems from getting out of hand, so if
 things are flowing smoothly the WIP limits aren’t really used. 
 
 
+--- Page 60 ---
 44 |KANBAN AND SCRUM – MAKING THE MOST OF BOTH 
  
 One day in Kanban-land 
@@ -1362,6 +1430,7 @@ One day in Kanban-land
  
 
 
+--- Page 61 ---
 SCRUM BOARD VS KANBAN BOARD – A LESS TRIVIAL EXAMPLE | 45 
  
  
@@ -1370,6 +1439,7 @@ SCRUM BOARD VS KANBAN BOARD – A LESS TRIVIAL EXAMPLE | 45
  
 
 
+--- Page 62 ---
 46 |KANBAN AND SCRUM – MAKING THE MOST OF BOTH 
  
  
@@ -1378,6 +1448,7 @@ SCRUM BOARD VS KANBAN BOARD – A LESS TRIVIAL EXAMPLE | 45
  
 
 
+--- Page 63 ---
 SCRUM BOARD VS KANBAN BOARD – A LESS TRIVIAL EXAMPLE | 47 
  
 Does the Kanban board have to look like this? 
@@ -1410,6 +1481,9 @@ with a concrete reason). So once again, it’s up to you. I told you Kanban
 wasn’t very prescriptive right? 
 
 
+--- Page 64 ---
+
+--- Page 65 ---
  
 49 
 16 
@@ -1439,6 +1513,7 @@ http://www.infoq.com/minibooks/kanban-
 scrum-minibook 
 
 
+--- Page 66 ---
 50 |KANBAN AND SCRUM – MAKING THE MOST OF BOTH 
  
 Differences 
@@ -1495,6 +1570,7 @@ backlog
 Prioritization is optional.  
 
 
+--- Page 67 ---
 SCRUM BOARD VS KANBAN BOARD – A LESS TRIVIAL EXAMPLE | 51 
  
 There. That’s it. Now you know the differences. 

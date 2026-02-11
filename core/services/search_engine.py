@@ -341,11 +341,16 @@ class HybridSearchEngine:
             
             # Determine result type
             result_type = SearchResultType.CHUNK if result.payload.get("document_type") == "chunk" else SearchResultType.DOCUMENT
-            
+
+            # Merge chunk-level payload (e.g. page_number) into metadata for citations
+            metadata = dict(result.payload.get("metadata", {}))
+            if result.payload.get("page_number") is not None:
+                metadata["page_number"] = result.payload["page_number"]
+
             combined_results.append(SearchResult(
                 id=result.id,
                 content=result.payload.get("content", ""),
-                metadata=result.payload.get("metadata", {}),
+                metadata=metadata,
                 vector_score=vector_score,
                 keyword_score=keyword_score,
                 combined_score=min(combined_score, 1.0),  # Cap at 1.0

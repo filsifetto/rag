@@ -12,13 +12,17 @@ from pptx import Presentation
 
 
 def extract_text_from_pdf(pdf_path: Path) -> str:
-    """Extract text from a PDF using PyMuPDF."""
+    """Extract text from a PDF using PyMuPDF, with page number markers."""
     doc = fitz.open(pdf_path)
-    pages = []
-    for page in doc:
-        pages.append(page.get_text())
+    parts = []
+    for i, page in enumerate(doc, 1):
+        text = page.get_text()
+        if text.strip():
+            parts.append(f"--- Page {i} ---\n{text}")
+        else:
+            parts.append(f"--- Page {i} ---")
     doc.close()
-    return "\n\n".join(pages)
+    return "\n\n".join(parts)
 
 
 def extract_text_from_pptx(pptx_path: Path) -> str:
@@ -38,50 +42,58 @@ def extract_text_from_pptx(pptx_path: Path) -> str:
 
 
 def main():
-    subject_dir = project_root / "data" / "subjects" / "TIØ4165"
-    txt_dir = subject_dir / "documents" / "txt"
-    txt_dir.mkdir(parents=True, exist_ok=True)
-
-    # Collect all PDFs and PPTX from the top-level subject directory
-    files = sorted(
-        f for f in subject_dir.iterdir()
-        if f.is_file() and f.suffix.lower() in (".pdf", ".pptx")
-    )
-
-    if not files:
-        print("No PDF/PPTX files found in", subject_dir)
+    subjects_root = project_root / "data" / "subjects"
+    if not subjects_root.exists():
+        print("No data/subjects directory found.")
         return
 
-    for file_path in files:
-        stem = file_path.stem
-        txt_path = txt_dir / f"{stem}.txt"
+    # Process each subject directory
+    subject_dirs = sorted(d for d in subjects_root.iterdir() if d.is_dir())
+    if not subject_dirs:
+        print("No subject directories found in", subjects_root)
+        return
 
-        if txt_path.exists():
-            print(f"⏭️  Already exists: {txt_path.name}")
+    for subject_dir in subject_dirs:
+        txt_dir = subject_dir / "documents" / "txt"
+        txt_dir.mkdir(parents=True, exist_ok=True)
+
+        # Collect all PDFs and PPTX under this subject (including subfolders)
+        files = sorted(
+            f for f in subject_dir.rglob("*")
+            if f.is_file() and f.suffix.lower() in (".pdf", ".pptx")
+        )
+
+        if not files:
+            print(f"⏭️  No PDF/PPTX in {subject_dir.name}")
             continue
 
-        ext = file_path.suffix.lower()
-        print(f"📄 Converting: {file_path.name} ...", end=" ", flush=True)
+        print(f"\n📁 {subject_dir.name}")
+        for file_path in files:
+            stem = file_path.stem
+            txt_path = txt_dir / f"{stem}.txt"
 
-        try:
-            if ext == ".pdf":
-                text = extract_text_from_pdf(file_path)
-            elif ext == ".pptx":
-                text = extract_text_from_pptx(file_path)
-            else:
-                continue
+            ext = file_path.suffix.lower()
+            print(f"  📄 Converting: {file_path.name} ...", end=" ", flush=True)
 
-            if not text.strip():
-                print("⚠️  No text extracted!")
-                continue
+            try:
+                if ext == ".pdf":
+                    text = extract_text_from_pdf(file_path)
+                elif ext == ".pptx":
+                    text = extract_text_from_pptx(file_path)
+                else:
+                    continue
 
-            txt_path.write_text(text, encoding="utf-8")
-            word_count = len(text.split())
-            print(f"✅ {word_count:,} words → {txt_path.name}")
-        except Exception as e:
-            print(f"❌ Error: {e}")
+                if not text.strip():
+                    print("⚠️  No text extracted!")
+                    continue
 
-    print("\nDone! All txt files in:", txt_dir)
+                txt_path.write_text(text, encoding="utf-8")
+                word_count = len(text.split())
+                print(f"✅ {word_count:,} words → {txt_path.name}")
+            except Exception as e:
+                print(f"❌ Error: {e}")
+
+    print("\nDone! Txt files written under each subject's documents/txt/")
 
 
 if __name__ == "__main__":

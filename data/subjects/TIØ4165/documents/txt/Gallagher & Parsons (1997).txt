@@ -1,3 +1,4 @@
+--- Page 1 ---
 A Framework for Targeting Banner Advertising On the Internet 
 Katherine Gallagher and Jeffrey Parsons 
 Faculty of Business Administration, Memorial University of Newfoundland 
@@ -94,6 +95,7 @@ Second, the emergence of the hypermedia-based WWW,
 Authorized licensed use limited to: Norges Teknisk-Naturvitenskapelige Universitet. Downloaded on December 13,2021 at 23:48:19 UTC from IEEE Xplore.  Restrictions apply. 
 
 
+--- Page 2 ---
 visit, ensuring there is 
 the firm and th 
 Web site and 
@@ -171,6 +173,7 @@ have found the Web site, the task is to tum that hit into a
 Authorized licensed use limited to: Norges Teknisk-Naturvitenskapelige Universitet. Downloaded on December 13,2021 at 23:48:19 UTC from IEEE Xplore.  Restrictions apply. 
 
 
+--- Page 3 ---
 precisely targeting advertisements based on characteristics 
 and behavior of individual users of information services. 
 Moreover, such targeting can be more precise than the 
@@ -281,6 +284,7 @@ appropriate for use by information services which sell
 Authorized licensed use limited to: Norges Teknisk-Naturvitenskapelige Universitet. Downloaded on December 13,2021 at 23:48:19 UTC from IEEE Xplore.  Restrictions apply. 
 
 
+--- Page 4 ---
 advertising space. 
 3.1. Basic version 
 The basic version of the model requires that users be 
@@ -357,6 +361,7 @@ information serv
 Authorized licensed use limited to: Norges Teknisk-Naturvitenskapelige Universitet. Downloaded on December 13,2021 at 23:48:19 UTC from IEEE Xplore.  Restrictions apply. 
 
 
+--- Page 5 ---
 questionnaire strategy is that it is subject to two potential 
 types of bias. First, the questionnaire designer will want to 
 identify as many user attributes relevant to potential 
@@ -462,6 +467,7 @@ user. This section describes these components.
 Authorized licensed use limited to: Norges Teknisk-Naturvitenskapelige Universitet. Downloaded on December 13,2021 at 23:48:19 UTC from IEEE Xplore.  Restrictions apply. 
 
 
+--- Page 6 ---
 4.1. Data Structure 
 To target banner advertisements, two types of profdes 
 are needed: profiles describing users of the information 
@@ -536,6 +542,7 @@ $30,000. Such profiles
 Authorized licensed use limited to: Norges Teknisk-Naturvitenskapelige Universitet. Downloaded on December 13,2021 at 23:48:19 UTC from IEEE Xplore.  Restrictions apply. 
 
 
+--- Page 7 ---
 RANGE 
 ad-id 
 attribute 
@@ -639,6 +646,7 @@ formulate a bid based on this, in addition to other
 Authorized licensed use limited to: Norges Teknisk-Naturvitenskapelige Universitet. Downloaded on December 13,2021 at 23:48:19 UTC from IEEE Xplore.  Restrictions apply. 
 
 
+--- Page 8 ---
 information such as whether the user had seen this 
 thiscriterion. So, thes 
 advertisement, or other advertisements for the same or 
@@ -682,6 +690,7 @@ RANGE. Since the age value of u1 is 26, there is a match on
 Authorized licensed use limited to: Norges Teknisk-Naturvitenskapelige Universitet. Downloaded on December 13,2021 at 23:48:19 UTC from IEEE Xplore.  Restrictions apply. 
 
 
+--- Page 9 ---
 This example does not show the full scope of the model, 
 since there is no case where there are two or more target 
 audience profiles that match a particular user profile. To 
@@ -791,6 +800,7 @@ York, NY: McGraw-Hill.
 Authorized licensed use limited to: Norges Teknisk-Naturvitenskapelige Universitet. Downloaded on December 13,2021 at 23:48:19 UTC from IEEE Xplore.  Restrictions apply. 
 
 
+--- Page 10 ---
 7. 
 8. 
 9. 

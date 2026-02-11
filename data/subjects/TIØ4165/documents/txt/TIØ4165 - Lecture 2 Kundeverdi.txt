@@ -1,8 +1,10 @@
+--- Page 1 ---
 Forelesning 2: Kundeverdi
 Professor Arild Aspelund
 TIØ4165 - Markedsføringsledelse for teknologibedrifter
 
 
+--- Page 2 ---
 Short recoup
 Markedsføring
 • “Funksjonen med å forstå, skape og levere verdi” (AMA)
@@ -15,6 +17,7 @@ Dette er hovedingrediensene i dette kurset
 og grunnsteinene i en markedsføringsstrategi
 
 
+--- Page 3 ---
 Agenda - Kundeverdi
 • Kundeverdi
 • Hva er kundeverdi i 
@@ -30,6 +33,7 @@ relasjonsmarkedsføring?
 • Relasjonsbyggende insentiver
 
 
+--- Page 4 ---
 Lesestoff
 • Christensen, C.M., Hall, T., Dillon, K. and Duncan, D.S. 2016 Know your
 customers’ «Jobs to be Done», Harvard Business Review, September 2016
@@ -41,15 +45,18 @@ Customer Profitability, and the Treatment of Acquisition Spending. Journal of
 Managerial Issues 17(1), pp. 11-25.
 
 
+--- Page 5 ---
 Hva er et verdiforslag?
 Et verdiforslag er en setning som oppsummerer hva slags verdi bedriften påstår å 
 tilby til kunder
 Eksempel: «Nike - Providing high-performance athletic gear for all levels»
 
 
+--- Page 6 ---
 Hva er kundeverdi?
 
 
+--- Page 7 ---
 Kundeverdi
 Forbrukermarkedet
 Bedriftsmarkedet
@@ -57,6 +64,7 @@ Bedriftsmarkedet
 “B2B”
 
 
+--- Page 8 ---
 Kundeverdi i forbrukermarkedet
 • Vi sier at kundeverdi blant forbrukere handler om opplevd verdi
 • Den opplevde verdien til en forbruker kan beskrives som:
@@ -68,6 +76,7 @@ Kundeverdi i forbrukermarkedet
 inntreffer ikke før etter kjøpet er gjort → Kundetilfredshet
 
 
+--- Page 9 ---
 Kundeverdi i forbrukermarkedet
 • Til venstre - levert kundeverdi som summen av total 
 kundeverdi og kostnader
@@ -78,16 +87,20 @@ komme fra personlig verdi og image verdi
 • Hva om det er et teknologiprodukt eller tjeneste?
 
 
+--- Page 10 ---
 La oss vurdere noen eksempler
 Hva kan påvirke kundeverdien for følgende produkter og tjenester?
 
 
+--- Page 11 ---
 Forbrukerprodukter
 
 
+--- Page 12 ---
 Forbrukertjenester
 
 
+--- Page 13 ---
 Kvantitativ analyse av kundeverdi
 i forbrukermarkedet – logit/probit modell av verdikomponenter
 Buy = 1
@@ -99,6 +112,7 @@ Service value ~ 30 %
 Product value ~ 10 %
 
 
+--- Page 14 ---
 En alternative måte å se det på
 JTBD – Jobs to be Done
 •
@@ -113,6 +127,7 @@ Altså, vi må fokusere mer på løse deres jobben de vil ha utført!
 Og slik kan det hjelpe oss a forstå hva den virkelige verdien faktisk er!
 
 
+--- Page 15 ---
 Bærekraft og kundeverdi
 The double externality problem (Rennings, 2000)
 Value
@@ -128,6 +143,7 @@ like a good
 idea…
 
 
+--- Page 16 ---
 Kjøpsprosess
 i forbrukermarkedet
 Problem-
@@ -140,6 +156,7 @@ Beslutning
 “Hadde jeg kjøpt igjen?”
 
 
+--- Page 17 ---
 Kundeverdi i bedriftsmarkedet
 • Kundeverdi blant bedrifter handler om mer rasjonelle, økonomiske vurderinger
 • Kundeverdien til et produkt i bedriftsmarkedet handler dermed om ting som:
@@ -152,6 +169,7 @@ Kundeverdi i bedriftsmarkedet
 1/2
 
 
+--- Page 18 ---
 Kundeverdi i bedriftsmarkedet
 • Bedrifter er dermed ofte mer varsomme kjøpere, da de vurderer ting som:
 • Omstilling/endringskostnader
@@ -162,14 +180,17 @@ delleveranser mm.
 2/2
 
 
+--- Page 19 ---
 Produkter/tjenester til bedrift
 
 
+--- Page 20 ---
 Kjøpsprosess
 i bedriftsmarkedet
 “Bør vi kjøpe igjen?”
 
 
+--- Page 21 ---
 Kjøpsprosessen i bedriftsmarkedet
 1.
 Problem / behov 
@@ -212,6 +233,7 @@ Oppfølging
 Evaluering, gjenkjøp, forandring, terminering
 
 
+--- Page 22 ---
 Forbrukermarkedet
 Bedriftsmarkedet
 Markedsstruktur
@@ -258,6 +280,7 @@ Komplekse, tidkrevende forhandlinger
 Totalkostnad viktigst
 
 
+--- Page 23 ---
 Kvalitet, kundetilfredshet og lojalitet
 • For å skape kundetilfredshet må produkter tilfredstille (eller overgå) kunders 
 forventninger
@@ -271,10 +294,12 @@ disproporsjonalt større enn den positive effekten av å overgå forventninger
 asdf
 
 
+--- Page 24 ---
 Hva er kvalitet?
 Å tilfredstille eller overgå kunders forventninger og behov?
 
 
+--- Page 25 ---
 • Før salget: 
 • Identifisere og forstå kundebehov 
 • Kommunisere kundebehov til 
@@ -291,14 +316,17 @@ om at kunden er og forblir tilfreds
 Kvalitet i salgsprosessen
 
 
+--- Page 26 ---
 “Det er markedsførerens 
 ansvar å bidra til kvalitet”
 Kotler & Keller (2016)
 
 
+--- Page 27 ---
 Hvorfor bygge kundelojalitet?
 
 
+--- Page 28 ---
 Kundelojalitet
 • Det er kostbart for bedrifter å tiltrekke seg nye kunder
 • Customer Acquisition Cost (CAC eller CoCA) er kostnaden bedrifter pådrar 
@@ -311,6 +339,7 @@ Antall nye kunder i tidsperiode
 Les: Pfeifer et al (2005)
 
 
+--- Page 29 ---
 Kundelojalitet
 • Ved å bygge kundelojalitet slipper selskaper å pådra seg nye 
 markedsføringskostnader for å opprettholde samme driftsinntekter 
@@ -322,6 +351,7 @@ nye kunder om at produktet/tjenesten har høy kundeverdi
 Les: Pfeifer et al (2005)
 
 
+--- Page 30 ---
 Lønnsomhetsanalyse
 • Hver kunde har en forventet verdi for en bedrift i fremtiden
 • Customer Lifetime Value (LTV) er den antatte fremtidige fortjenesten et 
@@ -334,9 +364,11 @@ selskap kan gjøre fra kjøpene til én kunde
 Les: Pfeifer et al (2005)
 
 
+--- Page 31 ---
 Hva er relasjonsmarkedsføring?
 
 
+--- Page 32 ---
 Hva er relasjonsmarkedsføring?
 • Relasjonsmarkedsføring fokuserer på å beholde de kundene man allerede har
 • Flytter dermed fokuset fra massemarkedsføring til bruk av individuelle tiltak 
@@ -347,6 +379,7 @@ rettet mot hver enkelt brukers behov
 1/2
 
 
+--- Page 33 ---
 Transaksjonsfokus
 Relasjonsfokus
 Orientering
@@ -374,9 +407,11 @@ Hva er relasjonsmarkedsføring?
 2/2
 
 
+--- Page 34 ---
 Hvorfor gjøre relasjonsmarkedsføring?
 
 
+--- Page 35 ---
 Hvorfor gjøre relasjonsmarkedsføring?
 • Relasjonsmarkedsføring kan bidra til økt salg over tid 
 • Fra eksisterende kunder gjennom: gjenkjøp, større volumkjøp, økt hyppighet 
@@ -390,6 +425,7 @@ margin
 1/2
 
 
+--- Page 36 ---
 Relasjonsfremmende insentiver
 • Fordelsprogram: Kunder får belønninger for sin lojalitet
 • Eksempler: SAS Eurobonus, Æ, Shell Drivstoffskort, Hotels.com Rewards… 
@@ -403,6 +439,7 @@ Relasjonsfremmende insentiver
 Les: Henderson et al (2011)
 
 
+--- Page 37 ---
 • Tette kundeforhold kan også være en kilde til nye varer og tjenester!
 • Brukerstyrt innovasjon / “Åpen” innovasjon
 2/2
@@ -410,6 +447,7 @@ Open innovation
 – En kilde til å finne nye kundeverdier
 
 
+--- Page 38 ---
 Offensiv vs Defensiv Strategi
 1/2
 Offensiv 
@@ -424,6 +462,7 @@ Markedsførings-
 strategi
 
 
+--- Page 39 ---
 Drivere for å skape langsiktige relasjoner
 1/2
 Verdien av 
@@ -436,6 +475,7 @@ kundeforhold
 Verdien av merkevaren 
 
 
+--- Page 40 ---
 Når bør en relasjonsstrategi ikke benyttes?
 • Når det er variasjonssøkende kjøpsatferd
 • Hvis kjøperen er på jakt etter variasjon i seg selv.

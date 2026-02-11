@@ -95,10 +95,10 @@ class SearchResult(BaseModel):
         if self.chunk_index is not None:
             source_info["chunk_index"] = self.chunk_index
         
-        # Add relevant metadata
+        # Add relevant metadata (including chunk-level page_number for citations)
         for key in ("title", "author", "source", "year", "journal",
                     "publisher", "chapter", "volume", "issue", "pages",
-                    "edition", "publication_type", "doi", "isbn"):
+                    "page_number", "edition", "publication_type", "doi", "isbn"):
             if key in self.metadata:
                 source_info[key] = self.metadata[key]
 

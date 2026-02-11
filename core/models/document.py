@@ -5,7 +5,7 @@ This module defines the data structures for documents and their metadata
 used throughout the RAG system.
 """
 
-from typing import List, Dict, Any, Optional, Union
+from typing import List, Dict, Any, Optional, Union, Tuple
 from pydantic import BaseModel, Field, field_validator, model_validator
 from datetime import datetime
 from enum import Enum
@@ -112,6 +112,8 @@ class Document(BaseModel):
     # Chunking information
     chunks: Optional[List[str]] = Field(None, description="Document chunks for processing")
     chunk_metadata: Optional[List[Dict[str, Any]]] = Field(None, description="Metadata for each chunk")
+    # For PDFs: list of (page_number, page_text) for page-aware chunking (set before ingestion)
+    page_list: Optional[List[Tuple[int, str]]] = Field(None, description="Per-page text for PDFs")
     
     # Embedding information
     embedding: Optional[List[float]] = Field(None, description="Document embedding vector")

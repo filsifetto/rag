@@ -46,7 +46,7 @@ class Settings(BaseSettings):
     max_tokens_per_chunk: int = Field(8192, env="MAX_TOKENS_PER_CHUNK")
     chunk_size_tokens: int = Field(512, env="CHUNK_SIZE_TOKENS")
     chunk_overlap_tokens: int = Field(50, env="CHUNK_OVERLAP_TOKENS")
-    batch_size: int = Field(100, env="BATCH_SIZE")
+    batch_size: int = Field(500, env="BATCH_SIZE")
     
     # Response Generation
     max_response_tokens: int = Field(1000, env="MAX_RESPONSE_TOKENS")

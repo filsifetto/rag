@@ -18,5 +18,2415 @@
     "token_count": 1622,
     "chunk_count": 8,
     "ingested_at": "2026-02-06T16:52:39.628462"
+  },
+  {
+    "document_id": "df52ab55-23b6-5767-a4ec-8ed8db57e51e",
+    "title": "Henderson et al (2011)",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Henderson et al (2011).txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 19423,
+    "chunk_count": 100,
+    "ingested_at": "2026-02-11T10:50:51.967656"
+  },
+  {
+    "document_id": "7281e881-6aff-5f43-ba68-9ecdf81908be",
+    "title": "TI\u00d84165 - Lecture 3 - Segmentering",
+    "source": "data/subjects/TI\u00d84165/documents/txt/TI\u00d84165 - Lecture 3 - Segmentering.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1256,
+    "chunk_count": 9,
+    "ingested_at": "2026-02-11T10:50:51.967672"
+  },
+  {
+    "document_id": "ab7f8817-c3a6-5e32-9e85-e69375ad72fb",
+    "title": "TI\u00d84165 - Lecture 2 Kundeverdi",
+    "source": "data/subjects/TI\u00d84165/documents/txt/TI\u00d84165 - Lecture 2 Kundeverdi.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1767,
+    "chunk_count": 14,
+    "ingested_at": "2026-02-11T10:50:51.967676"
+  },
+  {
+    "document_id": "68bf4182-4bd9-5fa2-b207-b0e487f02164",
+    "title": "Pfeifer et al (2005)",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Pfeifer et al (2005).txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 7752,
+    "chunk_count": 37,
+    "ingested_at": "2026-02-11T10:50:51.967681"
+  },
+  {
+    "document_id": "9f8b2092-644a-54b5-8425-8a1945b252c6",
+    "title": "Gallagher & Parsons (1997)",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Gallagher & Parsons (1997).txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 6104,
+    "chunk_count": 29,
+    "ingested_at": "2026-02-11T10:50:51.967693"
+  },
+  {
+    "document_id": "44890c52-9d77-55f2-8862-28e3dc0dfb28",
+    "title": "TI\u00d84165 - Lecture 1 Introduction and Course Plan",
+    "source": "data/subjects/TI\u00d84165/documents/txt/TI\u00d84165 - Lecture 1 Introduction and Course Plan.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1009,
+    "chunk_count": 7,
+    "ingested_at": "2026-02-11T10:50:51.967698"
+  },
+  {
+    "document_id": "eaa85e6f-44d5-5e22-8b7b-4397f6726cad",
+    "title": "Veisdal (2020) The Median Voter Theorem",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Veisdal (2020) The Median Voter Theorem.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1409,
+    "chunk_count": 7,
+    "ingested_at": "2026-02-11T10:50:51.967702"
+  },
+  {
+    "document_id": "9ea10d2c-90a0-5a12-a318-d398c1468dc6",
+    "title": "Oster (1999) - Competitive Analysis - Chapter 3",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Oster (1999) - Competitive Analysis - Chapter 3.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 48,
+    "chunk_count": 0,
+    "ingested_at": "2026-02-11T10:50:51.967706"
+  },
+  {
+    "document_id": "fb612122-7292-5ced-b478-24b0e88abe9c",
+    "title": "Matz et al (2017)",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Matz et al (2017).txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 5918,
+    "chunk_count": 30,
+    "ingested_at": "2026-02-11T10:50:51.967710"
+  },
+  {
+    "document_id": "a4c96d97-78b9-5c38-b6d3-255dec553691",
+    "title": "1666787488kotler_keller_-_marketing_management_14th_edition",
+    "source": "data/subjects/TI\u00d84165/documents/txt/1666787488kotler_keller_-_marketing_management_14th_edition.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 480201,
+    "chunk_count": 2363,
+    "ingested_at": "2026-02-11T10:50:51.967714"
+  },
+  {
+    "document_id": "3a18633a-8404-5dc6-82a7-6a446f8832d8",
+    "title": "TI\u00d84165 - Lecture 4 Targeting",
+    "source": "data/subjects/TI\u00d84165/documents/txt/TI\u00d84165 - Lecture 4 Targeting.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1612,
+    "chunk_count": 11,
+    "ingested_at": "2026-02-11T10:50:51.967718"
+  },
+  {
+    "document_id": "c72fcbfb-1c76-5111-88cc-5b533fae0c3c",
+    "title": "TI\u00d84165 - Lecture 5 - Posisjonering",
+    "source": "data/subjects/TI\u00d84165/documents/txt/TI\u00d84165 - Lecture 5 - Posisjonering.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1450,
+    "chunk_count": 10,
+    "ingested_at": "2026-02-11T10:50:51.967721"
+  },
+  {
+    "document_id": "f9fd8aab-919e-5701-b8a9-008f881bd9ad",
+    "title": "kotler_keller_-_marketing_management_14th_edition",
+    "source": "data/subjects/TI\u00d84165/documents/txt/kotler_keller_-_marketing_management_14th_edition.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 476953,
+    "chunk_count": 2350,
+    "ingested_at": "2026-02-11T10:50:51.967725"
+  },
+  {
+    "document_id": "e2cf5b5e-3c14-5de6-9544-9389e5340693",
+    "title": "Jenkinson (2009)",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Jenkinson (2009).txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 6770,
+    "chunk_count": 32,
+    "ingested_at": "2026-02-11T10:50:51.967728"
+  },
+  {
+    "document_id": "5639458b-d551-564c-9139-3d3e48612f67",
+    "title": "Christensen et al 2016",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Christensen et al 2016.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 6024,
+    "chunk_count": 27,
+    "ingested_at": "2026-02-11T10:50:51.967732"
+  },
+  {
+    "document_id": "6a3e1ff6-0dd7-587c-91b4-07e808b3d634",
+    "title": "Hotelling (1929). Stability in Competition",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Hotelling (1929). Stability in Competition.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 72,
+    "chunk_count": 0,
+    "ingested_at": "2026-02-11T10:50:51.967735"
+  },
+  {
+    "document_id": "df52ab55-23b6-5767-a4ec-8ed8db57e51e",
+    "title": "Henderson et al (2011)",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Henderson et al (2011).txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 19423,
+    "chunk_count": 100,
+    "ingested_at": "2026-02-11T10:53:18.106580"
+  },
+  {
+    "document_id": "7281e881-6aff-5f43-ba68-9ecdf81908be",
+    "title": "TI\u00d84165 - Lecture 3 - Segmentering",
+    "source": "data/subjects/TI\u00d84165/documents/txt/TI\u00d84165 - Lecture 3 - Segmentering.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1256,
+    "chunk_count": 9,
+    "ingested_at": "2026-02-11T10:53:18.106598"
+  },
+  {
+    "document_id": "ab7f8817-c3a6-5e32-9e85-e69375ad72fb",
+    "title": "TI\u00d84165 - Lecture 2 Kundeverdi",
+    "source": "data/subjects/TI\u00d84165/documents/txt/TI\u00d84165 - Lecture 2 Kundeverdi.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1767,
+    "chunk_count": 14,
+    "ingested_at": "2026-02-11T10:53:18.106603"
+  },
+  {
+    "document_id": "68bf4182-4bd9-5fa2-b207-b0e487f02164",
+    "title": "Pfeifer et al (2005)",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Pfeifer et al (2005).txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 7752,
+    "chunk_count": 37,
+    "ingested_at": "2026-02-11T10:53:18.106607"
+  },
+  {
+    "document_id": "9f8b2092-644a-54b5-8425-8a1945b252c6",
+    "title": "Gallagher & Parsons (1997)",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Gallagher & Parsons (1997).txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 6104,
+    "chunk_count": 29,
+    "ingested_at": "2026-02-11T10:53:18.106611"
+  },
+  {
+    "document_id": "44890c52-9d77-55f2-8862-28e3dc0dfb28",
+    "title": "TI\u00d84165 - Lecture 1 Introduction and Course Plan",
+    "source": "data/subjects/TI\u00d84165/documents/txt/TI\u00d84165 - Lecture 1 Introduction and Course Plan.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1009,
+    "chunk_count": 7,
+    "ingested_at": "2026-02-11T10:53:18.106615"
+  },
+  {
+    "document_id": "eaa85e6f-44d5-5e22-8b7b-4397f6726cad",
+    "title": "Veisdal (2020) The Median Voter Theorem",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Veisdal (2020) The Median Voter Theorem.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1409,
+    "chunk_count": 7,
+    "ingested_at": "2026-02-11T10:53:18.106620"
+  },
+  {
+    "document_id": "9ea10d2c-90a0-5a12-a318-d398c1468dc6",
+    "title": "Oster (1999) - Competitive Analysis - Chapter 3",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Oster (1999) - Competitive Analysis - Chapter 3.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 48,
+    "chunk_count": 0,
+    "ingested_at": "2026-02-11T10:53:18.106624"
+  },
+  {
+    "document_id": "fb612122-7292-5ced-b478-24b0e88abe9c",
+    "title": "Matz et al (2017)",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Matz et al (2017).txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 5918,
+    "chunk_count": 30,
+    "ingested_at": "2026-02-11T10:53:18.106628"
+  },
+  {
+    "document_id": "a4c96d97-78b9-5c38-b6d3-255dec553691",
+    "title": "1666787488kotler_keller_-_marketing_management_14th_edition",
+    "source": "data/subjects/TI\u00d84165/documents/txt/1666787488kotler_keller_-_marketing_management_14th_edition.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 480201,
+    "chunk_count": 2363,
+    "ingested_at": "2026-02-11T10:53:18.106632"
+  },
+  {
+    "document_id": "3a18633a-8404-5dc6-82a7-6a446f8832d8",
+    "title": "TI\u00d84165 - Lecture 4 Targeting",
+    "source": "data/subjects/TI\u00d84165/documents/txt/TI\u00d84165 - Lecture 4 Targeting.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1612,
+    "chunk_count": 11,
+    "ingested_at": "2026-02-11T10:53:18.106636"
+  },
+  {
+    "document_id": "c72fcbfb-1c76-5111-88cc-5b533fae0c3c",
+    "title": "TI\u00d84165 - Lecture 5 - Posisjonering",
+    "source": "data/subjects/TI\u00d84165/documents/txt/TI\u00d84165 - Lecture 5 - Posisjonering.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1450,
+    "chunk_count": 10,
+    "ingested_at": "2026-02-11T10:53:18.106640"
+  },
+  {
+    "document_id": "f9fd8aab-919e-5701-b8a9-008f881bd9ad",
+    "title": "kotler_keller_-_marketing_management_14th_edition",
+    "source": "data/subjects/TI\u00d84165/documents/txt/kotler_keller_-_marketing_management_14th_edition.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 476953,
+    "chunk_count": 2350,
+    "ingested_at": "2026-02-11T10:53:18.106644"
+  },
+  {
+    "document_id": "e2cf5b5e-3c14-5de6-9544-9389e5340693",
+    "title": "Jenkinson (2009)",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Jenkinson (2009).txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 6770,
+    "chunk_count": 32,
+    "ingested_at": "2026-02-11T10:53:18.106647"
+  },
+  {
+    "document_id": "5639458b-d551-564c-9139-3d3e48612f67",
+    "title": "Christensen et al 2016",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Christensen et al 2016.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 6024,
+    "chunk_count": 27,
+    "ingested_at": "2026-02-11T10:53:18.106651"
+  },
+  {
+    "document_id": "6a3e1ff6-0dd7-587c-91b4-07e808b3d634",
+    "title": "Hotelling (1929). Stability in Competition",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Hotelling (1929). Stability in Competition.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 72,
+    "chunk_count": 0,
+    "ingested_at": "2026-02-11T10:53:18.106654"
+  },
+  {
+    "document_id": "df52ab55-23b6-5767-a4ec-8ed8db57e51e",
+    "title": "Henderson et al (2011)",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Henderson et al (2011).txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 19423,
+    "chunk_count": 100,
+    "ingested_at": "2026-02-11T10:56:48.250621"
+  },
+  {
+    "document_id": "7281e881-6aff-5f43-ba68-9ecdf81908be",
+    "title": "TI\u00d84165 - Lecture 3 - Segmentering",
+    "source": "data/subjects/TI\u00d84165/documents/txt/TI\u00d84165 - Lecture 3 - Segmentering.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1256,
+    "chunk_count": 9,
+    "ingested_at": "2026-02-11T10:56:48.250640"
+  },
+  {
+    "document_id": "ab7f8817-c3a6-5e32-9e85-e69375ad72fb",
+    "title": "TI\u00d84165 - Lecture 2 Kundeverdi",
+    "source": "data/subjects/TI\u00d84165/documents/txt/TI\u00d84165 - Lecture 2 Kundeverdi.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1767,
+    "chunk_count": 14,
+    "ingested_at": "2026-02-11T10:56:48.250645"
+  },
+  {
+    "document_id": "68bf4182-4bd9-5fa2-b207-b0e487f02164",
+    "title": "Pfeifer et al (2005)",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Pfeifer et al (2005).txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 7752,
+    "chunk_count": 37,
+    "ingested_at": "2026-02-11T10:56:48.250649"
+  },
+  {
+    "document_id": "9f8b2092-644a-54b5-8425-8a1945b252c6",
+    "title": "Gallagher & Parsons (1997)",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Gallagher & Parsons (1997).txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 6104,
+    "chunk_count": 29,
+    "ingested_at": "2026-02-11T10:56:48.250654"
+  },
+  {
+    "document_id": "44890c52-9d77-55f2-8862-28e3dc0dfb28",
+    "title": "TI\u00d84165 - Lecture 1 Introduction and Course Plan",
+    "source": "data/subjects/TI\u00d84165/documents/txt/TI\u00d84165 - Lecture 1 Introduction and Course Plan.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1009,
+    "chunk_count": 7,
+    "ingested_at": "2026-02-11T10:56:48.250658"
+  },
+  {
+    "document_id": "eaa85e6f-44d5-5e22-8b7b-4397f6726cad",
+    "title": "Veisdal (2020) The Median Voter Theorem",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Veisdal (2020) The Median Voter Theorem.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1409,
+    "chunk_count": 7,
+    "ingested_at": "2026-02-11T10:56:48.250661"
+  },
+  {
+    "document_id": "9ea10d2c-90a0-5a12-a318-d398c1468dc6",
+    "title": "Oster (1999) - Competitive Analysis - Chapter 3",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Oster (1999) - Competitive Analysis - Chapter 3.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 48,
+    "chunk_count": 0,
+    "ingested_at": "2026-02-11T10:56:48.250665"
+  },
+  {
+    "document_id": "fb612122-7292-5ced-b478-24b0e88abe9c",
+    "title": "Matz et al (2017)",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Matz et al (2017).txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 5918,
+    "chunk_count": 30,
+    "ingested_at": "2026-02-11T10:56:48.250669"
+  },
+  {
+    "document_id": "a4c96d97-78b9-5c38-b6d3-255dec553691",
+    "title": "1666787488kotler_keller_-_marketing_management_14th_edition",
+    "source": "data/subjects/TI\u00d84165/documents/txt/1666787488kotler_keller_-_marketing_management_14th_edition.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 480201,
+    "chunk_count": 2363,
+    "ingested_at": "2026-02-11T10:56:48.250673"
+  },
+  {
+    "document_id": "3a18633a-8404-5dc6-82a7-6a446f8832d8",
+    "title": "TI\u00d84165 - Lecture 4 Targeting",
+    "source": "data/subjects/TI\u00d84165/documents/txt/TI\u00d84165 - Lecture 4 Targeting.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1612,
+    "chunk_count": 11,
+    "ingested_at": "2026-02-11T10:56:48.250677"
+  },
+  {
+    "document_id": "c72fcbfb-1c76-5111-88cc-5b533fae0c3c",
+    "title": "TI\u00d84165 - Lecture 5 - Posisjonering",
+    "source": "data/subjects/TI\u00d84165/documents/txt/TI\u00d84165 - Lecture 5 - Posisjonering.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1450,
+    "chunk_count": 10,
+    "ingested_at": "2026-02-11T10:56:48.250681"
+  },
+  {
+    "document_id": "f9fd8aab-919e-5701-b8a9-008f881bd9ad",
+    "title": "kotler_keller_-_marketing_management_14th_edition",
+    "source": "data/subjects/TI\u00d84165/documents/txt/kotler_keller_-_marketing_management_14th_edition.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 476953,
+    "chunk_count": 2350,
+    "ingested_at": "2026-02-11T10:56:48.250697"
+  },
+  {
+    "document_id": "e2cf5b5e-3c14-5de6-9544-9389e5340693",
+    "title": "Jenkinson (2009)",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Jenkinson (2009).txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 6770,
+    "chunk_count": 32,
+    "ingested_at": "2026-02-11T10:56:48.250701"
+  },
+  {
+    "document_id": "5639458b-d551-564c-9139-3d3e48612f67",
+    "title": "Christensen et al 2016",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Christensen et al 2016.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 6024,
+    "chunk_count": 27,
+    "ingested_at": "2026-02-11T10:56:48.250705"
+  },
+  {
+    "document_id": "6a3e1ff6-0dd7-587c-91b4-07e808b3d634",
+    "title": "Hotelling (1929). Stability in Competition",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Hotelling (1929). Stability in Competition.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 72,
+    "chunk_count": 0,
+    "ingested_at": "2026-02-11T10:56:48.250708"
+  },
+  {
+    "document_id": "df52ab55-23b6-5767-a4ec-8ed8db57e51e",
+    "title": "Henderson et al (2011)",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Henderson et al (2011).txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 19423,
+    "chunk_count": 100,
+    "ingested_at": "2026-02-11T10:58:05.253530"
+  },
+  {
+    "document_id": "7281e881-6aff-5f43-ba68-9ecdf81908be",
+    "title": "TI\u00d84165 - Lecture 3 - Segmentering",
+    "source": "data/subjects/TI\u00d84165/documents/txt/TI\u00d84165 - Lecture 3 - Segmentering.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1256,
+    "chunk_count": 9,
+    "ingested_at": "2026-02-11T10:58:05.253548"
+  },
+  {
+    "document_id": "ab7f8817-c3a6-5e32-9e85-e69375ad72fb",
+    "title": "TI\u00d84165 - Lecture 2 Kundeverdi",
+    "source": "data/subjects/TI\u00d84165/documents/txt/TI\u00d84165 - Lecture 2 Kundeverdi.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1767,
+    "chunk_count": 14,
+    "ingested_at": "2026-02-11T10:58:05.253553"
+  },
+  {
+    "document_id": "68bf4182-4bd9-5fa2-b207-b0e487f02164",
+    "title": "Pfeifer et al (2005)",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Pfeifer et al (2005).txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 7752,
+    "chunk_count": 37,
+    "ingested_at": "2026-02-11T10:58:05.253558"
+  },
+  {
+    "document_id": "9f8b2092-644a-54b5-8425-8a1945b252c6",
+    "title": "Gallagher & Parsons (1997)",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Gallagher & Parsons (1997).txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 6104,
+    "chunk_count": 29,
+    "ingested_at": "2026-02-11T10:58:05.253562"
+  },
+  {
+    "document_id": "44890c52-9d77-55f2-8862-28e3dc0dfb28",
+    "title": "TI\u00d84165 - Lecture 1 Introduction and Course Plan",
+    "source": "data/subjects/TI\u00d84165/documents/txt/TI\u00d84165 - Lecture 1 Introduction and Course Plan.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1009,
+    "chunk_count": 7,
+    "ingested_at": "2026-02-11T10:58:05.253566"
+  },
+  {
+    "document_id": "eaa85e6f-44d5-5e22-8b7b-4397f6726cad",
+    "title": "Veisdal (2020) The Median Voter Theorem",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Veisdal (2020) The Median Voter Theorem.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1409,
+    "chunk_count": 7,
+    "ingested_at": "2026-02-11T10:58:05.253570"
+  },
+  {
+    "document_id": "9ea10d2c-90a0-5a12-a318-d398c1468dc6",
+    "title": "Oster (1999) - Competitive Analysis - Chapter 3",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Oster (1999) - Competitive Analysis - Chapter 3.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 48,
+    "chunk_count": 0,
+    "ingested_at": "2026-02-11T10:58:05.253574"
+  },
+  {
+    "document_id": "fb612122-7292-5ced-b478-24b0e88abe9c",
+    "title": "Matz et al (2017)",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Matz et al (2017).txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 5918,
+    "chunk_count": 30,
+    "ingested_at": "2026-02-11T10:58:05.253578"
+  },
+  {
+    "document_id": "a4c96d97-78b9-5c38-b6d3-255dec553691",
+    "title": "1666787488kotler_keller_-_marketing_management_14th_edition",
+    "source": "data/subjects/TI\u00d84165/documents/txt/1666787488kotler_keller_-_marketing_management_14th_edition.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 480201,
+    "chunk_count": 2363,
+    "ingested_at": "2026-02-11T10:58:05.253582"
+  },
+  {
+    "document_id": "3a18633a-8404-5dc6-82a7-6a446f8832d8",
+    "title": "TI\u00d84165 - Lecture 4 Targeting",
+    "source": "data/subjects/TI\u00d84165/documents/txt/TI\u00d84165 - Lecture 4 Targeting.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1612,
+    "chunk_count": 11,
+    "ingested_at": "2026-02-11T10:58:05.253586"
+  },
+  {
+    "document_id": "c72fcbfb-1c76-5111-88cc-5b533fae0c3c",
+    "title": "TI\u00d84165 - Lecture 5 - Posisjonering",
+    "source": "data/subjects/TI\u00d84165/documents/txt/TI\u00d84165 - Lecture 5 - Posisjonering.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1450,
+    "chunk_count": 10,
+    "ingested_at": "2026-02-11T10:58:05.253590"
+  },
+  {
+    "document_id": "f9fd8aab-919e-5701-b8a9-008f881bd9ad",
+    "title": "kotler_keller_-_marketing_management_14th_edition",
+    "source": "data/subjects/TI\u00d84165/documents/txt/kotler_keller_-_marketing_management_14th_edition.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 476953,
+    "chunk_count": 2350,
+    "ingested_at": "2026-02-11T10:58:05.253594"
+  },
+  {
+    "document_id": "e2cf5b5e-3c14-5de6-9544-9389e5340693",
+    "title": "Jenkinson (2009)",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Jenkinson (2009).txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 6770,
+    "chunk_count": 32,
+    "ingested_at": "2026-02-11T10:58:05.253597"
+  },
+  {
+    "document_id": "5639458b-d551-564c-9139-3d3e48612f67",
+    "title": "Christensen et al 2016",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Christensen et al 2016.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 6024,
+    "chunk_count": 27,
+    "ingested_at": "2026-02-11T10:58:05.253600"
+  },
+  {
+    "document_id": "6a3e1ff6-0dd7-587c-91b4-07e808b3d634",
+    "title": "Hotelling (1929). Stability in Competition",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Hotelling (1929). Stability in Competition.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 72,
+    "chunk_count": 0,
+    "ingested_at": "2026-02-11T10:58:05.253604"
+  },
+  {
+    "document_id": "df52ab55-23b6-5767-a4ec-8ed8db57e51e",
+    "title": "Henderson et al (2011)",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Henderson et al (2011).txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 19423,
+    "chunk_count": 100,
+    "ingested_at": "2026-02-11T10:58:50.950656"
+  },
+  {
+    "document_id": "7281e881-6aff-5f43-ba68-9ecdf81908be",
+    "title": "TI\u00d84165 - Lecture 3 - Segmentering",
+    "source": "data/subjects/TI\u00d84165/documents/txt/TI\u00d84165 - Lecture 3 - Segmentering.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1256,
+    "chunk_count": 9,
+    "ingested_at": "2026-02-11T10:58:50.950675"
+  },
+  {
+    "document_id": "ab7f8817-c3a6-5e32-9e85-e69375ad72fb",
+    "title": "TI\u00d84165 - Lecture 2 Kundeverdi",
+    "source": "data/subjects/TI\u00d84165/documents/txt/TI\u00d84165 - Lecture 2 Kundeverdi.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1767,
+    "chunk_count": 14,
+    "ingested_at": "2026-02-11T10:58:50.950680"
+  },
+  {
+    "document_id": "68bf4182-4bd9-5fa2-b207-b0e487f02164",
+    "title": "Pfeifer et al (2005)",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Pfeifer et al (2005).txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 7752,
+    "chunk_count": 37,
+    "ingested_at": "2026-02-11T10:58:50.950691"
+  },
+  {
+    "document_id": "9f8b2092-644a-54b5-8425-8a1945b252c6",
+    "title": "Gallagher & Parsons (1997)",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Gallagher & Parsons (1997).txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 6104,
+    "chunk_count": 29,
+    "ingested_at": "2026-02-11T10:58:50.950696"
+  },
+  {
+    "document_id": "44890c52-9d77-55f2-8862-28e3dc0dfb28",
+    "title": "TI\u00d84165 - Lecture 1 Introduction and Course Plan",
+    "source": "data/subjects/TI\u00d84165/documents/txt/TI\u00d84165 - Lecture 1 Introduction and Course Plan.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1009,
+    "chunk_count": 7,
+    "ingested_at": "2026-02-11T10:58:50.950700"
+  },
+  {
+    "document_id": "eaa85e6f-44d5-5e22-8b7b-4397f6726cad",
+    "title": "Veisdal (2020) The Median Voter Theorem",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Veisdal (2020) The Median Voter Theorem.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1409,
+    "chunk_count": 7,
+    "ingested_at": "2026-02-11T10:58:50.950705"
+  },
+  {
+    "document_id": "9ea10d2c-90a0-5a12-a318-d398c1468dc6",
+    "title": "Oster (1999) - Competitive Analysis - Chapter 3",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Oster (1999) - Competitive Analysis - Chapter 3.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 48,
+    "chunk_count": 0,
+    "ingested_at": "2026-02-11T10:58:50.950709"
+  },
+  {
+    "document_id": "fb612122-7292-5ced-b478-24b0e88abe9c",
+    "title": "Matz et al (2017)",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Matz et al (2017).txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 5918,
+    "chunk_count": 30,
+    "ingested_at": "2026-02-11T10:58:50.950713"
+  },
+  {
+    "document_id": "a4c96d97-78b9-5c38-b6d3-255dec553691",
+    "title": "1666787488kotler_keller_-_marketing_management_14th_edition",
+    "source": "data/subjects/TI\u00d84165/documents/txt/1666787488kotler_keller_-_marketing_management_14th_edition.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 480201,
+    "chunk_count": 2363,
+    "ingested_at": "2026-02-11T10:58:50.950717"
+  },
+  {
+    "document_id": "3a18633a-8404-5dc6-82a7-6a446f8832d8",
+    "title": "TI\u00d84165 - Lecture 4 Targeting",
+    "source": "data/subjects/TI\u00d84165/documents/txt/TI\u00d84165 - Lecture 4 Targeting.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1612,
+    "chunk_count": 11,
+    "ingested_at": "2026-02-11T10:58:50.950722"
+  },
+  {
+    "document_id": "c72fcbfb-1c76-5111-88cc-5b533fae0c3c",
+    "title": "TI\u00d84165 - Lecture 5 - Posisjonering",
+    "source": "data/subjects/TI\u00d84165/documents/txt/TI\u00d84165 - Lecture 5 - Posisjonering.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1450,
+    "chunk_count": 10,
+    "ingested_at": "2026-02-11T10:58:50.950726"
+  },
+  {
+    "document_id": "f9fd8aab-919e-5701-b8a9-008f881bd9ad",
+    "title": "kotler_keller_-_marketing_management_14th_edition",
+    "source": "data/subjects/TI\u00d84165/documents/txt/kotler_keller_-_marketing_management_14th_edition.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 476953,
+    "chunk_count": 2350,
+    "ingested_at": "2026-02-11T10:58:50.950730"
+  },
+  {
+    "document_id": "e2cf5b5e-3c14-5de6-9544-9389e5340693",
+    "title": "Jenkinson (2009)",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Jenkinson (2009).txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 6770,
+    "chunk_count": 32,
+    "ingested_at": "2026-02-11T10:58:50.950734"
+  },
+  {
+    "document_id": "5639458b-d551-564c-9139-3d3e48612f67",
+    "title": "Christensen et al 2016",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Christensen et al 2016.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 6024,
+    "chunk_count": 27,
+    "ingested_at": "2026-02-11T10:58:50.950737"
+  },
+  {
+    "document_id": "6a3e1ff6-0dd7-587c-91b4-07e808b3d634",
+    "title": "Hotelling (1929). Stability in Competition",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Hotelling (1929). Stability in Competition.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 72,
+    "chunk_count": 0,
+    "ingested_at": "2026-02-11T10:58:50.950740"
+  },
+  {
+    "document_id": "df52ab55-23b6-5767-a4ec-8ed8db57e51e",
+    "title": "Henderson et al (2011)",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Henderson et al (2011).txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 19423,
+    "chunk_count": 100,
+    "ingested_at": "2026-02-11T10:59:09.744052"
+  },
+  {
+    "document_id": "7281e881-6aff-5f43-ba68-9ecdf81908be",
+    "title": "TI\u00d84165 - Lecture 3 - Segmentering",
+    "source": "data/subjects/TI\u00d84165/documents/txt/TI\u00d84165 - Lecture 3 - Segmentering.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1256,
+    "chunk_count": 9,
+    "ingested_at": "2026-02-11T10:59:09.744074"
+  },
+  {
+    "document_id": "ab7f8817-c3a6-5e32-9e85-e69375ad72fb",
+    "title": "TI\u00d84165 - Lecture 2 Kundeverdi",
+    "source": "data/subjects/TI\u00d84165/documents/txt/TI\u00d84165 - Lecture 2 Kundeverdi.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1767,
+    "chunk_count": 14,
+    "ingested_at": "2026-02-11T10:59:09.744080"
+  },
+  {
+    "document_id": "68bf4182-4bd9-5fa2-b207-b0e487f02164",
+    "title": "Pfeifer et al (2005)",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Pfeifer et al (2005).txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 7752,
+    "chunk_count": 37,
+    "ingested_at": "2026-02-11T10:59:09.744085"
+  },
+  {
+    "document_id": "9f8b2092-644a-54b5-8425-8a1945b252c6",
+    "title": "Gallagher & Parsons (1997)",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Gallagher & Parsons (1997).txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 6104,
+    "chunk_count": 29,
+    "ingested_at": "2026-02-11T10:59:09.744089"
+  },
+  {
+    "document_id": "44890c52-9d77-55f2-8862-28e3dc0dfb28",
+    "title": "TI\u00d84165 - Lecture 1 Introduction and Course Plan",
+    "source": "data/subjects/TI\u00d84165/documents/txt/TI\u00d84165 - Lecture 1 Introduction and Course Plan.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1009,
+    "chunk_count": 7,
+    "ingested_at": "2026-02-11T10:59:09.744093"
+  },
+  {
+    "document_id": "eaa85e6f-44d5-5e22-8b7b-4397f6726cad",
+    "title": "Veisdal (2020) The Median Voter Theorem",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Veisdal (2020) The Median Voter Theorem.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1409,
+    "chunk_count": 7,
+    "ingested_at": "2026-02-11T10:59:09.744096"
+  },
+  {
+    "document_id": "9ea10d2c-90a0-5a12-a318-d398c1468dc6",
+    "title": "Oster (1999) - Competitive Analysis - Chapter 3",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Oster (1999) - Competitive Analysis - Chapter 3.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 48,
+    "chunk_count": 0,
+    "ingested_at": "2026-02-11T10:59:09.744100"
+  },
+  {
+    "document_id": "fb612122-7292-5ced-b478-24b0e88abe9c",
+    "title": "Matz et al (2017)",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Matz et al (2017).txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 5918,
+    "chunk_count": 30,
+    "ingested_at": "2026-02-11T10:59:09.744104"
+  },
+  {
+    "document_id": "a4c96d97-78b9-5c38-b6d3-255dec553691",
+    "title": "1666787488kotler_keller_-_marketing_management_14th_edition",
+    "source": "data/subjects/TI\u00d84165/documents/txt/1666787488kotler_keller_-_marketing_management_14th_edition.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 480201,
+    "chunk_count": 2363,
+    "ingested_at": "2026-02-11T10:59:09.744108"
+  },
+  {
+    "document_id": "3a18633a-8404-5dc6-82a7-6a446f8832d8",
+    "title": "TI\u00d84165 - Lecture 4 Targeting",
+    "source": "data/subjects/TI\u00d84165/documents/txt/TI\u00d84165 - Lecture 4 Targeting.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1612,
+    "chunk_count": 11,
+    "ingested_at": "2026-02-11T10:59:09.744113"
+  },
+  {
+    "document_id": "c72fcbfb-1c76-5111-88cc-5b533fae0c3c",
+    "title": "TI\u00d84165 - Lecture 5 - Posisjonering",
+    "source": "data/subjects/TI\u00d84165/documents/txt/TI\u00d84165 - Lecture 5 - Posisjonering.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1450,
+    "chunk_count": 10,
+    "ingested_at": "2026-02-11T10:59:09.744118"
+  },
+  {
+    "document_id": "f9fd8aab-919e-5701-b8a9-008f881bd9ad",
+    "title": "kotler_keller_-_marketing_management_14th_edition",
+    "source": "data/subjects/TI\u00d84165/documents/txt/kotler_keller_-_marketing_management_14th_edition.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 476953,
+    "chunk_count": 2350,
+    "ingested_at": "2026-02-11T10:59:09.744122"
+  },
+  {
+    "document_id": "e2cf5b5e-3c14-5de6-9544-9389e5340693",
+    "title": "Jenkinson (2009)",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Jenkinson (2009).txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 6770,
+    "chunk_count": 32,
+    "ingested_at": "2026-02-11T10:59:09.744126"
+  },
+  {
+    "document_id": "5639458b-d551-564c-9139-3d3e48612f67",
+    "title": "Christensen et al 2016",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Christensen et al 2016.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 6024,
+    "chunk_count": 27,
+    "ingested_at": "2026-02-11T10:59:09.744130"
+  },
+  {
+    "document_id": "6a3e1ff6-0dd7-587c-91b4-07e808b3d634",
+    "title": "Hotelling (1929). Stability in Competition",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Hotelling (1929). Stability in Competition.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 72,
+    "chunk_count": 0,
+    "ingested_at": "2026-02-11T10:59:09.744134"
+  },
+  {
+    "document_id": "51c9f028-9ba7-57e0-ad70-09d4556d12fd",
+    "title": "Introduction to Qdrant Vector Database",
+    "source": "qdrant-documentation",
+    "category": "technology",
+    "document_type": "text",
+    "token_count": 90,
+    "chunk_count": 0,
+    "ingested_at": "2026-02-11T11:00:22.827710"
+  },
+  {
+    "document_id": "aa4ff761-d390-59bd-8029-df84dc528642",
+    "title": "Understanding RAG Systems",
+    "source": "ai-research-papers",
+    "category": "artificial-intelligence",
+    "document_type": "text",
+    "token_count": 98,
+    "chunk_count": 0,
+    "ingested_at": "2026-02-11T11:00:22.827730"
+  },
+  {
+    "document_id": "dc1af37f-d212-5c1d-ac72-0d8802c9d19b",
+    "title": "Hybrid Search Strategies",
+    "source": "search-engineering-blog",
+    "category": "search-technology",
+    "document_type": "text",
+    "token_count": 108,
+    "chunk_count": 0,
+    "ingested_at": "2026-02-11T11:00:22.827735"
+  },
+  {
+    "document_id": "86c9bbb9-d19b-5321-bc52-4da045aefc4f",
+    "title": "OpenAI Embedding Models Guide",
+    "source": "ml-engineering-docs",
+    "category": "machine-learning",
+    "document_type": "text",
+    "token_count": 99,
+    "chunk_count": 0,
+    "ingested_at": "2026-02-11T11:00:22.827739"
+  },
+  {
+    "document_id": "906d36c0-6b88-580c-8112-6f3062da43c9",
+    "title": "Production RAG Deployment Best Practices",
+    "source": "devops-handbook",
+    "category": "deployment",
+    "document_type": "text",
+    "token_count": 88,
+    "chunk_count": 0,
+    "ingested_at": "2026-02-11T11:00:22.827743"
+  },
+  {
+    "document_id": "a1da8aad-7baf-5e60-8c18-ebfe5ee63c14",
+    "title": "Vector Database Fundamentals",
+    "source": "database-architecture-guide",
+    "category": "database",
+    "document_type": "text",
+    "token_count": 102,
+    "chunk_count": 0,
+    "ingested_at": "2026-02-11T11:00:22.827746"
+  },
+  {
+    "document_id": "69995c95-c561-5891-88a4-ca6501dd9cfb",
+    "title": "LLM Integration with RAG Systems",
+    "source": "nlp-research-journal",
+    "category": "natural-language-processing",
+    "document_type": "text",
+    "token_count": 96,
+    "chunk_count": 0,
+    "ingested_at": "2026-02-11T11:00:22.827751"
+  },
+  {
+    "document_id": "50b4b651-7bd3-54a9-a43f-39fb9ead06b0",
+    "title": "Text Embedding Models and Evaluation",
+    "source": "ml-research-papers",
+    "category": "machine-learning",
+    "document_type": "text",
+    "token_count": 94,
+    "chunk_count": 0,
+    "ingested_at": "2026-02-11T11:00:22.827755"
+  },
+  {
+    "document_id": "9db6e12e-06ee-5c2c-a63b-5b2232b7fa10",
+    "title": "Modern Information Retrieval Techniques",
+    "source": "ir-conference-proceedings",
+    "category": "information-retrieval",
+    "document_type": "text",
+    "token_count": 94,
+    "chunk_count": 0,
+    "ingested_at": "2026-02-11T11:00:22.827758"
+  },
+  {
+    "document_id": "b7ca521a-efd9-52d5-91d7-ea45da510c46",
+    "title": "RAG System API Design Principles",
+    "source": "software-engineering-best-practices",
+    "category": "software-engineering",
+    "document_type": "text",
+    "token_count": 89,
+    "chunk_count": 0,
+    "ingested_at": "2026-02-11T11:00:22.827762"
+  },
+  {
+    "document_id": "3b708d2d-be5b-5d4e-b053-601497ab8cd7",
+    "title": "Kanban and scrum [1-16]",
+    "source": "data/subjects/TDT4140/documents/txt/Kanban and scrum [1-16].txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 10705,
+    "chunk_count": 49,
+    "ingested_at": "2026-02-11T11:00:22.827766"
+  },
+  {
+    "document_id": "a1a410a9-a600-5335-8f6d-8c186b2e959d",
+    "title": "Scrum and XP from the Trenches [1-10 and 12-14]",
+    "source": "data/subjects/TDT4140/documents/txt/Scrum and XP from the Trenches [1-10 and 12-14].txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 30427,
+    "chunk_count": 131,
+    "ingested_at": "2026-02-11T11:00:22.827771"
+  },
+  {
+    "document_id": "aa3c20d3-ec31-5d12-9856-048cc28fa85d",
+    "title": "04 Sommerville Chapter 6_1 and 6_2",
+    "source": "data/subjects/TDT4140/documents/txt/04 Sommerville Chapter 6_1 and 6_2.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 3725,
+    "chunk_count": 16,
+    "ingested_at": "2026-02-11T11:00:22.827775"
+  },
+  {
+    "document_id": "89b8e3d5-bb2a-545e-ab5f-e0c4d597fae2",
+    "title": "03 Sommerville Chapter3",
+    "source": "data/subjects/TDT4140/documents/txt/03 Sommerville Chapter3.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 10986,
+    "chunk_count": 47,
+    "ingested_at": "2026-02-11T11:00:22.827778"
+  },
+  {
+    "document_id": "e2dd1dc8-8fd5-5d22-ba7f-f8c55e9fe99f",
+    "title": "05 Cohn Chapter1",
+    "source": "data/subjects/TDT4140/documents/txt/05 Cohn Chapter1.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 4983,
+    "chunk_count": 20,
+    "ingested_at": "2026-02-11T11:00:22.827782"
+  },
+  {
+    "document_id": "d4151f42-fc0a-57c8-afe5-af085b71cae2",
+    "title": "07 Crispin og Gregory Chapter6",
+    "source": "data/subjects/TDT4140/documents/txt/07 Crispin og Gregory Chapter6.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 4555,
+    "chunk_count": 19,
+    "ingested_at": "2026-02-11T11:00:22.827786"
+  },
+  {
+    "document_id": "67b00995-6c5d-5e3d-b7d2-ff490715d4b8",
+    "title": "02 Sommerville Chapter2",
+    "source": "data/subjects/TDT4140/documents/txt/02 Sommerville Chapter2.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 11300,
+    "chunk_count": 48,
+    "ingested_at": "2026-02-11T11:00:22.827789"
+  },
+  {
+    "document_id": "d6eaebb8-b00c-5184-9195-a13b779cfcfb",
+    "title": "15 Waterman",
+    "source": "data/subjects/TDT4140/documents/txt/15 Waterman.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1622,
+    "chunk_count": 8,
+    "ingested_at": "2026-02-11T11:00:22.827793"
+  },
+  {
+    "document_id": "ade1d8a9-cf48-5f06-b602-84d5202ecc6b",
+    "title": "13 Stray",
+    "source": "data/subjects/TDT4140/documents/txt/13 Stray.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 5143,
+    "chunk_count": 25,
+    "ingested_at": "2026-02-11T11:00:22.827797"
+  },
+  {
+    "document_id": "ab3c2888-8eb5-5194-88eb-b2c642a335aa",
+    "title": "01 Sommerville Chapter1",
+    "source": "data/subjects/TDT4140/documents/txt/01 Sommerville Chapter1.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 9906,
+    "chunk_count": 41,
+    "ingested_at": "2026-02-11T11:00:22.827800"
+  },
+  {
+    "document_id": "3a901644-41db-54bc-9140-bd4d496bdff9",
+    "title": "12 Babb",
+    "source": "data/subjects/TDT4140/documents/txt/12 Babb.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 4662,
+    "chunk_count": 23,
+    "ingested_at": "2026-02-11T11:00:22.827804"
+  },
+  {
+    "document_id": "71e6464a-707c-5d8f-9457-bac89d5a25ee",
+    "title": "16 Dings\u251c\u2555yr_etal",
+    "source": "data/subjects/TDT4140/documents/txt/16 Dings\u251c\u2555yr_etal.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 3592,
+    "chunk_count": 17,
+    "ingested_at": "2026-02-11T11:00:22.827808"
+  },
+  {
+    "document_id": "61a8a43f-6962-58a3-ad26-98c66e1a83b4",
+    "title": "11 Becker",
+    "source": "data/subjects/TDT4140/documents/txt/11 Becker.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 5926,
+    "chunk_count": 29,
+    "ingested_at": "2026-02-11T11:00:22.827812"
+  },
+  {
+    "document_id": "52ace53d-0ebe-54de-adf8-39e32b9a0e84",
+    "title": "10 Meyer",
+    "source": "data/subjects/TDT4140/documents/txt/10 Meyer.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 3054,
+    "chunk_count": 15,
+    "ingested_at": "2026-02-11T11:00:22.827815"
+  },
+  {
+    "document_id": "e2bcc0e8-197e-5421-bfca-25ceed06fcc6",
+    "title": "08 Crispin og Gregory Chapter10",
+    "source": "data/subjects/TDT4140/documents/txt/08 Crispin og Gregory Chapter10.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 10492,
+    "chunk_count": 45,
+    "ingested_at": "2026-02-11T11:00:22.827819"
+  },
+  {
+    "document_id": "f7eb7b1c-63b9-5573-a05d-82b6f231a5be",
+    "title": "06 Cohn Chapter2",
+    "source": "data/subjects/TDT4140/documents/txt/06 Cohn Chapter2.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 4380,
+    "chunk_count": 18,
+    "ingested_at": "2026-02-11T11:00:22.827822"
+  },
+  {
+    "document_id": "6862436a-6349-5780-b5bf-6cf21f8dd10d",
+    "title": "14 Runeson",
+    "source": "data/subjects/TDT4140/documents/txt/14 Runeson.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 5572,
+    "chunk_count": 29,
+    "ingested_at": "2026-02-11T11:00:22.827825"
+  },
+  {
+    "document_id": "df52ab55-23b6-5767-a4ec-8ed8db57e51e",
+    "title": "Henderson et al (2011)",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Henderson et al (2011).txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 19423,
+    "chunk_count": 100,
+    "ingested_at": "2026-02-11T11:03:19.089190"
+  },
+  {
+    "document_id": "7281e881-6aff-5f43-ba68-9ecdf81908be",
+    "title": "TI\u00d84165 - Lecture 3 - Segmentering",
+    "source": "data/subjects/TI\u00d84165/documents/txt/TI\u00d84165 - Lecture 3 - Segmentering.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1256,
+    "chunk_count": 9,
+    "ingested_at": "2026-02-11T11:03:19.089209"
+  },
+  {
+    "document_id": "ab7f8817-c3a6-5e32-9e85-e69375ad72fb",
+    "title": "TI\u00d84165 - Lecture 2 Kundeverdi",
+    "source": "data/subjects/TI\u00d84165/documents/txt/TI\u00d84165 - Lecture 2 Kundeverdi.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1767,
+    "chunk_count": 14,
+    "ingested_at": "2026-02-11T11:03:19.089215"
+  },
+  {
+    "document_id": "68bf4182-4bd9-5fa2-b207-b0e487f02164",
+    "title": "Pfeifer et al (2005)",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Pfeifer et al (2005).txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 7752,
+    "chunk_count": 37,
+    "ingested_at": "2026-02-11T11:03:19.089219"
+  },
+  {
+    "document_id": "9f8b2092-644a-54b5-8425-8a1945b252c6",
+    "title": "Gallagher & Parsons (1997)",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Gallagher & Parsons (1997).txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 6104,
+    "chunk_count": 29,
+    "ingested_at": "2026-02-11T11:03:19.089225"
+  },
+  {
+    "document_id": "44890c52-9d77-55f2-8862-28e3dc0dfb28",
+    "title": "TI\u00d84165 - Lecture 1 Introduction and Course Plan",
+    "source": "data/subjects/TI\u00d84165/documents/txt/TI\u00d84165 - Lecture 1 Introduction and Course Plan.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1009,
+    "chunk_count": 7,
+    "ingested_at": "2026-02-11T11:03:19.089229"
+  },
+  {
+    "document_id": "eaa85e6f-44d5-5e22-8b7b-4397f6726cad",
+    "title": "Veisdal (2020) The Median Voter Theorem",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Veisdal (2020) The Median Voter Theorem.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1409,
+    "chunk_count": 7,
+    "ingested_at": "2026-02-11T11:03:19.089233"
+  },
+  {
+    "document_id": "9ea10d2c-90a0-5a12-a318-d398c1468dc6",
+    "title": "Oster (1999) - Competitive Analysis - Chapter 3",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Oster (1999) - Competitive Analysis - Chapter 3.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 48,
+    "chunk_count": 0,
+    "ingested_at": "2026-02-11T11:03:19.089237"
+  },
+  {
+    "document_id": "fb612122-7292-5ced-b478-24b0e88abe9c",
+    "title": "Matz et al (2017)",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Matz et al (2017).txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 5918,
+    "chunk_count": 30,
+    "ingested_at": "2026-02-11T11:03:19.089241"
+  },
+  {
+    "document_id": "a4c96d97-78b9-5c38-b6d3-255dec553691",
+    "title": "1666787488kotler_keller_-_marketing_management_14th_edition",
+    "source": "data/subjects/TI\u00d84165/documents/txt/1666787488kotler_keller_-_marketing_management_14th_edition.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 480201,
+    "chunk_count": 2363,
+    "ingested_at": "2026-02-11T11:03:19.089245"
+  },
+  {
+    "document_id": "3a18633a-8404-5dc6-82a7-6a446f8832d8",
+    "title": "TI\u00d84165 - Lecture 4 Targeting",
+    "source": "data/subjects/TI\u00d84165/documents/txt/TI\u00d84165 - Lecture 4 Targeting.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1612,
+    "chunk_count": 11,
+    "ingested_at": "2026-02-11T11:03:19.089249"
+  },
+  {
+    "document_id": "c72fcbfb-1c76-5111-88cc-5b533fae0c3c",
+    "title": "TI\u00d84165 - Lecture 5 - Posisjonering",
+    "source": "data/subjects/TI\u00d84165/documents/txt/TI\u00d84165 - Lecture 5 - Posisjonering.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1450,
+    "chunk_count": 10,
+    "ingested_at": "2026-02-11T11:03:19.089253"
+  },
+  {
+    "document_id": "f9fd8aab-919e-5701-b8a9-008f881bd9ad",
+    "title": "kotler_keller_-_marketing_management_14th_edition",
+    "source": "data/subjects/TI\u00d84165/documents/txt/kotler_keller_-_marketing_management_14th_edition.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 476953,
+    "chunk_count": 2350,
+    "ingested_at": "2026-02-11T11:03:19.089257"
+  },
+  {
+    "document_id": "e2cf5b5e-3c14-5de6-9544-9389e5340693",
+    "title": "Jenkinson (2009)",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Jenkinson (2009).txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 6770,
+    "chunk_count": 32,
+    "ingested_at": "2026-02-11T11:03:19.089260"
+  },
+  {
+    "document_id": "5639458b-d551-564c-9139-3d3e48612f67",
+    "title": "Christensen et al 2016",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Christensen et al 2016.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 6024,
+    "chunk_count": 27,
+    "ingested_at": "2026-02-11T11:03:19.089264"
+  },
+  {
+    "document_id": "6a3e1ff6-0dd7-587c-91b4-07e808b3d634",
+    "title": "Hotelling (1929). Stability in Competition",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Hotelling (1929). Stability in Competition.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 72,
+    "chunk_count": 0,
+    "ingested_at": "2026-02-11T11:03:19.089268"
+  },
+  {
+    "document_id": "df52ab55-23b6-5767-a4ec-8ed8db57e51e",
+    "title": "Henderson et al (2011)",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Henderson et al (2011).txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 19423,
+    "chunk_count": 100,
+    "ingested_at": "2026-02-11T11:06:06.318963"
+  },
+  {
+    "document_id": "7281e881-6aff-5f43-ba68-9ecdf81908be",
+    "title": "TI\u00d84165 - Lecture 3 - Segmentering",
+    "source": "data/subjects/TI\u00d84165/documents/txt/TI\u00d84165 - Lecture 3 - Segmentering.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1256,
+    "chunk_count": 9,
+    "ingested_at": "2026-02-11T11:06:06.318982"
+  },
+  {
+    "document_id": "ab7f8817-c3a6-5e32-9e85-e69375ad72fb",
+    "title": "TI\u00d84165 - Lecture 2 Kundeverdi",
+    "source": "data/subjects/TI\u00d84165/documents/txt/TI\u00d84165 - Lecture 2 Kundeverdi.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1767,
+    "chunk_count": 14,
+    "ingested_at": "2026-02-11T11:06:06.318987"
+  },
+  {
+    "document_id": "68bf4182-4bd9-5fa2-b207-b0e487f02164",
+    "title": "Pfeifer et al (2005)",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Pfeifer et al (2005).txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 7752,
+    "chunk_count": 37,
+    "ingested_at": "2026-02-11T11:06:06.318992"
+  },
+  {
+    "document_id": "9f8b2092-644a-54b5-8425-8a1945b252c6",
+    "title": "Gallagher & Parsons (1997)",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Gallagher & Parsons (1997).txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 6104,
+    "chunk_count": 29,
+    "ingested_at": "2026-02-11T11:06:06.318996"
+  },
+  {
+    "document_id": "44890c52-9d77-55f2-8862-28e3dc0dfb28",
+    "title": "TI\u00d84165 - Lecture 1 Introduction and Course Plan",
+    "source": "data/subjects/TI\u00d84165/documents/txt/TI\u00d84165 - Lecture 1 Introduction and Course Plan.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1009,
+    "chunk_count": 7,
+    "ingested_at": "2026-02-11T11:06:06.319000"
+  },
+  {
+    "document_id": "eaa85e6f-44d5-5e22-8b7b-4397f6726cad",
+    "title": "Veisdal (2020) The Median Voter Theorem",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Veisdal (2020) The Median Voter Theorem.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1409,
+    "chunk_count": 7,
+    "ingested_at": "2026-02-11T11:06:06.319004"
+  },
+  {
+    "document_id": "9ea10d2c-90a0-5a12-a318-d398c1468dc6",
+    "title": "Oster (1999) - Competitive Analysis - Chapter 3",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Oster (1999) - Competitive Analysis - Chapter 3.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 48,
+    "chunk_count": 0,
+    "ingested_at": "2026-02-11T11:06:06.319008"
+  },
+  {
+    "document_id": "fb612122-7292-5ced-b478-24b0e88abe9c",
+    "title": "Matz et al (2017)",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Matz et al (2017).txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 5918,
+    "chunk_count": 30,
+    "ingested_at": "2026-02-11T11:06:06.319014"
+  },
+  {
+    "document_id": "a4c96d97-78b9-5c38-b6d3-255dec553691",
+    "title": "1666787488kotler_keller_-_marketing_management_14th_edition",
+    "source": "data/subjects/TI\u00d84165/documents/txt/1666787488kotler_keller_-_marketing_management_14th_edition.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 480201,
+    "chunk_count": 2363,
+    "ingested_at": "2026-02-11T11:06:06.319019"
+  },
+  {
+    "document_id": "3a18633a-8404-5dc6-82a7-6a446f8832d8",
+    "title": "TI\u00d84165 - Lecture 4 Targeting",
+    "source": "data/subjects/TI\u00d84165/documents/txt/TI\u00d84165 - Lecture 4 Targeting.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1612,
+    "chunk_count": 11,
+    "ingested_at": "2026-02-11T11:06:06.319023"
+  },
+  {
+    "document_id": "c72fcbfb-1c76-5111-88cc-5b533fae0c3c",
+    "title": "TI\u00d84165 - Lecture 5 - Posisjonering",
+    "source": "data/subjects/TI\u00d84165/documents/txt/TI\u00d84165 - Lecture 5 - Posisjonering.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1450,
+    "chunk_count": 10,
+    "ingested_at": "2026-02-11T11:06:06.319027"
+  },
+  {
+    "document_id": "f9fd8aab-919e-5701-b8a9-008f881bd9ad",
+    "title": "kotler_keller_-_marketing_management_14th_edition",
+    "source": "data/subjects/TI\u00d84165/documents/txt/kotler_keller_-_marketing_management_14th_edition.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 476953,
+    "chunk_count": 2350,
+    "ingested_at": "2026-02-11T11:06:06.319031"
+  },
+  {
+    "document_id": "e2cf5b5e-3c14-5de6-9544-9389e5340693",
+    "title": "Jenkinson (2009)",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Jenkinson (2009).txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 6770,
+    "chunk_count": 32,
+    "ingested_at": "2026-02-11T11:06:06.319035"
+  },
+  {
+    "document_id": "5639458b-d551-564c-9139-3d3e48612f67",
+    "title": "Christensen et al 2016",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Christensen et al 2016.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 6024,
+    "chunk_count": 27,
+    "ingested_at": "2026-02-11T11:06:06.319039"
+  },
+  {
+    "document_id": "6a3e1ff6-0dd7-587c-91b4-07e808b3d634",
+    "title": "Hotelling (1929). Stability in Competition",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Hotelling (1929). Stability in Competition.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 72,
+    "chunk_count": 0,
+    "ingested_at": "2026-02-11T11:06:06.319042"
+  },
+  {
+    "document_id": "51c9f028-9ba7-57e0-ad70-09d4556d12fd",
+    "title": "Introduction to Qdrant Vector Database",
+    "source": "qdrant-documentation",
+    "category": "technology",
+    "document_type": "text",
+    "token_count": 90,
+    "chunk_count": 0,
+    "ingested_at": "2026-02-11T11:11:50.304648"
+  },
+  {
+    "document_id": "aa4ff761-d390-59bd-8029-df84dc528642",
+    "title": "Understanding RAG Systems",
+    "source": "ai-research-papers",
+    "category": "artificial-intelligence",
+    "document_type": "text",
+    "token_count": 98,
+    "chunk_count": 0,
+    "ingested_at": "2026-02-11T11:11:50.304659"
+  },
+  {
+    "document_id": "dc1af37f-d212-5c1d-ac72-0d8802c9d19b",
+    "title": "Hybrid Search Strategies",
+    "source": "search-engineering-blog",
+    "category": "search-technology",
+    "document_type": "text",
+    "token_count": 108,
+    "chunk_count": 0,
+    "ingested_at": "2026-02-11T11:11:50.304663"
+  },
+  {
+    "document_id": "86c9bbb9-d19b-5321-bc52-4da045aefc4f",
+    "title": "OpenAI Embedding Models Guide",
+    "source": "ml-engineering-docs",
+    "category": "machine-learning",
+    "document_type": "text",
+    "token_count": 99,
+    "chunk_count": 0,
+    "ingested_at": "2026-02-11T11:11:50.304666"
+  },
+  {
+    "document_id": "906d36c0-6b88-580c-8112-6f3062da43c9",
+    "title": "Production RAG Deployment Best Practices",
+    "source": "devops-handbook",
+    "category": "deployment",
+    "document_type": "text",
+    "token_count": 88,
+    "chunk_count": 0,
+    "ingested_at": "2026-02-11T11:11:50.304668"
+  },
+  {
+    "document_id": "a1da8aad-7baf-5e60-8c18-ebfe5ee63c14",
+    "title": "Vector Database Fundamentals",
+    "source": "database-architecture-guide",
+    "category": "database",
+    "document_type": "text",
+    "token_count": 102,
+    "chunk_count": 0,
+    "ingested_at": "2026-02-11T11:11:50.304671"
+  },
+  {
+    "document_id": "69995c95-c561-5891-88a4-ca6501dd9cfb",
+    "title": "LLM Integration with RAG Systems",
+    "source": "nlp-research-journal",
+    "category": "natural-language-processing",
+    "document_type": "text",
+    "token_count": 96,
+    "chunk_count": 0,
+    "ingested_at": "2026-02-11T11:11:50.304675"
+  },
+  {
+    "document_id": "50b4b651-7bd3-54a9-a43f-39fb9ead06b0",
+    "title": "Text Embedding Models and Evaluation",
+    "source": "ml-research-papers",
+    "category": "machine-learning",
+    "document_type": "text",
+    "token_count": 94,
+    "chunk_count": 0,
+    "ingested_at": "2026-02-11T11:11:50.304679"
+  },
+  {
+    "document_id": "9db6e12e-06ee-5c2c-a63b-5b2232b7fa10",
+    "title": "Modern Information Retrieval Techniques",
+    "source": "ir-conference-proceedings",
+    "category": "information-retrieval",
+    "document_type": "text",
+    "token_count": 94,
+    "chunk_count": 0,
+    "ingested_at": "2026-02-11T11:11:50.304688"
+  },
+  {
+    "document_id": "b7ca521a-efd9-52d5-91d7-ea45da510c46",
+    "title": "RAG System API Design Principles",
+    "source": "software-engineering-best-practices",
+    "category": "software-engineering",
+    "document_type": "text",
+    "token_count": 89,
+    "chunk_count": 0,
+    "ingested_at": "2026-02-11T11:11:50.304691"
+  },
+  {
+    "document_id": "3b708d2d-be5b-5d4e-b053-601497ab8cd7",
+    "title": "Kanban and scrum [1-16]",
+    "source": "data/subjects/TDT4140/documents/txt/Kanban and scrum [1-16].txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 10705,
+    "chunk_count": 60,
+    "ingested_at": "2026-02-11T11:11:50.304695"
+  },
+  {
+    "document_id": "a1a410a9-a600-5335-8f6d-8c186b2e959d",
+    "title": "Scrum and XP from the Trenches [1-10 and 12-14]",
+    "source": "data/subjects/TDT4140/documents/txt/Scrum and XP from the Trenches [1-10 and 12-14].txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 30427,
+    "chunk_count": 134,
+    "ingested_at": "2026-02-11T11:11:50.304698"
+  },
+  {
+    "document_id": "aa3c20d3-ec31-5d12-9856-048cc28fa85d",
+    "title": "04 Sommerville Chapter 6_1 and 6_2",
+    "source": "data/subjects/TDT4140/documents/txt/04 Sommerville Chapter 6_1 and 6_2.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 3725,
+    "chunk_count": 16,
+    "ingested_at": "2026-02-11T11:11:50.304701"
+  },
+  {
+    "document_id": "89b8e3d5-bb2a-545e-ab5f-e0c4d597fae2",
+    "title": "03 Sommerville Chapter3",
+    "source": "data/subjects/TDT4140/documents/txt/03 Sommerville Chapter3.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 10986,
+    "chunk_count": 47,
+    "ingested_at": "2026-02-11T11:11:50.304704"
+  },
+  {
+    "document_id": "e2dd1dc8-8fd5-5d22-ba7f-f8c55e9fe99f",
+    "title": "05 Cohn Chapter1",
+    "source": "data/subjects/TDT4140/documents/txt/05 Cohn Chapter1.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 4983,
+    "chunk_count": 20,
+    "ingested_at": "2026-02-11T11:11:50.304706"
+  },
+  {
+    "document_id": "d4151f42-fc0a-57c8-afe5-af085b71cae2",
+    "title": "07 Crispin og Gregory Chapter6",
+    "source": "data/subjects/TDT4140/documents/txt/07 Crispin og Gregory Chapter6.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 4555,
+    "chunk_count": 19,
+    "ingested_at": "2026-02-11T11:11:50.304709"
+  },
+  {
+    "document_id": "67b00995-6c5d-5e3d-b7d2-ff490715d4b8",
+    "title": "02 Sommerville Chapter2",
+    "source": "data/subjects/TDT4140/documents/txt/02 Sommerville Chapter2.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 11300,
+    "chunk_count": 48,
+    "ingested_at": "2026-02-11T11:11:50.304713"
+  },
+  {
+    "document_id": "d6eaebb8-b00c-5184-9195-a13b779cfcfb",
+    "title": "15 Waterman",
+    "source": "data/subjects/TDT4140/documents/txt/15 Waterman.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1622,
+    "chunk_count": 8,
+    "ingested_at": "2026-02-11T11:11:50.304715"
+  },
+  {
+    "document_id": "ade1d8a9-cf48-5f06-b602-84d5202ecc6b",
+    "title": "13 Stray",
+    "source": "data/subjects/TDT4140/documents/txt/13 Stray.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 5143,
+    "chunk_count": 25,
+    "ingested_at": "2026-02-11T11:11:50.304718"
+  },
+  {
+    "document_id": "ab3c2888-8eb5-5194-88eb-b2c642a335aa",
+    "title": "01 Sommerville Chapter1",
+    "source": "data/subjects/TDT4140/documents/txt/01 Sommerville Chapter1.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 9906,
+    "chunk_count": 41,
+    "ingested_at": "2026-02-11T11:11:50.304721"
+  },
+  {
+    "document_id": "3a901644-41db-54bc-9140-bd4d496bdff9",
+    "title": "12 Babb",
+    "source": "data/subjects/TDT4140/documents/txt/12 Babb.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 4662,
+    "chunk_count": 23,
+    "ingested_at": "2026-02-11T11:11:50.304724"
+  },
+  {
+    "document_id": "71e6464a-707c-5d8f-9457-bac89d5a25ee",
+    "title": "16 Dings\u251c\u2555yr_etal",
+    "source": "data/subjects/TDT4140/documents/txt/16 Dings\u251c\u2555yr_etal.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 3592,
+    "chunk_count": 17,
+    "ingested_at": "2026-02-11T11:11:50.304727"
+  },
+  {
+    "document_id": "61a8a43f-6962-58a3-ad26-98c66e1a83b4",
+    "title": "11 Becker",
+    "source": "data/subjects/TDT4140/documents/txt/11 Becker.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 5926,
+    "chunk_count": 29,
+    "ingested_at": "2026-02-11T11:11:50.304730"
+  },
+  {
+    "document_id": "52ace53d-0ebe-54de-adf8-39e32b9a0e84",
+    "title": "10 Meyer",
+    "source": "data/subjects/TDT4140/documents/txt/10 Meyer.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 3054,
+    "chunk_count": 15,
+    "ingested_at": "2026-02-11T11:11:50.304733"
+  },
+  {
+    "document_id": "e2bcc0e8-197e-5421-bfca-25ceed06fcc6",
+    "title": "08 Crispin og Gregory Chapter10",
+    "source": "data/subjects/TDT4140/documents/txt/08 Crispin og Gregory Chapter10.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 10492,
+    "chunk_count": 45,
+    "ingested_at": "2026-02-11T11:11:50.304735"
+  },
+  {
+    "document_id": "f7eb7b1c-63b9-5573-a05d-82b6f231a5be",
+    "title": "06 Cohn Chapter2",
+    "source": "data/subjects/TDT4140/documents/txt/06 Cohn Chapter2.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 4380,
+    "chunk_count": 18,
+    "ingested_at": "2026-02-11T11:11:50.304738"
+  },
+  {
+    "document_id": "6862436a-6349-5780-b5bf-6cf21f8dd10d",
+    "title": "14 Runeson",
+    "source": "data/subjects/TDT4140/documents/txt/14 Runeson.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 5572,
+    "chunk_count": 29,
+    "ingested_at": "2026-02-11T11:11:50.304740"
+  },
+  {
+    "document_id": "df52ab55-23b6-5767-a4ec-8ed8db57e51e",
+    "title": "Henderson et al (2011)",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Henderson et al (2011).txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 19423,
+    "chunk_count": 97,
+    "ingested_at": "2026-02-11T11:11:50.304743"
+  },
+  {
+    "document_id": "7281e881-6aff-5f43-ba68-9ecdf81908be",
+    "title": "TI\u00d84165 - Lecture 3 - Segmentering",
+    "source": "data/subjects/TI\u00d84165/documents/txt/TI\u00d84165 - Lecture 3 - Segmentering.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1256,
+    "chunk_count": 39,
+    "ingested_at": "2026-02-11T11:11:50.304745"
+  },
+  {
+    "document_id": "ab7f8817-c3a6-5e32-9e85-e69375ad72fb",
+    "title": "TI\u00d84165 - Lecture 2 Kundeverdi",
+    "source": "data/subjects/TI\u00d84165/documents/txt/TI\u00d84165 - Lecture 2 Kundeverdi.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1767,
+    "chunk_count": 40,
+    "ingested_at": "2026-02-11T11:11:50.304748"
+  },
+  {
+    "document_id": "68bf4182-4bd9-5fa2-b207-b0e487f02164",
+    "title": "Pfeifer et al (2005)",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Pfeifer et al (2005).txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 7752,
+    "chunk_count": 38,
+    "ingested_at": "2026-02-11T11:11:50.304751"
+  },
+  {
+    "document_id": "9f8b2092-644a-54b5-8425-8a1945b252c6",
+    "title": "Gallagher & Parsons (1997)",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Gallagher & Parsons (1997).txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 6104,
+    "chunk_count": 27,
+    "ingested_at": "2026-02-11T11:11:50.304753"
+  },
+  {
+    "document_id": "44890c52-9d77-55f2-8862-28e3dc0dfb28",
+    "title": "TI\u00d84165 - Lecture 1 Introduction and Course Plan",
+    "source": "data/subjects/TI\u00d84165/documents/txt/TI\u00d84165 - Lecture 1 Introduction and Course Plan.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1009,
+    "chunk_count": 22,
+    "ingested_at": "2026-02-11T11:11:50.304756"
+  },
+  {
+    "document_id": "eaa85e6f-44d5-5e22-8b7b-4397f6726cad",
+    "title": "Veisdal (2020) The Median Voter Theorem",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Veisdal (2020) The Median Voter Theorem.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1409,
+    "chunk_count": 7,
+    "ingested_at": "2026-02-11T11:11:50.304759"
+  },
+  {
+    "document_id": "9ea10d2c-90a0-5a12-a318-d398c1468dc6",
+    "title": "Oster (1999) - Competitive Analysis - Chapter 3",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Oster (1999) - Competitive Analysis - Chapter 3.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 48,
+    "chunk_count": 0,
+    "ingested_at": "2026-02-11T11:11:50.304761"
+  },
+  {
+    "document_id": "fb612122-7292-5ced-b478-24b0e88abe9c",
+    "title": "Matz et al (2017)",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Matz et al (2017).txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 5918,
+    "chunk_count": 29,
+    "ingested_at": "2026-02-11T11:11:50.304763"
+  },
+  {
+    "document_id": "a4c96d97-78b9-5c38-b6d3-255dec553691",
+    "title": "1666787488kotler_keller_-_marketing_management_14th_edition",
+    "source": "data/subjects/TI\u00d84165/documents/txt/1666787488kotler_keller_-_marketing_management_14th_edition.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 480201,
+    "chunk_count": 2280,
+    "ingested_at": "2026-02-11T11:11:50.304766"
+  },
+  {
+    "document_id": "3a18633a-8404-5dc6-82a7-6a446f8832d8",
+    "title": "TI\u00d84165 - Lecture 4 Targeting",
+    "source": "data/subjects/TI\u00d84165/documents/txt/TI\u00d84165 - Lecture 4 Targeting.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1612,
+    "chunk_count": 35,
+    "ingested_at": "2026-02-11T11:11:50.304769"
+  },
+  {
+    "document_id": "c72fcbfb-1c76-5111-88cc-5b533fae0c3c",
+    "title": "TI\u00d84165 - Lecture 5 - Posisjonering",
+    "source": "data/subjects/TI\u00d84165/documents/txt/TI\u00d84165 - Lecture 5 - Posisjonering.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1450,
+    "chunk_count": 31,
+    "ingested_at": "2026-02-11T11:11:50.304772"
+  },
+  {
+    "document_id": "f9fd8aab-919e-5701-b8a9-008f881bd9ad",
+    "title": "kotler_keller_-_marketing_management_14th_edition",
+    "source": "data/subjects/TI\u00d84165/documents/txt/kotler_keller_-_marketing_management_14th_edition.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 476953,
+    "chunk_count": 2350,
+    "ingested_at": "2026-02-11T11:11:50.304775"
+  },
+  {
+    "document_id": "e2cf5b5e-3c14-5de6-9544-9389e5340693",
+    "title": "Jenkinson (2009)",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Jenkinson (2009).txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 6770,
+    "chunk_count": 30,
+    "ingested_at": "2026-02-11T11:11:50.304777"
+  },
+  {
+    "document_id": "5639458b-d551-564c-9139-3d3e48612f67",
+    "title": "Christensen et al 2016",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Christensen et al 2016.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 6024,
+    "chunk_count": 29,
+    "ingested_at": "2026-02-11T11:11:50.304779"
+  },
+  {
+    "document_id": "6a3e1ff6-0dd7-587c-91b4-07e808b3d634",
+    "title": "Hotelling (1929). Stability in Competition",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Hotelling (1929). Stability in Competition.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 72,
+    "chunk_count": 0,
+    "ingested_at": "2026-02-11T11:11:50.304782"
+  },
+  {
+    "document_id": "51c9f028-9ba7-57e0-ad70-09d4556d12fd",
+    "title": "Introduction to Qdrant Vector Database",
+    "source": "qdrant-documentation",
+    "category": "technology",
+    "document_type": "text",
+    "token_count": 90,
+    "chunk_count": 0,
+    "ingested_at": "2026-02-11T11:13:01.528017"
+  },
+  {
+    "document_id": "aa4ff761-d390-59bd-8029-df84dc528642",
+    "title": "Understanding RAG Systems",
+    "source": "ai-research-papers",
+    "category": "artificial-intelligence",
+    "document_type": "text",
+    "token_count": 98,
+    "chunk_count": 0,
+    "ingested_at": "2026-02-11T11:13:01.528036"
+  },
+  {
+    "document_id": "dc1af37f-d212-5c1d-ac72-0d8802c9d19b",
+    "title": "Hybrid Search Strategies",
+    "source": "search-engineering-blog",
+    "category": "search-technology",
+    "document_type": "text",
+    "token_count": 108,
+    "chunk_count": 0,
+    "ingested_at": "2026-02-11T11:13:01.528040"
+  },
+  {
+    "document_id": "86c9bbb9-d19b-5321-bc52-4da045aefc4f",
+    "title": "OpenAI Embedding Models Guide",
+    "source": "ml-engineering-docs",
+    "category": "machine-learning",
+    "document_type": "text",
+    "token_count": 99,
+    "chunk_count": 0,
+    "ingested_at": "2026-02-11T11:13:01.528044"
+  },
+  {
+    "document_id": "906d36c0-6b88-580c-8112-6f3062da43c9",
+    "title": "Production RAG Deployment Best Practices",
+    "source": "devops-handbook",
+    "category": "deployment",
+    "document_type": "text",
+    "token_count": 88,
+    "chunk_count": 0,
+    "ingested_at": "2026-02-11T11:13:01.528047"
+  },
+  {
+    "document_id": "a1da8aad-7baf-5e60-8c18-ebfe5ee63c14",
+    "title": "Vector Database Fundamentals",
+    "source": "database-architecture-guide",
+    "category": "database",
+    "document_type": "text",
+    "token_count": 102,
+    "chunk_count": 0,
+    "ingested_at": "2026-02-11T11:13:01.528050"
+  },
+  {
+    "document_id": "69995c95-c561-5891-88a4-ca6501dd9cfb",
+    "title": "LLM Integration with RAG Systems",
+    "source": "nlp-research-journal",
+    "category": "natural-language-processing",
+    "document_type": "text",
+    "token_count": 96,
+    "chunk_count": 0,
+    "ingested_at": "2026-02-11T11:13:01.528053"
+  },
+  {
+    "document_id": "50b4b651-7bd3-54a9-a43f-39fb9ead06b0",
+    "title": "Text Embedding Models and Evaluation",
+    "source": "ml-research-papers",
+    "category": "machine-learning",
+    "document_type": "text",
+    "token_count": 94,
+    "chunk_count": 0,
+    "ingested_at": "2026-02-11T11:13:01.528056"
+  },
+  {
+    "document_id": "9db6e12e-06ee-5c2c-a63b-5b2232b7fa10",
+    "title": "Modern Information Retrieval Techniques",
+    "source": "ir-conference-proceedings",
+    "category": "information-retrieval",
+    "document_type": "text",
+    "token_count": 94,
+    "chunk_count": 0,
+    "ingested_at": "2026-02-11T11:13:01.528059"
+  },
+  {
+    "document_id": "b7ca521a-efd9-52d5-91d7-ea45da510c46",
+    "title": "RAG System API Design Principles",
+    "source": "software-engineering-best-practices",
+    "category": "software-engineering",
+    "document_type": "text",
+    "token_count": 89,
+    "chunk_count": 0,
+    "ingested_at": "2026-02-11T11:13:01.528061"
+  },
+  {
+    "document_id": "3b708d2d-be5b-5d4e-b053-601497ab8cd7",
+    "title": "Kanban and scrum [1-16]",
+    "source": "data/subjects/TDT4140/documents/txt/Kanban and scrum [1-16].txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 10705,
+    "chunk_count": 60,
+    "ingested_at": "2026-02-11T11:13:01.528065"
+  },
+  {
+    "document_id": "a1a410a9-a600-5335-8f6d-8c186b2e959d",
+    "title": "Scrum and XP from the Trenches [1-10 and 12-14]",
+    "source": "data/subjects/TDT4140/documents/txt/Scrum and XP from the Trenches [1-10 and 12-14].txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 30427,
+    "chunk_count": 134,
+    "ingested_at": "2026-02-11T11:13:01.528068"
+  },
+  {
+    "document_id": "aa3c20d3-ec31-5d12-9856-048cc28fa85d",
+    "title": "04 Sommerville Chapter 6_1 and 6_2",
+    "source": "data/subjects/TDT4140/documents/txt/04 Sommerville Chapter 6_1 and 6_2.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 3725,
+    "chunk_count": 16,
+    "ingested_at": "2026-02-11T11:13:01.528071"
+  },
+  {
+    "document_id": "89b8e3d5-bb2a-545e-ab5f-e0c4d597fae2",
+    "title": "03 Sommerville Chapter3",
+    "source": "data/subjects/TDT4140/documents/txt/03 Sommerville Chapter3.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 10986,
+    "chunk_count": 47,
+    "ingested_at": "2026-02-11T11:13:01.528074"
+  },
+  {
+    "document_id": "e2dd1dc8-8fd5-5d22-ba7f-f8c55e9fe99f",
+    "title": "05 Cohn Chapter1",
+    "source": "data/subjects/TDT4140/documents/txt/05 Cohn Chapter1.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 4983,
+    "chunk_count": 20,
+    "ingested_at": "2026-02-11T11:13:01.528077"
+  },
+  {
+    "document_id": "d4151f42-fc0a-57c8-afe5-af085b71cae2",
+    "title": "07 Crispin og Gregory Chapter6",
+    "source": "data/subjects/TDT4140/documents/txt/07 Crispin og Gregory Chapter6.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 4555,
+    "chunk_count": 19,
+    "ingested_at": "2026-02-11T11:13:01.528080"
+  },
+  {
+    "document_id": "67b00995-6c5d-5e3d-b7d2-ff490715d4b8",
+    "title": "02 Sommerville Chapter2",
+    "source": "data/subjects/TDT4140/documents/txt/02 Sommerville Chapter2.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 11300,
+    "chunk_count": 48,
+    "ingested_at": "2026-02-11T11:13:01.528083"
+  },
+  {
+    "document_id": "d6eaebb8-b00c-5184-9195-a13b779cfcfb",
+    "title": "15 Waterman",
+    "source": "data/subjects/TDT4140/documents/txt/15 Waterman.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1622,
+    "chunk_count": 8,
+    "ingested_at": "2026-02-11T11:13:01.528085"
+  },
+  {
+    "document_id": "ade1d8a9-cf48-5f06-b602-84d5202ecc6b",
+    "title": "13 Stray",
+    "source": "data/subjects/TDT4140/documents/txt/13 Stray.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 5143,
+    "chunk_count": 25,
+    "ingested_at": "2026-02-11T11:13:01.528088"
+  },
+  {
+    "document_id": "ab3c2888-8eb5-5194-88eb-b2c642a335aa",
+    "title": "01 Sommerville Chapter1",
+    "source": "data/subjects/TDT4140/documents/txt/01 Sommerville Chapter1.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 9906,
+    "chunk_count": 41,
+    "ingested_at": "2026-02-11T11:13:01.528090"
+  },
+  {
+    "document_id": "3a901644-41db-54bc-9140-bd4d496bdff9",
+    "title": "12 Babb",
+    "source": "data/subjects/TDT4140/documents/txt/12 Babb.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 4662,
+    "chunk_count": 23,
+    "ingested_at": "2026-02-11T11:13:01.528094"
+  },
+  {
+    "document_id": "71e6464a-707c-5d8f-9457-bac89d5a25ee",
+    "title": "16 Dings\u251c\u2555yr_etal",
+    "source": "data/subjects/TDT4140/documents/txt/16 Dings\u251c\u2555yr_etal.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 3592,
+    "chunk_count": 17,
+    "ingested_at": "2026-02-11T11:13:01.528098"
+  },
+  {
+    "document_id": "61a8a43f-6962-58a3-ad26-98c66e1a83b4",
+    "title": "11 Becker",
+    "source": "data/subjects/TDT4140/documents/txt/11 Becker.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 5926,
+    "chunk_count": 29,
+    "ingested_at": "2026-02-11T11:13:01.528100"
+  },
+  {
+    "document_id": "52ace53d-0ebe-54de-adf8-39e32b9a0e84",
+    "title": "10 Meyer",
+    "source": "data/subjects/TDT4140/documents/txt/10 Meyer.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 3054,
+    "chunk_count": 15,
+    "ingested_at": "2026-02-11T11:13:01.528103"
+  },
+  {
+    "document_id": "e2bcc0e8-197e-5421-bfca-25ceed06fcc6",
+    "title": "08 Crispin og Gregory Chapter10",
+    "source": "data/subjects/TDT4140/documents/txt/08 Crispin og Gregory Chapter10.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 10492,
+    "chunk_count": 45,
+    "ingested_at": "2026-02-11T11:13:01.528106"
+  },
+  {
+    "document_id": "f7eb7b1c-63b9-5573-a05d-82b6f231a5be",
+    "title": "06 Cohn Chapter2",
+    "source": "data/subjects/TDT4140/documents/txt/06 Cohn Chapter2.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 4380,
+    "chunk_count": 18,
+    "ingested_at": "2026-02-11T11:13:01.528108"
+  },
+  {
+    "document_id": "6862436a-6349-5780-b5bf-6cf21f8dd10d",
+    "title": "14 Runeson",
+    "source": "data/subjects/TDT4140/documents/txt/14 Runeson.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 5572,
+    "chunk_count": 29,
+    "ingested_at": "2026-02-11T11:13:01.528111"
+  },
+  {
+    "document_id": "df52ab55-23b6-5767-a4ec-8ed8db57e51e",
+    "title": "Henderson et al (2011)",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Henderson et al (2011).txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 19423,
+    "chunk_count": 97,
+    "ingested_at": "2026-02-11T11:14:41.349254"
+  },
+  {
+    "document_id": "7281e881-6aff-5f43-ba68-9ecdf81908be",
+    "title": "TI\u00d84165 - Lecture 3 - Segmentering",
+    "source": "data/subjects/TI\u00d84165/documents/txt/TI\u00d84165 - Lecture 3 - Segmentering.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1256,
+    "chunk_count": 39,
+    "ingested_at": "2026-02-11T11:14:41.349273"
+  },
+  {
+    "document_id": "ab7f8817-c3a6-5e32-9e85-e69375ad72fb",
+    "title": "TI\u00d84165 - Lecture 2 Kundeverdi",
+    "source": "data/subjects/TI\u00d84165/documents/txt/TI\u00d84165 - Lecture 2 Kundeverdi.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1767,
+    "chunk_count": 40,
+    "ingested_at": "2026-02-11T11:14:41.349276"
+  },
+  {
+    "document_id": "68bf4182-4bd9-5fa2-b207-b0e487f02164",
+    "title": "Pfeifer et al (2005)",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Pfeifer et al (2005).txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 7752,
+    "chunk_count": 38,
+    "ingested_at": "2026-02-11T11:14:41.349279"
+  },
+  {
+    "document_id": "9f8b2092-644a-54b5-8425-8a1945b252c6",
+    "title": "Gallagher & Parsons (1997)",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Gallagher & Parsons (1997).txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 6104,
+    "chunk_count": 27,
+    "ingested_at": "2026-02-11T11:14:41.349282"
+  },
+  {
+    "document_id": "44890c52-9d77-55f2-8862-28e3dc0dfb28",
+    "title": "TI\u00d84165 - Lecture 1 Introduction and Course Plan",
+    "source": "data/subjects/TI\u00d84165/documents/txt/TI\u00d84165 - Lecture 1 Introduction and Course Plan.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1009,
+    "chunk_count": 22,
+    "ingested_at": "2026-02-11T11:14:41.349286"
+  },
+  {
+    "document_id": "eaa85e6f-44d5-5e22-8b7b-4397f6726cad",
+    "title": "Veisdal (2020) The Median Voter Theorem",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Veisdal (2020) The Median Voter Theorem.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1409,
+    "chunk_count": 7,
+    "ingested_at": "2026-02-11T11:14:41.349290"
+  },
+  {
+    "document_id": "9ea10d2c-90a0-5a12-a318-d398c1468dc6",
+    "title": "Oster (1999) - Competitive Analysis - Chapter 3",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Oster (1999) - Competitive Analysis - Chapter 3.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 48,
+    "chunk_count": 0,
+    "ingested_at": "2026-02-11T11:14:41.349292"
+  },
+  {
+    "document_id": "fb612122-7292-5ced-b478-24b0e88abe9c",
+    "title": "Matz et al (2017)",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Matz et al (2017).txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 5918,
+    "chunk_count": 29,
+    "ingested_at": "2026-02-11T11:14:41.349295"
+  },
+  {
+    "document_id": "a4c96d97-78b9-5c38-b6d3-255dec553691",
+    "title": "1666787488kotler_keller_-_marketing_management_14th_edition",
+    "source": "data/subjects/TI\u00d84165/documents/txt/1666787488kotler_keller_-_marketing_management_14th_edition.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 480201,
+    "chunk_count": 2280,
+    "ingested_at": "2026-02-11T11:14:41.349297"
+  },
+  {
+    "document_id": "3a18633a-8404-5dc6-82a7-6a446f8832d8",
+    "title": "TI\u00d84165 - Lecture 4 Targeting",
+    "source": "data/subjects/TI\u00d84165/documents/txt/TI\u00d84165 - Lecture 4 Targeting.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1612,
+    "chunk_count": 35,
+    "ingested_at": "2026-02-11T11:14:41.349301"
+  },
+  {
+    "document_id": "c72fcbfb-1c76-5111-88cc-5b533fae0c3c",
+    "title": "TI\u00d84165 - Lecture 5 - Posisjonering",
+    "source": "data/subjects/TI\u00d84165/documents/txt/TI\u00d84165 - Lecture 5 - Posisjonering.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 1450,
+    "chunk_count": 31,
+    "ingested_at": "2026-02-11T11:14:41.349304"
+  },
+  {
+    "document_id": "f9fd8aab-919e-5701-b8a9-008f881bd9ad",
+    "title": "kotler_keller_-_marketing_management_14th_edition",
+    "source": "data/subjects/TI\u00d84165/documents/txt/kotler_keller_-_marketing_management_14th_edition.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 476953,
+    "chunk_count": 2350,
+    "ingested_at": "2026-02-11T11:14:41.349306"
+  },
+  {
+    "document_id": "e2cf5b5e-3c14-5de6-9544-9389e5340693",
+    "title": "Jenkinson (2009)",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Jenkinson (2009).txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 6770,
+    "chunk_count": 30,
+    "ingested_at": "2026-02-11T11:14:41.349309"
+  },
+  {
+    "document_id": "5639458b-d551-564c-9139-3d3e48612f67",
+    "title": "Christensen et al 2016",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Christensen et al 2016.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 6024,
+    "chunk_count": 29,
+    "ingested_at": "2026-02-11T11:14:41.349311"
+  },
+  {
+    "document_id": "6a3e1ff6-0dd7-587c-91b4-07e808b3d634",
+    "title": "Hotelling (1929). Stability in Competition",
+    "source": "data/subjects/TI\u00d84165/documents/txt/Hotelling (1929). Stability in Competition.txt",
+    "category": null,
+    "document_type": "text",
+    "token_count": 72,
+    "chunk_count": 0,
+    "ingested_at": "2026-02-11T11:14:41.349313"
   }
 ]

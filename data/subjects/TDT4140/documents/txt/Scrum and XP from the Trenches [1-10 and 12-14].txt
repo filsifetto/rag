@@ -1,3 +1,6 @@
+--- Page 1 ---
+
+--- Page 2 ---
 SCRUM AND XP FROM THE TRENCHES
 © 2015 Henrik Kniberg. All rights reserved.
 Published by C4Media, publisher of InfoQ.com. 
@@ -13,6 +16,7 @@ Copyeditor: Professor Laurie Nyveen
 Cover and Interior Design: Dragos Balasoiu
 
 
+--- Page 3 ---
 Contents
 Intro .................................................................................................1
 Disclaimer ......................................................................................................3
@@ -50,6 +54,7 @@ How we communicate sprints ........................................53
 How we do sprint backlogs ...............................................57
 
 
+--- Page 4 ---
 Sprint-backlog format ................................................................................58
 How the task board works .........................................................................60
  How the burn-down chart works .............................................................63
@@ -87,6 +92,7 @@ How we combine Scrum with XP ...............................105
 Pair programming .....................................................................................106
 
 
+--- Page 5 ---
 Test-driven development (TDD) ............................................................107
 Incremental design ....................................................................................111
 Continuous integration ............................................................................111
@@ -126,6 +132,9 @@ End of sprint ..................................................................
 Parting words ........................................................................167
 
 
+--- Page 6 ---
+
+--- Page 7 ---
 Acknowledgements
 The first draft of this paper took only one weekend to type, but it sure 
 was an intensive weekend! 150% focus factor. :o)
@@ -140,6 +149,7 @@ stream of useful feedback. I’m particularly glad to hear that this paper has
 sparked so many of you to give agile software development a shot!
 
 
+--- Page 8 ---
 Foreword by Jeff Sutherland
 Teams need to know Scrum basics. How do you create and estimate a 
 product backlog? How do you turn it into a sprint backlog? How do you 
@@ -176,6 +186,7 @@ then asked them if they met the Nokia standards for Scrum:
 A Scrum team must have a product owner and know who that person is.
 
 
+--- Page 9 ---
 The product owner must have a product backlog with estimates created 
 by the team.
 The team must have a burn-down chart and know their velocity.
@@ -196,6 +207,7 @@ Jeff Sutherland,
 Ph.D., co-creator of Scrum 
 
 
+--- Page 10 ---
 Foreword by Mike Cohn
 Both Scrum and extreme programming (XP) ask teams to complete 
 some tangible piece of shippable work by the end of each iteration. 
@@ -233,6 +245,7 @@ how they did things and you’ll be prepared for the obstacles thrown at
 you in your use of Scrum and XP. 
 
 
+--- Page 11 ---
 Henrik provides a host of good practices along with the necessary context 
 to help us learn better how to do Scrum and XP in the trenches of our 
 own projects. 
@@ -241,6 +254,7 @@ Author of Agile Estimating and Planning and User Stories Applied for
 Agile Software Development. 
 
 
+--- Page 12 ---
 Preface: Hey, Scrum worked!
 Scrum worked! For us at least (meaning my current client in Stockholm, 
 who’s name I don’t intend to mention here). Hope it will work for you 
@@ -261,6 +275,7 @@ whenever there isn’t a strong reason not to.
  
 
 
+--- Page 13 ---
 Preface – 2nd edition
 Eight years have passed, and this book is still really popular. Wow! I never 
 could have imagined the impact this little book would make! I still bump 
@@ -295,11 +310,15 @@ Enjoy!
 Henrik, March 2015
 
 
+--- Page 14 ---
+
+--- Page 15 ---
 PART
 ONE
 Intro
 
 
+--- Page 16 ---
 SCRUM AND XP FROM THE TRENCHES
 2
 You are about to start using Scrum in your organization. Or perhaps 
@@ -338,6 +357,7 @@ retrospectives) and gain new insights on how to best implement Scrum
 in their particular context.
 
 
+--- Page 17 ---
 INTRO
 3
 Disclaimer
@@ -373,6 +393,7 @@ of Scrum, maintained by both Jeff Sutherland and Ken Schwaber.
 http://www.scrumguides.org
 
 
+--- Page 18 ---
 SCRUM AND XP FROM THE TRENCHES
 4
 If you are too impatient to do that, feel free to just read on. Must of the 
@@ -380,12 +401,14 @@ Scrum jargon is explained as we go along so you might still find this
 interesting. 
 
 
+--- Page 19 ---
 PART
 TWO
 How we do 
 product backlogs
 
 
+--- Page 20 ---
 SCRUM AND XP FROM THE TRENCHES
 6
 The product backlog is the heart of Scrum. This is where it all starts. 
@@ -428,6 +451,7 @@ this story (not too few and not too many, typically two), and lock
 yourselves into a room with lots of food and work completely 
 
 
+--- Page 21 ---
 HOW WE DO PRODUCT BACKLOGS
 7
 undisturbed, after how many days will you come out with a 
@@ -494,6 +518,7 @@ the six fields above were the only ones that we actually used sprint after
 sprint.
 
 
+--- Page 22 ---
 SCRUM AND XP FROM THE TRENCHES
 8
 There are two things I almost always do differently now. First of all, 
@@ -533,6 +558,7 @@ document, for example “database, server, client”. Here the team or
 product owner can identify which technical components will be 
 
 
+--- Page 23 ---
 HOW WE DO PRODUCT BACKLOGS
 9
 involved in implementing this story. This is useful when you have 
@@ -572,12 +598,16 @@ The template forces you to ask the right types of questions, and reduces
 the risk of getting stuck in techy details.
 
 
+--- Page 24 ---
+
+--- Page 25 ---
 PART
 THREE
 How we prepare 
 for sprint planning
 
 
+--- Page 26 ---
 SCRUM AND XP FROM THE TRENCHES
 12
 OK, sprint planning day is coming at us quickly. One lesson we learn 
@@ -623,6 +653,7 @@ the author, but in some cases other people add requests, which the
 product owner can prioritize). He does not need to know exactly 
 
 
+--- Page 27 ---
 HOW WE PREPARE FOR SPRINT PLANNING
 13
 what needs to be implemented, but he should understand why the 
@@ -646,12 +677,16 @@ probably will.
  
 
 
+--- Page 28 ---
+
+--- Page 29 ---
 PART
 FOUR
 How we do 
 sprint planning
 
 
+--- Page 30 ---
 SCRUM AND XP FROM THE TRENCHES
 16
 Sprint planning is a critical meeting, probably the most important event 
@@ -692,6 +727,7 @@ Scope and importance are set by the product owner. Estimate is set by the
 team. During a sprint planning meeting, these three variables are fine-
 
 
+--- Page 31 ---
 HOW WE DO  SPRINT PLANNING
 17
 tuned continuously through face-
@@ -736,6 +772,7 @@ the team spend each day doing whatever they feel is most important
 that day.
 
 
+--- Page 32 ---
 SCRUM AND XP FROM THE TRENCHES
 18
 Good stuff in this section! <patting myself on the back>
@@ -772,6 +809,7 @@ So how do we tell the difference between internal quality issues and
 external quality issues?
 
 
+--- Page 33 ---
 HOW WE DO  SPRINT PLANNING
 19
 Let’s say the product owner says “OK guys, I respect your time estimate 
@@ -806,6 +844,7 @@ internal quality should be the norm, and exceptions should be treated as
 exceptional.
 
 
+--- Page 34 ---
 SCRUM AND XP FROM THE TRENCHES
 20
 Sprint planning meetings that drag 
@@ -843,6 +882,7 @@ usually are impatient and want to get going with the sprint, and not spend
 another bunch of hours planning.
 
 
+--- Page 35 ---
 HOW WE DO  SPRINT PLANNING
 21
 So I cut it short. And yes, the sprint suffers. The upside, however, is that 
@@ -882,6 +922,7 @@ calculations as a reality check.
 last sprint). Further breakdown of stories into tasks.
 
 
+--- Page 36 ---
 SCRUM AND XP FROM THE TRENCHES
 22
 That bit between 13:30 and 15:00, that’s product backlog refinement (I 
@@ -919,6 +960,7 @@ an extended period of time. After a few months of experimentation, we
 found that three weeks was good. So we do three-week sprints, period. 
 
 
+--- Page 37 ---
 HOW WE DO  SPRINT PLANNING
 23
 Sometimes it will feel slightly too long, sometimes slightly too short. 
@@ -956,6 +998,7 @@ by the system as it stands now. In that case, everybody could go home and
 the sprint goal will still be achieved.
 
 
+--- Page 38 ---
 SCRUM AND XP FROM THE TRENCHES
 24
 The sprint goal may seem rather silly and contrived during the sprint 
@@ -979,6 +1022,7 @@ which stories to include in the sprint. More specifically, which stories
 from the product backlog to copy to the sprint backlog.
 
 
+--- Page 39 ---
 HOW WE DO  SPRINT PLANNING
 25
  
@@ -999,6 +1043,7 @@ This raises two questions:
 I’ll start with the second question.
 
 
+--- Page 40 ---
 SCRUM AND XP FROM THE TRENCHES
 26
 How can product owner affect 
@@ -1015,6 +1060,7 @@ The second option is to change the scope – reduce the scope of story A
 until the team believes that story D will fit into the sprint.
 
 
+--- Page 41 ---
 HOW WE DO  SPRINT PLANNING
 27
  
@@ -1032,6 +1078,7 @@ We use two techniques for this:
 2. Velocity calculations
 
 
+--- Page 42 ---
 SCRUM AND XP FROM THE TRENCHES
 28
 Estimating using gut feel
@@ -1063,6 +1110,7 @@ we’ll leave it out of the sprint plan. How about that?
 Everybody: OK!
 
 
+--- Page 43 ---
 HOW WE DO  SPRINT PLANNING
 29
 Gut feel works pretty well for small teams and short sprints.
@@ -1091,6 +1139,7 @@ the reasons, here is the approximate difference between how much we
 thought we would get done and how much we actually got done.”
 
 
+--- Page 44 ---
 SCRUM AND XP FROM THE TRENCHES
 30
 What about a story that got almost completed during a sprint? Why 
@@ -1123,6 +1172,7 @@ Furthermore, we have to take into account things such as unplanned
 work being added to the sprint, people being sick, etc. 
 
 
+--- Page 45 ---
 HOW WE DO  SPRINT PLANNING
 31
 So our estimated velocity will certainly be less than 50. But how much 
@@ -1147,6 +1197,7 @@ That means the team should add stories to the sprint until it adds up to
 approximately 20.
 
 
+--- Page 46 ---
 SCRUM AND XP FROM THE TRENCHES
 32
 In this case, the team may choose the top four stories for a total of 19 
@@ -1175,6 +1226,7 @@ The default focus factor I use for new teams is usually 70%, since that is
 where most of our other teams have ended up over time.
 
 
+--- Page 47 ---
 HOW WE DO  SPRINT PLANNING
 33
 Which estimating technique do we 
@@ -1213,6 +1265,7 @@ Once we have a preliminary list of stories to be included in the sprint, I do
 a “gut feeling” check. I ask the team to ignore the numbers for a moment 
 
 
+--- Page 48 ---
 SCRUM AND XP FROM THE TRENCHES
 34
 and just think about if this feels like a realistic chunk to bite off for a 
@@ -1239,6 +1292,7 @@ A solution that works much better is to create index cards and put them
 up on the wall (or a large table). 
 
 
+--- Page 49 ---
 HOW WE DO  SPRINT PLANNING
 35
 This is a superior user interface compared to computer and projector, 
@@ -1272,6 +1326,7 @@ changes that were made to the physical story index cards. Yes, this
 is a slight administrative hassle but we find this perfectly acceptable 
 
 
+--- Page 50 ---
 SCRUM AND XP FROM THE TRENCHES
 36
 considering how much more efficient the sprint planning meeting is with 
@@ -1297,6 +1352,7 @@ Physically, we do this by adding little Post-it notes under each story, each
 Post-it reflecting one task within that story.
 
 
+--- Page 51 ---
 HOW WE DO  SPRINT PLANNING
 37
  
@@ -1325,6 +1381,7 @@ often just say “a story is done when the tester in the Scrum team says
 so”. It is then up to the tester to make sure that product owner’s intent is 
 
 
+--- Page 52 ---
 SCRUM AND XP FROM THE TRENCHES
 38
 understood by the team, and that the item is “done” enough to pass the 
@@ -1364,6 +1421,7 @@ When asking everybody to estimate a story, we often discover
 discrepancies where two different team members have wildly 
 
 
+--- Page 53 ---
 HOW WE DO  SPRINT PLANNING
 39
 different estimates for the same story. That kind of stuff is better to 
@@ -1393,6 +1451,7 @@ the differences and tries to build a common picture of what work is
 involved in the story. They might do some kind of task breakdown. 
 
 
+--- Page 54 ---
 SCRUM AND XP FROM THE TRENCHES
 40
 Afterwards, the team estimates again. This loop is repeated until the time 
@@ -1428,6 +1487,7 @@ Pretty cool! I wish I came up with that. I do take credit for the coffee cup
 though. 
 
 
+--- Page 55 ---
 HOW WE DO  SPRINT PLANNING
 41
 Clarifying stories
@@ -1464,6 +1524,7 @@ Some mumbling ensues and after a minute somebody stands up and says
 interrupts.
 
 
+--- Page 56 ---
 SCRUM AND XP FROM THE TRENCHES
 42
 “Log in to the website?! No, no, no, this functionality should not be part 
@@ -1500,6 +1561,7 @@ velocity is usually around 40-60 for a typical team, so that gives us
 somewhere around 10 stories per sprint. Sometimes as few as five and 
 
 
+--- Page 57 ---
 HOW WE DO  SPRINT PLANNING
 43
 sometimes as many as 15. That’s a manageable number of index cards to 
@@ -1520,6 +1582,7 @@ Example of breaking down a story into tasks:
 Here are some interesting observations:
 
 
+--- Page 58 ---
 SCRUM AND XP FROM THE TRENCHES
 44
 • 
@@ -1559,6 +1622,7 @@ I prefer morning meetings. But, I must admit, we haven’t actually tried
 doing daily scrums in the afternoon or midday. 
 
 
+--- Page 59 ---
 HOW WE DO  SPRINT PLANNING
 45
 Now I have. Works fine. Let the team decide. If unsure, experiment. 
@@ -1592,6 +1656,7 @@ your sprint plan. Includes list of team members and their commitments
 (otherwise you can’t calculate velocity).
 
 
+--- Page 60 ---
 SCRUM AND XP FROM THE TRENCHES
 46
 Keep it simple and high-level, to take at most five minutes. Ask: “From a 
@@ -1630,6 +1695,7 @@ Why it needs to be done: because the DAO layer has gotten really
 messy and is costing everyone time due to confusion and unnecessary 
 
 
+--- Page 61 ---
 HOW WE DO  SPRINT PLANNING
 47
 bugs. Cleaning the code up will save time for everyone and improve 
@@ -1671,6 +1737,7 @@ owner but managed by the team. The team and product owner agree on
 a guideline such as “10-20% of our time is spent on tech stories”. No need 
 
 
+--- Page 62 ---
 SCRUM AND XP FROM THE TRENCHES
 48
 for elaborate tracking schemes like focus factor or time reports, just use 
@@ -1707,6 +1774,7 @@ loop or give him a non-negotiable focus factor. But there’s no excuse not
 to try to reach consensus first. 
 
 
+--- Page 63 ---
 HOW WE DO  SPRINT PLANNING
 49
 If the product owner is a competent and reasonable fellow (and we’ve 
@@ -1743,6 +1811,7 @@ certain amount of time each sprint fixing Jira-reported bugs
 any other story.
 
 
+--- Page 64 ---
 SCRUM AND XP FROM THE TRENCHES
 50
 We haven’t really concluded which strategy is best for us; in fact, it varies 
@@ -1767,6 +1836,7 @@ but at least you can’t blame the sprint plan, :o)
  
 
 
+--- Page 65 ---
 PART
 FIVE
 How we 
@@ -1774,6 +1844,7 @@ communicate
 sprints
 
 
+--- Page 66 ---
 SCRUM AND XP FROM THE TRENCHES
 52
 It is important to keep the whole company informed about what is 
@@ -1787,6 +1858,7 @@ creates this page, puts it up on the wiki, and sends a spam to the whole
 company. 
 
 
+--- Page 67 ---
 HOW WE COMMUNICATE SPRINTS
 53
 We also have a dashboard page on our wiki, which links to all currently 
@@ -1802,6 +1874,9 @@ Given all this, nobody really has an excuse not to know what’s going on.
 Hey, what a great idea! I should do that more often!
 
 
+--- Page 68 ---
+
+--- Page 69 ---
 PART
 SIX
 How we 
@@ -1809,6 +1884,7 @@ do sprint
 backlogs
 
 
+--- Page 70 ---
 SCRUM AND XP FROM THE TRENCHES
 56
 You made it this far? Whew, good job.
@@ -1836,6 +1912,7 @@ only if you must). Tape up a big, big sheet of paper (at least 2x2 meters,
 or 3x2 meters for a large team). Then do this:
 
 
+--- Page 71 ---
 HOW WE DO SPRINT BACKLOGS
 57
 You could of course use a whiteboard. But that’s a bit of a waste. If 
@@ -1848,6 +1925,7 @@ Or just buy super-sticky notes, slightly more expensive but they don’t fall
 down! (No, I’m not sponsored, really.)
 
 
+--- Page 72 ---
 SCRUM AND XP FROM THE TRENCHES
 58
 How the task board works
@@ -1861,6 +1939,7 @@ Example 1: After the first daily scrum
 After the first daily scrum, the task board might look like this:
 
 
+--- Page 73 ---
 HOW WE DO SPRINT BACKLOGS
 59
 As you can see, three tasks have been checked out, i.e. the team will be 
@@ -1877,6 +1956,7 @@ multitasking. “WTF, I’m out of avatars!” Yeah, so stop starting and start
 finishing tasks!
 
 
+--- Page 74 ---
 SCRUM AND XP FROM THE TRENCHES
 60
 Example 2: After a few more days
@@ -1892,6 +1972,7 @@ get rather messy as the sprint progresses, but that’s OK since it is short-
 lived. Every new sprint, we create a fresh, clean, new sprint backlog.
 
 
+--- Page 75 ---
 HOW WE DO SPRINT BACKLOGS
 61
  How the burn-down chart works
@@ -1899,6 +1980,7 @@ Let’s zoom in on the burn-down chart:
 This chart shows that:
 
 
+--- Page 76 ---
 SCRUM AND XP FROM THE TRENCHES
 62
 • 
@@ -1927,10 +2009,12 @@ how well the sprint is progressing. The Scrum master is responsible for
 making sure that the team acts upon warning signs such as:
 
 
+--- Page 77 ---
 HOW WE DO SPRINT BACKLOGS
 63
 
 
+--- Page 78 ---
 SCRUM AND XP FROM THE TRENCHES
 64
 Hey, what about traceability?!
@@ -1939,6 +2023,7 @@ the task board every day. If you must. I do that sometimes but never find
 a need to dig up those photos.
 
 
+--- Page 79 ---
 HOW WE DO SPRINT BACKLOGS
 65
 If traceability is very important to you, then perhaps the task-board 
@@ -1975,6 +2060,7 @@ Even simpler: skip estimating tasks entirely! Most teams eventually learn
 how to break their work into tasks that are roughly a day for one to two 
 
 
+--- Page 80 ---
 SCRUM AND XP FROM THE TRENCHES
 66
 people. If you can do that, you don’t need to bother with task estimates, 
@@ -1982,6 +2068,7 @@ which eliminates a lot of waste. Burn-down charts can still be used (if you
 must) – in that case, just count the tasks instead of adding up the hours.
 
 
+--- Page 81 ---
 PART
 SEVEN
 How we 
@@ -1989,6 +2076,7 @@ arrange the
 team room
 
 
+--- Page 82 ---
 SCRUM AND XP FROM THE TRENCHES
 68
 The design corner
@@ -2005,6 +2093,7 @@ design scrawls and printouts of the most important design documentation
 (sequence charts, GUI prototypes, domain models, etc.).
 
 
+--- Page 83 ---
 HOW WE ARRANGE THE TEAM ROOM
 69
 Above: a daily scrum going on in the aforementioned corner.
@@ -2025,6 +2114,7 @@ People are reluctant to move. At least in the places I’ve worked. They
 don’t want to have to pick up all their stuff, unplug the computer, move 
 
 
+--- Page 84 ---
 SCRUM AND XP FROM THE TRENCHES
 70
 all their junk to a new desk, and plug everything in again. The shorter the 
@@ -2067,6 +2157,7 @@ Use as many technical aids as you can to minimize the damage – video
 conferencing, webcams, desktop-sharing tools, etc.
 
 
+--- Page 85 ---
 HOW WE ARRANGE THE TEAM ROOM
 71
 Keep the product owner at bay
@@ -2102,6 +2193,7 @@ has lots of opinions on what we should be doing and who should be doing
 what. I’ll let him do the talking.” 
 
 
+--- Page 86 ---
 SCRUM AND XP FROM THE TRENCHES
 72
 My point is this: if you are Scrum coach (and perhaps also a manager), do 
@@ -2125,12 +2217,14 @@ purpose, a fun and motivating work environment, air cover, and an
 escalation path for impediments.
 
 
+--- Page 87 ---
 PART
 EIGHT
 How we do 
 daily scrums
 
 
+--- Page 88 ---
 SCRUM AND XP FROM THE TRENCHES
 74
 Our daily scrums are pretty much by the book. They start exactly on time, 
@@ -2163,6 +2257,7 @@ time estimate on the Post-it and crosses off the old one. Sometimes the
 Scrum master does the Post-it stuff while people talk. 
 
 
+--- Page 89 ---
 HOW WE DO DAILY SCRUMS
 75
 Some teams have a policy that each person should update the task board 
@@ -2197,6 +2292,7 @@ one minute late, you add a fixed amount to the can. No questions asked. If
 you call before the meeting and say you’ll be late, you still have to pay up. 
 
 
+--- Page 90 ---
 SCRUM AND XP FROM THE TRENCHES
 76
 You only get off the hook if you have a good excuse such as a doctor’s 
@@ -2231,6 +2327,7 @@ with Niklas on that. That usually works.
 And if that doesn’t work, here’s the next trick.
 
 
+--- Page 91 ---
 HOW WE DO DAILY SCRUMS
 77
 Scrum master: OK, who wants to demonstrate the beta-ready release to 
@@ -2270,6 +2367,7 @@ stand here and take it easy until you come up with something to do
 that will help us reach the goal.”
 
 
+--- Page 92 ---
 SCRUM AND XP FROM THE TRENCHES
 78
 • 
@@ -2300,12 +2398,14 @@ to self-organize!
  
 
 
+--- Page 93 ---
 PART
 NINE
 How we do 
 sprint demos
 
 
+--- Page 94 ---
 SCRUM AND XP FROM THE TRENCHES
 80
 The sprint demo (or sprint review as some people call it) is an important 
@@ -2343,6 +2443,7 @@ don’t have much that really works, the demo will be embarrassing. The
 team will stutter and stumble while doing the demo and the applause 
 
 
+--- Page 95 ---
 HOW WE DO SPRINT DEMOS
 81
 afterwards will be half-hearted. People will feel a bit sorry for the team, 
@@ -2385,6 +2486,7 @@ stakeholders, followed by an internal review with more details and things
 like key challenges and technical decisions made along the way. A great 
 
 
+--- Page 96 ---
 SCRUM AND XP FROM THE TRENCHES
 82
 way to spread knowledge between teams, and spare stakeholders from 
@@ -2415,12 +2517,14 @@ Scrum master: OK, but don’t spend too long. It doesn’t have to be pretty,
 just informative.
 
 
+--- Page 97 ---
 PART
 TEN
 How we do sprint 
 retrospectives
 
 
+--- Page 98 ---
 SCRUM AND XP FROM THE TRENCHES
 84
 Why we insist that all teams do 
@@ -2456,6 +2560,7 @@ Without retrospectives you will find that the team keeps making the
 same mistakes over and over again.
 
 
+--- Page 99 ---
 HOW WE DO SPRINT RETROSPECTIVES
 85
 How we organize retrospectives
@@ -2491,6 +2596,7 @@ theme is always the same though: “What can we do better next sprint?”
 Here is a whiteboard example from a recent retrospective:
 
 
+--- Page 100 ---
 SCRUM AND XP FROM THE TRENCHES
 86
 Three columns:
@@ -2529,6 +2635,7 @@ The information that comes up during a sprint retrospective is usually
 extremely valuable. Is this team having a hard time focusing because the 
 
 
+--- Page 101 ---
 HOW WE DO SPRINT RETROSPECTIVES
 87
 sales manager keeps kidnapping programmers to participate as “tech 
@@ -2569,6 +2676,7 @@ knowledge spread, and also allows you as Scrum master to fully participate
 in your team’s retrospective (rather than facilitate).
 
 
+--- Page 102 ---
 SCRUM AND XP FROM THE TRENCHES
 88
 To change or not to change
@@ -2603,6 +2711,7 @@ each daily scrum, you spend time finding concrete tasks. Usually more
 effective to do that up front.
 
 
+--- Page 103 ---
 HOW WE DO SPRINT RETROSPECTIVES
 89
 Typical actions: None. The team will probably sort this out themselves 
@@ -2643,6 +2752,7 @@ forecasted. If that is a problem, start strictly applying yesterday’s weather,
 and pull in only as many story points as you got done last sprint (or the 
 
 
+--- Page 104 ---
 SCRUM AND XP FROM THE TRENCHES
 90
 average of the last three sprints if you want to be fancy). This simple and 
@@ -2663,6 +2773,7 @@ Fortunately, I’ve never had to threaten to move the team offsite. But I
 will if I have to. :o)
 
 
+--- Page 105 ---
 PART
 TWELVE
 How we do 
@@ -2671,6 +2782,7 @@ and ﬁxed-price
 contracts
 
 
+--- Page 106 ---
 SCRUM AND XP FROM THE TRENCHES
 96
 Sometimes, we need to plan ahead more than one sprint at a time – 
@@ -2709,6 +2821,7 @@ And here’s an example of a product backlog, color-coded based on the
 above rules. 
 
 
+--- Page 107 ---
 HOW WE DO RELEASE PLANNING AND FIXED-PRICE CONTRACTS
 97
 Importance Name
@@ -2758,6 +2871,7 @@ if it turns out to be off by, say, a factor 30%, and completely worthless if
 it doesn’t have any connection to reality.
 
 
+--- Page 108 ---
 SCRUM AND XP FROM THE TRENCHES
 98
 Here’s my take on the value of a time estimate in relation to who calculates 
@@ -2794,6 +2908,7 @@ banana
 12
 
 
+--- Page 109 ---
 HOW WE DO RELEASE PLANNING AND FIXED-PRICE CONTRACTS
 99
 120
@@ -2855,6 +2970,7 @@ Each sprint is thus 90 man-days long, but can only be expected to complete
 45 man-days worth of stories (due to the 50% focus factor). 
 
 
+--- Page 110 ---
 SCRUM AND XP FROM THE TRENCHES
 100
 So our estimated velocity is 45 story points.
@@ -2923,6 +3039,7 @@ the contract – how fixed the scope is etc. We usually add a significant buffer
 to protect against bad time estimates, unexpected problems, unexpected 
 
 
+--- Page 111 ---
 HOW WE DO RELEASE PLANNING AND FIXED-PRICE CONTRACTS
 101
 features, etc. So in this case, we might agree to set the delivery date to three 
@@ -2960,12 +3077,14 @@ backlog management in Scrum. Check it out!
 http://tinyurl.com/ponutshell
 
 
+--- Page 112 ---
 PART
 THIRTEEN
 How we combine 
 Scrum with XP
 
 
+--- Page 113 ---
 SCRUM AND XP FROM THE TRENCHES
 104
 To say that Scrum and XP (eXtreme Programming) can be fruitfully 
@@ -3004,6 +3123,7 @@ the guy behind you says “Hey, is that stuff really necessary for this
 sprint?”).
 
 
+--- Page 114 ---
 HOW WE COMBINE SCRUM WITH XP
 105
 • 
@@ -3046,6 +3166,7 @@ Test-driven development means that you write an automated test, then
 you write just enough code to make that one test pass, then you refactor 
 
 
+--- Page 115 ---
 SCRUM AND XP FROM THE TRENCHES
 106
 the code primarily to improve readability and remove duplication. Rinse 
@@ -3086,6 +3207,7 @@ crucial, but TDD is optional.
 We use the following tools for test-driven development:
 
 
+--- Page 116 ---
 HOW WE COMBINE SCRUM WITH XP
 107
 • 
@@ -3128,6 +3250,7 @@ articles on technical debt, check my blog.
 http://blog.crisp.se/tag/technical-debt
 
 
+--- Page 117 ---
 SCRUM AND XP FROM THE TRENCHES
 108
 We spent quite a lot of time trying to automate integration testing in 
@@ -3166,6 +3289,7 @@ time refactoring and improving existing design, and we rarely spend
 time doing big up-front designs. Sometimes we screw up, of course – 
 
 
+--- Page 118 ---
 HOW WE COMBINE SCRUM WITH XP
 109
 for example by allowing a shaky design to “dig in” too strongly so that 
@@ -3199,6 +3323,7 @@ worth doing at the beginning of any new product. Pays off almost
 immediately. And there’s great tool support nowadays.
 
 
+--- Page 119 ---
 SCRUM AND XP FROM THE TRENCHES
 110
 Collective code ownership
@@ -3234,6 +3359,7 @@ matters.
 Here are some examples from our code standard: 
 
 
+--- Page 120 ---
 HOW WE COMBINE SCRUM WITH XP
 111
 You may break any of these rules, but make sure there is a good reason 
@@ -3267,6 +3393,7 @@ crunches sometimes). And, surprise, productivity and quality improved
 noticeably. 
 
 
+--- Page 121 ---
 SCRUM AND XP FROM THE TRENCHES
 112
 Of course, reducing the work hours was by no means the only aspect that 
@@ -3283,12 +3410,14 @@ Plus, burning people out is Evil.
  
 
 
+--- Page 122 ---
 PART
 FOURTEEN
 How we do 
 testing
 
 
+--- Page 123 ---
 SCRUM AND XP FROM THE TRENCHES
 114
 This is the hardest part. I’m not sure if it’s the hardest part of Scrum, or 
@@ -3315,6 +3444,7 @@ viral and people all over the world read it and believed my words. Shame
 on me! Baaaad author, don’t do that again! *slap*
 
 
+--- Page 124 ---
 HOW WE DO TESTING
 115
 Yes, manual testing is important and to some extent is unavoidable. But 
@@ -3345,6 +3475,7 @@ if you think it is unavoidable, it may be that you are blinded by your status
 quo (as I was). Nevertheless, this chapter provides some useful patterns 
 
 
+--- Page 125 ---
 SCRUM AND XP FROM THE TRENCHES
 116
 for how to deal with separate acceptance testing, as a temporary measure 
@@ -3381,6 +3512,7 @@ The tester, however, will guide this work, pair with developers on test
 automation, and personally do the more complex manual testing.
 
 
+--- Page 126 ---
 HOW WE DO TESTING
 117
 Developers are often quite lousy testers. Especially developers testing 
@@ -3418,6 +3550,7 @@ before the team completes the first story, so what should the tester do
 during that time?
 
 
+--- Page 127 ---
 SCRUM AND XP FROM THE TRENCHES
 118
 Well, first of all, he should be preparing for tests. That is, writing test specs, 
@@ -3466,6 +3599,7 @@ and Mr. T doesn’t have a chance to test everything. What do we do? Well
 we could make everybody in the team into Mr. T’s assistants. He decides 
 
 
+--- Page 128 ---
 HOW WE DO TESTING
 119
 which stuff he needs to do himself, and delegates grunt testing to the rest 
@@ -3500,6 +3634,7 @@ wait until next sprint? In most cases both solutions are unacceptable.
 So we leave manual acceptance testing outside.
 
 
+--- Page 129 ---
 SCRUM AND XP FROM THE TRENCHES
 120
 • 
@@ -3522,6 +3657,7 @@ each Scrum team releases a new production-ready version of your system
 after each sprint.
 
 
+--- Page 130 ---
 HOW WE DO TESTING
 121
 This can be done! I’ve seen real-world teams release to production every 
@@ -3542,6 +3678,7 @@ and is forced to do a mid-sprint bug-fix release 1.0.1. Then at the end of
 Sprint 2, they release a new feature-version 1.1.0, which of course is even 
 
 
+--- Page 131 ---
 SCRUM AND XP FROM THE TRENCHES
 122
 buggier since they had even less time to get it right this time due to all the 
@@ -3567,6 +3704,7 @@ until the old stuff is in production”
 Sounds nice, doesn’t it? Did you also get that warm fuzzy feeling? 
 
 
+--- Page 132 ---
 HOW WE DO TESTING
 123
 Yes, it’s great!
@@ -3602,6 +3740,7 @@ sprints are long enough to survive a fair amount of bug fixing from the
 previous sprint.
 
 
+--- Page 133 ---
 SCRUM AND XP FROM THE TRENCHES
 124
 Gradually, over a period of many months, the amount of time spent 
@@ -3638,6 +3777,7 @@ faster, without working harder or hiring people. And better quality as
 well, because of the shorter feedback loop. Crazy but true.
 
 
+--- Page 134 ---
 HOW WE DO TESTING
 125
 Don’t outrun the slowest link in 
@@ -3678,6 +3818,7 @@ rather than done separately. Try it – make your definition of done include
 acceptance testing, and see what happens over time.
 
 
+--- Page 135 ---
 SCRUM AND XP FROM THE TRENCHES
 126
 Back to reality

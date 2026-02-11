@@ -1,3 +1,4 @@
+--- Page 1 ---
 Psychological targeting as an effective approach to
 digital mass persuasion
 S. C. Matza,1, M. Kosinskib,2, G. Navec, and D. J. Stillwelld,2
@@ -126,6 +127,7 @@ www.pnas.org/cgi/doi/10.1073/pnas.1710966114
 Downloaded by guest on December 13, 2021 
 
 
+--- Page 2 ---
 Capitalizing on the assessment of psychological traits from dig-
 ital footprints, we conducted three real-world experiments that
 reached more than 3.7 million people. Our experiments demon-
@@ -266,6 +268,7 @@ SOCIAL SCIENCES
 Downloaded by guest on December 13, 2021 
 
 
+--- Page 3 ---
 overview of the descriptive campaign statistics across ad sets (see
 SI Appendix for more detailed breakdowns). Using the same hi-
 erarchical logistic regression analyses as in study 1, we found
@@ -429,6 +432,7 @@ Matz et al.
 Downloaded by guest on December 13, 2021 
 
 
+--- Page 4 ---
 followed the company’s preexisting behavioral targeting approach
 and targeted the game at Facebook users who were connected with a
 selected list of similar games (e.g., Farmville or Bubble Popp).
@@ -581,6 +585,7 @@ SOCIAL SCIENCES
 Downloaded by guest on December 13, 2021 
 
 
+--- Page 5 ---
 does to who one is is likely just the first step in a continuous
 development of psychological mass persuasion.
 Methods
@@ -733,6 +738,7 @@ Matz et al.
 Downloaded by guest on December 13, 2021 
 
 
+--- Page 6 ---
 23. Cesario J, Grant H, Higgins ET (2004) Regulatory fit and persuasion: Transfer from
 “Feeling Right.” J Pers Soc Psychol 86:388–404.
 24. Noar SM, Benac CN, Harris MS (2007) Does tailoring matter? Meta-analytic review of

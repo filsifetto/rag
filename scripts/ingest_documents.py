@@ -12,8 +12,9 @@ import json
 import asyncio
 import logging
 import argparse
+import re
 from pathlib import Path
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Optional, Tuple
 import time
 from datetime import datetime
 
@@ -44,6 +45,27 @@ def setup_logging(log_level: str = "INFO"):
             logging.FileHandler('ingest_documents.log')
         ]
     )
+
+
+def parse_page_markers(content: str) -> Optional[List[Tuple[int, str]]]:
+    """Parse '--- Page N ---' or '--- Slide N ---' markers in text.
+
+    Returns a list of (page_number, page_text) for page-aware chunking, or None
+    if no markers are found (so ingestion uses normal chunking without page numbers).
+    """
+    # Match "--- Page N ---" or "--- Slide N ---" (convert slides to page numbers)
+    pattern = re.compile(r"^--- (?:Page|Slide) (\d+) ---\s*", re.MULTILINE | re.IGNORECASE)
+    matches = list(pattern.finditer(content))
+    if not matches:
+        return None
+    page_list = []
+    for i, m in enumerate(matches):
+        page_num = int(m.group(1))
+        start = m.end()
+        end = matches[i + 1].start() if i + 1 < len(matches) else len(content)
+        page_text = content[start:end].strip()
+        page_list.append((page_num, page_text))
+    return page_list if page_list else None
 
 
 def load_documents_from_json(file_path: Path) -> List[Dict[str, Any]]:
@@ -86,10 +108,12 @@ def load_documents_from_directory(directory: Path) -> List[Dict[str, Any]]:
                     # Enrich with citation registry data (APA metadata)
                     meta = enrich_metadata(meta, file_path.name)
 
-                    documents.append({
-                        "content": content,
-                        "metadata": meta
-                    })
+                    doc_dict = {"content": content, "metadata": meta}
+                    # Parse page markers (e.g. from convert_to_txt.py) for page-aware chunking
+                    page_list = parse_page_markers(content)
+                    if page_list:
+                        doc_dict["page_list"] = page_list
+                    documents.append(doc_dict)
             except Exception as e:
                 logging.warning(f"Failed to load {file_path}: {e}")
     
@@ -118,7 +142,7 @@ def load_single_file(file_path: Path, title: str = None, category: str = None) -
 
     if suffix == '.pdf':
         extractor = PDFMetadataExtractor()
-        content, pdf_meta = extractor.extract_text_and_metadata(file_path)
+        content, page_list, pdf_meta = extractor.extract_text_and_metadata_by_page(file_path)
 
         if not content.strip():
             raise ValueError(f"No extractable text found in PDF: {file_path}")
@@ -138,6 +162,7 @@ def load_single_file(file_path: Path, title: str = None, category: str = None) -
         return [{
             "content": content,
             "metadata": meta,
+            "page_list": page_list,
         }]
 
     if suffix not in ('.txt', '.md'):
@@ -160,10 +185,12 @@ def load_single_file(file_path: Path, title: str = None, category: str = None) -
     # Enrich with citation registry data (APA metadata)
     meta = enrich_metadata(meta, file_path.name)
 
-    return [{
-        "content": content,
-        "metadata": meta
-    }]
+    doc_dict = {"content": content, "metadata": meta}
+    # Parse page markers (e.g. from convert_to_txt.py) for page-aware chunking
+    page_list = parse_page_markers(content)
+    if page_list:
+        doc_dict["page_list"] = page_list
+    return [doc_dict]
 
 
 # --- Ingestion log -----------------------------------------------------------
@@ -298,10 +325,32 @@ async def ingest_documents_batch(
         chunk_embeddings = None
         chunk_size = embedding_service.settings.chunk_size_tokens
         overlap = embedding_service.settings.chunk_overlap_tokens
-        chunks = embedding_service.chunk_text(document.content, chunk_size=chunk_size, overlap=overlap)
-        
-        if len(chunks) > 1:
+
+        # Build page-aware chunks for PDFs when page_list is available
+        if document.page_list:
+            chunks = []
+            chunk_metadata = []
+            for (page_num, page_text) in document.page_list:
+                if not page_text.strip():
+                    continue
+                page_chunks = embedding_service.chunk_text(
+                    page_text, chunk_size=chunk_size, overlap=overlap
+                )
+                for c in page_chunks:
+                    chunks.append(c)
+                    chunk_metadata.append({"page_number": page_num})
             document.chunks = chunks
+            document.chunk_metadata = chunk_metadata
+        else:
+            chunks = embedding_service.chunk_text(
+                document.content, chunk_size=chunk_size, overlap=overlap
+            )
+            if len(chunks) > 1:
+                document.chunks = chunks
+
+        chunks = document.chunks if document.chunks else [document.content]
+
+        if len(chunks) > 1:
             chunk_embedding_results = await embedding_service.create_embeddings_batch(chunks)
             chunk_embeddings = [result.embedding for result in chunk_embedding_results]
             # Use the first chunk embedding as the main document embedding
@@ -467,6 +516,8 @@ async def main():
                 content=doc_data["content"],
                 metadata=metadata
             )
+            if doc_data.get("page_list"):
+                document.page_list = doc_data["page_list"]
             documents.append(document)
         
         console.print(f"📊 Found {len(documents)} documents to process")

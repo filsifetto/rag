@@ -74,20 +74,22 @@ class DocumentStore:
             if chunk_embeddings and document.chunks:
                 for i, (chunk, chunk_embedding) in enumerate(zip(document.chunks, chunk_embeddings)):
                     chunk_id = str(uuid.uuid5(uuid.NAMESPACE_DNS, f"{document.id}_chunk_{i}"))
-                    chunk_point = PointStruct(
-                        id=chunk_id,
-                        vector=chunk_embedding,
-                        payload={
-                            "content": chunk,
-                            "metadata": document.metadata.model_dump(mode="json"),
-                            "document_type": "chunk",
-                            "parent_document_id": document.id,
-                            "chunk_index": i,
-                            "created_at": datetime.now().isoformat(),
-                            "content_hash": self._hash_content(chunk),
-                            "token_count": len(chunk.split()),
-                        }
-                    )
+                    payload = {
+                        "content": chunk,
+                        "metadata": document.metadata.model_dump(mode="json"),
+                        "document_type": "chunk",
+                        "parent_document_id": document.id,
+                        "chunk_index": i,
+                        "created_at": datetime.now().isoformat(),
+                        "content_hash": self._hash_content(chunk),
+                        "token_count": len(chunk.split()),
+                    }
+                    # Add per-chunk metadata (e.g. page_number for PDFs)
+                    if document.chunk_metadata and i < len(document.chunk_metadata):
+                        extra = document.chunk_metadata[i]
+                        if extra.get("page_number") is not None:
+                            payload["page_number"] = extra["page_number"]
+                    chunk_point = PointStruct(id=chunk_id, vector=chunk_embedding, payload=payload)
                     points_to_upsert.append(chunk_point)
                     chunk_count += 1
             

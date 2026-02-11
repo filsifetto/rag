@@ -237,13 +237,14 @@ def enrich_metadata(metadata: Dict[str, Any], filename: str) -> Dict[str, Any]:
 # ---------------------------------------------------------------------------
 
 def format_apa_inline(metadata: Dict[str, Any]) -> str:
-    """Produce an APA 7 in-text citation key, e.g. ``(Sommerville, 2015, Ch. 1)``.
+    """Produce an APA 7 in-text citation key, e.g. ``(Sommerville, 2015, Ch. 1, p. 12)``.
 
     Falls back to the title or source if author/year are unavailable.
     """
     author_raw = metadata.get("author", "")
     year = metadata.get("year")
     chapter = metadata.get("chapter")
+    page_number = metadata.get("page_number")
 
     if author_raw:
         # Extract the first surname for in-text use
@@ -263,6 +264,8 @@ def format_apa_inline(metadata: Dict[str, Any]) -> str:
         parts.append(str(year))
     if chapter:
         parts.append(f"Ch. {chapter}")
+    if page_number is not None:
+        parts.append(f"p. {page_number}")
 
     return f"({', '.join(parts)})"
 

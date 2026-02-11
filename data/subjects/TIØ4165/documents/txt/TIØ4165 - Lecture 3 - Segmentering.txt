@@ -1,8 +1,10 @@
+--- Page 1 ---
 Forelesning 3: Segmentering
 Professor Arild Aspelund
 TIØ4165 - Markedsføringsledelse for teknologibedrifter
 
 
+--- Page 2 ---
 Short Recoup - Kundeverdi
 • Til venstre - levert kundeverdi som summen av total 
 kundeverdi og kostnader
@@ -12,6 +14,7 @@ kundeverdi og kostnader
 kan komme fra personlig verdi og image verdi
 
 
+--- Page 3 ---
 Kvalitet, kundetilfredshet og lojalitet
 • Kvalitet er subjektivt! 
 • For å skape kundetilfredshet må produkter tilfredstille (eller overgå) 
@@ -22,6 +25,7 @@ disproporsjonalt større enn den positive effekten av å overgå forventninger
 asdf
 
 
+--- Page 4 ---
 Kundelojalitet
 • Det er kostbart for bedrifter å tiltrekke seg nye kunder
 • Customer Acquisition Cost (CAC eller CoCA) er kostnaden bedrifter pådrar 
@@ -34,6 +38,7 @@ Antall nye kunder i tidsperiode
 Les: Pfeifer et al (2005)
 
 
+--- Page 5 ---
 Lønnsomhetsanalyse
 • Hver kunde har en forventet verdi for en bedrift i fremtiden
 • Customer Lifetime Value (LTV) er den antatte fremtidige fortjenesten et 
@@ -46,6 +51,7 @@ selskap kan gjøre fra kjøpene til én kunde
 Les: Pfeifer et al (2005)
 
 
+--- Page 6 ---
 Agenda - Segmentering
 • Introduksjon
 • Hva er segmentering?
@@ -57,17 +63,20 @@ Agenda - Segmentering
 • Gruppeoppgave
 
 
+--- Page 7 ---
 Lesestoff
 • Jenkinson, A. 2009. What happened to strategic segmentation? Journal of 
 Direct, Data and Digital Marketing Practice 11(2), pp. 124-129.
 
 
+--- Page 8 ---
 Hva er segmentering?
 Segmentering er prosessen om å identifisere og kategorisere ulike grupper kunder i ihht deres egenskaper og/eller 
 kjøpsadferd
 Akademisk definisjon: «groups of existing or potential customers that shares the same needs and wants»
 
 
+--- Page 9 ---
 Segmentering i forbrukermarkedet
 • Vanlige variabler å segmentere etter er:
 • Demografisk: Alder, kjønn, inntekt mm
@@ -80,6 +89,7 @@ presenteres til kunder gjennom markedsføring
 Les: Jenkinson (2009)
 
 
+--- Page 10 ---
 Demografisk
 Hvem er 
 forbrukerne?
@@ -95,6 +105,7 @@ forbrukerne?
 Les: Jenkinson (2009)
 
 
+--- Page 11 ---
 Demografisk dimensjon
 Psykografisk
 dimensjon
@@ -104,6 +115,7 @@ Geografisk dimensjon
 En gitt forbruker
 
 
+--- Page 12 ---
 Demografisk segmentering
 • Alder og ‘sted i livet’
 • Menneskers behov og preferanser endrer seg med alder og livsstadier
@@ -115,30 +127,35 @@ interesser, behov
 • Demografisk segmentering hjelper med å definere hvem forbrukerne er
 
 
+--- Page 13 ---
 Demografisk segmentering - Alder
 25 - 45 år
 20 - 40 år
 60 år+
 
 
+--- Page 14 ---
 Demografisk segmentering - Kjønn
 Kvinner
 Gutter/Menn
 Menn
 
 
+--- Page 15 ---
 Demografisk segmentering - Inntekt
 Høy inntekt
 Lav-Middels inntekt
 Middels-Høy inntekt
 
 
+--- Page 16 ---
 Demografisk segmentering - Sosiale forhold
 Foreldre
 Klesstørrelse
 Enslige
 
 
+--- Page 17 ---
 Geografisk segmentering
 • Hvor er forbrukeren?
 • Kan være spesifikk: Land, fylke, kommune, tettsted
@@ -149,12 +166,14 @@ Geografisk segmentering
 • Geografisk segmentering hjelper med å definere hvor forbrukerne er
 
 
+--- Page 18 ---
 Geografisk segmentering
 Landsbygd
 Tettsteder
 Universiteter
 
 
+--- Page 19 ---
 Psykografisk segmentering
 • Livsstil: livssyn, diett, aktiviteter mm
 • Interesser: hobbier, tilhørighet i organisasjoner, 
@@ -163,12 +182,14 @@ Psykografisk segmentering
 • Psykografisk segmentering hjelper med å definere hvordan forbrukerne er
 
 
+--- Page 20 ---
 Psykografisk segmentering
 Livsstil
 Livsstil
 Interesser
 
 
+--- Page 21 ---
 Adferdsmessig segmentering
 • Beslutningsroller: Initiativtaker, påvirker, beslutter, kjøper, bruker
 • Atferdsmessige variabler
@@ -181,15 +202,18 @@ Adferdsmessig segmentering
 • Adferdsmessig segmentering hjelper med å definere hva forbrukerne gjør
 
 
+--- Page 22 ---
 Adferdsmessig segmentering
 Bruksrate
 Anledning
 
 
+--- Page 23 ---
 Teknologimarkedsføring
 -Spesielle egenskaper for markedsføring av teknologi (Moore, 2003)
 
 
+--- Page 24 ---
 Verktøy/ressurser
 • Demografisk segmentering:
 • Statistisk Sentralbyrå (SSB), interesseorganisasjoner
@@ -201,19 +225,23 @@ Verktøy/ressurser
 • Interesser i sosiale medier, korrelasjoner med lokasjon/demografi
 
 
+--- Page 25 ---
 Hvorfor gjøre segmentering?
 Segmentering er prosessen om å identifisere og kategorisere ulike grupper kunder i 
 ihht deres egenskaper og/eller kjøpsadferd
 
 
+--- Page 26 ---
 Hva er målet med segmentering?
 Målet er å identifisere hvor, hvordan og med hvilket budskap man mest effektivt 
 kan kommunisere kundeverdi til mulige kjøpere
 
 
+--- Page 27 ---
 Hva er god segmentering?
 
 
+--- Page 28 ---
 Hvordan evaluere segmentering?
 • God segmentering begrenser utvalg av forbrukere til grupper hvor det er liten 
 variasjon innad i gruppa men så stor variasjon som mulig mellom 
@@ -226,6 +254,7 @@ heterogeniteten i markedet
 • Hvilket detaljnivå behøves for optimere CAC?
 
 
+--- Page 29 ---
 Balanse i segmentering
 • Store segment
 • Mister vi hensikten med å segmentere?
@@ -237,6 +266,7 @@ kundeverdi?
 håndtere mange segment samtidig
 
 
+--- Page 30 ---
 Krav til segmentering
 • Segmentet må være differensierbart
 • Segmentet må være målbart
@@ -245,6 +275,7 @@ Krav til segmentering
 • Segmentets dimensjon må være proporsjonalt til bedriftens ressurser
 
 
+--- Page 31 ---
 • Det er mange mulige 
 segmenteringsvariabler
 • Hvordan vet man hvilken man 
@@ -264,19 +295,24 @@ Kundekarakteristikker?
 Hvordan segmentere?
 
 
+--- Page 32 ---
 Eksempler på segmenteringer
 Storytel, Nabobil, Lego og Nivea
 
 
+--- Page 33 ---
 Eksempel A: Storytel (aldersbasert)
 
 
+--- Page 34 ---
 Eksempel B: Nabobil (blandet)
 
 
+--- Page 35 ---
 Eksempel C: Lego (adferdsbasert, hele befolkningen)
 
 
+--- Page 36 ---
 Hvordan gjøre markedsundersøkelser for segmentering?
 • Kvalitative metoder
 • Begynn med utforskende 
@@ -297,15 +333,18 @@ analyse
 variasjoner i CPC
 
 
+--- Page 37 ---
 Mer om markedsundersøkelser i Forelesning 
 7 om Metodikk
 
 
+--- Page 38 ---
 Gruppeoppgave
 Hvilke segmenteringsvariabler tenker dere at kan 
 være relevante for følgende produkter?
 
 
+--- Page 39 ---
 Alarmsystem
 Elbil
 Actionkamera

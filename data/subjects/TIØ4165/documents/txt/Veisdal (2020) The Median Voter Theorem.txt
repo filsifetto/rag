@@ -1,3 +1,4 @@
+--- Page 1 ---
 The Median Voter Theorem:  
 Why Politicians Move to the Center
 Jørgen Veisdal
@@ -25,6 +26,7 @@ distributed. The prediction of his model, now known simply as “Ho-
 telling’s law”4 is that in many markets it is rational for producers to 
 
 
+--- Page 2 ---
 40	
 Jørgen Veisdal
 make their products as similar as possible, the so-­called “principle of 
@@ -79,6 +81,7 @@ than that we obtain if we choose position 1, given our assumption that
 the other candidate chooses position 1. We know that each position 
 
 
+--- Page 3 ---
 	
 The Median Voter Theorem	
 41
@@ -127,6 +130,7 @@ u(1,2): Voter shares if candidate A chooses position 1 when candidate B
 chooses position 2.
 
 
+--- Page 4 ---
 42	
 Jørgen Veisdal
 is still strictly better for us as candidate A than position 1 (20% > 15% 
@@ -158,6 +162,7 @@ u(2,3) in the reduced political spectrum.
 80%
 
 
+--- Page 5 ---
 	
 The Median Voter Theorem	
 43
@@ -190,6 +195,7 @@ B chooses position 6.
 50%
 
 
+--- Page 6 ---
 44	
 Jørgen Veisdal
 2. https://​en​.wikipedia​.org​/wiki​/Harold​_Hotelling​#Spatial​_economics.

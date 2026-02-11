@@ -1,8 +1,10 @@
+--- Page 1 ---
 Forelesning 5: Targeting
 Professor Arild Aspelund
 TIØ4165 - Markedsføringsledelse for teknologibedrifter
 
 
+--- Page 2 ---
 Demografisk
 Hvem er 
 forbrukerne?
@@ -19,6 +21,7 @@ Les: Jenkinson (2009)
 Recoup - Segmentering
 
 
+--- Page 3 ---
 Demografisk dimensjon
 Psykografisk
 dimensjon
@@ -28,6 +31,7 @@ Geografisk dimensjon
 En gitt forbruker
 
 
+--- Page 4 ---
 Krav til segmentering
 • Segmentet må være differensierbart
 • Segmentet må være målbart
@@ -36,6 +40,7 @@ Krav til segmentering
 • Segmentets dimensjon må være proporsjonalt til bedriftens ressurser
 
 
+--- Page 5 ---
 Agenda - Targeting
 • Introduksjon
 • Hva er targeting / målretting?
@@ -54,6 +59,7 @@ Agenda - Targeting
 • Forskjeller i targeting mellom verktøy
 
 
+--- Page 6 ---
 Lesestoff
 • Gallagher, K. & Parsons, J. 1997. A Framework for Targeting Banner 
 Advertising On the Internet. In Proceedings of the Thirtieth Hawaii 
@@ -64,11 +70,13 @@ the National Academy of Sciences, 114(48), pp. 12714-12719.
 • Oster, S. 1999. Chapter 3 – Industry Analysis 
 
 
+--- Page 7 ---
 Hva er targeting / målretting?
 Det er metoden for å få oppmerksomhet og effektivt kommunisere et budskap til 
 kunder i et valgt segment 
 
 
+--- Page 8 ---
 Targeting / Målretting
 • Kan være differensiert eller udifferensiert:
 • Udifferensiert markedsføring har samme tilnærming og tiltak for alle, 
@@ -80,10 +88,12 @@ forskjellige segmenter
 • Fokus på de mest attraktive segmentene
 
 
+--- Page 9 ---
 Markedsføring som kommuniserer til alle segmenter samtidig
 Udifferensiert målretting / targeting
 
 
+--- Page 10 ---
 Udifferensiert målretting / targeting
 • Markedsføring som kommuniserer til alle segmenter samtidig
 • Kostnads- og volumfokusert
@@ -96,9 +106,11 @@ Udifferensiert målretting / targeting
 • Hvilken merkevare er “top-of-mind” blant befolkningen?
 
 
+--- Page 11 ---
 Psykografisk segmentering
 
 
+--- Page 12 ---
 Udifferensiert målretting / targeting
 Fordeler
 • Mange inntrykk / “impressions”
@@ -117,6 +129,7 @@ generere én ny kjøper”
 • Vanskelig å måle nøyaktig effekt
 
 
+--- Page 13 ---
 Differensiert målretting / targeting
 • Markedsføring som kommuniserer ulikt til ulike segmenter
 • Mål om å oppnå målbare resultater
@@ -130,12 +143,14 @@ kanalvalget være riktig:
 valgte segmenteringsvariabler
 
 
+--- Page 14 ---
 Feks: Gjennomfør en «Porter’s Five Forces» analyse
 Hvordan evaluere attraktiviteten til et segment
 
 
+--- Page 15 ---
 
-
+--- Page 16 ---
 Markedsføringskanaler
 • Forskjellige markedsføringskanaler tillater forskjellig targeting / målretting
 • Massemedier har ofte bred, lite spesifikke muligheter for targeting / målretting
@@ -147,14 +162,17 @@ Markedsføringskanaler
 • Reklame for aksjesparing og pensjon i finansaviser
 
 
+--- Page 17 ---
 I reklame gjennom massemedia er det 
 innholdet som gjør mye av målrettingen
 Mer upresis targeting → Høyere markedsføringskostnad (CAC)
 
 
+--- Page 18 ---
 Psykografisk segmentering
 
 
+--- Page 19 ---
 Eksempel: TV-reklame for Barbie av Mattel
 • Hvordan gjøre riktig targeting for en TV-reklame om Barbie?
 • Velg TV-kanaler som er populære blant potensielle kunder (foreldre)
@@ -167,6 +185,7 @@ barns oppmerksomhet, interesser og ønsker
 på kjønn) 
 
 
+--- Page 20 ---
 Eksempel: TV-reklame for Carl’s Jr
 • Hvordan gjøre riktig targeting for en TV-reklame om Carl’s Jr Fast Food?
 • Velg et TV-program som er populært blant potensielle kunder (menn)
@@ -178,14 +197,17 @@ menns oppmerksomhet, interesser og ønsker
 • Vil også treffe personer som er utenfor segmentet (men også ser på Superbowl)
 
 
+--- Page 21 ---
 Psykografisk segmentering
 
 
+--- Page 22 ---
 Psykografisk segmentering
 
 
+--- Page 23 ---
 
-
+--- Page 24 ---
 Targeting i digital markedsføring
 • Digitale markedsføringsverktøy lar selskaper målrette basert på forskjellige
 demografiske, geografiske, psykografiske og adferdsmessige variabler
@@ -196,6 +218,7 @@ demografiske, geografiske, psykografiske og adferdsmessige variabler
 • Her skjer targeting basert på segmentering
 
 
+--- Page 25 ---
 Intensjonsdrevet markedsføring
 • Følgende kategorisering av intensjon baseres på hva forbrukeren er på
 jakt etter:
@@ -208,11 +231,13 @@ transaksjon kan skje
 søkemotorer som Google, Finn, YouTube osv
 
 
+--- Page 26 ---
 Dette er en magisk 
 boks for å forstå 
 intensjoner
 
 
+--- Page 27 ---
 Publikumbasert markedsføring
 • Publikumsbasert markedsføring muliggjør targeting basert på 
 segmenteringsvariabler:
@@ -225,10 +250,12 @@ sannsynlighet” osv er vanlig å høre ved kjøp av annonser i Schibsted
 sitt nettverk
 
 
+--- Page 28 ---
 Hvordan gjøre targeting?
 Digitale fremgangsmåter
 
 
+--- Page 29 ---
 Facebook Ads - Variabler
 • Facebook tilbyr markedsføring via sosiale medier med segmentering basert på:
 • Demografiske variabler, som alder, kjønn, språk, sivilstand, høyeste grad, 
@@ -241,6 +268,7 @@ med
 nylig har skiftet sivilstand, nylig har skiftet jobb mm
 
 
+--- Page 30 ---
 Facebook Ads - Estimater
 • Antall: Basert på valg av segmenteringsvariabler 
 får man et estimat på antall personer som er i 
@@ -252,6 +280,7 @@ klikk man kan generere
 → Avhenger selvsagt av budsjett
 
 
+--- Page 31 ---
 Demografisk dimensjon
 Psykografisk
 dimensjon
@@ -262,6 +291,7 @@ Segmentet som
 vil se annonsen
 
 
+--- Page 32 ---
 Google Ads - Variabler
 • Google tilbyr intensjondrevet segmentering basert på:
 • Demografiske variabel for språk, basert innstillingen til nettleseren
@@ -273,6 +303,7 @@ basert på historikk eller gjetting)
 prediktive modeller om intensjonsmønstre → bedre anbefalinger
 
 
+--- Page 33 ---
 Google Ads - Estimater
 • Klikk: Basert på valg av søkeord og 
 segmenteringsvariabler får man et estimat på
@@ -284,6 +315,7 @@ fastsatt gjennom auksjon mot andre som ønsker
 • → Avhenger selvsagt av budsjett
 
 
+--- Page 34 ---
 Demografisk dimensjon
 - Språk
 Adferdsmessig
@@ -295,6 +327,7 @@ Segmentet som
 vil se annonsen
 
 
+--- Page 35 ---
 Forskjeller i targeting mellom verktøy
 • Annonsering i sosiale medier (som Facebook) gir svært god kontroll over 
 hvem som ser annonsene
@@ -307,11 +340,13 @@ personen som ser annonsen tenker på
 • Dårlige muligheter til å segmentere basert på hvem personen er (eksplisitt)
 
 
+--- Page 36 ---
 Gruppeoppgave
 Hva slags targeting / målretting i hvilke markedsføringskanaler 
 være relevante for følgende merkevarer/produkter?
 
 
+--- Page 37 ---
 Matlevering om morgenen
 Jobbannonse som trafikklærer
 Folkefinansiering

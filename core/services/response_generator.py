@@ -114,11 +114,11 @@ class ResponseGenerator:
             citation_key = build_citation_key(meta)
             inline_cite = format_apa_inline(meta)
 
-            # Build a compact metadata line
+            # Build a compact metadata line (include page_number for precise citations)
             metadata_items = []
-            for key in ("title", "author", "year", "journal", "publisher", "chapter"):
+            for key in ("title", "author", "year", "journal", "publisher", "chapter", "page_number"):
                 value = meta.get(key)
-                if value:
+                if value is not None:
                     metadata_items.append(f"{key}: {value}")
             metadata_str = ", ".join(metadata_items) if metadata_items else "No metadata"
             
@@ -142,14 +142,15 @@ Relevance Score: {result.combined_score:.3f}
 
 CITATION RULES:
 1. Base your response ONLY on the provided sources.
-2. Use APA 7 in-text citations. Each source is labelled with its citation key in square brackets (e.g. [Sommerville, 2015]). Cite like: (Sommerville, 2015) or (Crispin & Gregory, 2008, Ch. 6).
+2. Use APA 7 in-text citations. Each source is labelled with its citation key in square brackets (e.g. [Sommerville, 2015]). Cite like: (Sommerville, 2015) or (Crispin & Gregory, 2008, Ch. 6) or (Author, Year, p. 12).
 3. When a source has a chapter, include it: (Author, Year, Ch. X).
-4. When paraphrasing, place the citation at the end of the relevant sentence or clause.
-5. When multiple sources support the same point, combine them: (Author1, Year; Author2, Year).
-6. After your answer, include a "References" section with full APA 7 reference entries for every source you cited. Use ONLY the references provided in the source metadata — do not invent references.
-7. Provide step-by-step reasoning.
-8. Calculate confidence (0-1) based on source quality and consensus.
-9. Note any gaps or limitations.
+4. When a source has a page_number, include it: (Author, Year, p. X) or (Author, Year, Ch. X, p. X).
+5. When paraphrasing, place the citation at the end of the relevant sentence or clause.
+6. When multiple sources support the same point, combine them: (Author1, Year; Author2, Year).
+7. After your answer, include a "References" section with full APA 7 reference entries for every source you cited. Use ONLY the references provided in the source metadata — do not invent references.
+8. Provide step-by-step reasoning.
+9. Calculate confidence (0-1) based on source quality and consensus.
+10. Note any gaps or limitations.
 
 CONFIDENCE LEVELS: Very High (0.9-1.0), High (0.75-0.89), Medium (0.5-0.74), Low (0.25-0.49), Very Low (0.0-0.24).
 

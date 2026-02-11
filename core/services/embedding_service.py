@@ -6,6 +6,7 @@ multiple providers, automatic batching, caching, and async processing.
 """
 
 import openai
+import re
 import tiktoken
 from typing import List, Dict, Any, Optional, Union
 from dataclasses import dataclass
@@ -18,6 +19,12 @@ import json
 from datetime import datetime, timedelta
 
 from ..config import Settings
+
+# Adaptive batching: AIMD (additive increase, multiplicative decrease).
+MIN_BATCH_SIZE = 8
+MAX_BATCH_SIZE = 2048
+AIMD_ADDITIVE_INCREASE = 50   # on success: batch_size += this
+AIMD_MULTIPLICATIVE_DECREASE = 0.5  # on 429/too-large: batch_size *= this
 
 
 @dataclass
@@ -91,7 +98,11 @@ class EmbeddingService:
             # Fallback to cl100k_base encoding for embedding models
             self.encoding = tiktoken.get_encoding("cl100k_base")
         self.max_tokens = settings.max_tokens_per_chunk
-        self.batch_size = settings.batch_size
+        self._config_batch_size = settings.batch_size
+        self._effective_batch_size = max(
+            MIN_BATCH_SIZE,
+            min(MAX_BATCH_SIZE, settings.batch_size)
+        )
         self.logger = logging.getLogger(__name__)
         
         # Initialize cache
@@ -100,6 +111,11 @@ class EmbeddingService:
         # Rate limiting
         self.last_request_time = 0
         self.min_request_interval = 0.1  # 100ms between API requests to avoid rate limits
+
+    @property
+    def effective_batch_size(self) -> int:
+        """Current adaptive batch size (starts from config, adjusts on 429/errors and success)."""
+        return self._effective_batch_size
     
     async def create_embedding(self, text: str) -> EmbeddingResult:
         """Create embedding for a single text."""
@@ -133,8 +149,8 @@ class EmbeddingService:
         
         # Process uncached texts
         if uncached_texts:
-            # Split into optimal batches for API efficiency
-            batches = self._create_batches(uncached_texts, self.batch_size)
+            # Split into optimal batches (size adapts at runtime)
+            batches = self._create_batches(uncached_texts, self._effective_batch_size)
             batch_results = []
             
             for batch in batches:
@@ -183,58 +199,113 @@ class EmbeddingService:
             batches.append(batch)
         return batches
     
+    def _should_reduce_batch(self, e: Exception) -> bool:
+        """True if error indicates we should retry with a smaller batch (429 or request too large)."""
+        err_str = str(e).lower()
+        if "429" in err_str or "rate limit" in err_str:
+            return True
+        if "request too large" in err_str or "maximum context" in err_str or "context_length" in err_str:
+            return True
+        if "413" in err_str:  # HTTP Payload Too Large
+            return True
+        return False
+
     async def _process_batch(self, texts: List[str]) -> List[EmbeddingResult]:
-        """Process a batch of texts with retry logic."""
+        """Process a batch of texts with retry logic and self-adaptive batch size."""
         start_time = time.time()
-        
-        # Rate limiting
-        current_time = time.time()
-        time_since_last = current_time - self.last_request_time
-        if time_since_last < self.min_request_interval:
-            await asyncio.sleep(self.min_request_interval - time_since_last)
-        
-        try:
-            response = self.client.embeddings.create(
-                input=texts,
-                model=self.model
-            )
-            
-            self.last_request_time = time.time()
-            processing_time = self.last_request_time - start_time
-            
-            results = []
-            for i, embedding_data in enumerate(response.data):
-                text_hash = self._hash_text(texts[i])
-                token_count = len(self.encoding.encode(texts[i]))
-                
-                results.append(EmbeddingResult(
-                    embedding=embedding_data.embedding,
-                    token_count=token_count,
-                    processing_time=processing_time / len(texts),
-                    text_hash=text_hash,
-                    model_used=self.model,
-                    cached=False,
-                    created_at=datetime.now()
-                ))
-            
-            self.logger.debug(f"Processed batch of {len(texts)} texts in {processing_time:.3f}s")
-            return results
-            
-        except Exception as e:
-            self.logger.error(f"Error processing embedding batch: {e}")
-            # Return empty embeddings as fallback
-            return [
-                EmbeddingResult(
-                    embedding=[0.0] * 1536,  # Default dimension for text-embedding-3-small
-                    token_count=len(self.encoding.encode(text)),
-                    processing_time=0.0,
-                    text_hash=self._hash_text(text),
-                    model_used=self.model,
-                    cached=False,
-                    created_at=datetime.now()
+        max_retries = 5
+        base_delay = 2.0  # seconds when retry-after not in error
+
+        for attempt in range(max_retries):
+            # Throttle: wait before each attempt
+            current_time = time.time()
+            time_since_last = current_time - self.last_request_time
+            if time_since_last < self.min_request_interval:
+                await asyncio.sleep(self.min_request_interval - time_since_last)
+
+            try:
+                response = self.client.embeddings.create(
+                    input=texts,
+                    model=self.model
                 )
-                for text in texts
-            ]
+
+                self.last_request_time = time.time()
+                processing_time = self.last_request_time - start_time
+
+                results = []
+                for i, embedding_data in enumerate(response.data):
+                    text_hash = self._hash_text(texts[i])
+                    token_count = len(self.encoding.encode(texts[i]))
+
+                    results.append(EmbeddingResult(
+                        embedding=embedding_data.embedding,
+                        token_count=token_count,
+                        processing_time=processing_time / len(texts),
+                        text_hash=text_hash,
+                        model_used=self.model,
+                        cached=False,
+                        created_at=datetime.now()
+                    ))
+
+                self.logger.debug(
+                    f"Processed batch of {len(texts)} texts in {processing_time:.3f}s "
+                    f"(effective_batch_size={self._effective_batch_size})"
+                )
+                # AIMD: additive increase on success
+                if self._effective_batch_size < MAX_BATCH_SIZE:
+                    old = self._effective_batch_size
+                    self._effective_batch_size = min(
+                        MAX_BATCH_SIZE,
+                        self._effective_batch_size + AIMD_ADDITIVE_INCREASE
+                    )
+                    if self._effective_batch_size != old:
+                        self.logger.debug(f"AIMD: batch size increased to {self._effective_batch_size}")
+                return results
+
+            except Exception as e:
+                err_str = str(e).lower()
+                is_retryable = self._should_reduce_batch(e)
+
+                # AIMD: multiplicative decrease; then retry same texts in smaller sub-batches
+                if is_retryable and len(texts) > 1 and self._effective_batch_size > MIN_BATCH_SIZE:
+                    new_size = max(
+                        MIN_BATCH_SIZE,
+                        int(self._effective_batch_size * AIMD_MULTIPLICATIVE_DECREASE)
+                    )
+                    self._effective_batch_size = new_size
+                    self.logger.warning(
+                        f"AIMD: batch size reduced to {new_size} after error, "
+                        f"retrying {len(texts)} texts in sub-batches"
+                    )
+                    sub_batches = self._create_batches(texts, new_size)
+                    all_results = []
+                    for sub_batch in sub_batches:
+                        sub_results = await self._process_batch(sub_batch)
+                        all_results.extend(sub_results)
+                    return all_results
+
+                # Already at min batch size or single text: retry with delay (rate limit backoff)
+                if is_retryable and ("429" in err_str or "rate limit" in err_str) and attempt < max_retries - 1:
+                    delay = base_delay
+                    if "try again in" in err_str:
+                        m = re.search(r"try again in (\d+)ms", err_str)
+                        if m:
+                            delay = int(m.group(1)) / 1000.0
+                        else:
+                            m = re.search(r"try again in (\d+)s", err_str)
+                            if m:
+                                delay = float(m.group(1))
+                    elif "tokens per min" in err_str or "tpm" in err_str:
+                        delay = 60.0
+                    delay = max(delay, 1.0)
+                    self.logger.warning(
+                        f"Rate limit hit, waiting {delay:.1f}s before retry ({attempt + 1}/{max_retries})"
+                    )
+                    await asyncio.sleep(delay)
+                    continue
+
+                self.logger.error(f"Error processing embedding batch: {e}")
+                raise
     
     def chunk_text(
         self, 
@@ -315,5 +386,5 @@ class EmbeddingService:
             "total_tokens": total_tokens,
             "estimated_cost_usd": estimated_cost,
             "model": self.model,
-            "batch_count": len(self._create_batches(texts, self.batch_size))
+            "batch_count": len(self._create_batches(texts, self._effective_batch_size))
         }

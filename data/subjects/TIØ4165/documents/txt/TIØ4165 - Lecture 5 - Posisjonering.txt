@@ -1,8 +1,10 @@
+--- Page 1 ---
 Forelesning 5: Posisjonering
 Professor Arild Aspelund
 TIØ4165 - Markedsføringsledelse for teknologibedrifter
 
 
+--- Page 2 ---
 Recoup - Målretting
 • Vi skiller ofte mellom udifferensiert og differensiert markedsføring
 • I udifferensiert markedsføring er det ofte innholdet som gjør mye av målrettingen
@@ -13,6 +15,7 @@ Recoup - Målretting
 • Og det beste er jo selvfølgelig om en kan få til begge deler
 
 
+--- Page 3 ---
 Agenda - Posisjonering
 • Introduksjon
 • Hva er posisjonering?
@@ -22,6 +25,7 @@ Agenda - Posisjonering
 • Persepsjonskart
 
 
+--- Page 4 ---
 Lesestoff
 • Hotelling, H. 1929. Stability in Competition. The Economic Journal 39(153), 
 pp. 41-57.
@@ -30,15 +34,18 @@ Center’. In: The Best Writing in Mathematics 2020. Princeton University
 Press.
 
 
+--- Page 5 ---
 Photo credits: 
 Finearts.no
 
 
+--- Page 6 ---
 Posisjonering
 Hva er likhetene mellom disse produktene?
 Hva er forskjellene?
 
 
+--- Page 7 ---
 La oss se på disse 
 I jakten på den perfekte håndkremen mener 
 overlege Kristin Ryggen at man like gjerne kan 
@@ -51,11 +58,13 @@ Det viktigste er bare å finne en som fungerer for
 deg, sier Ryggen.
 
 
+--- Page 8 ---
 Hva er posisjonering?
 Posisjonering er prosessen av å utforme bedriftens tilbud og merkevare slik at den 
 får en unik posisjon i målgruppens bevissthet
 
 
+--- Page 9 ---
 Hva er posisjonering
 • Posisjoneringer er prosessen av å utforme bedriftens tilbud og merkevare slik at den får 
 en unik posisjon i målgruppens bevissthet
@@ -69,6 +78,7 @@ behov
 posisjoner, verdiskapning og lønnsomhet — både i dag og i fremtiden
 
 
+--- Page 10 ---
 Spesialisering og produktkategorier
 • Bedrifter må spesialisere seg på et kundebehov for å kunne innta en optimal 
 konkurranseposisjon
@@ -81,6 +91,7 @@ levere
 • Egenskaper, brukere, produktklasse, brukerområde, kvalitet, verdi
 
 
+--- Page 11 ---
 To viktige spørsmål om posisjonering
 for Tine Melk (vs feks Q-Melk)
 Les mer i Olsen (2010)
@@ -108,6 +119,7 @@ Behovsbasert
 • Nostalgisk smak av barndom
 
 
+--- Page 12 ---
 Posisjonering innad i kategori
 • Points-of-Parity (PoP) er ønskede assosiasjoner som deles av flere produsenter
 • Egenskaper ved produktet som forbrukere anser som essensielle innenfor en 
@@ -119,6 +131,7 @@ fravær av slike egenskaper er en grunn til å ikke velge en produsent
 Points-of-Parity: Egenskaper produktet må ha
 
 
+--- Page 13 ---
 Posisjonering innad i kategori
 • Points-of-Difference (PoD) er ønskede assosiasjoner som er unike, 
 gjenkjennbare og sterkt fremtredende i kategorien
@@ -130,12 +143,14 @@ markedsføring som fremhever points-of-parity
 Points-of-Difference: Egenskaper man ønsker at produktet har
 
 
+--- Page 14 ---
 
-
+--- Page 15 ---
 Konkurranse gjennom posisjonering
 Når posisjonering må gjøre opp for manglende konkurransefortrinn
 
 
+--- Page 16 ---
 Om Hotellings Lov
 • Harold Hotelling (1895-1973) observerte i 1929 at det ofte kan være rasjonelt 
 for selskaper å posisjonere produkter og tjenester til å være så like som mulig
@@ -148,6 +163,7 @@ mot sentrum” etterhvert som valget nærmer seg
 Les mer i Hotelling (1929) og Veisdal (2020)
 
 
+--- Page 17 ---
 Hotelling’s Lov
 • Geografisk modell i én dimensjon, såkalt ‘linear city model’
 • To selskaper produserer udifferensierte produkter i samme marked
@@ -160,49 +176,58 @@ markedsføring (bedre, billigere, sunnere, raskere, kulere etc)
 midten: Deler markedet i to basert på kortest avstand å gå 
 
 
+--- Page 18 ---
 Hotelling’s Lov
 “I mange markeder er det vanlig at produsenter lager 
 produktene sine så like som mulig”
 
 
+--- Page 19 ---
 Hotelling’s Lov
 “I mange markeder er det vanlig at produsenter lager 
 produktene sine så like som mulig”
 
 
+--- Page 20 ---
 Hotelling’s Lov
 “I mange markeder er det vanlig at produsenter lager 
 produktene sine så like som mulig”
 
 
+--- Page 21 ---
 Hotelling’s Lov
 “I mange markeder er det vanlig at produsenter lager 
 produktene sine så like som mulig”
 
 
+--- Page 22 ---
 
+--- Page 23 ---
 
+--- Page 24 ---
 
+--- Page 25 ---
 
-
-
-
-
+--- Page 26 ---
 Medianvelgerteoremet
 “Kandidaten som sikrer stemmen fra den velgeren som 
 befinner seg på midten av en fordeling av velgerne mellom to 
 politiske/ideologiske fløyer, vil være valgets vinner.”
 
 
+--- Page 27 ---
 “Linear City - Molde”
 
 
+--- Page 28 ---
 “Linear City - Molde”
 
 
+--- Page 29 ---
 “Linear City - Molde”
 
 
+--- Page 30 ---
 Hvordan gjøre posisjonering?
 En mulig fremgangsmåte
 1. Kategoriser markedet
@@ -214,6 +239,7 @@ bevissthet (lettere sagt enn gjort!)
 inkludert produktet, kundestøtte, tilgjengelighet, pris mm
 
 
+--- Page 31 ---
 Persepsjonskart
 “Oppfattelseskart”
 • Visualisering av hvordan kunder 
@@ -225,6 +251,7 @@ til (typisk) to attributter og konkurrenter
 fokus (flerbruk/spesialist) mm
 
 
+--- Page 32 ---
 Persepsjonskart
 Eksempel: Bilmerker
 • Attributter:
@@ -232,6 +259,7 @@ Eksempel: Bilmerker
 • Stil (praktisk vs classy)
 
 
+--- Page 33 ---
 Persepsjonskart
 Eksempel: Bilmerker
 • Attributter:
@@ -239,10 +267,12 @@ Eksempel: Bilmerker
 • Pris (lav vs høy)
 
 
+--- Page 34 ---
 Hvilke attributter bryr kundene i 
 segmentene seg mest om?
 
 
+--- Page 35 ---
 Oppsummering
 Segmentering / Målretting / Posisjonering (SMP)
 Ledd i SMP-prosessen
@@ -271,6 +301,7 @@ konkurrenter) hos utvalgte segmenter
 • Utvikling av merkevare
 
 
+--- Page 36 ---
 Dimensjoner for optimering
 •
 Segmentering og targeting: 

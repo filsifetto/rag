@@ -165,8 +165,9 @@ class InteractiveSearchInterface:
                 # Create result panel
                 metadata_items = []
                 for key, value in result.metadata.items():
-                    if key in ["title", "author", "category", "source"]:
-                        metadata_items.append(f"{key}: {value}")
+                    if key in ["title", "author", "category", "source", "page_number"]:
+                        label = "page" if key == "page_number" else key
+                        metadata_items.append(f"{label}: {value}")
                 
                 metadata_str = " | ".join(metadata_items) if metadata_items else "No metadata"
                 
@@ -285,13 +286,16 @@ class InteractiveSearchInterface:
                 source_table.add_column("#", style="bold", width=3, justify="right")
                 source_table.add_column("Title / ID", style="cyan", ratio=3)
                 source_table.add_column("Author", ratio=2)
+                source_table.add_column("Page", justify="right", width=5)
                 source_table.add_column("Score", justify="right", width=7)
 
                 for i, source_detail in enumerate(response.source_details, 1):
                     title = source_detail.get("title", source_detail.get("id", "—"))
                     author = source_detail.get("author", "—")
+                    page = source_detail.get("page_number")
+                    page_str = str(page) if page is not None else "—"
                     score = f"{source_detail['score']:.3f}" if "score" in source_detail else "—"
-                    source_table.add_row(str(i), title, author, score)
+                    source_table.add_row(str(i), title, author, page_str, score)
 
                 self.console.print(source_table)
             
